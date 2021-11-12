@@ -11,12 +11,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">Level_10</layout>
-        <layout order="4">Level_2</layout>
+        <layout active="1" order="4">Level_2</layout>
         <layout order="6">Level_7</layout>
         <layout order="7">Level_4</layout>
         <layout order="11">MainMenu</layout>
         <layout order="22">KiraiDiary</layout>
-        <layout active="1" order="23">Level_1</layout>
+        <layout order="23">Level_1</layout>
         <layout order="27">Level_3</layout>
         <layout order="30">Level_5</layout>
         <layout order="32">Level_6</layout>
