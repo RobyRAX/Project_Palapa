@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LevelScoring_Sheet</name>
+    <events>
+        <variable constant="0" name="playedLevel" sid="428005870690463" static="0" type="number">0</variable>
+        <variable constant="1" name="Complete" sid="115736122012078" static="0" type="text">Completed</variable>
+        <variable constant="1" name="Lock" sid="894417610060920" static="0" type="text">Locked</variable>
+        <variable constant="1" name="Unlock" sid="605232420036714" static="0" type="text">Unlocked</variable>
+        <variable constant="0" name="LIMIT_0" sid="192553924287545" static="0" type="number">0</variable>
+        <variable constant="0" name="LIMIT_1" sid="828680886782783" static="0" type="number">0</variable>
+        <variable constant="0" name="LIMIT_2" sid="103840635886054" static="0" type="number">0</variable>
+        <event-group description="" sid="735934977941081" title="Level_Status">
+            <sub-events>
+                <event-block sid="166799712538209">
+                    <conditions>
+                        <condition id="0" name="On function" sid="158275761665644" type="Function">
+                            <param id="0" name="Name">&quot;Initiate_Level&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="110190329222364" type="Arr_LevelScore">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_1&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="318515218268738" type="Arr_LevelScore">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="993062212900344" type="Arr_LevelScore">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="560115027335734" type="Arr_LevelScore">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="987670776200502" type="Arr_LevelScore">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_2&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="873222788532316" type="Arr_LevelScore">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="785156119438998" type="Arr_LevelScore">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="684277952923528" type="Arr_LevelScore">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="329243671911112" type="Arr_LevelScore">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_3&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="258302072546099" type="Arr_LevelScore">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="218013085360690" type="Arr_LevelScore">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="740614695767276" type="Arr_LevelScore">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="642876776049349" type="Arr_LevelScore">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_4&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="596052002949006" type="Arr_LevelScore">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="393027400392437" type="Arr_LevelScore">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="257334378754049" type="Arr_LevelScore">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="892000216004405" type="Arr_LevelScore">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_5&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="891568828630140" type="Arr_LevelScore">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="581019108529178" type="Arr_LevelScore">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="822107230546676" type="Arr_LevelScore">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="772571347804544" type="Arr_LevelScore">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_6&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="354227685064456" type="Arr_LevelScore">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="224474015607221" type="Arr_LevelScore">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="856113663097168" type="Arr_LevelScore">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="657117673038665" type="Arr_LevelScore">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_7&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="101104608766695" type="Arr_LevelScore">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="674362003065529" type="Arr_LevelScore">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="958753756169209" type="Arr_LevelScore">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="157515115077671" title="Set_Status">
+            <sub-events>
+                <comment>Complete_Unlock</comment>
+                <event-block sid="137791989219471">
+                    <conditions>
+                        <condition id="0" name="On function" sid="684067604479170" type="Function">
+                            <param id="0" name="Name">&quot;Complete_Level&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="689371109836022" type="Arr_LevelScore">
+                            <param id="0" name="X">playedLevel</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">star</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="742373031541519" type="Arr_LevelScore">
+                            <param id="0" name="X">playedLevel</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">COMPLETE</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="612982060816982" type="Arr_LevelScore">
+                            <param id="0" name="X">playedLevel + 1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">UNLOCK</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="958593792933375">
+                    <conditions>
+                        <condition id="0" name="On function" sid="271559471869591" type="Function">
+                            <param id="0" name="Name">&quot;Star_1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="452806184152089" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="288245778389231" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="215445481426170" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="509162656082021" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="967568954054434">
+                    <conditions>
+                        <condition id="0" name="On function" sid="144590964338890" type="Function">
+                            <param id="0" name="Name">&quot;Star_2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="657365278495452" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="553561375741684" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="568090802501100" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="895432834115896" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="738735290309319" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="790400520240454" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="218552065733004">
+                    <conditions>
+                        <condition id="0" name="On function" sid="959223174392464" type="Function">
+                            <param id="0" name="Name">&quot;Star_3&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="171651337586704" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="929435393955326" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="220275171203172" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="817466339929238" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="437799410471956" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="398998516133908" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="859977042731366" type="System">
+                            <param id="0" name="Seconds">0.25</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="269442423440558" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="564600819392279" title="Set_Limit">
+            <sub-events>
+                <event-block sid="338060759302776">
+                    <conditions>
+                        <condition id="0" name="On function" sid="747774204657037" type="Function">
+                            <param id="0" name="Name">&quot;Set_StarLimit&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="393111509657119" type="System">
+                            <param id="0" name="Variable">LIMIT_0</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="476004243903173" type="System">
+                            <param id="0" name="Variable">LIMIT_1</param>
+                            <param id="1" name="Value">Function.Param(1)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="172551896558065" type="System">
+                            <param id="0" name="Variable">LIMIT_2</param>
+                            <param id="1" name="Value">Function.Param(2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="545354989256655" title="Scoring">
+            <sub-events>
+                <event-block sid="180931829932571">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="473191434524317" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="129188367166004" type="Score_Text">
+                            <param id="0" name="Text">&quot;Score : &quot; &amp; score</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="677003315853574">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="298359438525394" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="673302508954583" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Count_Stars</comment>
+                <event-block sid="860826032261362">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="140771217920499" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">LIMIT_0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="675846118631524" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">LIMIT_1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="830753456208431" type="System">
+                            <param id="0" name="Variable">star</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="483179543314133">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="759313065485580" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">LIMIT_1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="586464881600565" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">LIMIT_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="270704307351397" type="System">
+                            <param id="0" name="Variable">star</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="361556453517459">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="136004804705456" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">LIMIT_2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="904345553009668" type="System">
+                            <param id="0" name="Variable">star</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="398728322591897">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="452235607649467" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">Arr_LevelScore.At(playedLevel, 2)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="908503142830204" type="Arr_LevelScore">
+                            <param id="0" name="X">playedLevel</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">score</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Enemy2_AI</name>
+    <events>
+        <event-group description="" sid="448036188302651" title="Enemy2_AI">
+            <sub-events>
+                <event-block sid="972285838778345">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="503741798151595" type="Enemy2_Trigger" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="5" name="Set cycle position" sid="915877884681117" type="Enemy2_Trigger">
+                            <param id="0" name="Cycle position">WindowWidth / 2</param>
+                        </action>
+                        <action behavior="Physics" id="27" name="Set enabled" sid="305593418987786" type="Enemy2_Trigger">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="369247592129433">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="997407674702363" type="Enemy2_Trigger">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Y co-ordinate">ViewportTop(&quot;Game&quot;) + 150</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="425400530336290" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Sine" id="0" name="Set active" sid="881763577700941" type="Enemy2_Trigger">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action behavior="Physics" id="27" name="Set enabled" sid="913022650545383" type="Enemy2_Trigger">
+                            <param id="0" name="Mode">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="156243175291357" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">patrol</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="599651354583505">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="313235379982438" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">patrol</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="721052070590709" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">isShoot</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="351824319388005" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="611061719996266" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">isShoot</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="238171291254568" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="766656259173163" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">isShoot</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="594668392448354">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="949830249041463" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">isShoot</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="322027705808874" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="312745188520325" type="System">
+                            <param id="0" name="Object to create">Enemy2_Bomb</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">Enemy2_Trigger.x</param>
+                            <param id="3" name="Y">Enemy2_Trigger.y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="525380125109379">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="991575078745345" type="Enemy2_Bomb">
+                            <param id="0" name="Object">Grounds</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="300279135110994" type="Enemy2_Bomb" />
+                    </actions>
+                </event-block>
+                <event-block sid="194796672441862">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="431570113016686" type="Enemy2_Trigger">
+                            <param id="0" name="Object">Char_Bullet</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="165391582742466" type="Enemy2_Trigger">
+                            <param id="0" name="Instance variable">health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="754109262621262" title="Mati2">
+                    <sub-events>
+                        <event-block sid="313218053212962">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="609632614713643" type="Enemy2_Trigger">
+                                    <param id="0" name="Instance variable">health</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Sine" id="0" name="Set active" sid="756629543847552" type="Enemy2_Trigger">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Physics" id="27" name="Set enabled" sid="550687371794019" type="Enemy2_Trigger">
+                                    <param id="0" name="Mode">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="601414056204312" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="504019011263889" type="Enemy2_Trigger" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="136026827322678">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="951157563415815" type="Enemy2_Trigger">
+                                    <param id="0" name="Instance variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="841232438410301" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="352596933861399" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="286029289783025" type="Enemy2_Trigger" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="348780026361348">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="744774175111926" type="Enemy2_Trigger" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="766255203804127" type="System">
+                                    <param id="0" name="Variable">killedEnemy</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="322931417716500" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">500</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

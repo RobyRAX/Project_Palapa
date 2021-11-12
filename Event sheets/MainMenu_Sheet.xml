@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainMenu_Sheet</name>
+    <events>
+        <include>Pusaka_Sheet</include>
+        <include>Weapons_Sheet</include>
+        <include>Journals_Sheet</include>
+        <include>LevelScoring_Sheet</include>
+        <event-block sid="973599700537548">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="706379764689747" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="540706879173614" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_Journals&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="752675287493506" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_Level&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="194748822809621" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_Weapons&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="917684832570755" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_BroughtWeapons&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="584002710111539" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_Pusaka&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="5" name="Check item exists" sid="960459151444070" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Journals&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="528271280116126" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Levels&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="208972160260256" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Weapons&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="636572737911850" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_BroughtWeapons&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="981067871087810" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="505172757780507">
+            <conditions>
+                <condition id="9" name="On item exists" sid="661921080354061" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Journals&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="405136090158062" type="Arr_Journals">
+                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="547520492204881">
+            <conditions>
+                <condition id="9" name="On item exists" sid="714294375767638" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Levels&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="159196031089095" type="Arr_LevelScore">
+                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="376109919171644">
+            <conditions>
+                <condition id="9" name="On item exists" sid="877753222453540" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Weapons&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="774056878308043" type="Arr_AllWeapons">
+                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="454734356677052">
+            <conditions>
+                <condition id="9" name="On item exists" sid="522326644983650" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_BroughtWeapons&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="812843950822153" type="Arr_BroughtWeapons">
+                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="771295484285177">
+            <conditions>
+                <condition id="9" name="On item exists" sid="696783655540637" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="404178045649248" type="Arr_Pusaka">
+                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="830605048121741">
+            <conditions>
+                <condition id="17" name="On tap object" sid="126735014515535" type="Touch">
+                    <param id="0" name="Object">Play_Button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="414323127434511" type="System">
+                    <param id="0" name="Layout">LevelSelect</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="141953665603300">
+            <conditions>
+                <condition id="17" name="On tap object" sid="206850737486334" type="Touch">
+                    <param id="0" name="Object">Quit_Button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="172359747697252" type="System">
+                    <param id="0" name="Layout">KiraiDiary</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="390913204487974">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="792913101039821" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Clear storage" sid="741179352423849" type="LocalStorage" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

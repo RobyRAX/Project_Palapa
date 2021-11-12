@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level_10_Manager</name>
+    <events>
+        <include>OctoBoss_AI</include>
+        <include>Char_UnderSea_Sheet</include>
+        <include>Game_Status</include>
+        <include>Save &amp; Load</include>
+        <include>LevelScoring_Sheet</include>
+        <include>Weapons_Sheet</include>
+        <event-group description="" sid="319741775879909" title="Start_Layout_10">
+            <sub-events>
+                <event-block sid="746559229241165">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="985918806959021" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="327032703305188" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="332303430124064" type="System">
+                            <param id="0" name="Variable">usedWeapon</param>
+                            <param id="1" name="Value">Arr_BroughtWeapons.At(1)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="445877411780030" type="Function">
+                            <param id="0" name="Name">&quot;Set_StarLimit&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}600{###}1000</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="910966810995821" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="934949840263959" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Value">1000</param>
+                        </action>
+                        <action id="-20" name="Set layout scale" sid="250980272847460" type="System">
+                            <param id="0" name="Scale">0.6</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="443619113720017" title="Finish_10">
+            <sub-events>
+                <comment>Finished</comment>
+                <event-block sid="121406939599170">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="504795359323041" type="System">
+                            <param id="0" name="Variable">state_PesutBoss</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Die&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="115726315811389" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="519226751497620" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="455244541237302">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="403039051869088" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="615813101334035" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="560939854652013" type="System">
+                            <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Unlock_NextLevel</comment>
+                        <event-block sid="179435954450929">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="575631842000678" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">1</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="3" name="Set at XY" sid="855129216095683" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Value">star</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="837268813432561" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">COMPLETE</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="907784276264546" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel + 1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">UNLOCK</param>
+                                </action>
+                                <action id="0" name="Call function" sid="383814544783685" type="Function">
+                                    <param id="0" name="Name">&quot;Complete_Level&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-group description="" sid="535188854281459" title="Show_Star_10">
+                            <sub-events>
+                                <event-block sid="820267151343359">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="466326103243652" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="704857561785327" type="Function">
+                                            <param id="0" name="Name">&quot;Star_1&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="261010224780284">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="968997115872988" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="312406004961960" type="Function">
+                                            <param id="0" name="Name">&quot;Star_2&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="781968586472735">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="808731714323354" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="758101549741958" type="Function">
+                                            <param id="0" name="Name">&quot;Star_3&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-block sid="342139923179001">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="210989365466989" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="988833891774601" type="Function">
+                                    <param id="0" name="Name">&quot;Save_All&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="310578327266336" title="Gelembung">
+            <sub-events>
+                <event-block sid="224554911642844">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="262130742562051" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-17" name="Move forward" sid="425764863674337" type="Gelembung">
+                            <param id="0" name="Distance">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="820450411644211">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="283843198940365" type="Gelembung">
+                            <param id="0" name="Object">Char_Trigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="622097368611516" type="Gelembung" />
+                    </actions>
+                </event-block>
+                <event-block sid="920268496613601">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="172466859868118" type="System">
+                            <param id="0" name="Interval (seconds)">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="989036415626968" type="System">
+                            <param id="0" name="Object to create">Gelembung</param>
+                            <param id="1" name="Layer">&quot;Platform_Front&quot;</param>
+                            <param id="2" name="X">random(100, LayoutWidth)</param>
+                            <param id="3" name="Y">LayoutHeight + 200</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

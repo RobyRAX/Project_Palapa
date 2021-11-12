@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Weapons_Sheet</name>
+    <events>
+        <variable constant="0" name="usedWeapon" sid="515318948699147" static="0" type="text"></variable>
+        <variable constant="1" name="ACQUIRED" sid="613515763247831" static="0" type="text">Acquired</variable>
+        <variable constant="0" name="slotUsed" sid="718857532951337" static="0" type="number">0</variable>
+        <comment>0 = Senjata, 1 = Status, 2 = Recoil, 3 = Fire Delay</comment>
+        <event-group description="" sid="211911885600472" title="Weapon_List">
+            <sub-events>
+                <event-block sid="603378324929331">
+                    <conditions>
+                        <condition id="0" name="On function" sid="230486499260947" type="Function">
+                            <param id="0" name="Name">&quot;Initiate_Weapons&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="816367976678356" type="Arr_AllWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;TanganKosong&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="308986749615539" type="Arr_AllWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">ACQUIRED</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="810527813189017" type="Arr_AllWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="241474678097606" type="Arr_AllWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="268541341730706" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pistol&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="294183704015148" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="342533678869740" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">2</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="444685516342023" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0.25</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="126798641859650" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;DYK-21&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="940516685378038" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">ACQUIRED</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="923572442346993" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="434133999941576" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0.1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="478922515861318" title="Weapon_Brought">
+            <sub-events>
+                <event-block sid="191740648866033">
+                    <conditions>
+                        <condition id="0" name="On function" sid="103963453688611" type="Function">
+                            <param id="0" name="Name">&quot;Initiate_BroughtWeapons&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="680687316909242" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">&quot;SLOT_1&quot;</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="453770458242366" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="199733042789188" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="854350765850244">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="861233471323101" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="998734417883644" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Value">&quot;SLOT_1&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="428655731705076" type="System">
+                            <param id="0" name="Variable">slotUsed</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="558037781114481" title="Weapon_Used">
+            <sub-events>
+                <variable constant="1" name="Slot_1" sid="862477493244094" static="0" type="number">0</variable>
+                <variable constant="1" name="SLOT_2" sid="410894291131159" static="0" type="number">1</variable>
+                <comment>Senjata = TanganKosong</comment>
+                <event-block sid="829235952883602">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="733492525101059" type="System">
+                            <param id="0" name="Variable">usedWeapon</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Arr_AllWeapons.At(0 , 0)</param>
+                        </condition>
+                        <condition disabled="1" id="-4" name="Trigger once while true" sid="233714921926439" type="System" />
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-15" name="Set visible" sid="528288346451065" type="Joystick_Handle">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action disabled="1" id="-15" name="Set visible" sid="427763586623280" type="Joystick_Outline">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="617042275782219" type="System">
+                            <param id="0" name="Variable">recoil</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(0, 2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="926288176181614" type="System">
+                            <param id="0" name="Variable">fire_Delay</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(0, 3)</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="644756015189857" type="Kirai_TanganKanan">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="371682415464191" type="Kirai_TanganKiri">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="230512340099118">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="834249305581774" type="System">
+                            <param id="0" name="Variable">isAlive</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>Senjata = Pistol</comment>
+                        <event-block sid="386833215805310">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="535526775742221" type="System">
+                                    <param id="0" name="Variable">usedWeapon</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Arr_AllWeapons.At(1, 0)</param>
+                                </condition>
+                                <condition disabled="1" id="-4" name="Trigger once while true" sid="974011006025665" type="System" />
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="-15" name="Set visible" sid="769310362246837" type="Joystick_Handle">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action disabled="1" id="-15" name="Set visible" sid="557930173324188" type="Joystick_Outline">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="391698591246690" type="System">
+                                    <param id="0" name="Variable">recoil</param>
+                                    <param id="1" name="Value">Arr_AllWeapons.At(1, 2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="425292579051818" type="System">
+                                    <param id="0" name="Variable">fire_Delay</param>
+                                    <param id="1" name="Value">Arr_AllWeapons.At(1, 3)</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="554247869965691" type="Kirai_TanganKanan">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="249961081767171" type="Kirai_TanganKiri">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Senjata = DYK-21</comment>
+                        <event-block sid="253701316091239">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="470392165655472" type="System">
+                                    <param id="0" name="Variable">usedWeapon</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Arr_AllWeapons.At(2, 0)</param>
+                                </condition>
+                                <condition disabled="1" id="-4" name="Trigger once while true" sid="731432268060558" type="System" />
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="-15" name="Set visible" sid="816434213357927" type="Joystick_Handle">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action disabled="1" id="-15" name="Set visible" sid="356427449882668" type="Joystick_Outline">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="174391695547437" type="System">
+                                    <param id="0" name="Variable">recoil</param>
+                                    <param id="1" name="Value">Arr_AllWeapons.At(2, 2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="611380310198290" type="System">
+                                    <param id="0" name="Variable">fire_Delay</param>
+                                    <param id="1" name="Value">Arr_AllWeapons.At(2, 3)</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="277312536646837" type="Kirai_TanganKanan">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="188298179561748" type="Kirai_TanganKiri">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="847440550189051">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="705834072372685" type="System">
+                            <param id="0" name="Variable">isAlive</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="859994370361334" type="Kirai_TanganKanan">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="543626927443870" type="Kirai_TanganKiri">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="318898649366101" title="Slot_UI">
+                    <sub-events>
+                        <event-group description="" sid="156476286457224" title="Slot_1">
+                            <sub-events>
+                                <event-block sid="196062470314851">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="891126105885686" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;SLOT_1&quot;</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="325710738122566" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="192504085550627" type="Slot_1">
+                                            <param id="0" name="Width">110</param>
+                                            <param id="1" name="Height">110</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="317742823095933" type="System">
+                                            <param id="0" name="Variable">usedWeapon</param>
+                                            <param id="1" name="Value">Arr_BroughtWeapons.At(1)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="463605171242607">
+                                    <conditions>
+                                        <condition id="0" inverted="1" name="Compare at X" sid="592261258005091" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;SLOT_1&quot;</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="874419058965816" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="771873717064021" type="Slot_1">
+                                            <param id="0" name="Width">100</param>
+                                            <param id="1" name="Height">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="743644945614872">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="632141965801390" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(0,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="759623213081648" type="Slot_1">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="454491683198930">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="566424832130421" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(1,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="379930272225861" type="Slot_1">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="134483707019951">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="302860695049310" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(2,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="594817354531360" type="Slot_1">
+                                            <param id="0" name="Frame number">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="" sid="977158597760971" title="Slot_2">
+                            <sub-events>
+                                <event-block sid="861001967784786">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="954533371209335" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;SLOT_2&quot;</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="333119189563654" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="828684411689252" type="Slot_2">
+                                            <param id="0" name="Width">110</param>
+                                            <param id="1" name="Height">110</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="473901353968745" type="System">
+                                            <param id="0" name="Variable">usedWeapon</param>
+                                            <param id="1" name="Value">Arr_BroughtWeapons.At(2)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="809351416433493">
+                                    <conditions>
+                                        <condition id="0" inverted="1" name="Compare at X" sid="234276313169062" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;SLOT_2&quot;</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="461213238897886" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="353431118813551" type="Slot_2">
+                                            <param id="0" name="Width">100</param>
+                                            <param id="1" name="Height">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="632653538329869">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="858187548877841" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(0,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="268587736471746" type="Slot_2">
+                                            <param id="0" name="Frame number">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="768779998795698">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="932129708619952" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(1,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="537972266414867" type="Slot_2">
+                                            <param id="0" name="Frame number">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="810918773642713">
+                                    <conditions>
+                                        <condition id="0" name="Compare at X" sid="398959190241029" type="Arr_BroughtWeapons">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Arr_AllWeapons.At(2,0)</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="144413573875749" type="Slot_2">
+                                            <param id="0" name="Frame number">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="946979700963486" title="Weapon_Switch">
+                    <sub-events>
+                        <event-block sid="672363991022850">
+                            <conditions>
+                                <condition id="0" name="On function" sid="418300977611392" type="Function">
+                                    <param id="0" name="Name">&quot;Switch_Weapon&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="737127703955669" type="System">
+                                    <param id="0" name="Variable">slotUsed</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="900578217769025" type="Arr_BroughtWeapons">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Value">&quot;SLOT_2&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="416368966288752">
+                            <conditions>
+                                <condition behavior="Platform" id="2" name="Is on floor" sid="245229706992620" type="Char_Trigger" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="459406574319620">
+                                    <conditions>
+                                        <condition id="3" name="On touched object" sid="161683010851138" type="Touch">
+                                            <param id="0" name="Object">Button_SwitchWeapon</param>
+                                        </condition>
+                                        <condition id="-9" name="Is visible" sid="558577951121239" type="Button_SwitchWeapon" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="143758591961161" type="Function">
+                                            <param id="0" name="Name">&quot;Switch_Weapon&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="247294231422271">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="492559301694994" type="System">
+                                    <param id="0" name="Variable">slotUsed</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="771656142113627" type="System">
+                                    <param id="0" name="Variable">slotUsed</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="2" name="Set at X" sid="161685941191045" type="Arr_BroughtWeapons">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Value">&quot;SLOT_1&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="130522060759000">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="625484483757952" type="Arr_AllWeapons">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">ACQUIRED</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="322652762169358" type="Button_SwitchWeapon">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="163140325660653" title="Pick_Weapon">
+            <sub-events>
+                <event-block sid="150185648410036">
+                    <conditions>
+                        <condition id="0" name="On function" sid="325087330979374" type="Function">
+                            <param id="0" name="Name">&quot;Pick_Pistol&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="177926519964947" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">ACQUIRED</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="321946559479784" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(1, 0)</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="305731523619544" type="Pistol_Sprite" />
+                    </actions>
+                </event-block>
+                <event-block sid="150620782445087">
+                    <conditions>
+                        <condition id="0" name="On function" sid="923567697095763" type="Function">
+                            <param id="0" name="Name">&quot;Pick_DYK-21&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="849563922154458" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">ACQUIRED</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="664062008920221" type="Arr_BroughtWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Value">Arr_AllWeapons.At(2, 0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Journals_Sheet</name>
+    <events>
+        <event-group description="" sid="127953689271095" title="Function">
+            <sub-events>
+                <event-block sid="618582206490558">
+                    <conditions>
+                        <condition id="0" name="On function" sid="666270973695559" type="Function">
+                            <param id="0" name="Name">&quot;Initiate_Journals&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="280558995889899" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;KebunRayaBalikpapan&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="353271808651597" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="916577801344325" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Kebun Raya Balikpapan&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="871362370293251" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Lokasi Kebun Raya Balikpapan merupakan bagian kawasan yang berada di dalam kawasan Hutan Lindung Sungai Wain, dilatarbelakangi oleh keprihatinan akan semakin cepatnya kerusakan ekosistem hutan di Kalimantan Timur. Kerusakan tersebut akan berdampak pada hilangnya jenis-jenis tumbuhan khas Kalimantan. Selain itu, diharapkan adanya ruang terbuka hijau yang dapat mengakomodir kegiatan rekreasi, pendidikan, dan Konservasi masyarakat Balikpapan di sekitar Hutan Lindung Sungai Wain.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="522956860983086" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;The location of Balikpapan Botanical Garden is part of the area that is within the Hutan Lindung Sungai Wain, motivated by concerns about the rapid destruction of forest ecosystems in East Kalimantan. The damage will have an impact on the loss of typical Kalimantan plant species. In addition, it is expected that there is a green open space that can accommodate recreational activities, education, and conservation of balikpapan communities around the Hutan Lindung Sungai Wain.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="114791457008795" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;KantungSemar&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="687742385553290" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="689238791167516" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Kantung Semar&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="127712687928930" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Kantung semar merupakan tumbuhan karnivora yaitu tumbuhan pemakan daging seperti serangga dan hewan-hewan kecil. Di Indonesia setidaknya terdapat jenis kantong semar habitat terbanyak berada di Kalimantan dan Sumatera. Sayangnya, kekayaan jenis kantong tersebut masih kurang mendapat perhatian. Menurut data IUCN Red List, sedikitnya 27 spesies terancam punah.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="218326363870869" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Semar sacs are carnivorous plants, namely meat-eating plants such as insects and small animals. In Indonesia there are at least the most habitat pockets in Kalimantan and Sumatra. Unfortunately, the wealth of these types of pockets still receives less attention. According to the IUCN Red List, at least 27 species are threatened with extinction.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="474933729946670" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;BeruangMadu&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="202121766409999" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="564800076328951" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Beruang Madu&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="714860285462003" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Beruang madu (Helarctos Malayanus) merupakan jenis paling kecil dari delapan jenis beruang yang ada di dunia. Beruang ini adalah maskot dari kota Balikpapan. Beruang madu di Balikpapan dikonservasi di sebuah hutan lindung bernama Hutan Lindung Sungai Wain.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="625120256267610" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;The honey bear (Helarctos Malayanus) is the smallest of the eight bears in the world. This bear is the mascot of the city of Balikpapan. The honey bear in Balikpapan is conserved in a protected forest called the Wain River Protected Forest.&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="442856121651249" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;PulauKembang&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="928118808846303" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="386221902065626" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Pulau Kembang&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="313733844650227" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Lorem Ipsum&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="968665596701382" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Lorem Ipsum&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="565441559736651" type="Arr_Journals">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Monyet&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="806558075073587" type="Arr_Journals">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="922282966977908" type="Arr_Journals">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Monyet&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="680541728972780" type="Arr_Journals">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Ipsum Lorem&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="585327987712399" type="Arr_Journals">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Ipsum Lorem&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="557692177798015" type="Arr_Journals">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Buaya&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="829190365538848" type="Arr_Journals">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="558565208297819" type="Arr_Journals">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Buaya&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="918844939803394" type="Arr_Journals">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Buaya Lorem&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="260272850376705" type="Arr_Journals">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Buaya Lorem&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="143207722896461" type="Arr_Journals">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;TanjungPuting&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="621678693760642" type="Arr_Journals">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="510335187586497" type="Arr_Journals">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Tanjung Puting&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="222318399116146" type="Arr_Journals">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Tanjung Ipsum&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="991640574209414" type="Arr_Journals">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Tanjung Ipsum&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="925384922977858" title="Cek_Item(KiraiDiaryGlobal)">
+            <sub-events>
+                <comment>Cek Item Kebun Raya</comment>
+                <event-block sid="824415701372538">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="919928454503170" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="893482266990624" type="KebunRaya_BG">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="785424007729592">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="590798692556400" type="Touch">
+                                    <param id="0" name="Object">KebunRaya_BG</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="153027958692836" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(0, 2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="686097719814594">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="686752415612174" type="Arr_Journals">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="592236444739755" type="KebunRaya_BG">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Cek Item Kantung Semar</comment>
+                <event-block sid="603420934588178">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="810426281642895" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="511810403809776" type="KantungSemar_BG">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="594196511835619">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="719640029876334" type="Touch">
+                                    <param id="0" name="Object">KantungSemar_BG</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="125400093072577" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(1, 2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="643085684604617">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="154086070784790" type="Arr_Journals">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="778315585902580" type="KantungSemar_BG">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Cek Item Beruang Madu</comment>
+                <event-block sid="552678809390404">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="230139701925944" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="490181352628528" type="Beruang1_BG">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="172827907087863">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="757790149036241" type="Touch">
+                                    <param id="0" name="Object">Beruang1_BG</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="800601200718217" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(2, 2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="603018704492232">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="768793062287041" type="Arr_Journals">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="268550943082948" type="Beruang1_BG">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Cek Item Pulau Kembang</comment>
+                <event-block sid="818465906903945">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="915930830472757" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="121033951049666" type="welkom_BG_2">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="813114864549174">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="174554103151335" type="Touch">
+                                    <param id="0" name="Object">welkom_BG_2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="143230200177486" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(3, 2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="146848045556741">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="242940810295409" type="Arr_Journals">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="840434849661293" type="welkom_BG_2">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

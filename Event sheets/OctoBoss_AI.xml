@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>OctoBoss_AI</name>
+    <events>
+        <variable constant="0" name="distance_OctoKirai" sid="220539907150863" static="0" type="number">0</variable>
+        <variable constant="0" name="state_Octo" sid="665564267409028" static="0" type="text">Patrol</variable>
+        <variable constant="0" name="subState_Octo" sid="493841966253258" static="0" type="number">3</variable>
+        <event-block sid="264563577300690">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="856289092422530" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="512003606651615" type="Octo_BulletSpawner">
+                    <param id="0" name="Pin to">OctoBoss</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="357582815849679">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="392364597151334" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="507900966137638" type="System">
+                    <param id="0" name="Variable">distance_OctoKirai</param>
+                    <param id="1" name="Value">distance(Char_Trigger.X, Char_Trigger.Y, OctoBoss.X, OctoBoss.Y)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="550221354226660" title="State_Trigger">
+            <sub-events>
+                <event-block sid="115720335988075">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="995374966621505" type="OctoBoss">
+                            <param id="0" name="Tag">&quot;Timer_State&quot;</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="735122253544824" type="System">
+                            <param id="0" name="First value">distance_OctoKirai</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">1150</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="854332081887286" type="System">
+                            <param id="0" name="Variable">state_Octo</param>
+                            <param id="1" name="Value">&quot;ShootA&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="913939926853258">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="122874395209869" type="OctoBoss">
+                            <param id="0" name="Tag">&quot;Timer_State&quot;</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="777401913062636" type="System">
+                            <param id="0" name="First value">distance_OctoKirai</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">1150</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="966114075040446" type="System">
+                            <param id="0" name="Variable">state_Octo</param>
+                            <param id="1" name="Value">&quot;ShootB&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="607328685215928" title="State">
+            <sub-events>
+                <event-group description="" sid="860933986701867" title="ShootA_Octo">
+                    <sub-events>
+                        <event-block sid="642061168979803">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="984506498717544" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-8" name="Set angle" sid="973663990395673" type="OctoBoss">
+                                    <param id="0" name="Angle">anglelerp(self.Angle, 270, 0.1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="232169433098327">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="296761378715737" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="708864965590987" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="225725498404230" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="147508815209396">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="663519681249355" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="567274468482238" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="945467900749831" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="125794221036959" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="0" name="Call function" sid="435661768537288" type="Function">
+                                    <param id="0" name="Name">&quot;Octo_ShootA&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="890490416164795">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="754747614123945" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="603043568174147" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="553774046078348" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="195777778757476" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="748945884489312" type="Function">
+                                    <param id="0" name="Name">&quot;Octo_ShootA&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="999356815901523">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="825802097626414" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="271384721149773" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="177887547146705" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="591943415040551" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="796869567373427" type="Function">
+                                    <param id="0" name="Name">&quot;Octo_ShootA&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="283342555341072">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="437612824653644" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootA&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="846454100876282" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="719331899577237" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="709137828591929" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="865022035747227" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Value">&quot;Patrol&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="207222183612440">
+                            <conditions>
+                                <condition id="0" name="On function" sid="904771747258428" type="Function">
+                                    <param id="0" name="Name">&quot;Octo_ShootA&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="328802977454181" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="179689268541932" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="638782681058004" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="419330997895327" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="756698405511286" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="268420971532475" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="275616714373286" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="896049368857321" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="706937003622999" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="106642272059889" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="802620460612321" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="144365496161837" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="560212806067818" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="414178496576696" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="113382256688066" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="630188074877594" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="918212708610152" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="534471184679165" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="451491305367402" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="119132036905894" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="342696219428148" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="970516337794400" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">30</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="458197157550233" type="Octo_BulletSpawner">
+                                    <param id="0" name="Object">Octo_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-18" name="Rotate clockwise" sid="652216687069455" type="Octo_BulletSpawner">
+                                    <param id="0" name="Degrees">random(0, 360)</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="584454931035217" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="455003014195504" title="ShootB_Octo">
+                    <sub-events>
+                        <event-block sid="597761093797552">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="103296935625341" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootB&quot;</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="709292242430966" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="405498960046557" type="System">
+                                    <param id="0" name="Variable">subState_Octo</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="156861590150685">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="496448745315814" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;ShootB&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="299794328675461">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="971699621538143" type="System">
+                                            <param id="0" name="Variable">subState_Octo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="539790090487867" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Set position" sid="976104898760758" type="Target_Octo">
+                                            <param id="0" name="X">Char_Trigger.X</param>
+                                            <param id="1" name="Y">Char_Trigger.Y</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="259853968703127">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="348612737618849" type="System">
+                                            <param id="0" name="Variable">subState_Octo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-21" name="Rotate toward position" sid="364533611596517" type="OctoBoss">
+                                            <param id="0" name="Degrees">15</param>
+                                            <param id="1" name="X">Target_Octo.X</param>
+                                            <param id="2" name="Y">Target_Octo.Y</param>
+                                        </action>
+                                        <action id="-17" name="Move forward" sid="982570194386409" type="OctoBoss">
+                                            <param id="0" name="Distance">-3</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="582012591008512" type="System">
+                                            <param id="0" name="Seconds">0.75</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="269924700944147" type="System">
+                                            <param id="0" name="Variable">subState_Octo</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="644046395256638">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="468710654711776" type="System">
+                                            <param id="0" name="Variable">subState_Octo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-21" name="Rotate toward position" sid="636240940933841" type="OctoBoss">
+                                            <param id="0" name="Degrees">15</param>
+                                            <param id="1" name="X">Target_Octo.X</param>
+                                            <param id="2" name="Y">Target_Octo.Y</param>
+                                        </action>
+                                        <action id="-17" name="Move forward" sid="995154008542669" type="OctoBoss">
+                                            <param id="0" name="Distance">25</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="566705295899423">
+                                            <conditions>
+                                                <condition id="0" name="On collision with another object" sid="337365040484803" type="OctoBoss">
+                                                    <param id="0" name="Object">Target_Octo</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="401475014637752" type="System">
+                                                    <param id="0" name="Variable">subState_Octo</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="228798969016054">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="840938368178967" type="System">
+                                            <param id="0" name="Variable">subState_Octo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="433944475351211" type="System">
+                                            <param id="0" name="Variable">state_Octo</param>
+                                            <param id="1" name="Value">&quot;Idle&quot;</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="823360096294919" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="522398055408836" type="System">
+                                            <param id="0" name="Variable">state_Octo</param>
+                                            <param id="1" name="Value">&quot;ShootA&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="719281410724633" title="Idle_Octo">
+                    <sub-events>
+                        <event-block sid="328387362477559">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="352888801284223" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Idle&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-8" name="Set angle" sid="315912862227417" type="OctoBoss">
+                                    <param id="0" name="Angle">anglelerp(self.Angle, 270, 0.1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="133622025506706" title="Patrol_Octo">
+                    <sub-events>
+                        <event-block sid="736860909114485">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="494365193333755" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="522604736878871" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="745308638080284" type="Target_Octo">
+                                    <param id="0" name="X">random(250, LayoutWidth - 250)</param>
+                                    <param id="1" name="Y">random(200, LayoutHeight - 200)</param>
+                                </action>
+                                <action behavior="Timer" id="0" name="Start timer" sid="448935272856892" type="OctoBoss">
+                                    <param id="0" name="Duration">random(3, 4)</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Timer_State&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="328661723249017">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="181434762879990" type="System">
+                                    <param id="0" name="Variable">state_Octo</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-21" name="Rotate toward position" sid="289120347517613" type="OctoBoss">
+                                    <param id="0" name="Degrees">5</param>
+                                    <param id="1" name="X">Target_Octo.x</param>
+                                    <param id="2" name="Y">Target_Octo.Y</param>
+                                </action>
+                                <action id="-17" name="Move forward" sid="600906699611139" type="OctoBoss">
+                                    <param id="0" name="Distance">3</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="862076358310434">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="363273720655894" type="OctoBoss">
+                                            <param id="0" name="Object">Target_Octo</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="809228202852305" type="System">
+                                            <param id="0" name="Variable">state_Octo</param>
+                                            <param id="1" name="Value">&quot;Idle&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
