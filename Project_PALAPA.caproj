@@ -1946,12 +1946,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546683818059977" speed="0">
-                        <frame duration="1" hotspotX="1" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="1" hotspotY="0.5">
-                            <image-point name="Slot_2" x="0" y="0.5" />
-                            <image-point name="Slot_1" x="1" y="0.5" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173">
+                            <image-point name="Slot_2" x="0" y="0.50173" />
+                            <image-point name="Slot_1" x="1" y="0.50173" />
                         </frame>
-                        <frame duration="1" hotspotX="1" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1959,12 +1959,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508604039903983" speed="0">
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0" hotspotY="0.5">
-                            <image-point name="Slot_2" x="0" y="0.5" />
-                            <image-point name="Slot_1" x="1" y="0.5" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173">
+                            <image-point name="Slot_2" x="0" y="0.50173" />
+                            <image-point name="Slot_1" x="1" y="0.50173" />
                         </frame>
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="1" hotspotY="0.50173" />
                     </animation>
                 </animation-folder>
             </object-type>
