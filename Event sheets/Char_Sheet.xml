@@ -41,7 +41,7 @@
                             <sub-events>
                                 <event-block any="1" sid="983497767740292">
                                     <conditions>
-                                        <condition id="17" name="On tap object" sid="408606221155614" type="Touch">
+                                        <condition id="4" name="Is touching object" sid="408606221155614" type="Touch">
                                             <param id="0" name="Object">Button_Jump</param>
                                         </condition>
                                         <condition id="2" name="Key is down" sid="554831132076201" type="Keyboard">
