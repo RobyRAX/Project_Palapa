@@ -173,11 +173,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="3" name="Set at XY" sid="689371109836022" type="Arr_LevelScore">
-                            <param id="0" name="X">playedLevel</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Value">star</param>
-                        </action>
                         <action id="3" name="Set at XY" sid="742373031541519" type="Arr_LevelScore">
                             <param id="0" name="X">playedLevel</param>
                             <param id="1" name="Y">1</param>
@@ -394,6 +389,11 @@
                             <param id="0" name="X">playedLevel</param>
                             <param id="1" name="Y">2</param>
                             <param id="2" name="Value">score</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="531649453465107" type="Arr_LevelScore">
+                            <param id="0" name="X">playedLevel</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">star</param>
                         </action>
                     </actions>
                 </event-block>

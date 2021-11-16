@@ -1114,9 +1114,13 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="0" name="Call function" sid="903178515746045" type="Function">
+                                        <action disabled="1" id="0" name="Call function" sid="903178515746045" type="Function">
                                             <param id="0" name="Name">&quot;Switch_Weapon&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="396427581703068" type="System">
+                                            <param id="0" name="Variable">usedWeapon</param>
+                                            <param id="1" name="Value">&quot;TanganKosong&quot;</param>
                                         </action>
                                         <action id="-16" name="Wait" sid="837053637338066" type="System">
                                             <param id="0" name="Seconds">1.0</param>
