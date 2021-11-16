@@ -1946,12 +1946,38 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546683818059977" speed="0">
-                        <frame duration="1" hotspotX="1" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="1" hotspotY="0.5">
-                            <image-point name="Slot_2" x="0" y="0.5" />
-                            <image-point name="Slot_1" x="1" y="0.5" />
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\HAND UI.png">
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="1" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\PISTOL.png">
+                            <image-point name="Slot_2" x="-0.00632911" y="0.50173" />
+                            <image-point name="Slot_1" x="1.00633" y="0.50173" />
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\DYK21.png">
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1959,12 +1985,38 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508604039903983" speed="0">
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0" hotspotY="0.5">
-                            <image-point name="Slot_2" x="0" y="0.5" />
-                            <image-point name="Slot_1" x="1" y="0.5" />
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\HAND UI.png">
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\PISTOL.png">
+                            <image-point name="Slot_2" x="-0.00632911" y="0.50173" />
+                            <image-point name="Slot_1" x="1.00633" y="0.50173" />
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="1.00633" hotspotY="0.50173" original-source="E:\course KMMI 2D Animation\gun\DYK21.png">
+                            <collision-poly>
+                                <point x="0.0221519" y="0.0103806" />
+                                <point x="0.977848" y="0.0103806" />
+                                <point x="0.998418" y="0.50173" />
+                                <point x="0.976266" y="0.989619" />
+                                <point x="0.0237342" y="0.989619" />
+                                <point x="0.00158228" y="0.50173" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
