@@ -16,7 +16,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="8">Level_4</layout>
         <layout order="12">MainMenu</layout>
         <layout order="23">KiraiDiary</layout>
-        <layout active="1" order="24">Level_1</layout>
+        <layout order="24">Level_1</layout>
         <layout order="28">Level_3</layout>
         <layout order="31">Level_5</layout>
         <layout order="33">Level_6</layout>
@@ -29,7 +29,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="4">Char_UnderSea_Sheet</event-sheet>
         <event-sheet order="6">Level_10_Manager</event-sheet>
         <event-sheet order="9">Journals_Sheet</event-sheet>
-        <event-sheet order="10">Char_Sheet</event-sheet>
+        <event-sheet active="1" order="10">Char_Sheet</event-sheet>
         <event-sheet order="11">Perahu_AI</event-sheet>
         <event-sheet order="13">Enemy2_AI</event-sheet>
         <event-sheet order="14">Buaya_AI</event-sheet>
