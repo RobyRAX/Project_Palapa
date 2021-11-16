@@ -345,6 +345,10 @@
                             <param id="0" name="Layer">&quot;UI&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
+                        <action id="-4" name="Set layer visible" sid="820968246198028" type="System">
+                            <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="678419648120886">
@@ -360,6 +364,10 @@
                         </action>
                         <action id="-4" name="Set layer visible" sid="738189594898242" type="System">
                             <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="629482972309584" type="System">
+                            <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
