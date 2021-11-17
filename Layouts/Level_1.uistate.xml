@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>844.46</position-x>
-        <position-y>169.698</position-y>
-        <position-z>128.083</position-z>
-        <lookat-x>844.46</lookat-x>
-        <lookat-y>169.698</lookat-y>
+        <position-x>1750</position-x>
+        <position-y>360</position-y>
+        <position-z>365.435</position-z>
+        <lookat-x>1750</lookat-x>
+        <lookat-y>360</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -23,13 +23,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Ref" />
+    <active-layer name="BG" />
     <layers>
-        <layer locked="1" name="BG" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="BG" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Platform_Back" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Game" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Platform_Front" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Tombol_KiraiDiary" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Dialog_Awal" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="Dialog_Akhir" parallax-in-editor="0" visible="0" />

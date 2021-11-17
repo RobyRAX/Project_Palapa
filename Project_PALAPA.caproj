@@ -382,7 +382,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433487511522853" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\BG &amp; Ground\Compressed\sky-min.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\sky.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -663,13 +663,18 @@
             </object-type>
             <object-type name="BG_Air" sid="432313236486484">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="264379657727489">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978372629108885" speed="5">
-                        <frame duration="1" hotspotX="0.496951" hotspotY="-0.148438" original-source="Y:\Assets\2. Barito\Aer.png">
+                        <frame duration="1" hotspotX="0.497159" hotspotY="-0.300752" original-source="E:\course KMMI 2D Animation\level 2 Borito\air2.png">
                             <collision-poly>
-                                <point x="0.585366" y="0.078125" />
-                                <point x="0.932927" y="0.96875" />
-                                <point x="0.0609756" y="0.96875" />
+                                <point x="0.584881" y="0" />
+                                <point x="0.930467" y="0.957237" />
+                                <point x="0.0634701" y="0.957237" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1480,8 +1485,20 @@
                     <object-type name="Raffles" sid="271497827635158">
                         <plugin id="Sprite" />
                         <animation-folder>
-                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="249089162658965" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <animation framecount="13" loop="1" name="Steady" pingpong="0" repeatcount="1" repeatto="0" sid="249089162658965" speed="12">
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_05.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_06.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_07.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_08.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_09.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_10.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_11.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_12.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_13.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_14.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_15.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_16.png" />
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_17.png" />
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -2948,6 +2965,76 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="747458684411719" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Referensi\WhatsApp Image 2021-11-12 at 2.27.40 PM.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="935298766256626">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\course KMMI 2D Animation\Level 1 Balikpapan\background2.jpg" />
+        </object-type>
+        <object-type name="air2" sid="709697707504112">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="839807705836043">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694974942359695" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.432836" original-source="E:\course KMMI 2D Animation\level 2 Borito\air 1.png">
+                        <collision-poly>
+                            <point x="0.0653409" y="0.0373134" />
+                            <point x="0.5" y="0.0970149" />
+                            <point x="0.821023" y="0.335821" />
+                            <point x="0.997159" y="0.432836" />
+                            <point x="0.997159" y="0.992537" />
+                            <point x="0.00284091" y="0.992537" />
+                            <point x="0.00284091" y="0.432836" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="airsatu" sid="176807887625139">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="210492798774527">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707649902980961" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
+                        <collision-poly>
+                            <point x="0.0499168" y="0.328467" />
+                            <point x="0.5" y="0.211679" />
+                            <point x="0.984193" y="0.0291971" />
+                            <point x="0.999168" y="0.992701" />
+                            <point x="0.000831947" y="0.992701" />
+                            <point x="0.000831947" y="0.445255" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="airdua" sid="718115464281270">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="594662435153270">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366103132304729" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.475862" original-source="E:\course KMMI 2D Animation\level 2 Borito\airdua.png">
+                        <collision-poly>
+                            <point x="0.0108153" y="0.0413793" />
+                            <point x="0.5" y="0.4" />
+                            <point x="0.980865" y="0.110345" />
+                            <point x="0.999168" y="0.993103" />
+                            <point x="0.000831947" y="0.993103" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
