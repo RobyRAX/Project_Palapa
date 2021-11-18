@@ -199,6 +199,9 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-2" name="Set Y" sid="593378599627820" type="StopTrigger_5">
+                                    <param id="0" name="Y">-2000</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="386361293334553" type="System">
                                     <param id="0" name="Seconds">0.25</param>
                                 </action>
@@ -330,9 +333,6 @@
                                 <condition id="-4" name="Trigger once while true" sid="400898625607658" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-2" name="Set Y" sid="593378599627820" type="StopTrigger_5">
-                                    <param id="0" name="Y">-2000</param>
-                                </action>
                                 <action id="-9" name="Set value" sid="857904228656788" type="System">
                                     <param id="0" name="Variable">stopTime</param>
                                     <param id="1" name="Value">1</param>
@@ -340,7 +340,7 @@
                                 <action id="-3" name="Create object" sid="673029862256823" type="System">
                                     <param id="0" name="Object to create">Enemy1_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 125</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 400</param>
                                     <param id="3" name="Y">-300</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="268509677624507" type="System">
@@ -382,13 +382,13 @@
                                 <action id="-3" name="Create object" sid="371926753792290" type="System">
                                     <param id="0" name="Object to create">Enemy1_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 500</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 450</param>
                                     <param id="3" name="Y">-450</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="246663612315347" type="System">
                                     <param id="0" name="Object to create">Enemy1_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - random(100, 300)</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - random(100, 400)</param>
                                     <param id="3" name="Y">-300</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="447107831897393" type="System">
@@ -430,7 +430,7 @@
                                 <action id="-3" name="Create object" sid="100207002083529" type="System">
                                     <param id="0" name="Object to create">Enemy1_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 100</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
                                     <param id="3" name="Y">-450</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="167992044451280" type="System">
@@ -442,7 +442,7 @@
                                 <action id="-3" name="Create object" sid="292047653900299" type="System">
                                     <param id="0" name="Object to create">Enemy1_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) -  random(100, 1000)</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) -  random(100, 500)</param>
                                     <param id="3" name="Y">-300</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="681911727554421" type="System">
@@ -1042,11 +1042,16 @@
                         <condition id="17" name="On tap object" sid="448619943261324" type="Touch">
                             <param id="0" name="Object">Notif_Item</param>
                         </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="666495871802237" type="Notif_Item">
+                        <condition disabled="1" id="-14" name="Pick by unique ID" sid="666495871802237" type="Notif_Item">
                             <param id="0" name="Unique ID">802</param>
                         </condition>
                         <condition id="-9" inverted="1" name="Layer is visible" sid="453480432882268" type="System">
                             <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="219300991708030" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>

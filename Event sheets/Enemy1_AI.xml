@@ -220,7 +220,6 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition id="-4" name="Trigger once while true" sid="517568665503591" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="500849199727210" type="Enemy1_Sprite">

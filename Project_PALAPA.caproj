@@ -1276,7 +1276,7 @@
                                     <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
                                 </frame>
                             </animation>
-                            <animation framecount="10" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="469659738450806" speed="10">
+                            <animation framecount="31" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="469659738450806" speed="10">
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_00.png" />
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_02.png" />
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_04.png" />
@@ -1284,9 +1284,30 @@
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_08.png" />
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_10.png" />
                                 <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_12.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_14.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_16.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_17.png" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_17.png" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -2422,6 +2443,7 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="534570928383233" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.500713" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Diary\Compressed\diary-min.png">
+                            <image-point name="CloseButton_Pos" x="0.946087" y="0.105563" />
                             <collision-poly>
                                 <point x="0" y="0" />
                                 <point x="1" y="0.00142653" />
@@ -3033,6 +3055,24 @@
                             <point x="0.980865" y="0.110345" />
                             <point x="0.999168" y="0.993103" />
                             <point x="0.000831947" y="0.993103" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pistol_Didapatkan" sid="934460744926671">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832376046885614" speed="5">
+                    <frame duration="1" hotspotX="0.498" hotspotY="0.452695" original-source="Y:\Assets\UI &amp; Button\item didapatkan1.png">
+                        <collision-poly>
+                            <point x="0.250915" y="0.00897666" />
+                            <point x="0.741098" y="0.0149611" />
+                            <point x="0.998336" y="0.452424" />
+                            <point x="0.792679" y="0.983244" />
+                            <point x="0.497504" y="0.997606" />
+                            <point x="0.208319" y="0.97307" />
+                            <point x="0.000332779" y="0.452424" />
                         </collision-poly>
                     </frame>
                 </animation>

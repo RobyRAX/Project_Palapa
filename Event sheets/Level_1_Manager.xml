@@ -98,6 +98,7 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="251155209178680" type="System" />
                             </conditions>
                             <actions>
                                 <action id="-4" name="Set layer visible" sid="308746803988460" type="System">
@@ -150,6 +151,7 @@
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="378451142427464" type="System" />
                             </conditions>
                             <actions>
                                 <action id="-4" name="Set layer visible" sid="285699193713116" type="System">
@@ -174,9 +176,28 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="505065830907057" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="263619339680211" type="System">
+                            <param id="0" name="Layer">&quot;Pistol_Didapatkan&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
                         <action id="0" name="Call function" sid="303652203255740" type="Function">
                             <param id="0" name="Name">&quot;Pick_Pistol&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="752816882616782" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="599621754811116" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="715051778105658" type="System">
+                            <param id="0" name="Layer">&quot;Pistol_Didapatkan&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -341,12 +362,8 @@
                         <action id="-13" name="Set time scale" sid="545305724364660" type="System">
                             <param id="0" name="Time scale">0</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="604117529332756" type="System">
+                        <action disabled="1" id="-4" name="Set layer visible" sid="604117529332756" type="System">
                             <param id="0" name="Layer">&quot;UI&quot;</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="820968246198028" type="System">
-                            <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -362,12 +379,8 @@
                         <action id="-13" name="Set time scale" sid="321482000199028" type="System">
                             <param id="0" name="Time scale">1</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="738189594898242" type="System">
+                        <action disabled="1" id="-4" name="Set layer visible" sid="738189594898242" type="System">
                             <param id="0" name="Layer">&quot;UI&quot;</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="629482972309584" type="System">
-                            <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -838,11 +851,16 @@
                         <condition id="17" name="On tap object" sid="845023165187511" type="Touch">
                             <param id="0" name="Object">Notif_Item</param>
                         </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="461212532862572" type="Notif_Item">
+                        <condition disabled="1" id="-14" name="Pick by unique ID" sid="461212532862572" type="Notif_Item">
                             <param id="0" name="Unique ID">143</param>
                         </condition>
                         <condition id="-9" inverted="1" name="Layer is visible" sid="196872944454021" type="System">
                             <param id="0" name="Layer">&quot;KiraiDiary_Level_1&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="455781143612006" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
