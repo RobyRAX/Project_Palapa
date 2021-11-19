@@ -1039,53 +1039,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SandaranKomandan" uid="201">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3348</x>
-                        <y>159</y>
-                        <z>0</z>
-                        <width>515.528381348</width>
-                        <height>589.934509277</height>
-                        <depth>0</depth>
-                        <hotspotX>0.469072163</hotspotX>
-                        <hotspotY>0.333333343</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Kirai_Body" uid="16">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Idle</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>86</x>
-                        <y>629</y>
-                        <z>0</z>
-                        <width>79.092887878</width>
-                        <height>179.228866577</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504587173</hotspotX>
-                        <hotspotY>0.971659899</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Char_Trigger" uid="1">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1138,14 +1091,61 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>88</x>
-                        <y>559</y>
+                        <x>2792</x>
+                        <y>452</y>
                         <z>0</z>
                         <width>49.928695679</width>
                         <height>141.043365479</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SandaranKomandan" uid="201">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3348</x>
+                        <y>159</y>
+                        <z>0</z>
+                        <width>515.528381348</width>
+                        <height>589.934509277</height>
+                        <depth>0</depth>
+                        <hotspotX>0.469072163</hotspotX>
+                        <hotspotY>0.333333343</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Kirai_Body" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Idle</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2790</x>
+                        <y>522</y>
+                        <z>0</z>
+                        <width>79.818511963</width>
+                        <height>179.228866577</height>
+                        <depth>0</depth>
+                        <hotspotX>0.4909091</hotspotX>
+                        <hotspotY>0.967611313</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1160,8 +1160,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>109</x>
-                        <y>580</y>
+                        <x>2813</x>
+                        <y>473</y>
                         <z>0</z>
                         <width>59.533176422</width>
                         <height>31.751026154</height>
@@ -1185,9 +1185,9 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>139</x>
-                        <y>539.799255371</y>
-                        <z>-0.000000477</z>
+                        <x>2843</x>
+                        <y>433</y>
+                        <z>0</z>
                         <width>8.177202225</width>
                         <height>8.177202225</height>
                         <depth>0</depth>
@@ -1210,8 +1210,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>82</x>
-                        <y>540</y>
+                        <x>2786</x>
+                        <y>433</y>
                         <z>0</z>
                         <width>60.891815186</width>
                         <height>12.178362846</height>
@@ -1239,8 +1239,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>229</x>
-                        <y>361</y>
+                        <x>2933</x>
+                        <y>254</y>
                         <z>0</z>
                         <width>56.205039978</width>
                         <height>56.205043793</height>
@@ -1330,8 +1330,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>105</x>
-                        <y>579</y>
+                        <x>2809</x>
+                        <y>472</y>
                         <z>0</z>
                         <width>34.828746796</width>
                         <height>34.828746796</height>
@@ -1534,8 +1534,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>171.75390625</x>
-                        <y>577.154296875</y>
+                        <x>2876</x>
+                        <y>470</y>
                         <z>0</z>
                         <width>191.192276001</width>
                         <height>71.075195313</height>
@@ -4954,8 +4954,8 @@
                         <x>640</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>483.791168213</width>
-                        <height>269.310424805</height>
+                        <width>485</width>
+                        <height>270</height>
                         <depth>0</depth>
                         <hotspotX>0.497999996</hotspotX>
                         <hotspotY>0.452694625</hotspotY>
