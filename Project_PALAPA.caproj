@@ -169,7 +169,7 @@
                 <object-type name="Dialogs_Akhir" sid="945312583771543">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141544543899289" speed="0">
+                        <animation framecount="14" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141544543899289" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 2-min.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 1-min.png" />
@@ -177,6 +177,28 @@
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 2.1-min.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 3-min.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.501031" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan3.png">
+                                <collision-poly>
+                                    <point x="0.250915" y="0.00897666" />
+                                    <point x="0.741098" y="0.0149611" />
+                                    <point x="0.998336" y="0.452424" />
+                                    <point x="0.792679" y="0.983244" />
+                                    <point x="0.497504" y="0.997606" />
+                                    <point x="0.208319" y="0.97307" />
+                                    <point x="0.000332779" y="0.452424" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.501031" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan pusaka kosong.png">
+                                <collision-poly>
+                                    <point x="0.148665" y="0" />
+                                    <point x="0.83008" y="0" />
+                                    <point x="1" y="0.138597" />
+                                    <point x="0.901784" y="1" />
+                                    <point x="0.491455" y="1" />
+                                    <point x="0.0894521" y="1" />
+                                    <point x="0" y="0.138597" />
+                                </collision-poly>
+                            </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 2.2-min.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 4-min.png" />
@@ -933,127 +955,292 @@
                         <type>Muzzle_Sprite</type>
                     </container>
                     <animation-folder>
-                        <animation framecount="8" loop="0" name="Idle_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="566968455362805" speed="6">
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_00-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                        <animation framecount="7" loop="0" name="Idle_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="566968455362805" speed="6">
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_01(1).png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_04-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_03(1).png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_08-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_04.png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_12-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_06(2).png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_16-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_09(1).png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_20-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Rig_Kirai-Idle_NoWeapon_14.png">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_24-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
-                            </frame>
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.97166" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Idle_NoWeapon\Compressed\Rig_Kirai-Idle_NoWeapon_28-min.png">
-                                <image-point name="Hand_Pivot" x="0.256881" y="0.465587" />
+                            <frame duration="1" hotspotX="0.490909" hotspotY="0.967611">
+                                <image-point name="Hand_Pivot" x="0.227273" y="0.510121" />
                             </frame>
                         </animation>
-                        <animation framecount="6" loop="0" name="Run_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="522793681731671" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_00-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                        <animation framecount="7" loop="1" name="Run_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="522793681731671" speed="12">
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_00.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_02-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_02.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_04-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_04.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_06-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_05.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
+                                <collision-poly>
+                                    <point x="0.475928" y="0.335597" />
+                                    <point x="0.499312" y="0.258002" />
+                                    <point x="0.744154" y="0.180407" />
+                                    <point x="0.78542" y="0.499515" />
+                                    <point x="0.702889" y="0.790495" />
+                                    <point x="0.499312" y="0.85063" />
+                                    <point x="0.193948" y="0.86324" />
+                                    <point x="0.0206327" y="0.499515" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_08-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.943182" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Run_NoWeapon\Compressed\Rig_Kirai-Run_NoWeapon_10-min.png">
-                                <image-point name="Hand_Pivot" x="0.261111" y="0.465909" />
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_08.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
+                            </frame>
+                            <frame duration="1" hotspotX="0.527778" hotspotY="0.920755" original-source="Y:\Assets\Kirai\Animation\FullBody\Run_NoWeapon\run\Rig_Kirai-Run_NoWeapon_09.png">
+                                <image-point name="Hand_Pivot" x="0.227778" y="0.509434" />
+                                <collision-poly>
+                                    <point x="0.43879" y="0.309408" />
+                                    <point x="0.499312" y="0.192047" />
+                                    <point x="0.866575" y="0.0940834" />
+                                    <point x="0.73315" y="0.499515" />
+                                    <point x="0.742779" y="0.818623" />
+                                    <point x="0.499312" y="0.818623" />
+                                    <point x="0.178817" y="0.873909" />
+                                    <point x="0.361761" y="0.499515" />
+                                </collision-poly>
                             </frame>
                         </animation>
-                        <animation framecount="8" loop="0" name="Idle_Weaponized" pingpong="0" repeatcount="1" repeatto="0" sid="347345475578713" speed="6">
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_00-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                        <animation framecount="6" loop="1" name="Idle_Weaponized" pingpong="0" repeatcount="1" repeatto="0" sid="347345475578713" speed="6">
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_00.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.19407" y="0.0756303" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.87062" y="0.0504202" />
+                                    <point x="0.830189" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.142857" y="0.5" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_04-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_03.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.210243" y="0.0819328" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.881402" y="0.0462185" />
+                                    <point x="0.832884" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.145553" y="0.5" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_08-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_06.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.218329" y="0.085084" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.886792" y="0.0441176" />
+                                    <point x="0.832884" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.145553" y="0.5" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_12-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_09.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.218329" y="0.085084" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.886792" y="0.0441176" />
+                                    <point x="0.832884" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.145553" y="0.5" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_16-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_12.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.212938" y="0.0829832" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.884097" y="0.0451681" />
+                                    <point x="0.832884" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.145553" y="0.5" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_20-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
-                            </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_24-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
-                            </frame>
-                            <frame duration="1" hotspotX="0.454545" hotspotY="0.967611" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Idle_Badan\Compressed\Rig_Kirai-Idle_NoWeapon_28-min.png">
-                                <image-point name="Hand_Pivot" x="0.261364" y="0.465587" />
+                            <frame duration="1" hotspotX="0.45" hotspotY="0.967611" original-source="Y:\Assets\Kirai\Animation\Part\idle no hand\idlenohand_15.png">
+                                <image-point name="Hand_Pivot" x="0.3" y="0.449393" />
+                                <collision-poly>
+                                    <point x="0.19407" y="0.0756303" />
+                                    <point x="0.498652" y="0.156513" />
+                                    <point x="0.873315" y="0.0493697" />
+                                    <point x="0.830189" y="0.5" />
+                                    <point x="0.962264" y="0.985294" />
+                                    <point x="0.0242588" y="0.990546" />
+                                    <point x="0.142857" y="0.5" />
+                                </collision-poly>
                             </frame>
                         </animation>
                         <animation framecount="6" loop="0" name="Run_Weaponized" pingpong="0" repeatcount="1" repeatto="0" sid="240192621745728" speed="12">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_00-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_00.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_02-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_02.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_04-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_04.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_06-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_06.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_08-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_07.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
+                                <collision-poly>
+                                    <point x="0.469673" y="0.292919" />
+                                    <point x="0.499222" y="0.224054" />
+                                    <point x="0.74339" y="0.160039" />
+                                    <point x="0.77916" y="0.499515" />
+                                    <point x="0.712286" y="0.820563" />
+                                    <point x="0.499222" y="0.958293" />
+                                    <point x="0.255054" y="0.840931" />
+                                    <point x="0.357698" y="0.499515" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.950758" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\Run_Badan\Compressed\Rig_Kirai-Run_NoWeapon_10-min.png">
-                                <image-point name="Hand_Pivot" x="0.512195" y="0.443182" />
+                            <frame duration="1" hotspotX="0.539394" hotspotY="0.916981" original-source="Y:\Assets\Kirai\Animation\Part\run no hand\Rig_Kirai-Run_NoWeapon_08.png">
+                                <image-point name="Hand_Pivot" x="0.50303" y="0.422642" />
+                                <collision-poly>
+                                    <point x="0.469673" y="0.292919" />
+                                    <point x="0.499222" y="0.224054" />
+                                    <point x="0.74339" y="0.160039" />
+                                    <point x="0.77916" y="0.499515" />
+                                    <point x="0.712286" y="0.820563" />
+                                    <point x="0.499222" y="0.958293" />
+                                    <point x="0.255054" y="0.840931" />
+                                    <point x="0.357698" y="0.499515" />
+                                </collision-poly>
                             </frame>
                         </animation>
                         <animation framecount="4" loop="0" name="Jump_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="864058167903119" speed="10">
-                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Jump_NoWeapon\Compressed\Rig_Kirai-Jump_1-min.png" />
-                            <frame duration="1" hotspotX="0.504" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Jump_NoWeapon\Compressed\Rig_Kirai-Jump_3-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Jump_NoWeapon\Compressed\Rig_Kirai-Jump_5-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Jump_NoWeapon\Compressed\Rig_Kirai-Jump_8-min.png" />
+                            <frame duration="1" hotspotX="0.621429" hotspotY="0.972727" original-source="Y:\Assets\Kirai\Animation\FullBody\jump\jump_00.png">
+                                <image-point name="Hand_Pivot" x="0.228571" y="0.509091" />
+                                <collision-poly>
+                                    <point x="0.733772" y="0.00452489" />
+                                    <point x="0.395212" y="0.00452489" />
+                                    <point x="0.992958" y="0.010697" />
+                                    <point x="0.992958" y="1" />
+                                    <point x="0.733772" y="1" />
+                                    <point x="0.361112" y="1" />
+                                    <point x="0.400083" y="0.010697" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.624" hotspotY="0.969811" original-source="Y:\Assets\Kirai\Animation\FullBody\jump\jump_04.png">
+                                <image-point name="Hand_Pivot" x="0.224" y="0.509434" />
+                                <collision-poly>
+                                    <point x="0.926693" y="0.0130259" />
+                                    <point x="0.740964" y="0.130199" />
+                                    <point x="0.508802" y="0.0345857" />
+                                    <point x="0.930731" y="0.291429" />
+                                    <point x="0.845941" y="0.704814" />
+                                    <point x="0.740964" y="0.988841" />
+                                    <point x="0.258471" y="0.880105" />
+                                    <point x="0.413918" y="0.291429" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.623077" hotspotY="0.970909" original-source="Y:\Assets\Kirai\Animation\FullBody\jump\jump_05.png">
+                                <image-point name="Hand_Pivot" x="0.223077" y="0.509091" />
+                                <collision-poly>
+                                    <point x="0.473099" y="0.180531" />
+                                    <point x="0.545455" y="0.0433664" />
+                                    <point x="0.945314" y="0.0211234" />
+                                    <point x="0.886287" y="0.576271" />
+                                    <point x="0.655892" y="0.990547" />
+                                    <point x="0.545455" y="0.950695" />
+                                    <point x="0.484524" y="0.96645" />
+                                    <point x="0.339812" y="0.576271" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.625806" hotspotY="0.97037" original-source="Y:\Assets\Kirai\Animation\FullBody\jump\jump_09.png">
+                                <image-point name="Hand_Pivot" x="0.225806" y="0.507407" />
+                                <collision-poly>
+                                    <point x="0.337853" y="0.31377" />
+                                    <point x="0.396135" y="0.323252" />
+                                    <point x="0.910958" y="0.0463717" />
+                                    <point x="0.833249" y="0.716763" />
+                                    <point x="0.396135" y="0.929164" />
+                                    <point x="0.700496" y="0.907355" />
+                                    <point x="0.420419" y="0.716763" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                         <animation framecount="4" loop="0" name="Jump_Weaponized" pingpong="0" repeatcount="1" repeatto="0" sid="862299834724829" speed="10">
-                            <frame duration="1" hotspotX="0.505618" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\jump no hand\Compressed\Rig_Kirai-Jump_02-min.png">
-                                <image-point name="Hand_Pivot" x="0.314607" y="0.416667" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\Kirai\Animation\Part\jump no hand\jumpnohand_00.png">
+                                <image-point name="Hand_Pivot" x="0.225" y="0.508333" />
+                                <collision-poly>
+                                    <point x="0.828002" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0.828002" y="1" />
+                                    <point x="0.359229" y="1" />
+                                    <point x="0.078884" y="0" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.504854" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\jump no hand\Compressed\Rig_Kirai-Jump_04-min.png">
-                                <image-point name="Hand_Pivot" x="0.398058" y="0.394161" />
+                            <frame duration="1" hotspotX="0.504762" hotspotY="1" original-source="Y:\Assets\Kirai\Animation\Part\jump no hand\jumpnohand_04.png">
+                                <image-point name="Hand_Pivot" x="0.228571" y="0.509091" />
+                                <collision-poly>
+                                    <point x="0.755" y="0.132075" />
+                                    <point x="0.3525" y="0.0132075" />
+                                    <point x="0.9225" y="0.290566" />
+                                    <point x="0.8" y="0.736792" />
+                                    <point x="0.755" y="0.814151" />
+                                    <point x="0.1975" y="0.931132" />
+                                    <point x="0.2825" y="0.290566" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.505495" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\jump no hand\Compressed\Rig_Kirai-Jump_06-min.png">
-                                <image-point name="Hand_Pivot" x="0.274725" y="0.39781" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\Kirai\Animation\Part\jump no hand\jumpnohand_06.png">
+                                <image-point name="Hand_Pivot" x="0.222222" y="0.509091" />
+                                <collision-poly>
+                                    <point x="0.348189" y="0.0290807" />
+                                    <point x="0.523677" y="0.133208" />
+                                    <point x="0.749304" y="0.619137" />
+                                    <point x="0.348189" y="0.969043" />
+                                    <point x="0.0362117" y="0.619137" />
+                                </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\Part\jump no hand\Compressed\Rig_Kirai-Jump_08-min.png">
-                                <image-point name="Hand_Pivot" x="0.285714" y="0.403704" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\Kirai\Animation\Part\jump no hand\jumpnohand_09.png">
+                                <image-point name="Hand_Pivot" x="0.23" y="0.509091" />
+                                <collision-poly>
+                                    <point x="0.203046" y="0.276027" />
+                                    <point x="0.22335" y="0.245463" />
+                                    <point x="0.591371" y="0.146132" />
+                                    <point x="0.84264" y="0.719198" />
+                                    <point x="0.22335" y="0.956065" />
+                                    <point x="0.195431" y="0.719198" />
+                                </collision-poly>
                             </frame>
                         </animation>
-                        <animation framecount="8" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="205454706467009" speed="6">
-                            <frame duration="1" hotspotX="0.594828" hotspotY="0.979592" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_01-min.png" />
-                            <frame duration="1" hotspotX="0.607692" hotspotY="0.979339" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_03-min.png" />
-                            <frame duration="1" hotspotX="0.511111" hotspotY="0.959839" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_05-min.png" />
-                            <frame duration="1" hotspotX="0.508621" hotspotY="0.92607" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_07-min.png" />
-                            <frame duration="1" hotspotX="0.871595" hotspotY="0.916667" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_09-min.png" />
-                            <frame duration="1" hotspotX="0.898039" hotspotY="0.792453" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Kirai\Animation\FullBody\Dead\Compresssed\dead_11-min.png" />
-                            <frame duration="1" hotspotX="0.909804" hotspotY="0.773585" />
-                            <frame duration="1" hotspotX="0.909804" hotspotY="0.764151" />
+                        <animation framecount="7" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="205454706467009" speed="6">
+                            <frame duration="1" hotspotX="0.572727" hotspotY="0.97166" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_00.png" />
+                            <frame duration="1" hotspotX="0.568" hotspotY="0.975207" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_03.png" />
+                            <frame duration="1" hotspotX="0.52" hotspotY="0.94" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_06.png" />
+                            <frame duration="1" hotspotX="0.619835" hotspotY="0.90625" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_08.png" />
+                            <frame duration="1" hotspotX="0.88716" hotspotY="0.780645" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_09.png" />
+                            <frame duration="1" hotspotX="0.921569" hotspotY="0.771429" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_11.png" />
+                            <frame duration="1" hotspotX="0.956" hotspotY="0.6125" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_13.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -1249,65 +1436,405 @@
                         </container>
                         <animation-folder>
                             <animation framecount="4" loop="0" name="Attack" pingpong="0" repeatcount="1" repeatto="0" sid="917872775454671" speed="12">
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_4.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.43" hotspotY="0.93" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\Mangap\mangap_05.png">
+                                    <image-point name="Spawner_Pivot" x="0.31" y="0.61" />
+                                    <collision-poly>
+                                        <point x="0.160926" y="0.152212" />
+                                        <point x="0.494297" y="0.133147" />
+                                        <point x="0.933371" y="0.0487164" />
+                                        <point x="0.911688" y="0.476317" />
+                                        <point x="0.84393" y="0.816763" />
+                                        <point x="0.494297" y="0.961112" />
+                                        <point x="0.11485" y="0.849446" />
+                                        <point x="0.022699" y="0.476317" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_5.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.46" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\Mangap\mangap_06.png">
+                                    <image-point name="Spawner_Pivot" x="0.33" y="0.63" />
+                                    <collision-poly>
+                                        <point x="0.181818" y="0.185676" />
+                                        <point x="0.498701" y="0.175066" />
+                                        <point x="0.911688" y="0.0901857" />
+                                        <point x="0.903896" y="0.498674" />
+                                        <point x="0.833766" y="0.830239" />
+                                        <point x="0.498701" y="0.970822" />
+                                        <point x="0.132468" y="0.864721" />
+                                        <point x="0.0415584" y="0.498674" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.46" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\Mangap\mangap_08.png">
+                                    <image-point name="Spawner_Pivot" x="0.33" y="0.63" />
+                                    <collision-poly>
+                                        <point x="0.179221" y="0.183024" />
+                                        <point x="0.498701" y="0.201592" />
+                                        <point x="0.898701" y="0.103448" />
+                                        <point x="0.914286" y="0.498674" />
+                                        <point x="0.831169" y="0.827586" />
+                                        <point x="0.498701" y="0.970822" />
+                                        <point x="0.124675" y="0.872679" />
+                                        <point x="0.0363636" y="0.498674" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_7.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.46" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\Mangap\mangap_10.png">
+                                    <image-point name="Spawner_Pivot" x="0.33" y="0.63" />
+                                    <collision-poly>
+                                        <point x="0.181818" y="0.185676" />
+                                        <point x="0.498701" y="0.220159" />
+                                        <point x="0.888312" y="0.114058" />
+                                        <point x="0.919481" y="0.498674" />
+                                        <point x="0.831169" y="0.827586" />
+                                        <point x="0.498701" y="0.970822" />
+                                        <point x="0.119481" y="0.877984" />
+                                        <point x="0.0363636" y="0.498674" />
+                                    </collision-poly>
                                 </frame>
                             </animation>
-                            <animation framecount="4" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="336554129350215" speed="4">
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_0.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                            <animation framecount="7" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="336554129350215" speed="4">
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\idle\idle_00.png">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.174263" y="0.186782" />
+                                        <point x="0.49866" y="0.206897" />
+                                        <point x="0.919571" y="0.0862069" />
+                                        <point x="0.9437" y="0.5" />
+                                        <point x="0.86059" y="0.850575" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.117962" y="0.873563" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_1.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.171582" y="0.183908" />
+                                        <point x="0.49866" y="0.198276" />
+                                        <point x="0.922252" y="0.0833333" />
+                                        <point x="0.938338" y="0.5" />
+                                        <point x="0.857909" y="0.847701" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.120643" y="0.87069" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_2.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\idle\idle_06.png">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.171582" y="0.183908" />
+                                        <point x="0.49866" y="0.186782" />
+                                        <point x="0.924933" y="0.0804598" />
+                                        <point x="0.932976" y="0.5" />
+                                        <point x="0.857909" y="0.847701" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.123324" y="0.867816" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.447917" hotspotY="0.93617" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\NPC\Enemy_1\Attack\mangap_7.png">
-                                    <image-point name="Spawner_Pivot" x="0.322917" y="0.617021" />
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\idle\idle_09.png">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.171582" y="0.183908" />
+                                        <point x="0.49866" y="0.183908" />
+                                        <point x="0.927614" y="0.0775862" />
+                                        <point x="0.930295" y="0.5" />
+                                        <point x="0.857909" y="0.847701" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.123324" y="0.867816" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.171582" y="0.183908" />
+                                        <point x="0.49866" y="0.186782" />
+                                        <point x="0.924933" y="0.0804598" />
+                                        <point x="0.932976" y="0.5" />
+                                        <point x="0.857909" y="0.847701" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.123324" y="0.867816" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\idle\idle_03.png">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.171582" y="0.183908" />
+                                        <point x="0.49866" y="0.198276" />
+                                        <point x="0.922252" y="0.0833333" />
+                                        <point x="0.938338" y="0.5" />
+                                        <point x="0.857909" y="0.847701" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.120643" y="0.87069" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.45" hotspotY="0.94">
+                                    <image-point name="Spawner_Pivot" x="0.32" y="0.62" />
+                                    <collision-poly>
+                                        <point x="0.174263" y="0.186782" />
+                                        <point x="0.49866" y="0.206897" />
+                                        <point x="0.919571" y="0.0862069" />
+                                        <point x="0.9437" y="0.5" />
+                                        <point x="0.86059" y="0.850575" />
+                                        <point x="0.49866" y="0.87931" />
+                                        <point x="0.117962" y="0.873563" />
+                                        <point x="0.0348525" y="0.5" />
+                                    </collision-poly>
                                 </frame>
                             </animation>
-                            <animation framecount="31" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="469659738450806" speed="10">
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_00.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_02.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_04.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_06.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_08.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_10.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.824074" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_12.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" original-source="Y:\Assets\NPC\Enemy_1\Die\dead_17.png" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
-                                <frame duration="1" hotspotX="0.3125" hotspotY="0.842593" />
+                            <animation framecount="21" loop="0" name="Die" pingpong="0" repeatcount="1" repeatto="0" sid="469659738450806" speed="10">
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_00.png">
+                                    <collision-poly>
+                                        <point x="0.139216" y="0.164733" />
+                                        <point x="0.5" y="0.157773" />
+                                        <point x="0.717647" y="0.334107" />
+                                        <point x="0.643137" y="0.49884" />
+                                        <point x="0.617647" y="0.547564" />
+                                        <point x="0.5" y="0.851508" />
+                                        <point x="0.139216" y="0.835267" />
+                                        <point x="0.0588235" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_03.png">
+                                    <collision-poly>
+                                        <point x="0.15098" y="0.178654" />
+                                        <point x="0.5" y="0.174014" />
+                                        <point x="0.741176" y="0.306264" />
+                                        <point x="0.686275" y="0.49884" />
+                                        <point x="0.617647" y="0.547564" />
+                                        <point x="0.5" y="0.851508" />
+                                        <point x="0.139216" y="0.835267" />
+                                        <point x="0.0568627" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_05.png">
+                                    <collision-poly>
+                                        <point x="0.15098" y="0.178654" />
+                                        <point x="0.5" y="0.183295" />
+                                        <point x="0.74902" y="0.296984" />
+                                        <point x="0.690196" y="0.49884" />
+                                        <point x="0.619608" y="0.549884" />
+                                        <point x="0.5" y="0.844548" />
+                                        <point x="0.139216" y="0.835267" />
+                                        <point x="0.054902" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_07.png">
+                                    <collision-poly>
+                                        <point x="0.15098" y="0.178654" />
+                                        <point x="0.5" y="0.183295" />
+                                        <point x="0.74902" y="0.296984" />
+                                        <point x="0.690196" y="0.49884" />
+                                        <point x="0.619608" y="0.549884" />
+                                        <point x="0.5" y="0.842227" />
+                                        <point x="0.139216" y="0.835267" />
+                                        <point x="0.054902" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_08.png">
+                                    <collision-poly>
+                                        <point x="0.15098" y="0.178654" />
+                                        <point x="0.5" y="0.183295" />
+                                        <point x="0.74902" y="0.296984" />
+                                        <point x="0.690196" y="0.49884" />
+                                        <point x="0.619608" y="0.549884" />
+                                        <point x="0.5" y="0.839907" />
+                                        <point x="0.139216" y="0.835267" />
+                                        <point x="0.054902" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_09.png">
+                                    <collision-poly>
+                                        <point x="0.227451" y="0.269142" />
+                                        <point x="0.5" y="0.0788863" />
+                                        <point x="0.803922" y="0.232019" />
+                                        <point x="0.84902" y="0.49884" />
+                                        <point x="0.823529" y="0.791183" />
+                                        <point x="0.5" y="0.821346" />
+                                        <point x="0.296078" y="0.649652" />
+                                        <point x="0.24902" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273" original-source="Y:\Assets\NPC\Enemy_1\enemy ijo up\dead\dead_14.png">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.315385" hotspotY="0.827273">
+                                    <collision-poly>
+                                        <point x="0.252941" y="0.299304" />
+                                        <point x="0.5" y="0.213457" />
+                                        <point x="0.778431" y="0.262181" />
+                                        <point x="0.852941" y="0.49884" />
+                                        <point x="0.780392" y="0.740139" />
+                                        <point x="0.5" y="0.87703" />
+                                        <point x="0.288235" y="0.658933" />
+                                        <point x="0.286275" y="0.49884" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>

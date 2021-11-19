@@ -1175,7 +1175,7 @@
                             <conditions>
                                 <condition id="3" name="Compare frame" sid="848767431688571" type="Dialogs_Akhir">
                                     <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">8</param>
+                                    <param id="1" name="Number">10</param>
                                 </condition>
                                 <condition id="-4" name="Trigger once while true" sid="213053535234702" type="System" />
                             </conditions>
