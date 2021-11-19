@@ -3036,11 +3036,11 @@
                         <x>2976</x>
                         <y>575</y>
                         <z>0</z>
-                        <width>337</width>
-                        <height>136</height>
+                        <width>558</width>
+                        <height>419</height>
                         <depth>0</depth>
-                        <hotspotX>0.501483679</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.564516127</hotspotX>
+                        <hotspotY>0.365155131</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

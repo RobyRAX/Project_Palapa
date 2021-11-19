@@ -360,8 +360,37 @@
                         </behavior-type>
                     </behaviors>
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338504584255504" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338504584255504" speed="5">
+                            <frame duration="1" hotspotX="0.506358" hotspotY="0.582979" original-source="E:\course KMMI 2D Animation\level 2 Borito\Pasar Terapung\kapal 1.png">
+                                <collision-poly>
+                                    <point x="0.318201" y="0.66383" />
+                                    <point x="0.687482" y="0.621277" />
+                                    <point x="1" y="0.433807" />
+                                    <point x="0.746199" y="1" />
+                                    <point x="0.271374" y="1" />
+                                    <point x="0" y="0.467849" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.501734" hotspotY="0.538462" original-source="E:\course KMMI 2D Animation\level 2 Borito\Pasar Terapung\kapal 2.png">
+                                <collision-poly>
+                                    <point x="0.275723" y="0.726721" />
+                                    <point x="0.673266" y="0.706984" />
+                                    <point x="0.981214" y="0.417004" />
+                                    <point x="0.760983" y="0.975708" />
+                                    <point x="0.224133" y="0.951417" />
+                                    <point x="0.00115607" y="0.417004" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.501734" hotspotY="0.538462" original-source="E:\course KMMI 2D Animation\level 2 Borito\Pasar Terapung\kapal 3.png">
+                                <collision-poly>
+                                    <point x="0.251012" y="0.729251" />
+                                    <point x="0.694075" y="0.763664" />
+                                    <point x="0.997399" y="0.425101" />
+                                    <point x="0.781792" y="0.975708" />
+                                    <point x="0.201012" y="0.968117" />
+                                    <point x="0.00346821" y="0.417004" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -723,12 +752,12 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213455026459763" speed="5">
-                        <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="Y:\Assets\2. Barito\Jembatan Kayu.png">
+                        <frame duration="1" hotspotX="0.564516" hotspotY="0.365155" original-source="E:\course KMMI 2D Animation\level 2 Borito\jembatan kayu.png">
                             <collision-poly>
-                                <point x="0.9273" y="0.382353" />
-                                <point x="0.925816" y="0.577206" />
-                                <point x="0" y="0.573529" />
-                                <point x="0" y="0.382353" />
+                                <point x="0.917563" y="0.184613" />
+                                <point x="0.921147" y="0.316299" />
+                                <point x="0" y="0.320301" />
+                                <point x="0" y="0.189387" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1450,7 +1479,7 @@
                                 </frame>
                             </animation>
                             <animation framecount="6" loop="0" name="Giving" pingpong="0" repeatcount="1" repeatto="0" sid="530298256260779" speed="5">
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_00-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_01.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -1458,7 +1487,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_04-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_04.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -1466,7 +1495,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_08-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_07.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -1474,7 +1503,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_12-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_11.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -1482,7 +1511,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_16-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_15.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -1490,7 +1519,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906667" original-source="Y:\Assets\NPC\Komandan\Give\Compressed\GIVING_20-min.png">
+                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_19.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -3077,6 +3106,73 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="air1" sid="585104155677563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624767815116809" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
+                        <collision-poly>
+                            <point x="0.0499168" y="0.328467" />
+                            <point x="0.5" y="0.211679" />
+                            <point x="0.984193" y="0.0291971" />
+                            <point x="0.999168" y="0.992701" />
+                            <point x="0.000831947" y="0.992701" />
+                            <point x="0.000831947" y="0.445255" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="water1" sid="159339537493425">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="388062540039742">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="115055172052256" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water1.png">
+                        <collision-poly>
+                            <point x="0.0522239" y="0.361789" />
+                            <point x="0.5" y="0.0772358" />
+                            <point x="0.963768" y="0.101626" />
+                            <point x="0.99975" y="0.256098" />
+                            <point x="0.99975" y="0.995935" />
+                            <point x="0.000249875" y="0.995935" />
+                            <point x="0.000249875" y="0.256098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="water2" sid="876314499189117">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="466546643417324">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236149296049936" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water2.png">
+                        <collision-poly>
+                            <point x="0.0522239" y="0.361789" />
+                            <point x="0.5" y="0.0772358" />
+                            <point x="0.963768" y="0.101626" />
+                            <point x="0.99975" y="0.256098" />
+                            <point x="0.99975" y="0.995935" />
+                            <point x="0.000249875" y="0.995935" />
+                            <point x="0.000249875" y="0.256098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bekgron" sid="424492184580586">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\course KMMI 2D Animation\level 4,5 samarinda\backgron.jpg" />
         </object-type>
     </object-folder>
     <families>
