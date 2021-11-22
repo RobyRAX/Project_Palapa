@@ -529,6 +529,10 @@
                             <param id="0" name="X">2</param>
                             <param id="1" name="Value">Arr_AllWeapons.At(1, 0)</param>
                         </action>
+                        <action id="0" name="Call function" sid="188018252110642" type="Function">
+                            <param id="0" name="Name">&quot;Switch_Weapon&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-9" name="Destroy" sid="305731523619544" type="Pistol_Sprite" />
                     </actions>
                 </event-block>
