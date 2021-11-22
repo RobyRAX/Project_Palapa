@@ -844,6 +844,27 @@
                             <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="215733168883673">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="782279048996405" type="Arr_Journals">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">ACQUIRED</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="126049797977042" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="337194515633912" type="Beruang1_BG">
+                                    <param id="0" name="Animation">&quot;Jump&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <comment>Open_KiraiDiary</comment>
                 <event-block sid="549149122739397">
@@ -1120,6 +1141,9 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="651222209360357" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action behavior="Platform" id="7" name="Simulate control" sid="142988321922117" type="Char_Trigger">
                                     <param id="0" name="Control">1</param>
                                 </action>
@@ -1146,6 +1170,9 @@
                                         <action id="5" name="Set frame" sid="480402867632122" type="Dialogs_Akhir">
                                             <param id="0" name="Frame number">self.AnimationFrame + 1</param>
                                         </action>
+                                        <action id="-15" name="Set visible" sid="512145245098013" type="Panel_Trans">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -1159,6 +1186,9 @@
                                 <condition id="-4" name="Trigger once while true" sid="872119549820229" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="518858204797752" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="4" name="Set animation" sid="922841363625272" type="Komandan_Sprite">
                                     <param id="0" name="Animation">&quot;Giving&quot;</param>
                                     <param id="1" name="From">1</param>
@@ -1168,6 +1198,9 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="682154297071986" type="Dialogs_Akhir">
                                     <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="965963836196490" type="Panel_Trans">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1180,6 +1213,9 @@
                                 <condition id="-4" name="Trigger once while true" sid="213053535234702" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="859840803432041" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="4" name="Set animation" sid="949160588179222" type="Komandan_Sprite">
                                     <param id="0" name="Animation">&quot;Died&quot;</param>
                                     <param id="1" name="From">1</param>
@@ -1189,6 +1225,23 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="880319595156916" type="Dialogs_Akhir">
                                     <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="171762034353932" type="Panel_Trans">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="255155521597769">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="675286853109183" type="Dialogs_Akhir">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">13</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="351676719091643" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="347402573526239" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
                         </event-block>

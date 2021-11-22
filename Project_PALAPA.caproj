@@ -99,27 +99,153 @@
                 <object-type name="Beruang1_BG" sid="161774748525390">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695810424737145" speed="5">
-                            <frame duration="1" hotspotX="0.538462" hotspotY="0.523077" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\1. Balikpapan\Compressed\beruang madu2-min.png">
+                        <animation framecount="7" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695810424737145" speed="10">
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_00.png">
                                 <collision-poly>
-                                    <point x="0.957692" y="0.9" />
-                                    <point x="3.11993e-007" y="0.9" />
-                                    <point x="0.188462" y="0.0333333" />
-                                    <point x="0.576922" y="0.0358974" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_03.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_06.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_09.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_12.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_15.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.588235" hotspotY="0.894323" original-source="E:\course KMMI 2D Animation\level 1 bear\melambai\melambai_18.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="149392912391360" speed="5">
                             <frame duration="1" hotspotX="0.538462" hotspotY="0.523077" original-source="Y:\Assets\1. Balikpapan\Compressed\beruang madu5-min.png">
                                 <collision-poly>
-                                    <point x="1" y="0.599596" />
                                     <point x="1" y="1" />
-                                    <point x="0.576461" y="1" />
                                     <point x="0" y="1" />
-                                    <point x="0" y="0.599596" />
-                                    <point x="0" y="0.137127" />
-                                    <point x="0.576461" y="0" />
-                                    <point x="1" y="0.223841" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="340685772702158" speed="10">
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_00.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_02.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_04.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_06.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_08.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_09.png">
+                                <collision-poly>
+                                    <point x="0.993217" y="0.5" />
+                                    <point x="0.5" y="0.51714" />
+                                    <point x="0.296512" y="0.5" />
+                                    <point x="0.5" y="0.275955" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_10.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_12.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_14.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_16.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -161,7 +287,18 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Start" pingpong="0" repeatcount="1" repeatto="0" sid="958574479131110" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 1-min.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 1.png">
+                                <collision-poly>
+                                    <point x="0.338021" y="0.600926" />
+                                    <point x="0.5" y="0.187037" />
+                                    <point x="0.661979" y="0.600926" />
+                                    <point x="0.575" y="0.5" />
+                                    <point x="0.590104" y="0.271296" />
+                                    <point x="0.5" y="0.97963" />
+                                    <point x="0.429688" y="0.236111" />
+                                    <point x="0.41875" y="0.5" />
+                                </collision-poly>
+                            </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
@@ -170,39 +307,26 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="14" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141544543899289" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 2-min.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 2.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 1-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 2.0-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 2.1-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 3-min.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog komandan 1.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog komandan 2.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog komandan 2.1.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 3.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.501031" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan3.png">
+                            <frame duration="1" hotspotX="0.500781" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan3.png">
                                 <collision-poly>
-                                    <point x="0.250915" y="0.00897666" />
-                                    <point x="0.741098" y="0.0149611" />
-                                    <point x="0.998336" y="0.452424" />
-                                    <point x="0.792679" y="0.983244" />
-                                    <point x="0.497504" y="0.997606" />
-                                    <point x="0.208319" y="0.97307" />
-                                    <point x="0.000332779" y="0.452424" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="0.998438" y="1" />
+                                    <point x="0" y="1" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.501031" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan pusaka kosong.png">
-                                <collision-poly>
-                                    <point x="0.148665" y="0" />
-                                    <point x="0.83008" y="0" />
-                                    <point x="1" y="0.138597" />
-                                    <point x="0.901784" y="1" />
-                                    <point x="0.491455" y="1" />
-                                    <point x="0.0894521" y="1" />
-                                    <point x="0" y="0.138597" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KOMANDAN 2.2-min.png" />
+                            <frame duration="1" hotspotX="0.500781" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\item didapatkan pusaka kosong.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog komandan 2.2.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 4-min.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\1. Balikpapan\Dialog\Compressed\DIALOG KIRAI 5-min.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 4.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 5.png" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
@@ -2006,7 +2130,7 @@
                                 </frame>
                             </animation>
                             <animation framecount="6" loop="0" name="Giving" pingpong="0" repeatcount="1" repeatto="0" sid="530298256260779" speed="5">
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_01.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_01.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -2014,7 +2138,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_04.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_04.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -2022,7 +2146,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_07.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_07.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -2030,7 +2154,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_11.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_11.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -2038,7 +2162,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_15.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_15.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
@@ -2046,7 +2170,7 @@
                                         <point x="0.351351" y="1" />
                                     </collision-poly>
                                 </frame>
-                                <frame duration="1" hotspotX="0.220721" hotspotY="0.906383" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_19.png">
+                                <frame duration="1" hotspotX="0.238739" hotspotY="0.842553" original-source="E:\course KMMI 2D Animation\npc komandan\New folder\GIVING SOMETHING\giving map\giving map_19.png">
                                     <collision-poly>
                                         <point x="0.351351" y="0" />
                                         <point x="1" y="0" />
