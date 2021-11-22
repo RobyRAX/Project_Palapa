@@ -105,12 +105,12 @@
                         <action id="3" name="Set at XY" sid="313733844650227" type="Arr_Journals">
                             <param id="0" name="X">3</param>
                             <param id="1" name="Y">3</param>
-                            <param id="2" name="Value">&quot;Lorem Ipsum&quot;</param>
+                            <param id="2" name="Value">&quot;Kabupaten Barito Kuala terletak paling barat dari Provinsi Kalimantan Selatan. Hampir semua kecamatan di Kabupaten Barito Kuala merupakan sentra produksi padi sawah. Produksi tanaman bahan makanan lainnya yaitu jagung, kedelai, kacang tanah, ubi kayu, dan ubi jalar. Wilayah hutan di Kabupaten ini tersebar diseluruh wilayah kecamatan, sebagian hutan ini merupakan kawasan lindung dengan fungsi khusus yaitu sebagai cagar alam, hutan wisata, hutan pantai berbakau dan hutan sempadan sungai.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="968665596701382" type="Arr_Journals">
                             <param id="0" name="X">3</param>
                             <param id="1" name="Y">4</param>
-                            <param id="2" name="Value">&quot;Lorem Ipsum&quot;</param>
+                            <param id="2" name="Value">&quot;Barito Kuala regency is located in the westernmost part of South Kalimantan Province. Almost all sub-districts in Barito Kuala Regency are centers of rice production. The production of other food crops is corn, soybeans, peanuts, yams, and sweet potatoes. The forest area in this regency is spread throughout the subdistrict, some of this forest is a protected area with special functions, namely as a nature reserve, tourist forest, filial beach forest and river border forest.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="565441559736651" type="Arr_Journals">
                             <param id="0" name="X">4</param>

@@ -2604,10 +2604,10 @@
                         <x>259.033813477</x>
                         <y>625.42578125</y>
                         <z>0</z>
-                        <width>75</width>
+                        <width>71.428573608</width>
                         <height>75</height>
                         <depth>0</depth>
-                        <hotspotX>0.504761934</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -2626,10 +2626,10 @@
                         <x>149.643417358</x>
                         <y>625.42578125</y>
                         <z>0</z>
-                        <width>75</width>
+                        <width>71.428573608</width>
                         <height>75</height>
                         <depth>0</depth>
-                        <hotspotX>0.504761934</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

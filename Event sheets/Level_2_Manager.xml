@@ -213,6 +213,10 @@
                                     <param id="0" name="Variable">enemyWave</param>
                                     <param id="1" name="Value">4</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="836536777943457" type="System">
+                                    <param id="0" name="Variable">stopCount</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="523617599520135">
@@ -316,6 +320,10 @@
                                                 <action id="-11" name="Subtract from" sid="106797487914299" type="System">
                                                     <param id="0" name="Variable">enemyWave</param>
                                                     <param id="1" name="Value">1</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="986884767206829" type="Raffles">
+                                                    <param id="0" name="Animation">&quot;Steady&quot;</param>
+                                                    <param id="1" name="From">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -687,7 +695,7 @@
                 <event-block sid="929725606527740">
                     <conditions>
                         <condition id="-9" name="Layer is visible" sid="248500652124442" type="System">
-                            <param id="0" name="Layer">&quot;KiraiDiairy_Level_2&quot;</param>
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
                         </condition>
                         <condition id="-4" name="Trigger once while true" sid="451179186481024" type="System" />
                     </conditions>
@@ -1206,6 +1214,38 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="557629292650567" title="Raffles">
+            <sub-events>
+                <event-block sid="473624684390663">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="986929825737729" type="System">
+                            <param id="0" name="Variable">stopCount</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="267036917781209" type="System">
+                            <param id="0" name="Variable">currentEnemy</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="757432236721347" type="System">
+                            <param id="0" name="Interval (seconds)">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="386163135659918" type="Raffles">
+                            <param id="0" name="Animation">&quot;Steady&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="958387629956929" type="Raffles">
+                            <param id="0" name="Object">Char_Bullet</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

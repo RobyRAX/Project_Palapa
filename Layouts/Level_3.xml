@@ -7413,10 +7413,10 @@
                         <x>288</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>105</width>
+                        <width>100</width>
                         <height>100</height>
                         <depth>0</depth>
-                        <hotspotX>0.504761934</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -7435,10 +7435,10 @@
                         <x>144</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>105</width>
+                        <width>100</width>
                         <height>100</height>
                         <depth>0</depth>
-                        <hotspotX>0.504761934</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

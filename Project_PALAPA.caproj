@@ -168,7 +168,7 @@
                             </frame>
                         </animation>
                         <animation framecount="10" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="340685772702158" speed="10">
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_00.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_00.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -176,7 +176,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_02.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_02.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -184,7 +184,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_04.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_04.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -192,7 +192,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_06.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_06.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -200,7 +200,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_08.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_08.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -208,7 +208,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_09.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_09.png">
                                 <collision-poly>
                                     <point x="0.993217" y="0.5" />
                                     <point x="0.5" y="0.51714" />
@@ -216,7 +216,7 @@
                                     <point x="0.5" y="0.275955" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_10.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_10.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -224,7 +224,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_12.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_12.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -232,7 +232,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_14.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_14.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -240,7 +240,7 @@
                                     <point x="1" y="0" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.598969" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_16.png">
+                            <frame duration="1" hotspotX="0.59898" hotspotY="0.963" original-source="E:\course KMMI 2D Animation\level 1 bear\lompat\skeleton-hilang_16.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -391,17 +391,16 @@
                             <frame duration="1" hotspotX="0.469072" hotspotY="0.333333" original-source="Y:\Assets\BG &amp; Ground\Compressed\pohon-min.png">
                                 <collision-poly>
                                     <point x="0" y="0" />
-                                    <point x="0.474548" y="0" />
                                     <point x="1" y="0" />
-                                    <point x="1" y="0.334249" />
-                                    <point x="1" y="0.719133" />
-                                    <point x="0.474548" y="1" />
-                                    <point x="0" y="0.686377" />
-                                    <point x="0" y="0.334249" />
+                                    <point x="0" y="1" />
                                 </collision-poly>
                             </frame>
                         </animation>
                     </animation-folder>
+                </object-type>
+                <object-type name="TiledBackground3" sid="935298766256626">
+                    <plugin id="TiledBg" />
+                    <texture original-source="E:\course KMMI 2D Animation\Level 1 Balikpapan\background2.jpg" />
                 </object-type>
             </object-folder>
             <object-folder name="1.2">
@@ -450,13 +449,10 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916688285667192" speed="5">
                             <frame duration="1" hotspotX="0.4974" hotspotY="0.473684" original-source="Y:\Assets\2. Barito\welkam.png">
                                 <collision-poly>
-                                    <point x="0.0433276" y="0.181579" />
-                                    <point x="0.4974" y="0.0394737" />
-                                    <point x="0.970537" y="0.152632" />
-                                    <point x="0.92721" y="0.728947" />
-                                    <point x="0.4974" y="0.728947" />
-                                    <point x="0.0814558" y="0.707895" />
-                                    <point x="0.00693241" y="0.473684" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="0.868284" y="1" />
+                                    <point x="0.180243" y="1" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -540,6 +536,10 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="bekgron" sid="424492184580586">
+                    <plugin id="TiledBg" />
+                    <texture original-source="E:\course KMMI 2D Animation\level 4,5 samarinda\backgron.jpg" />
+                </object-type>
             </object-folder>
             <object-folder name="2.3">
                 <object-type name="Dialog_Octo" sid="802668989735540">
@@ -551,6 +551,44 @@
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="2.5">
+                <object-type name="BreathBar" sid="635218433799593">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Pin" sid="974410269541483">
+                            <behavior id="Pin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="886580968393078" speed="5">
+                            <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Gelembung" sid="514512023024717">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="471125957370863" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.202381" y="0.202381" />
+                                    <point x="0.5" y="0.0833333" />
+                                    <point x="0.781746" y="0.218254" />
+                                    <point x="0.869048" y="0.5" />
+                                    <point x="0.75" y="0.75" />
+                                    <point x="0.5" y="0.861111" />
+                                    <point x="0.230159" y="0.769841" />
+                                    <point x="0.0952381" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="TiledBackground2" sid="902796162885532">
+                    <plugin id="TiledBg" />
+                    <texture original-source="Y:\Assets\Referensi\ezgif.com-gif-maker(1).jpg" />
                 </object-type>
             </object-folder>
             <object-type name="BG_Sky" sid="512137527964066">
@@ -569,6 +607,141 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\BG &amp; Ground\Compressed\pohon-min.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="air1" sid="585104155677563">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624767815116809" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
+                            <collision-poly>
+                                <point x="0.0499168" y="0.328467" />
+                                <point x="0.5" y="0.211679" />
+                                <point x="0.984193" y="0.0291971" />
+                                <point x="0.999168" y="0.992701" />
+                                <point x="0.000831947" y="0.992701" />
+                                <point x="0.000831947" y="0.445255" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="air2" sid="709697707504112">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="839807705836043">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694974942359695" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.432836" original-source="E:\course KMMI 2D Animation\level 2 Borito\air 1.png">
+                            <collision-poly>
+                                <point x="0.0653409" y="0.0373134" />
+                                <point x="0.5" y="0.0970149" />
+                                <point x="0.821023" y="0.335821" />
+                                <point x="0.997159" y="0.432836" />
+                                <point x="0.997159" y="0.992537" />
+                                <point x="0.00284091" y="0.992537" />
+                                <point x="0.00284091" y="0.432836" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="airdua" sid="718115464281270">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="594662435153270">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366103132304729" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.475862" original-source="E:\course KMMI 2D Animation\level 2 Borito\airdua.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.999168" y="0.993103" />
+                                <point x="0.000831947" y="0.993103" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="airsatu" sid="176807887625139">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="210492798774527">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707649902980961" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="0.999168" y="0.992701" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Dialog_OctoAkhir" sid="770370376133481">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296284820013135" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="water1" sid="159339537493425">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="388062540039742">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="115055172052256" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water1.png">
+                            <collision-poly>
+                                <point x="0.0522239" y="0.361789" />
+                                <point x="0.5" y="0.0772358" />
+                                <point x="0.963768" y="0.101626" />
+                                <point x="0.99975" y="0.256098" />
+                                <point x="0.99975" y="0.995935" />
+                                <point x="0.000249875" y="0.995935" />
+                                <point x="0.000249875" y="0.256098" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="water2" sid="876314499189117">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="466546643417324">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236149296049936" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water2.png">
+                            <collision-poly>
+                                <point x="0.0522239" y="0.361789" />
+                                <point x="0.5" y="0.0772358" />
+                                <point x="0.963768" y="0.101626" />
+                                <point x="0.99975" y="0.256098" />
+                                <point x="0.99975" y="0.995935" />
+                                <point x="0.000249875" y="0.995935" />
+                                <point x="0.000249875" y="0.256098" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -593,7 +766,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114035427910373" speed="5">
-                        <frame duration="1" hotspotX="0.504762" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Left.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Left.png">
                             <collision-poly>
                                 <point x="1" y="1" />
                                 <point x="0" y="1" />
@@ -608,7 +781,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823129401555917" speed="5">
-                        <frame duration="1" hotspotX="0.504762" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Right.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Right.png">
                             <collision-poly>
                                 <point x="0.14433" y="0.176471" />
                                 <point x="0.474227" y="0.0117647" />
@@ -728,6 +901,52 @@
                                 <point x="1" y="1" />
                                 <point x="0" y="1" />
                                 <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Ref_UI" sid="880542653785914">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="747458684411719" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Referensi\WhatsApp Image 2021-11-12 at 2.27.40 PM.jpeg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="INDIKATORGO" sid="670407569275880">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Flash" sid="368330301205808">
+                        <behavior id="Flash" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187209284042583" speed="2">
+                        <frame duration="1" hotspotX="0.475689" hotspotY="0.606365" original-source="Y:\Assets\UI &amp; Button\INDIKATOR GO 2.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.998379" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500838" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pistol_Didapatkan" sid="934460744926671">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832376046885614" speed="5">
+                        <frame duration="1" hotspotX="0.498" hotspotY="0.452695" original-source="Y:\Assets\UI &amp; Button\item didapatkan1.png">
+                            <collision-poly>
+                                <point x="0.250915" y="0.00897666" />
+                                <point x="0.741098" y="0.0149611" />
+                                <point x="0.998336" y="0.452424" />
+                                <point x="0.792679" y="0.983244" />
+                                <point x="0.497504" y="0.997606" />
+                                <point x="0.208319" y="0.97307" />
+                                <point x="0.000332779" y="0.452424" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -2186,20 +2405,33 @@
                     <object-type name="Raffles" sid="271497827635158">
                         <plugin id="Sprite" />
                         <animation-folder>
-                            <animation framecount="13" loop="1" name="Steady" pingpong="0" repeatcount="1" repeatto="0" sid="249089162658965" speed="12">
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_05.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_06.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_07.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_08.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_09.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_10.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_11.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_12.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_13.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_14.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_15.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_16.png" />
-                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_17.png" />
+                            <animation framecount="6" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="765846885370128" speed="5">
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_00.png" />
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_03.png" />
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_06.png" />
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_09.png" />
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_12.png" />
+                                <frame duration="1" hotspotX="0.742188" hotspotY="0.5" original-source="Y:\Assets\NPC\Raffles\Nafas\nafas_15.png" />
+                            </animation>
+                            <animation framecount="6" loop="0" name="Steady" pingpong="0" repeatcount="1" repeatto="0" sid="249089162658965" speed="15">
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_09.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_10.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_11.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_12.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_13.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
+                                <frame duration="1" hotspotX="0.505556" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\raffles\nembak\Rig_Kirai-nembak_14.png">
+                                    <image-point name="BulletSpawner" x="0.827778" y="0.4" />
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -2491,6 +2723,83 @@
                     </object-type>
                 </object-folder>
             </object-folder>
+            <object-folder name="Enemy3" />
+            <object-folder name="Octo">
+                <object-type name="Octo" sid="146640915056389">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Platform" sid="578436236319913">
+                            <behavior id="Platform" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222562183571680" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Octo_2" sid="807144950909017">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Platform" sid="855984772245519">
+                            <behavior id="Platform" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="924098478169639" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Octo_BulletSpawner" sid="670320684046705">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Pin" sid="426827321837015">
+                            <behavior id="Pin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716708967889499" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Target_Octo" sid="549048069360237">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274768846645033" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.520548">
+                                <collision-poly>
+                                    <point x="0.246575" y="0.246575" />
+                                    <point x="0.5" y="0.123288" />
+                                    <point x="0.753425" y="0.246575" />
+                                    <point x="0.863014" y="0.5" />
+                                    <point x="0.753425" y="0.753425" />
+                                    <point x="0.5" y="0.869863" />
+                                    <point x="0.246575" y="0.753425" />
+                                    <point x="0.130137" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="OctoBoss" sid="293634295263065">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="8Direction" sid="430759487262812">
+                            <behavior id="EightDir" />
+                        </behavior-type>
+                        <behavior-type name="Timer" sid="320747579780534">
+                            <behavior id="Timer" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609343239003192" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type name="BulletSplash_Enemy1" sid="984497761886907">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -2562,6 +2871,22 @@
                                 <point x="0.210653" y="0.449468" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy3" sid="298161902990540">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="HP" sid="183533563659069" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="128838634996552">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217035098133253" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3332,10 +3657,14 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736924509360649" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Pause\main menu.png">
                             <collision-poly>
-                                <point x="0.528345" y="0" />
-                                <point x="1" y="0.651557" />
-                                <point x="0.528345" y="1" />
-                                <point x="0" y="0.651557" />
+                                <point x="0.15" y="0.15" />
+                                <point x="0.5" y="0.005" />
+                                <point x="0.855" y="0.145" />
+                                <point x="0.995" y="0.5" />
+                                <point x="0.855" y="0.855" />
+                                <point x="0.5" y="0.995" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.005" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -3517,35 +3846,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Enemy3" sid="298161902990540">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="HP" sid="183533563659069" type="number" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="Platform" sid="128838634996552">
-                    <behavior id="Platform" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217035098133253" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Octo" sid="146640915056389">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform" sid="578436236319913">
-                    <behavior id="Platform" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222562183571680" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite3" sid="881058785485618">
             <plugin id="Sprite" />
             <animation-folder>
@@ -3553,277 +3853,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Octo_2" sid="807144950909017">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Platform" sid="855984772245519">
-                    <behavior id="Platform" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="924098478169639" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Dialog_OctoAkhir" sid="770370376133481">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296284820013135" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TiledBackground2" sid="902796162885532">
-            <plugin id="TiledBg" />
-            <texture original-source="Y:\Assets\Referensi\ezgif.com-gif-maker(1).jpg" />
-        </object-type>
-        <object-type name="BreathBar" sid="635218433799593">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="974410269541483">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="886580968393078" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Gelembung" sid="514512023024717">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="471125957370863" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.202381" y="0.202381" />
-                            <point x="0.5" y="0.0833333" />
-                            <point x="0.781746" y="0.218254" />
-                            <point x="0.869048" y="0.5" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.861111" />
-                            <point x="0.230159" y="0.769841" />
-                            <point x="0.0952381" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="OctoBoss" sid="293634295263065">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="8Direction" sid="430759487262812">
-                    <behavior id="EightDir" />
-                </behavior-type>
-                <behavior-type name="Timer" sid="320747579780534">
-                    <behavior id="Timer" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609343239003192" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Target_Octo" sid="549048069360237">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274768846645033" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.520548">
-                        <collision-poly>
-                            <point x="0.246575" y="0.246575" />
-                            <point x="0.5" y="0.123288" />
-                            <point x="0.753425" y="0.246575" />
-                            <point x="0.863014" y="0.5" />
-                            <point x="0.753425" y="0.753425" />
-                            <point x="0.5" y="0.869863" />
-                            <point x="0.246575" y="0.753425" />
-                            <point x="0.130137" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Octo_BulletSpawner" sid="670320684046705">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="426827321837015">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716708967889499" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Ref_UI" sid="880542653785914">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="747458684411719" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Referensi\WhatsApp Image 2021-11-12 at 2.27.40 PM.jpeg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TiledBackground3" sid="935298766256626">
-            <plugin id="TiledBg" />
-            <texture original-source="E:\course KMMI 2D Animation\Level 1 Balikpapan\background2.jpg" />
-        </object-type>
-        <object-type name="air2" sid="709697707504112">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="839807705836043">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694974942359695" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.432836" original-source="E:\course KMMI 2D Animation\level 2 Borito\air 1.png">
-                        <collision-poly>
-                            <point x="0.0653409" y="0.0373134" />
-                            <point x="0.5" y="0.0970149" />
-                            <point x="0.821023" y="0.335821" />
-                            <point x="0.997159" y="0.432836" />
-                            <point x="0.997159" y="0.992537" />
-                            <point x="0.00284091" y="0.992537" />
-                            <point x="0.00284091" y="0.432836" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="airsatu" sid="176807887625139">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="210492798774527">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707649902980961" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
-                        <collision-poly>
-                            <point x="0.0499168" y="0.328467" />
-                            <point x="0.5" y="0.211679" />
-                            <point x="0.984193" y="0.0291971" />
-                            <point x="0.999168" y="0.992701" />
-                            <point x="0.000831947" y="0.992701" />
-                            <point x="0.000831947" y="0.445255" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="airdua" sid="718115464281270">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="594662435153270">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366103132304729" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.475862" original-source="E:\course KMMI 2D Animation\level 2 Borito\airdua.png">
-                        <collision-poly>
-                            <point x="0.0108153" y="0.0413793" />
-                            <point x="0.5" y="0.4" />
-                            <point x="0.980865" y="0.110345" />
-                            <point x="0.999168" y="0.993103" />
-                            <point x="0.000831947" y="0.993103" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Pistol_Didapatkan" sid="934460744926671">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832376046885614" speed="5">
-                    <frame duration="1" hotspotX="0.498" hotspotY="0.452695" original-source="Y:\Assets\UI &amp; Button\item didapatkan1.png">
-                        <collision-poly>
-                            <point x="0.250915" y="0.00897666" />
-                            <point x="0.741098" y="0.0149611" />
-                            <point x="0.998336" y="0.452424" />
-                            <point x="0.792679" y="0.983244" />
-                            <point x="0.497504" y="0.997606" />
-                            <point x="0.208319" y="0.97307" />
-                            <point x="0.000332779" y="0.452424" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="air1" sid="585104155677563">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624767815116809" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.445255" original-source="E:\course KMMI 2D Animation\level 2 Borito\airsatu.png">
-                        <collision-poly>
-                            <point x="0.0499168" y="0.328467" />
-                            <point x="0.5" y="0.211679" />
-                            <point x="0.984193" y="0.0291971" />
-                            <point x="0.999168" y="0.992701" />
-                            <point x="0.000831947" y="0.992701" />
-                            <point x="0.000831947" y="0.445255" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="water1" sid="159339537493425">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="388062540039742">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="115055172052256" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water1.png">
-                        <collision-poly>
-                            <point x="0.0522239" y="0.361789" />
-                            <point x="0.5" y="0.0772358" />
-                            <point x="0.963768" y="0.101626" />
-                            <point x="0.99975" y="0.256098" />
-                            <point x="0.99975" y="0.995935" />
-                            <point x="0.000249875" y="0.995935" />
-                            <point x="0.000249875" y="0.256098" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="water2" sid="876314499189117">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Sine" sid="466546643417324">
-                    <behavior id="Sin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236149296049936" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.256098" original-source="E:\course KMMI 2D Animation\ground\water2.png">
-                        <collision-poly>
-                            <point x="0.0522239" y="0.361789" />
-                            <point x="0.5" y="0.0772358" />
-                            <point x="0.963768" y="0.101626" />
-                            <point x="0.99975" y="0.256098" />
-                            <point x="0.99975" y="0.995935" />
-                            <point x="0.000249875" y="0.995935" />
-                            <point x="0.000249875" y="0.256098" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="bekgron" sid="424492184580586">
-            <plugin id="TiledBg" />
-            <texture original-source="E:\course KMMI 2D Animation\level 4,5 samarinda\backgron.jpg" />
         </object-type>
     </object-folder>
     <families>

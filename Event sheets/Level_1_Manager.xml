@@ -189,7 +189,7 @@
                             <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action id="-16" name="Wait" sid="752816882616782" type="System">
-                            <param id="0" name="Seconds">2</param>
+                            <param id="0" name="Seconds">1.25</param>
                         </action>
                         <action id="-9" name="Set value" sid="599621754811116" type="System">
                             <param id="0" name="Variable">cutScene</param>
@@ -872,7 +872,7 @@
                         <condition id="17" name="On tap object" sid="845023165187511" type="Touch">
                             <param id="0" name="Object">Notif_Item</param>
                         </condition>
-                        <condition disabled="1" id="-14" name="Pick by unique ID" sid="461212532862572" type="Notif_Item">
+                        <condition id="-14" name="Pick by unique ID" sid="461212532862572" type="Notif_Item">
                             <param id="0" name="Unique ID">143</param>
                         </condition>
                         <condition id="-9" inverted="1" name="Layer is visible" sid="196872944454021" type="System">
