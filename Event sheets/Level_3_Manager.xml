@@ -249,8 +249,8 @@
                                 <action id="-3" name="Create object" sid="415868638837674" type="System">
                                     <param id="0" name="Object to create">Enemy2_Trigger</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
-                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + WindowWidth / 2</param>
-                                    <param id="3" name="Y">-300</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + ((ViewportRight(&quot;Game&quot;) - ViewportLeft(&quot;Game&quot;)) / 2) </param>
+                                    <param id="3" name="Y">0</param>
                                 </action>
                                 <action id="-2" name="Set Y" sid="546554632861152" type="StopTrigger_11">
                                     <param id="0" name="Y">-2000</param>

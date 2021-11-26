@@ -352,24 +352,13 @@
                     </properties>
                     <instance-variables>
                         <isAlive>1</isAlive>
-                        <health>60</health>
+                        <health>100</health>
                         <isShoot>0</isShoot>
-                        <patrol>0</patrol>
+                        <state>0</state>
+                        <LR>0</LR>
+                        <subState>0</subState>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>9</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>550</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>No</immovable>
@@ -384,6 +373,7 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Timer" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

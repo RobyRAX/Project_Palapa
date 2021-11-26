@@ -2623,14 +2623,16 @@
                             <instance-variable name="isAlive" sid="747691872049930" type="number" />
                             <instance-variable name="health" sid="542361578914649" type="number" />
                             <instance-variable name="isShoot" sid="681584288199576" type="number" />
-                            <instance-variable name="patrol" sid="346950309333765" type="number" />
+                            <instance-variable name="state" sid="346950309333765" type="number" />
+                            <instance-variable name="LR" sid="416102820240017" type="number" />
+                            <instance-variable name="subState" sid="558164470294455" type="number" />
                         </instance-variables>
                         <behaviors>
-                            <behavior-type name="Sine" sid="963114162813182">
-                                <behavior id="Sin" />
-                            </behavior-type>
                             <behavior-type name="Physics" sid="723608784475819">
                                 <behavior id="Physics" />
+                            </behavior-type>
+                            <behavior-type name="Timer" sid="893706451935049">
+                                <behavior id="Timer" />
                             </behavior-type>
                         </behaviors>
                         <animation-folder>
@@ -4024,7 +4026,6 @@
         <family name="HitterEnemies" plugin-id="Sprite" sid="287767314611675">
             <members>
                 <member>Boss_Pesut</member>
-                <member>Enemy2_Trigger</member>
                 <member>Enemy3</member>
                 <member>OctoBoss</member>
             </members>
