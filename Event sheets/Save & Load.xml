@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Save &amp; Load</name>
+    <events>
+        <event-block sid="189651147206840">
+            <conditions>
+                <condition id="0" name="On function" sid="614390214655881" type="Function">
+                    <param id="0" name="Name">&quot;Save_All&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="897403240077462" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Journals&quot;</param>
+                    <param id="1" name="Value">Arr_Journals.AsJSON</param>
+                </action>
+                <action id="0" name="Set item" sid="695277352322041" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Levels&quot;</param>
+                    <param id="1" name="Value">Arr_LevelScore.AsJSON</param>
+                </action>
+                <action id="0" name="Set item" sid="895705269152919" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Weapons&quot;</param>
+                    <param id="1" name="Value">Arr_AllWeapons.AsJSON</param>
+                </action>
+                <action id="0" name="Set item" sid="804727504467955" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_BroughtWeapons&quot;</param>
+                    <param id="1" name="Value">Arr_BroughtWeapons.AsJSON</param>
+                </action>
+                <action id="0" name="Set item" sid="299858243267552" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
+                    <param id="1" name="Value">Arr_Pusaka.AsJSON</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

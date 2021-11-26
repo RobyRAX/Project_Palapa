@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">Level_10</layout>
+        <layout order="6">Level_7</layout>
+        <layout order="7">Level_4</layout>
+        <layout order="11">MainMenu</layout>
+        <layout order="22">KiraiDiary</layout>
+        <layout order="23">Level_1</layout>
+        <layout active="1" order="27">Level_3</layout>
+        <layout order="30">Level_5</layout>
+        <layout order="32">Level_6</layout>
+        <layout order="36">Level_8</layout>
+        <layout order="37">LevelSelect</layout>
+        <layout order="39">Instantiates</layout>
+        <layout order="40">Level_9</layout>
+        <layout order="41">Level_2</layout>
+        <event-sheet order="0">PesutBoss_AI</event-sheet>
+        <event-sheet order="2">Level_7_Manager</event-sheet>
+        <event-sheet order="3">Char_UnderSea_Sheet</event-sheet>
+        <event-sheet order="4">OctoBoss_AI</event-sheet>
+        <event-sheet order="5">Level_10_Manager</event-sheet>
+        <event-sheet order="8">Journals_Sheet</event-sheet>
+        <event-sheet order="9">Char_Sheet</event-sheet>
+        <event-sheet order="10">Perahu_AI</event-sheet>
+        <event-sheet order="12">Enemy2_AI</event-sheet>
+        <event-sheet order="13">Buaya_AI</event-sheet>
+        <event-sheet order="14">Enemy1_AI</event-sheet>
+        <event-sheet order="15">Weapons_Sheet</event-sheet>
+        <event-sheet order="16">KiraiDiary_Sheet</event-sheet>
+        <event-sheet order="17">Pusaka_Sheet</event-sheet>
+        <event-sheet order="18">Level_3_Manager</event-sheet>
+        <event-sheet order="19">MainMenu_Sheet</event-sheet>
+        <event-sheet order="20">Level_1_Manager</event-sheet>
+        <event-sheet order="21">Save &amp; Load</event-sheet>
+        <event-sheet order="24">Level_6_Manager</event-sheet>
+        <event-sheet order="25">Game_Status</event-sheet>
+        <event-sheet order="26">Level_2_Manager</event-sheet>
+        <event-sheet order="28">Level_5_Manager</event-sheet>
+        <event-sheet order="29">LevelSelect_Sheet</event-sheet>
+        <event-sheet order="31">LevelScoring_Sheet</event-sheet>
+        <event-sheet order="33">Enemy3_AI</event-sheet>
+        <event-sheet order="34">Level_4_Manager</event-sheet>
+        <event-sheet order="35">Instantiates_Sheet</event-sheet>
+        <event-sheet order="38">Level_8_Manager</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="Enemies_Trigger" />
+        <family expanded="0" name="Grounds" />
+        <family expanded="0" name="Enemies_Bullet" />
+        <family expanded="1" name="HitterEnemies" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/1.1/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/1.2/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/1.3/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/1.4/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/2.3/" />
+        <folder expanded="1" path="object-folder/BG &amp; Items/2.5/" />
+        <folder expanded="1" path="object-folder/UI/" />
+        <folder expanded="0" path="object-folder/Ground/" />
+        <folder expanded="0" path="object-folder/Characters/" />
+        <folder expanded="0" path="object-folder/Characters/MC - Kirai/" />
+        <folder expanded="1" path="object-folder/Characters/NPC/" />
+        <folder expanded="1" path="object-folder/Characters/NPC/Enemy_1/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Komandan/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Raffles/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Buaya/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Enemy_2/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Pesut/" />
+        <folder expanded="0" path="object-folder/Characters/NPC/Monyet/" />
+        <folder expanded="1" path="object-folder/Characters/Enemy3/" />
+        <folder expanded="1" path="object-folder/Characters/Octo/" />
+        <folder expanded="0" path="object-folder/Weapons/" />
+        <folder expanded="0" path="object-folder/Input/" />
+        <folder expanded="0" path="object-folder/Trigger/" />
+        <folder expanded="0" path="object-folder/Kirai&apos;s_Diary/" />
+        <folder expanded="0" path="object-folder/Save&amp;Load/" />
+        <folder expanded="0" path="object-folder/MainMenu/" />
+        <folder expanded="0" path="object-folder/&apos;BoutLevels/" />
+        <folder expanded="0" path="object-folder/Pause/" />
+        <folder expanded="0" path="object-folder/Pusaka/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/KebunRaya_BG/" />
+        <folder expanded="1" path="animation-folder/Beruang1_BG/" />
+        <folder expanded="1" path="animation-folder/KantungSemar_BG/" />
+        <folder expanded="1" path="animation-folder/Dialogs_Awal/" />
+        <folder expanded="1" path="animation-folder/Dialogs_Akhir/" />
+        <folder expanded="1" path="animation-folder/Beruang2_BG/" />
+        <folder expanded="1" path="animation-folder/BG_BalikpapanBeriman/" />
+        <folder expanded="1" path="animation-folder/BG_City/" />
+        <folder expanded="1" path="animation-folder/SandaranKomandan/" />
+        <folder expanded="1" path="animation-folder/Dialogs_Awal_2/" />
+        <folder expanded="1" path="animation-folder/Dialogs_Raffles/" />
+        <folder expanded="1" path="animation-folder/Dialogs_AwalRaffles/" />
+        <folder expanded="1" path="animation-folder/welkom_BG_2/" />
+        <folder expanded="1" path="animation-folder/BG_WelkomTanjungPuting/" />
+        <folder expanded="1" path="animation-folder/Background_3/" />
+        <folder expanded="1" path="animation-folder/BG_Samarinda/" />
+        <folder expanded="1" path="animation-folder/Perahu/" />
+        <folder expanded="1" path="animation-folder/Dialog_Octo/" />
+        <folder expanded="1" path="animation-folder/BreathBar/" />
+        <folder expanded="1" path="animation-folder/Gelembung/" />
+        <folder expanded="1" path="animation-folder/BG_Sky/" />
+        <folder expanded="1" path="animation-folder/BG_Pohon/" />
+        <folder expanded="1" path="animation-folder/Dialog_OctoAkhir/" />
+        <folder expanded="1" path="animation-folder/Button_Jump/" />
+        <folder expanded="1" path="animation-folder/Button_L/" />
+        <folder expanded="1" path="animation-folder/Button_R/" />
+        <folder expanded="1" path="animation-folder/Joystick_Handle/" />
+        <folder expanded="1" path="animation-folder/Joystick_Outline/" />
+        <folder expanded="1" path="animation-folder/Button_SwitchWeapon/" />
+        <folder expanded="1" path="animation-folder/Joystick_Boundaries/" />
+        <folder expanded="1" path="animation-folder/Close_Button/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Panel_Trans/" />
+        <folder expanded="1" path="animation-folder/Button_Down/" />
+        <folder expanded="1" path="animation-folder/Ref_UI/" />
+        <folder expanded="1" path="animation-folder/INDIKATORGO/" />
+        <folder expanded="1" path="animation-folder/Pistol_Didapatkan/" />
+        <folder expanded="1" path="animation-folder/Ground_Bot/" />
+        <folder expanded="1" path="animation-folder/Ground_Bot_Back/" />
+        <folder expanded="1" path="animation-folder/Ground_Corner_Left/" />
+        <folder expanded="1" path="animation-folder/Ground_Corner_Right/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_Back/" />
+        <folder expanded="1" path="animation-folder/BG_Air2/" />
+        <folder expanded="1" path="animation-folder/Ground_Jembatan/" />
+        <folder expanded="1" path="animation-folder/Ground_Jembatan2/" />
+        <folder expanded="1" path="animation-folder/Ground_Jembatan3/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Corner_Left_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Corner_Right_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Bot_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Bot_Back_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_Back_2/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_3/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_2_3/" />
+        <folder expanded="1" path="animation-folder/Ground_Mid_4/" />
+        <folder expanded="1" path="animation-folder/Kirai_Body/" />
+        <folder expanded="1" path="animation-folder/Kirai_TanganKanan/" />
+        <folder expanded="1" path="animation-folder/Kirai_TanganKiri/" />
+        <folder expanded="1" path="animation-folder/Gun/" />
+        <folder expanded="1" path="animation-folder/Char_Trigger/" />
+        <folder expanded="1" path="animation-folder/Char_BulletSpawner/" />
+        <folder expanded="1" path="animation-folder/Enemy1_Trigger/" />
+        <folder expanded="1" path="animation-folder/Enemy1_Sprite/" />
+        <folder expanded="1" path="animation-folder/Enemy1_BulletSpawner/" />
+        <folder expanded="1" path="animation-folder/Enemy1_Bullet/" />
+        <folder expanded="1" path="animation-folder/Komandan_Sprite/" />
+        <folder expanded="1" path="animation-folder/Raffles/" />
+        <folder expanded="1" path="animation-folder/Buaya/" />
+        <folder expanded="1" path="animation-folder/Enemy2_Bomb/" />
+        <folder expanded="1" path="animation-folder/Enemy2_Trigger/" />
+        <folder expanded="1" path="animation-folder/Boss_Pesut/" />
+        <folder expanded="1" path="animation-folder/BossPesut_BulletSpawner/" />
+        <folder expanded="1" path="animation-folder/Monyet/" />
+        <folder expanded="1" path="animation-folder/Octo/" />
+        <folder expanded="1" path="animation-folder/Octo_2/" />
+        <folder expanded="1" path="animation-folder/Octo_BulletSpawner/" />
+        <folder expanded="1" path="animation-folder/Target_Octo/" />
+        <folder expanded="1" path="animation-folder/OctoBoss/" />
+        <folder expanded="1" path="animation-folder/BulletSplash_Enemy1/" />
+        <folder expanded="1" path="animation-folder/Muzzle_Enemy1/" />
+        <folder expanded="1" path="animation-folder/Octo_Bullet/" />
+        <folder expanded="1" path="animation-folder/Enemy3/" />
+        <folder expanded="1" path="animation-folder/Pistol_Sprite/" />
+        <folder expanded="1" path="animation-folder/Char_Bullet/" />
+        <folder expanded="1" path="animation-folder/BulletSplash/" />
+        <folder expanded="1" path="animation-folder/Muzzle_Sprite/" />
+        <folder expanded="1" path="animation-folder/Slot_1/" />
+        <folder expanded="1" path="animation-folder/Slot_2/" />
+        <folder expanded="1" path="animation-folder/Bullet_BossPesut/" />
+        <folder expanded="1" path="animation-folder/Bound/" />
+        <folder expanded="1" path="animation-folder/Bound_2/" />
+        <folder expanded="1" path="animation-folder/CamStart_Trigger/" />
+        <folder expanded="1" path="animation-folder/Fall_Trigger/" />
+        <folder expanded="1" path="animation-folder/FinishTrigger/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_1/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_2/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_3/" />
+        <folder expanded="1" path="animation-folder/ScrollTo_Target/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_4/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_5/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_6/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_7/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_8/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_10/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_11/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_12/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_13/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_14/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_15/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_1/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_2/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_16/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_3/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_4/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_5/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_6/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_7/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_9/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_10/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_11/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_12/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_17/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_18/" />
+        <folder expanded="1" path="animation-folder/CameraUnlocker/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_13/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_14/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_19/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_20/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_15/" />
+        <folder expanded="1" path="animation-folder/SpawnTrigger_16/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_21/" />
+        <folder expanded="1" path="animation-folder/StopTrigger_22/" />
+        <folder expanded="1" path="animation-folder/BG_KiraiDiary/" />
+        <folder expanded="1" path="animation-folder/BG_2/" />
+        <folder expanded="1" path="animation-folder/Notif_Item/" />
+        <folder expanded="1" path="animation-folder/Journal_Button/" />
+        <folder expanded="1" path="animation-folder/Previous_Button/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Button/" />
+        <folder expanded="1" path="animation-folder/Weapons_Button/" />
+        <folder expanded="1" path="animation-folder/Next_Button/" />
+        <folder expanded="1" path="animation-folder/Play_Button/" />
+        <folder expanded="1" path="animation-folder/Quit_Button/" />
+        <folder expanded="1" path="animation-folder/Bintang_Sprite/" />
+        <folder expanded="1" path="animation-folder/Pause_Panel/" />
+        <folder expanded="1" path="animation-folder/Pause_Button/" />
+        <folder expanded="1" path="animation-folder/Resume_Button/" />
+        <folder expanded="1" path="animation-folder/QuitMenu_Button/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Wadah/" />
+        <folder expanded="1" path="animation-folder/Pusaka_AsamJawa/" />
+        <folder expanded="1" path="animation-folder/Pusaka_BuahPala/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Cengkeh/" />
+        <folder expanded="1" path="animation-folder/Pusaka_DaunSalam/" />
+        <folder expanded="1" path="animation-folder/Pusaka_BungaLawang/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Jahe/" />
+        <folder expanded="1" path="animation-folder/Pusaka_KayuManis/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Kemiri/" />
+        <folder expanded="1" path="animation-folder/Pusaka_Lada/" />
+        <folder expanded="1" path="animation-folder/YYY/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+    </folders-expanded>
+</c2uistate>

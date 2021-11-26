@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Instantiates_Sheet</name>
+    <events>
+        <include>Enemy1_AI</include>
+        <include>Enemy2_AI</include>
+        <include>Enemy3_AI</include>
+        <event-block sid="975849333083001">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="829249974066824" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="717454403743398" type="Enemy2_Trigger">
+                    <param id="0" name="Gravity">20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="851420221964293">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="486008528614667" type="System" />
+            </conditions>
+            <actions>
+                <action id="-22" name="Set angle toward position" sid="666432754521592" type="Sprite2">
+                    <param id="0" name="X">mouse.X</param>
+                    <param id="1" name="Y">Mouse.y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="889970815281172">
+            <conditions>
+                <condition id="0" name="On click" sid="535147178861663" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="523583620646072" type="Sprite2">
+                    <param id="0" name="Object">Bullet_BossPesut</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="707604088847270">
+            <conditions>
+                <condition id="-18" name="On created" sid="469037639411374" type="Bullet_BossPesut" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="2" name="Apply force at angle" sid="718340512338188" type="Bullet_BossPesut">
+                    <param id="0" name="Force">400</param>
+                    <param id="1" name="Angle">Sprite2.Angle</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

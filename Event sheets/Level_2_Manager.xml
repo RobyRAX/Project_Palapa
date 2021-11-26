@@ -1,0 +1,1475 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level_2_Manager</name>
+    <events>
+        <include>Game_Status</include>
+        <include>Save &amp; Load</include>
+        <include>LevelScoring_Sheet</include>
+        <include>Weapons_Sheet</include>
+        <include>Enemy1_AI</include>
+        <include>Char_Sheet</include>
+        <event-group description="" sid="511895404789620" title="Start_Layout_2">
+            <sub-events>
+                <event-block sid="786405636167887">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="523346805562013" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="774007417149192" type="System">
+                            <param id="0" name="Variable">camPosition_Value</param>
+                            <param id="1" name="Value">ScrollTo_Target.X</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="392624329092229" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="410804591735584" type="System">
+                            <param id="0" name="Variable">usedWeapon</param>
+                            <param id="1" name="Value">Arr_BroughtWeapons.At(1)</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="634566426521044" type="StopTrigger_4">
+                            <param id="0" name="Y">360</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="938578513617285" type="StopTrigger_5">
+                            <param id="0" name="Y">360</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="314442581219982" type="StopTrigger_6">
+                            <param id="0" name="Y">360</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="223913230910790" type="StopTrigger_7">
+                            <param id="0" name="Y">360</param>
+                        </action>
+                        <action id="0" name="Call function" sid="489896644928679" type="Function">
+                            <param id="0" name="Name">&quot;Set_StarLimit&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}1500{###}3000</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="548786083558436" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="498320912012336">
+                            <conditions>
+                                <condition id="-11" name="For Each" sid="691079978657227" type="System">
+                                    <param id="0" name="Object">BG_Pohon</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="473280593718278" type="BG_Pohon">
+                                    <param id="0" name="Frame number">int(random(0, self.AnimationFrameCount-1))</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="175776069208641" title="Dialog_Awal_2">
+            <sub-events>
+                <event-block sid="489206214714110">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="585998247643371" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="506920388768713">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="781251616880337" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="542025580709663" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="524893670605300">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="450883317834856" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="654552896019304">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="132007278341951" type="Touch">
+                                            <param id="0" name="Object">Dialogs_Awal_2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="444013088416581" type="Dialogs_Awal_2">
+                                            <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="444226151534819">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="792643331209865" type="Dialogs_Awal_2">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="953321504726994" type="System">
+                                            <param id="0" name="Variable">cutScene</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="404260393152682" type="Dialogs_Awal_2" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="274288639672801">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="297880920823741" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="816654073381503" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="964398315567520" type="System">
+                                    <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="777034331281370" title="Stop_2">
+            <sub-events>
+                <event-group description="" sid="142951367934777" title="Stop1_">
+                    <sub-events>
+                        <event-block sid="376921515305820">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="880741354438518" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="759391109201566" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="354346245730579" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) +150</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="653470098801417" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 600</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="864125210857232" type="ScrollTo_Target">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="639845185999660" type="StopTrigger_4">
+                                    <param id="0" name="Y">-2000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="274322105300174" title="Stop2_">
+                    <sub-events>
+                        <event-block sid="869646507636740">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="369165963229665" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="593378599627820" type="StopTrigger_5">
+                                    <param id="0" name="Y">-2000</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="386361293334553" type="System">
+                                    <param id="0" name="Seconds">0.25</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="916184776755018" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="878878641701130" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="836536777943457" type="System">
+                                    <param id="0" name="Variable">stopCount</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="523617599520135">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="465811519898231" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="222208582006304" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_AwalRaffles&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-group description="" sid="853083996352259" title="Dialog_AwalRaffles">
+                                    <sub-events>
+                                        <event-block sid="269065872117815">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="365440009629274" type="Touch">
+                                                    <param id="0" name="Object">Dialogs_AwalRaffles</param>
+                                                </condition>
+                                                <condition id="-9" name="Layer is visible" sid="792353423628973" type="System">
+                                                    <param id="0" name="Layer">&quot;Dialog_AwalRaffles&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="814933029346348" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="120764437414635">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="519764663122118" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-15" name="Set visible" sid="489334114874332" type="Panel_Trans">
+                                                    <param id="0" name="Visibility">0</param>
+                                                </action>
+                                                <action id="-3" name="Set position" sid="820845912958899" type="ScrollTo_Target">
+                                                    <param id="0" name="X">lerp(Self.X, 2175, 0.05)</param>
+                                                    <param id="1" name="Y">lerp(Self.Y, 360, 0.05)</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="540377775996025" type="System">
+                                                    <param id="0" name="Seconds">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="695961885474735" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="851380034189702">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="811998097788133" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">3</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="154388896065776" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-4" name="Set layer visible" sid="792660751852511" type="System">
+                                                    <param id="0" name="Layer">&quot;Dialog_AwalRaffles&quot;</param>
+                                                    <param id="1" name="Visibility">0</param>
+                                                </action>
+                                                <action id="-3" name="Create object" sid="990241944800978" type="System">
+                                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
+                                                    <param id="3" name="Y">-300</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="708156283206474" type="System">
+                                                    <param id="0" name="Seconds">1</param>
+                                                </action>
+                                                <action id="5" name="Set frame" sid="386497405457839" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="148799188232733">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="677587288722596" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">Dialogs_AwalRaffles.AnimationFrameCount - 1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Destroy" sid="874201545383413" type="Dialogs_AwalRaffles" />
+                                                <action id="-9" name="Set value" sid="930340159199147" type="System">
+                                                    <param id="0" name="Variable">cutScene</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-11" name="Subtract from" sid="106797487914299" type="System">
+                                                    <param id="0" name="Variable">enemyWave</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-group>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="658856571739946">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="501065031807370" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="400898625607658" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="857904228656788" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="673029862256823" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 400</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="268509677624507" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Value">Enemy1_Trigger.Count </param>
+                                </action>
+                                <action id="4" name="Set animation" sid="986884767206829" type="Raffles">
+                                    <param id="0" name="Animation">&quot;Steady&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="605148396475081">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="710572837971304" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="275607128663726" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="534449351758681" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="697220989399014" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="786663964494251">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="376834189080116" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="807208012543808" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="371926753792290" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 450</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="246663612315347" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - random(200, 300)</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="447107831897393" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Value">Enemy1_Trigger.Count </param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="735641286485850">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="501767837242427" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="335072688313587" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="468038384859572" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="836319673996019">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="630055242396654" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="891924985409294" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="100207002083529" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="167992044451280" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) -  550</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="292047653900299" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) -  random(100, 400)</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="681911727554421" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Value">Enemy1_Trigger.Count </param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="691118388908870">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="216909496558209" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="461524055738738" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="417718272064277" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="272800476597379" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="507657564537434" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="179427237892912" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="948534899234568">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="786346986486651" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="440568848255710" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="472429771277538" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-group description="" sid="669888477432800" title="Dialog_Raffles">
+                                    <sub-events>
+                                        <event-block sid="474227485598101">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="812595611814491" type="System">
+                                                    <param id="0" name="Variable">cutScene</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-22" name="Set angle toward position" sid="657966972426529" type="Gun">
+                                                    <param id="0" name="X">Raffles.x</param>
+                                                    <param id="1" name="Y">Raffles.Y</param>
+                                                </action>
+                                            </actions>
+                                            <sub-events>
+                                                <event-block sid="438717499133086">
+                                                    <conditions>
+                                                        <condition id="-8" name="Compare two values" sid="468071007455228" type="System">
+                                                            <param id="0" name="First value">Char_Trigger.x</param>
+                                                            <param id="1" name="Comparison">2</param>
+                                                            <param id="2" name="Second value">Raffles.X + 75</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="102114887723452" type="Char_Trigger">
+                                                            <param id="0" name="Control">1</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="195351197610519" type="System">
+                                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="203132791601755">
+                                                    <conditions>
+                                                        <condition id="-8" name="Compare two values" sid="721235516580163" type="System">
+                                                            <param id="0" name="First value">Char_Trigger.x</param>
+                                                            <param id="1" name="Comparison">4</param>
+                                                            <param id="2" name="Second value">Raffles.X + 100</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="745683365219199" type="Char_Trigger">
+                                                            <param id="0" name="Control">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="117468465673744" type="System">
+                                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                    </actions>
+                                                    <sub-events>
+                                                        <event-block sid="158407833918625">
+                                                            <conditions>
+                                                                <condition id="-6" name="Every X seconds" sid="190016091116028" type="System">
+                                                                    <param id="0" name="Interval (seconds)">1</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action behavior="Platform" id="7" name="Simulate control" sid="103371459765514" type="Char_Trigger">
+                                                                    <param id="0" name="Control">2</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
+                                                </event-block>
+                                                <event-block sid="855203444892426">
+                                                    <conditions>
+                                                        <condition id="-2" name="Compare Y" sid="648726647131978" type="Char_Trigger">
+                                                            <param id="0" name="Comparison">2</param>
+                                                            <param id="1" name="Y co-ordinate">260</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action behavior="Platform" id="7" name="Simulate control" sid="216359287250446" type="Char_Trigger">
+                                                            <param id="0" name="Control">2</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="790226395922499">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="543090123004905" type="System">
+                                                    <param id="0" name="First value">distance(Char_Trigger.X, Char_Trigger.Y, Raffles.X, Raffles.Y)</param>
+                                                    <param id="1" name="Comparison">3</param>
+                                                    <param id="2" name="Second value">100</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-16" name="Wait" sid="137720404699050" type="System">
+                                                    <param id="0" name="Seconds">1.5</param>
+                                                </action>
+                                                <action id="-4" name="Set layer visible" sid="995782512308360" type="System">
+                                                    <param id="0" name="Layer">&quot;Dialog_Raffles&quot;</param>
+                                                    <param id="1" name="Visibility">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <comment>Dialogue Raffles + Kirai</comment>
+                                        <event-block sid="778336451778972">
+                                            <conditions>
+                                                <condition id="-9" name="Layer is visible" sid="539349727066754" type="System">
+                                                    <param id="0" name="Layer">&quot;Dialog_Raffles&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="399562023480488">
+                                                    <conditions>
+                                                        <condition id="17" name="On tap object" sid="376317289138171" type="Touch">
+                                                            <param id="0" name="Object">Dialogs_Raffles</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="5" name="Set frame" sid="421330922930199" type="Dialogs_Raffles">
+                                                            <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="572455057222456">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="832189177977860" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">0</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-15" name="Set visible" sid="155528949100552" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">1</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="333637842905068" type="Raffles">
+                                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="136326943418265">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="295499024219638" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">5</param>
+                                                        </condition>
+                                                        <condition id="-4" name="Trigger once while true" sid="753658119672536" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-15" name="Set visible" sid="416986238507004" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="225433938468199" type="Raffles">
+                                                            <param id="0" name="Animation">&quot;GiveDYK&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="254421614615288" type="System">
+                                                            <param id="0" name="Seconds">1.25</param>
+                                                        </action>
+                                                        <action id="5" name="Set frame" sid="863956482230717" type="Dialogs_Raffles">
+                                                            <param id="0" name="Frame number">6</param>
+                                                        </action>
+                                                        <action id="-15" name="Set visible" sid="548545140923841" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="552112416904455">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="307699441285189" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">6</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="4" name="Set animation" sid="779284235821276" type="Raffles">
+                                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="425459281843399">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="646110720521949" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">11</param>
+                                                        </condition>
+                                                        <condition id="-4" name="Trigger once while true" sid="982857135357040" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-15" name="Set visible" sid="512285274509353" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="192608977832926" type="Raffles">
+                                                            <param id="0" name="Animation">&quot;GiveTracker&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="654794661085504" type="System">
+                                                            <param id="0" name="Seconds">1.25</param>
+                                                        </action>
+                                                        <action id="5" name="Set frame" sid="684405167962307" type="Dialogs_Raffles">
+                                                            <param id="0" name="Frame number">12</param>
+                                                        </action>
+                                                        <action id="-15" name="Set visible" sid="659084186230837" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="163254675509750">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="760471095068529" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">12</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="4" name="Set animation" sid="144219347650528" type="Raffles">
+                                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="230138233265401">
+                                                    <conditions>
+                                                        <condition id="3" name="Compare frame" sid="415255312424542" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-15" name="Set visible" sid="123648567446200" type="Panel_Trans">
+                                                            <param id="0" name="Visibility">0</param>
+                                                        </action>
+                                                        <action id="-11" name="Subtract from" sid="323603283490573" type="System">
+                                                            <param id="0" name="Variable">enemyWave</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="338773785951859" type="System">
+                                                            <param id="0" name="Variable">stopCount</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="0" name="Call function" sid="286837896434982" type="Function">
+                                                            <param id="0" name="Name">&quot;Pick_DYK-21&quot;</param>
+                                                            <param id="1" name="Parameter {n}"></param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="161053036501190" type="System">
+                                                            <param id="0" name="Variable">cutScene</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                        <action id="-4" name="Set layer visible" sid="497318001246321" type="System">
+                                                            <param id="0" name="Layer">&quot;Dialog_Raffles&quot;</param>
+                                                            <param id="1" name="Visibility">0</param>
+                                                        </action>
+                                                        <action id="-9" name="Destroy" sid="909774506622440" type="Dialogs_Raffles" />
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-group>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="132548360520577" title="Stop3_">
+                    <sub-events>
+                        <event-block sid="505881348843811">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="868429008047271" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="902092143759574" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="718517075222135" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 150</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="692111211810929" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 400</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="744759081847186" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="767640858925093" type="ScrollTo_Target">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="265083262528940" type="StopTrigger_6">
+                                    <param id="0" name="Y">-2000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="411142860337851" title="Stop4_">
+                    <sub-events>
+                        <event-block sid="749317779690495">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="516114551439711" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="982843817398235" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="678084417771552" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 150</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="464700554416016" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 400</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="537115784425910" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 100</param>
+                                    <param id="3" name="Y">-300</param>
+                                </action>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="205342694564863" type="ScrollTo_Target">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="425883653518757" type="StopTrigger_7">
+                                    <param id="0" name="Y">-2000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="256686936008275">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="928402212644316" type="System">
+                            <param id="0" name="Variable">stopTime</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="393890264393650" type="System">
+                            <param id="0" name="Variable">currentEnemy</param>
+                            <param id="1" name="Value">Enemy1_Trigger.Count </param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Lanjut</comment>
+                        <event-block sid="188398854589683">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="614173678469091" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="881087476861085" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="524826503754102" type="System">
+                                    <param id="0" name="Object to create">CamStart_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 400</param>
+                                    <param id="3" name="Y">WindowHeight / 2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Resume</comment>
+                <event-block sid="921591292710708">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="275557931039162" type="Char_Trigger">
+                            <param id="0" name="Object">CamStart_Trigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="319238372751623" type="System">
+                            <param id="0" name="Variable">stopTime</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="265399198060100" type="CamStart_Trigger" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="151643009163842" title="PopUp_KiraiDiary_2">
+            <sub-events>
+                <event-block sid="929725606527740">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="248500652124442" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="451179186481024" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="187895522687914" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="315228475816954" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="190073752320227">
+                    <conditions>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="358186630502002" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="347597703104106" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="471882529433607" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="920014614962167" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="608827306440385" title="Notif_2">
+                    <sub-events>
+                        <comment>Notif_PulauKembang</comment>
+                        <event-block sid="683915533391219">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="159443355776567" type="Notif_Item">
+                                    <param id="0" name="Unique ID">803</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="118906075855626" type="welkom_BG_2">
+                                    <param id="0" name="Unique ID">749</param>
+                                </condition>
+                                <condition id="1" name="Is overlapping another object" sid="254769310548397" type="Char_Trigger">
+                                    <param id="0" name="Object">welkom_BG_2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="524033792684053" type="Notif_Item">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="959787703290912">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="594499787993046" type="Notif_Item">
+                                    <param id="0" name="Unique ID">803</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="359538485064139" type="welkom_BG_2">
+                                    <param id="0" name="Unique ID">749</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="918726636976402" type="Char_Trigger">
+                                    <param id="0" name="Object">welkom_BG_2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="720919455197942" type="Notif_Item">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="344770841679704">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="462161617210448" type="Touch">
+                                    <param id="0" name="Object">Notif_Item</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="810228249458838" type="Notif_Item">
+                                    <param id="0" name="Unique ID">803</param>
+                                </condition>
+                                <condition id="-9" name="Is visible" sid="431414409265983" type="Notif_Item" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="874917163217172" type="System">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="768312022000088" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="3" name="Set at XY" sid="202212546024881" type="Arr_Journals">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">ACQUIRED</param>
+                                </action>
+                                <action id="0" name="Set text" sid="193542224597451" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(3, 2)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="383479772466566" type="Desc_Indo">
+                                    <param id="0" name="Text">Arr_Journals.At(3, 3)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="619036871352618" type="Desc_Eng">
+                                    <param id="0" name="Text">Arr_Journals.At(3, 4)</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="912440026722006" type="Notif_Item" />
+                            </actions>
+                        </event-block>
+                        <comment>Notif_Monyet</comment>
+                        <event-block sid="581272341461052">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="547564957136704" type="Notif_Item">
+                                    <param id="0" name="Unique ID">804</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="783821266105413" type="Monyet">
+                                    <param id="0" name="Unique ID">748</param>
+                                </condition>
+                                <condition id="1" name="Is overlapping another object" sid="306544151939388" type="Char_Trigger">
+                                    <param id="0" name="Object">Monyet</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="304100379194127" type="Notif_Item">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="897932807017534">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="128902899663102" type="Notif_Item">
+                                    <param id="0" name="Unique ID">804</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="240753057082986" type="Monyet">
+                                    <param id="0" name="Unique ID">748</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="238646364011849" type="Char_Trigger">
+                                    <param id="0" name="Object">Monyet</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="840393531626367" type="Notif_Item">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="766404439462596">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="643932702335967" type="Touch">
+                                    <param id="0" name="Object">Notif_Item</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="998936621533519" type="Notif_Item">
+                                    <param id="0" name="Unique ID">804</param>
+                                </condition>
+                                <condition id="-9" name="Is visible" sid="623179261582111" type="Notif_Item" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="839512266250194" type="System">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="178326169384002" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="3" name="Set at XY" sid="844918084923296" type="Arr_Journals">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">ACQUIRED</param>
+                                </action>
+                                <action id="0" name="Set text" sid="489191094763796" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(4, 2)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="496355983507584" type="Desc_Indo">
+                                    <param id="0" name="Text">Arr_Journals.At(4, 3)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="333627288038255" type="Desc_Eng">
+                                    <param id="0" name="Text">Arr_Journals.At(4, 4)</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="386830367998747" type="Notif_Item" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="297191715171472" title="Cek_2">
+                    <sub-events>
+                        <comment>Cek Item Kebun Raya</comment>
+                        <event-block sid="195920150542300">
+                            <conditions>
+                                <condition id="-16" name="Is on layer" sid="284055171940625" type="welkom_BG_2">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="835621900473063" type="welkom_BG_2">
+                                    <param id="0" name="Unique ID">807</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="159096653558959">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="824087864853194" type="Arr_Journals">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="303547035009582" type="welkom_BG_2">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="516143543749246">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="905543409413840" type="Touch">
+                                                    <param id="0" name="Object">welkom_BG_2</param>
+                                                </condition>
+                                                <condition id="-14" name="Pick by unique ID" sid="901951654129067" type="welkom_BG_2">
+                                                    <param id="0" name="Unique ID">807</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="962346609747958" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="410616905149188" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="480853712847639" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="610639266450117">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="649663781453629" type="Arr_Journals">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="259224929131830" type="welkom_BG_2">
+                                            <param id="0" name="Unique ID">807</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="639902239431800" type="welkom_BG_2">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Cek Item Monyet</comment>
+                        <event-block sid="898612213878478">
+                            <conditions>
+                                <condition id="-16" name="Is on layer" sid="334517666274454" type="Monyet">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="931743622118063" type="Monyet">
+                                    <param id="0" name="Unique ID">808</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="789223241911060">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="274113106658617" type="Arr_Journals">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="459742321033836" type="Monyet">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="746718518450473" type="Monyet">
+                                            <param id="0" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="195002379246364">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="746752661002695" type="Touch">
+                                                    <param id="0" name="Object">Monyet</param>
+                                                </condition>
+                                                <condition id="-14" name="Pick by unique ID" sid="728212103893245" type="Monyet">
+                                                    <param id="0" name="Unique ID">808</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="226560567660268" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="972900017994836" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="171959948847079" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="729027297697211">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="487984054062068" type="Arr_Journals">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="710676202725023" type="Monyet">
+                                            <param id="0" name="Unique ID">808</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="356564736455508" type="Monyet">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <comment>Close_KiraiDiary</comment>
+                <event-block sid="388062559871527">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="517987156729918" type="Touch">
+                            <param id="0" name="Object">Close_Button</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="304000460339816" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="269591660760724" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Open_KiraiDiary</comment>
+                <event-block sid="582796420904453">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="448619943261324" type="Touch">
+                            <param id="0" name="Object">Notif_Item</param>
+                        </condition>
+                        <condition disabled="1" id="-14" name="Pick by unique ID" sid="666495871802237" type="Notif_Item">
+                            <param id="0" name="Unique ID">802</param>
+                        </condition>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="453480432882268" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="219300991708030" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="337439598887945" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_2&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="199374219729782" type="Nama_Item">
+                            <param id="0" name="Text">&quot;Collect All Items to Get More Rewards&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="973418315430052" type="Desc_Indo">
+                            <param id="0" name="Text">&quot; &quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="720079530772063" type="Desc_Eng">
+                            <param id="0" name="Text">&quot; &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="550422944204023" title="Finish_2">
+            <sub-events>
+                <comment>Finished</comment>
+                <event-block sid="247146838719928">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="754828922982107" type="Char_Trigger">
+                            <param id="0" name="Object">FinishTrigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="629911781613705" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="699432661876036" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="756580757255269" type="FinishTrigger" />
+                    </actions>
+                </event-block>
+                <event-block sid="322678610368580">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="443335227666880" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="298324440734951" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="993328839291764" type="System">
+                            <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Unlock_NextLevel</comment>
+                        <event-block sid="541458450616172">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="403661417033461" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">1</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="3" name="Set at XY" sid="527845028778603" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Value">star</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="311167854684092" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">COMPLETE</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="978708565966603" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel + 1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">UNLOCK</param>
+                                </action>
+                                <action id="0" name="Call function" sid="725164935057324" type="Function">
+                                    <param id="0" name="Name">&quot;Complete_Level&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-group description="" sid="900343141229553" title="Show_Star_2">
+                            <sub-events>
+                                <event-block sid="683918773683443">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="689473635864119" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="919227513660710" type="Function">
+                                            <param id="0" name="Name">&quot;Star_1&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="276428957506811">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="660504094801271" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="333346548212214" type="Function">
+                                            <param id="0" name="Name">&quot;Star_2&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="517144630628164">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="583453393312854" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="937607562475007" type="Function">
+                                            <param id="0" name="Name">&quot;Star_3&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-block sid="819144422948067">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="199470756585516" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="810865563252323" type="Function">
+                                    <param id="0" name="Name">&quot;Save_All&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="557629292650567" title="Raffles">
+            <sub-events>
+                <event-block sid="473624684390663">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="986929825737729" type="System">
+                            <param id="0" name="Variable">stopCount</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="267036917781209" type="System">
+                            <param id="0" name="Variable">currentEnemy</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="757432236721347" type="System">
+                            <param id="0" name="Interval (seconds)">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="386163135659918" type="Raffles">
+                            <param id="0" name="Animation">&quot;Steady&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="958387629956929" type="Raffles">
+                            <param id="0" name="Object">Char_Bullet</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

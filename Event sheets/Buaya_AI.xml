@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Buaya_AI</name>
+    <events>
+        <event-group description="" disabled="1" sid="613871552362922" title="BackUp">
+            <sub-events>
+                <event-block disabled="1" sid="985040352152899">
+                    <conditions>
+                        <condition id="0" name="On function" sid="196587155117594" type="Function">
+                            <param id="0" name="Name">&quot;Stepped&quot;</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="185097153493635" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="571852123885646" type="Buaya">
+                            <param id="0" name="Unique ID">Function.Param(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="238305785070953" type="Buaya">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="864492857265729" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="731792272139481" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="411406376160154">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="295169376609133" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="546302976649126" type="Buaya">
+                            <param id="0" name="Y">lerp(self.Y, LayoutHeight + 100, 0.1)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block disabled="1" sid="204745359105077">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="258170327673888" type="Buaya">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="440543912642681" type="System">
+                                    <param id="0" name="Seconds">0.25</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="822215981534051" type="Buaya">
+                                    <param id="0" name="Instance variable">down</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block disabled="1" sid="202062816088712">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="425646648156911" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="452664016848678" type="Buaya">
+                            <param id="0" name="Y">lerp(self.Y, Buaya.yPos, 0.1)</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="356039166933853" type="Buaya">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="164478405747206">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="651374044629064" type="Buaya" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="719109341159596" type="Buaya">
+                            <param id="0" name="Instance variable">yPos</param>
+                            <param id="1" name="Value">self.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="126229816155090" title="NaikTurun">
+            <sub-events>
+                <event-block sid="357978489326990">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="598435645501577" type="Buaya" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="764558722168079" type="Buaya">
+                            <param id="0" name="Instance variable">yPos</param>
+                            <param id="1" name="Value">self.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="492531411904259">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="727093808655593" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="221082434180550" type="Buaya">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="853660456845105" type="Buaya">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="803643973698003">
+                    <conditions>
+                        <condition id="0" name="On function" sid="787246301614639" type="Function">
+                            <param id="0" name="Name">&quot;Stepped&quot;</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="474161778106400" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="251510281790823" type="Buaya">
+                            <param id="0" name="Unique ID">Function.Param(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="415032265437223" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="660511656378596" type="Buaya">
+                            <param id="0" name="Animation">&quot;Blink&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="980279131251169">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="486196653218176" type="Buaya">
+                            <param id="0" name="Unique ID">354</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="199256736126297" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="161694895583902" type="Buaya">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="258886435397694" type="Buaya">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="334839871748057" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="235048954480658" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="140794751952136">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="473550606015036" type="Buaya">
+                            <param id="0" name="Unique ID">455</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="539705104662350" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="672694329368367" type="Buaya">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="544696461968930" type="Buaya">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="116615828569360" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="776938569608158" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="781263827581734">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="227116897769799" type="Buaya">
+                            <param id="0" name="Unique ID">504</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="714765502592544" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="912450062457505" type="Buaya">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="323354906483221" type="Buaya">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="860275680926049" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="785654779167486" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="818261709980945">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="405354293421236" type="Buaya">
+                            <param id="0" name="Unique ID">501</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="408095471517352" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="337635566534585" type="Buaya">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Solid" id="0" name="Set enabled" sid="248470954095033" type="Buaya">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="512767813287533" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="753359591154747" type="Buaya">
+                            <param id="0" name="Instance variable">down</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

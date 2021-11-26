@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Enemy1_AI</name>
+    <events>
+        <event-group description="" sid="192972309572028" title="Enemy_AI">
+            <sub-events>
+                <variable constant="0" name="enemy_ShootDelay" sid="642739852639121" static="0" type="number">4</variable>
+                <event-block sid="849622451844255">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="169444968507912" type="Enemy1_Trigger" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Turret" id="1" name="Add object to target" sid="407979622919043" type="Enemy1_BulletSpawner">
+                            <param id="0" name="Target">Char_Trigger</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="738389687072234" type="Enemy1_Trigger" />
+                        <action behavior="Pin" id="0" name="Pin to object" sid="623794057574375" type="Enemy1_Sprite">
+                            <param id="0" name="Pin to">Enemy1_Trigger</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="494362709201587" type="Muzzle_Enemy1">
+                            <param id="0" name="Pin to">Enemy1_BulletSpawner</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="425126884175871" type="Muzzle_Enemy1">
+                            <param id="0" name="Frame number">self.AnimationFrame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="376305405130388" title="Hidup">
+                    <sub-events>
+                        <event-block sid="567435799022525">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="881182397832873" type="Enemy1_Trigger">
+                                    <param id="0" name="Instance variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="781209845899347">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="448332714432836" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Set position" sid="245593964934254" type="Enemy1_BulletSpawner">
+                                            <param id="0" name="X">Enemy1_Sprite.ImagePointX(&quot;Spawner_Pivot&quot;)</param>
+                                            <param id="1" name="Y">Enemy1_Sprite.ImagePointY(&quot;Spawner_Pivot&quot;)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="183412997868683">
+                                    <conditions>
+                                        <condition behavior="Platform" id="2" name="Is on floor" sid="798064384018866" type="Enemy1_Trigger" />
+                                        <condition id="-14" name="Compare variable" sid="919263107062907" type="System">
+                                            <param id="0" name="Variable">cutScene</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Turret" id="5" name="Set enabled" sid="290461436272441" type="Enemy1_BulletSpawner">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="308177253820653">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="246115010526030" type="Enemy1_Trigger">
+                                            <param id="0" name="Object">Char_Bullet</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="586875514989039" type="Enemy1_Trigger">
+                                            <param id="0" name="Instance variable">health</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Nembak</comment>
+                                <event-block sid="650127350113120">
+                                    <conditions>
+                                        <condition behavior="Turret" id="1" name="On shoot" sid="393654513430286" type="Enemy1_BulletSpawner" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="778376602300484" type="System">
+                                            <param id="0" name="Seconds">random(0, 2)</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="993105540348280" type="Enemy1_Trigger">
+                                            <param id="0" name="Instance variable">isShoot</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="854394169143098">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="949162832540749" type="Enemy1_Trigger">
+                                            <param id="0" name="Instance variable">isShoot</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="540953426460699" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="156689057472546" type="Enemy1_BulletSpawner">
+                                            <param id="0" name="Object">Enemy1_Bullet</param>
+                                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="480996922181363">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="105489741289207" type="Enemy1_Trigger">
+                                            <param id="0" name="Instance variable">isShoot</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="399814919584039" type="Enemy1_Sprite">
+                                            <param id="0" name="Animation">&quot;Attack&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="199911164475923" type="Muzzle_Enemy1">
+                                            <param id="0" name="Animation">&quot;Fire&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-24" name="Move to top" sid="956639988493289" type="Muzzle_Enemy1" />
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="521819419383602">
+                                            <conditions>
+                                                <condition id="3" name="Compare frame" sid="766378101105194" type="Enemy1_Sprite">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-10" name="Set value" sid="859861948412761" type="Enemy1_Trigger">
+                                                    <param id="0" name="Instance variable">isShoot</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="871926328630011">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="298065650063876" type="Enemy1_Trigger">
+                                            <param id="0" name="Instance variable">isShoot</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="658585565521012" type="Enemy1_Sprite">
+                                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="760126051228273">
+                                    <conditions>
+                                        <condition id="-13" name="Is between angles" sid="372389601169751" type="Enemy1_BulletSpawner">
+                                            <param id="0" name="First angle">90</param>
+                                            <param id="1" name="Second angle">270</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="343151826910745" type="Enemy1_Sprite">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="121453842176829">
+                                    <conditions>
+                                        <condition id="-13" inverted="1" name="Is between angles" sid="731717229159520" type="Enemy1_BulletSpawner">
+                                            <param id="0" name="First angle">90</param>
+                                            <param id="1" name="Second angle">270</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="763226658956309" type="Enemy1_Sprite">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="234963334105242" title="Mati">
+                    <sub-events>
+                        <event-block sid="150364265156038">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="410176591490879" type="Enemy1_Trigger">
+                                    <param id="0" name="Instance variable">health</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="490797557782178" type="Enemy1_Trigger">
+                                    <param id="0" name="Instance variable">isAlive</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="855552343445700" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="535181158907747" type="Enemy1_Trigger" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="165127031596565">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="293970562867137" type="Enemy1_Trigger">
+                                    <param id="0" name="Instance variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="500849199727210" type="Enemy1_Sprite">
+                                    <param id="0" name="Animation">&quot;Die&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="803489951228141" type="System">
+                                    <param id="0" name="Seconds">1.25</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="655457304936184" type="Enemy1_Trigger" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="454958905322135">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="842251030497156" type="Enemy1_Trigger" />
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="892461820649339" type="System">
+                                    <param id="0" name="Variable">killedEnemy</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="251129790197484" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">250</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="356681744964456" title="Enemy_Bullet">
+            <sub-events>
+                <event-block any="1" sid="370144063448600">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="714056576427925" type="Enemy1_Bullet">
+                            <param id="0" name="Object">Char_Trigger</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="974622169226516" type="Enemy1_Bullet">
+                            <param id="0" name="Object">Ground_Corner_Left</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="474156233171361" type="Enemy1_Bullet">
+                            <param id="0" name="Object">Ground_Corner_Right</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="142901628606151" type="Enemy1_Bullet">
+                            <param id="0" name="Object">Ground_Mid</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="966852768576033" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="815101720693460" type="Enemy1_Bullet" />
+                        <action id="-3" name="Create object" sid="604132819982291" type="System">
+                            <param id="0" name="Object to create">BulletSplash_Enemy1</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">Enemy1_Bullet.X</param>
+                            <param id="3" name="Y">Enemy1_Bullet.Y</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="878066345116108" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="810094084742425" type="BulletSplash_Enemy1" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

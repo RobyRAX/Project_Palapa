@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Char_Sheet</name>
+    <events>
+        <variable constant="0" name="camPosition_Value" sid="192627867156669" static="0" type="number">0</variable>
+        <variable constant="0" name="isAlive" sid="357879795770429" static="0" type="number">1</variable>
+        <variable constant="0" name="isCharFaceRight" sid="724567188791209" static="0" type="number">1</variable>
+        <variable constant="0" name="fire" sid="595799805088083" static="0" type="number">0</variable>
+        <variable constant="0" name="touchX_Value" sid="661621532616784" static="0" type="number">0</variable>
+        <variable constant="0" name="touchY_Value" sid="681599109338588" static="0" type="number">0</variable>
+        <variable comment="0=False / 1=True" constant="0" name="aim" sid="981597107526873" static="0" type="number">0</variable>
+        <variable constant="0" name="recoil" sid="604273993461016" static="0" type="number">5</variable>
+        <variable constant="0" name="fire_Delay" sid="614925617572447" static="0" type="number">0.25</variable>
+        <event-block sid="265779191099113">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="320880119705369" type="System">
+                    <param id="0" name="Variable">gameFinished</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="597615709967897" type="System">
+                    <param id="0" name="Variable">cutScene</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <comment>Movements</comment>
+                <event-block sid="968252604407061">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="666415735076905" type="System">
+                            <param id="0" name="Variable">isAlive</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-group description="Maju, Mundur, Lompat" sid="914623027956432" title="Char_Movement">
+                            <sub-events>
+                                <event-block any="1" sid="983497767740292">
+                                    <conditions>
+                                        <condition id="4" name="Is touching object" sid="408606221155614" type="Touch">
+                                            <param id="0" name="Object">Button_Jump</param>
+                                        </condition>
+                                        <condition id="2" name="Key is down" sid="554831132076201" type="Keyboard">
+                                            <param id="0" name="Key">87</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="858127508226571" type="Char_Trigger">
+                                            <param id="0" name="Control">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="456941171905286">
+                                    <conditions>
+                                        <condition id="2" name="Key is down" sid="200866834644271" type="Keyboard">
+                                            <param id="0" name="Key">68</param>
+                                        </condition>
+                                        <condition id="4" name="Is touching object" sid="629008182213718" type="Touch">
+                                            <param id="0" name="Object">Button_R</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="728541294472406" type="Char_Trigger">
+                                            <param id="0" name="Control">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="226277609931047" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="723830168463106">
+                                    <conditions>
+                                        <condition id="2" name="Key is down" sid="867967994275630" type="Keyboard">
+                                            <param id="0" name="Key">65</param>
+                                        </condition>
+                                        <condition id="4" name="Is touching object" sid="465468016520971" type="Touch">
+                                            <param id="0" name="Object">Button_L</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Platform" id="7" name="Simulate control" sid="597699007952902" type="Char_Trigger">
+                                            <param id="0" name="Control">0</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="765035019533163" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="680134979237781">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="714078732765720" type="System">
+                                            <param id="0" name="First value">ScrollTo_Target.X</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Second value">camPosition_Value</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="797653652248961" type="System">
+                                            <param id="0" name="Variable">stopTime</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="220215623617309" type="System">
+                                            <param id="0" name="Variable">camPosition_Value</param>
+                                            <param id="1" name="Value">ScrollTo_Target.X </param>
+                                        </action>
+                                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="101942513646791" type="ScrollTo_Target">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="520200168256163">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Compare two values" sid="852839855831728" type="System">
+                                            <param id="0" name="First value">ScrollTo_Target.X</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Second value">camPosition_Value</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="450803445513098" type="System">
+                                            <param id="0" name="Variable">stopTime</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="469169162694985">
+                                            <conditions>
+                                                <condition id="1" inverted="1" name="Is overlapping another object" sid="663293926555421" type="Char_Trigger">
+                                                    <param id="0" name="Object">CameraUnlocker</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="626903970270414" type="ScrollTo_Target">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="269415946204071">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="965376197658695" type="System">
+                                            <param id="0" name="Variable">stopTime</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-1" name="Set X" sid="509438742329411" type="ScrollTo_Target">
+                                            <param id="0" name="X">lerp(Self.X, Char_Trigger.X, 0.1)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block any="1" sid="343282494800186">
+                                            <conditions>
+                                                <condition id="-2" name="Compare Y" sid="896094898593893" type="Char_Trigger">
+                                                    <param id="0" name="Comparison">4</param>
+                                                    <param id="1" name="Y co-ordinate">720</param>
+                                                </condition>
+                                                <condition id="2" name="Key is down" sid="409253406883884" type="Keyboard">
+                                                    <param id="0" name="Key">71</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="125717993386241" type="ScrollTo_Target">
+                                                    <param id="0" name="Y">lerp(self.y, 1000, 0.075)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block any="1" sid="988414040884151">
+                                            <conditions>
+                                                <condition id="-2" name="Compare Y" sid="899783085730705" type="Char_Trigger">
+                                                    <param id="0" name="Comparison">2</param>
+                                                    <param id="1" name="Y co-ordinate">720</param>
+                                                </condition>
+                                                <condition id="2" name="Key is down" sid="626279290202346" type="Keyboard">
+                                                    <param id="0" name="Key">72</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="830600496400910" type="ScrollTo_Target">
+                                                    <param id="0" name="Y">lerp(self.y, 360, 0.075)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-block>
+                <event-group description="" sid="111518984674321" title="Die &amp; Respawn">
+                    <sub-events>
+                        <event-block sid="691305589537128">
+                            <conditions>
+                                <condition id="-18" name="On created" sid="593239586037128" type="Char_Trigger" />
+                            </conditions>
+                            <actions>
+                                <action behavior="Pin" id="0" name="Pin to object" sid="509135461443005" type="Gun">
+                                    <param id="0" name="Pin to">Char_Trigger</param>
+                                    <param id="1" name="Mode">1</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" sid="608210088933746" type="Char_BulletSpawner">
+                                    <param id="0" name="Pin to">Kirai_TanganKanan</param>
+                                    <param id="1" name="Mode">0</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="593123143973025" type="Kirai_Body">
+                                    <param id="0" name="X">Char_Trigger.ImagePointX(&quot;Bottom_Pivot&quot;)</param>
+                                    <param id="1" name="Y">Char_Trigger.ImagePointY(&quot;Bottom_Pivot&quot;)</param>
+                                </action>
+                                <action behavior="Pin" id="0" name="Pin to object" sid="957348051124971" type="Kirai_Body">
+                                    <param id="0" name="Pin to">Char_Trigger</param>
+                                    <param id="1" name="Mode">0</param>
+                                </action>
+                                <action id="-24" name="Move to top" sid="659082925925464" type="Kirai_TanganKanan" />
+                                <action id="-8" name="Set angle" sid="957282600512309" type="Muzzle_Sprite">
+                                    <param id="0" name="Angle">Kirai_TanganKanan.Angle</param>
+                                </action>
+                                <action behavior="Pin" disabled="1" id="0" name="Pin to object" sid="452782379337185" type="Muzzle_Sprite">
+                                    <param id="0" name="Pin to">Kirai_TanganKanan</param>
+                                    <param id="1" name="Mode">0</param>
+                                </action>
+                                <action id="-24" name="Move to top" sid="305694249177083" type="Muzzle_Sprite" />
+                                <action id="-15" name="Set visible" sid="603102829484621" type="Kirai_TanganKanan">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="821096313224779" type="Kirai_TanganKiri">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action behavior="8Direction" id="8" name="Set enabled" sid="508485445218989" type="Char_Trigger">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action behavior="Physics" id="27" name="Set enabled" sid="761717323435136" type="Char_Trigger">
+                                    <param id="0" name="Mode">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="772006968591554">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="165484464308898" type="Char_Trigger">
+                                    <param id="0" name="Object">Enemies_Bullet</param>
+                                </condition>
+                                <condition id="0" name="On collision with another object" sid="482826741506805" type="Char_Trigger">
+                                    <param id="0" name="Object">Fall_Trigger</param>
+                                </condition>
+                                <condition id="0" name="On collision with another object" sid="740389199746890" type="Char_Trigger">
+                                    <param id="0" name="Object">HitterEnemies</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="534334157641435" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Mati + Respawn</comment>
+                        <event-block sid="130039348972644">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="129460568142496" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="497136383519450" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="579475464999750" type="System">
+                                    <param id="0" name="Variable">aim</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="609486170532563" type="System">
+                                    <param id="0" name="Variable">fire</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="563657245651338" type="Kirai_Body">
+                                    <param id="0" name="Animation">&quot;Die&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="341164105979019" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="176069758381805" type="Char_Trigger" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="782011456953592">
+                            <conditions>
+                                <condition id="-19" name="On destroyed" sid="192954105066629" type="Char_Trigger" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="318651848486524" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">200</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="196865059807069" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="812156166157585" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="123154693309461" type="System">
+                                    <param id="0" name="Object to create">Char_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 200</param>
+                                    <param id="3" name="Y">ViewportTop(&quot;Game&quot;) - 100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Joystick, Instantiate" sid="871152409228816" title="Shoot_Mechs">
+                    <sub-events>
+                        <event-block sid="205683446101877">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="581995997683151" type="System" />
+                                <condition id="4" name="Is touching object" sid="614012444157588" type="Touch">
+                                    <param id="0" name="Object">Joystick_Boundaries</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="465838080227402" type="System">
+                                    <param id="0" name="Variable">touchX_Value</param>
+                                    <param id="1" name="Value">Touch.X(&quot;UI&quot;) - ViewportLeft(&quot;UI&quot;)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="751391648690002" type="System">
+                                    <param id="0" name="Variable">touchY_Value</param>
+                                    <param id="1" name="Value">Touch.Y(&quot;UI&quot;) - ViewportTop(&quot;UI&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="377473333898609">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="131565031095713" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="552662811988012" type="Joystick_Handle">
+                                    <param id="0" name="X">Joystick_Outline.X</param>
+                                    <param id="1" name="Y">Joystick_Outline.Y</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="441788323109711" type="Char_BulletSpawner">
+                                    <param id="0" name="Angle">Gun.Angle + round(random(-recoil, recoil))</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="868967703173243" type="Char_BulletSpawner">
+                                    <param id="0" name="X">Kirai_TanganKanan.ImagePointX(&quot;BulletSpawner_Pivot&quot;)</param>
+                                    <param id="1" name="Y">Kirai_TanganKanan.ImagePointY(&quot;BulletSpawner_Pivot&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="433368946686947">
+                            <conditions>
+                                <condition id="4" inverted="1" name="Is touching object" sid="453441628635470" type="Touch">
+                                    <param id="0" name="Object">Joystick_Boundaries</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="948463044108588" type="System">
+                                    <param id="0" name="Variable">aim</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="807451669896062" type="System">
+                                    <param id="0" name="Variable">fire</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="923996316197831">
+                            <conditions>
+                                <condition id="4" inverted="1" name="Is touching object" sid="997395197637867" type="Touch">
+                                    <param id="0" name="Object">Joystick_Outline</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="912700968546590" type="Touch">
+                                    <param id="0" name="Object">Joystick_Boundaries</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="554981600496398" type="System">
+                                    <param id="0" name="Variable">fire</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="411380694424272" type="System">
+                                    <param id="0" name="Variable">aim</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="632331932614322">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="107020505089450" type="Touch">
+                                    <param id="0" name="Object">Joystick_Handle</param>
+                                </condition>
+                                <condition id="-14" inverted="1" name="Compare variable" sid="299528598391965" type="System">
+                                    <param id="0" name="Variable">usedWeapon</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="989561499910482" type="System">
+                                    <param id="0" name="Variable">isAlive</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="220231155796849" type="System">
+                                    <param id="0" name="Variable">fire</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="893285321727232">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="232310933140762" type="System">
+                                    <param id="0" name="Variable">fire</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-6" name="Every X seconds" sid="161198289459569" type="System">
+                                    <param id="0" name="Interval (seconds)">fire_Delay</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="209565151838941" type="Char_BulletSpawner">
+                                    <param id="0" name="Object">Char_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">1</param>
+                                </action>
+                                <action id="-24" name="Move to top" sid="397273299341455" type="Muzzle_Sprite" />
+                                <action id="-4" name="Set position to another object" sid="321845547215696" type="Muzzle_Sprite">
+                                    <param id="0" name="Object">Kirai_TanganKanan</param>
+                                    <param id="1" name="Image point (optional)">1</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="233948244728795" type="Muzzle_Sprite">
+                                    <param id="0" name="Angle">Gun.angle</param>
+                                </action>
+                                <action disabled="1" id="-3" name="Create object" sid="241428535525554" type="System">
+                                    <param id="0" name="Object to create">Char_Bullet</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">Kirai_TanganKanan.ImagePointX(1)</param>
+                                    <param id="3" name="Y">Kirai_TanganKanan.ImagePointY(1)</param>
+                                </action>
+                                <action behavior="ScrollTo" disabled="1" id="0" name="Shake" sid="523180488011960" type="ScrollTo_Target">
+                                    <param id="0" name="Magnitude">5</param>
+                                    <param id="1" name="Duration">0.1</param>
+                                    <param id="2" name="Mode">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="628729429558013">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="179296885631021" type="System">
+                                    <param id="0" name="Variable">aim</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-8" name="Set angle" sid="279738370527722" type="Gun">
+                                    <param id="0" name="Angle">anglelerp(Self.Angle, Joystick_Handle.Angle + 180, dt * 20)</param>
+                                </action>
+                                <action id="-23" name="Move at angle" sid="225980228148534" type="Joystick_Handle">
+                                    <param id="0" name="Angle">Self.Angle + 180</param>
+                                    <param id="1" name="Distance">min(distance(touchX_Value, touchY_Value, Joystick_Outline.X, Joystick_Outline.Y) / 1, 25)</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="578100810122372" type="Joystick_Handle">
+                                    <param id="0" name="Angle">angle(touchX_Value, touchY_Value, Joystick_Outline.X, Joystick_Outline.Y) </param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="336607272514930">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="569452082193497" type="System">
+                                    <param id="0" name="Variable">aim</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="699387509700840" type="System">
+                                    <param id="0" name="Variable">touchX_Value</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="597557120997376" type="System">
+                                    <param id="0" name="Variable">touchY_Value</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="814017679502128">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="445395911026946" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-8" name="Set angle" sid="100858984379739" type="Gun">
+                                            <param id="0" name="Angle">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="572143518021293">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="335562706137584" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-8" name="Set angle" sid="432120549486404" type="Gun">
+                                            <param id="0" name="Angle">180</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="618414123241450" title="Bullet">
+            <sub-events>
+                <event-block sid="966361510565752">
+                    <conditions>
+                        <condition id="-18" name="On created" sid="621892302033091" type="Char_Bullet" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="365727120052340" type="Muzzle_Sprite">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action disabled="1" id="-8" name="Set angle" sid="705534143314624" type="Char_Bullet">
+                            <param id="0" name="Angle">Gun.Angle</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="797872914522069">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="845406268190001" type="Char_Bullet">
+                            <param id="0" name="Object">Grounds</param>
+                        </condition>
+                        <condition id="0" name="On collision with another object" sid="943603858040575" type="Char_Bullet">
+                            <param id="0" name="Object">Enemies_Trigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="391317589524531" type="Char_Bullet" />
+                    </actions>
+                </event-block>
+                <event-block sid="691042380533645">
+                    <conditions>
+                        <condition id="-19" name="On destroyed" sid="406892710768948" type="Char_Bullet" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="813696498656514" type="System">
+                            <param id="0" name="Object to create">BulletSplash</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">Char_Bullet.X</param>
+                            <param id="3" name="Y">Char_Bullet.Y</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="803395804731136" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="387225674876124" type="BulletSplash" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="341815800021237" title="Char_Anims">
+            <sub-events>
+                <event-block sid="934335631357215">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="184497347738423" type="System">
+                            <param id="0" name="Variable">isAlive</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-group description="" sid="633883358476369" title="Animation">
+                            <sub-events>
+                                <event-block sid="212417103219923">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="755816720494634" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="855359229025022" type="Kirai_Body">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="8" name="Set flipped" sid="712176990402362" type="Kirai_TanganKanan">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                        <action id="8" name="Set flipped" sid="984398623317538" type="Kirai_TanganKiri">
+                                            <param id="0" name="State">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="941483182592925">
+                                            <conditions>
+                                                <condition id="-13" name="Is between angles" sid="479062105243422" type="Kirai_TanganKanan">
+                                                    <param id="0" name="First angle">270</param>
+                                                    <param id="1" name="Second angle">90</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="634794351528201" type="Kirai_Body">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="754612632905395" type="Kirai_TanganKanan">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="730065086618694" type="Kirai_TanganKiri">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="972724893550523">
+                                            <conditions>
+                                                <condition id="-13" name="Is between angles" sid="660736834124370" type="Kirai_TanganKanan">
+                                                    <param id="0" name="First angle">90</param>
+                                                    <param id="1" name="Second angle">270</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="945023861230883" type="Kirai_Body">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="696198722147070" type="Kirai_TanganKanan">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="470909944810602" type="Kirai_TanganKiri">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="239825243189859">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="197912774688978" type="System">
+                                            <param id="0" name="Variable">isCharFaceRight</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="7" name="Set mirrored" sid="638174684894376" type="Kirai_Body">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="8" name="Set flipped" sid="382687164036264" type="Kirai_TanganKanan">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="8" name="Set flipped" sid="907056815883601" type="Kirai_TanganKiri">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="342450660416206">
+                                            <conditions>
+                                                <condition id="-13" name="Is between angles" sid="240050258326903" type="Kirai_TanganKanan">
+                                                    <param id="0" name="First angle">270</param>
+                                                    <param id="1" name="Second angle">90</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="440649173625009" type="Kirai_Body">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="611926091286556" type="Kirai_TanganKanan">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="293716283554945" type="Kirai_TanganKiri">
+                                                    <param id="0" name="State">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="857989648653507">
+                                            <conditions>
+                                                <condition id="-13" name="Is between angles" sid="538236912614195" type="Kirai_TanganKanan">
+                                                    <param id="0" name="First angle">90</param>
+                                                    <param id="1" name="Second angle">270</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="7" name="Set mirrored" sid="761163400990218" type="Kirai_Body">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="761153134622909" type="Kirai_TanganKanan">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                                <action id="8" name="Set flipped" sid="195600541758689" type="Kirai_TanganKiri">
+                                                    <param id="0" name="State">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="255229165177844">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="441708106677761" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-8" name="Set angle" sid="759808211950312" type="Kirai_TanganKanan">
+                                            <param id="0" name="Angle">Gun.Angle</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="329378541359575" type="Kirai_TanganKanan">
+                                            <param id="0" name="X">Kirai_Body.ImagePointX(&quot;Hand_Pivot&quot;)</param>
+                                            <param id="1" name="Y">Kirai_Body.ImagePointY(&quot;Hand_Pivot&quot;)</param>
+                                        </action>
+                                        <action id="-8" name="Set angle" sid="886790864569818" type="Kirai_TanganKiri">
+                                            <param id="0" name="Angle">Gun.Angle</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="618202310235939" type="Kirai_TanganKiri">
+                                            <param id="0" name="X">Kirai_Body.ImagePointX(&quot;Hand_Pivot&quot;)</param>
+                                            <param id="1" name="Y">Kirai_Body.ImagePointY(&quot;Hand_Pivot&quot;)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="509684825806878">
+                                    <conditions>
+                                        <condition behavior="Platform" id="0" name="Is moving" sid="387489409102450" type="Char_Trigger" />
+                                        <condition behavior="Platform" id="2" name="Is on floor" sid="987798985940354" type="Char_Trigger" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <comment>TanganKosong</comment>
+                                        <event-block sid="655065744353540">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="291763546149849" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0 , 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="386105820820243" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Run_NoWeapon&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <comment>Bersenjata</comment>
+                                        <event-block sid="956710973927556">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="956624440459374" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="955232044999390" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Run_Weaponized&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="507674391171758">
+                                    <conditions>
+                                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="531760470312429" type="Char_Trigger" />
+                                        <condition behavior="Platform" id="2" name="Is on floor" sid="629099285391723" type="Char_Trigger" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <comment>TanganKosong</comment>
+                                        <event-block sid="616276533543436">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="665442875783759" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0 , 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="641027082002844" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Idle_NoWeapon&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <comment>Bersenjata</comment>
+                                        <event-block sid="370067061235684">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="948044244693466" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="523659569688349" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Idle_Weaponized&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="898348119573861">
+                                    <conditions>
+                                        <condition behavior="Platform" id="5" name="On jump" sid="157264364677798" type="Char_Trigger" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <comment>TanganKosong</comment>
+                                        <event-block sid="547176649179242">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="507449590845922" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0 , 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="272111475503334" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Jump_NoWeapon&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <comment>Bersenjata</comment>
+                                        <event-block sid="218769907715248">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="159419355599940" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="701469329193483" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Jump_Weaponized&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="878789142794882">
+                                    <conditions>
+                                        <condition behavior="Platform" id="6" name="On fall" sid="812736648028207" type="Char_Trigger" />
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <comment>TanganKosong</comment>
+                                        <event-block sid="991341840491864">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="425833114405018" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0 , 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="650808956158526" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Jump_NoWeapon&quot;</param>
+                                                    <param id="1" name="From">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <comment>Bersenjata</comment>
+                                        <event-block sid="551303996803782">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="903279874457009" type="System">
+                                                    <param id="0" name="Variable">usedWeapon</param>
+                                                    <param id="1" name="Comparison">1</param>
+                                                    <param id="2" name="Value">Arr_AllWeapons.At(0, 0)</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="153587288685700" type="Kirai_Body">
+                                                    <param id="0" name="Animation">&quot;Jump_Weaponized&quot;</param>
+                                                    <param id="1" name="From">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

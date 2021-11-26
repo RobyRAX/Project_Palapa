@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Pusaka_Sheet</name>
+    <events>
+        <event-block sid="155692658548874">
+            <conditions>
+                <condition id="0" name="On function" sid="199317534800756" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_Pusaka&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set at XY" sid="172277369606862" type="Arr_Pusaka">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Lada&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="438208254517038" type="Arr_Pusaka">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="489343069137632" type="Arr_Pusaka">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;KayuManis&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="480292951775281" type="Arr_Pusaka">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="670417201004005" type="Arr_Pusaka">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Cengkeh&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="705999739795942" type="Arr_Pusaka">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="558986761045987" type="Arr_Pusaka">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;BungaLawang&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="284087000213697" type="Arr_Pusaka">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="408611534516608" type="Arr_Pusaka">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Jahe&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="936734592006473" type="Arr_Pusaka">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="762762110327852" type="Arr_Pusaka">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Kemiri&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="891987922804896" type="Arr_Pusaka">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="863603029509246" type="Arr_Pusaka">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;AsamJawa&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="159141014020107" type="Arr_Pusaka">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="687233067270081" type="Arr_Pusaka">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;DaunSalam&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="573875322118308" type="Arr_Pusaka">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="190862801642200" type="Arr_Pusaka">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;BuahPala&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="613323450269201" type="Arr_Pusaka">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="342510835719394" title="Status_Pusaka">
+            <sub-events>
+                <comment>Lada</comment>
+                <event-block sid="315737714286011">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="263388185516923" type="Arr_Pusaka">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="116637464667662" type="Pusaka_Lada">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="358971821318737">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="133236638052222" type="Arr_Pusaka">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="500711761327549" type="Pusaka_Lada">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>KayuManis</comment>
+                <event-block sid="168400581552857">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="483228011556951" type="Arr_Pusaka">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="904597170043155" type="Pusaka_KayuManis">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="101158088439742">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="651007271738076" type="Arr_Pusaka">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="481434920585304" type="Pusaka_KayuManis">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Cengkeh</comment>
+                <event-block sid="804191326634506">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="156610166627542" type="Arr_Pusaka">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="171562259870758" type="Pusaka_Cengkeh">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="487916571988314">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="693550495572726" type="Arr_Pusaka">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="190097161413379" type="Pusaka_Cengkeh">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>BungaLawang</comment>
+                <event-block sid="784527768516770">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="837488267605741" type="Arr_Pusaka">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="965599294956403" type="Pusaka_BungaLawang">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="983307521327565">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="741902678285348" type="Arr_Pusaka">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="136205036154342" type="Pusaka_BungaLawang">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Jahe</comment>
+                <event-block sid="254368065396691">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="981040852720499" type="Arr_Pusaka">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="544180329588237" type="Pusaka_Jahe">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="322653801433854">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="303448632080326" type="Arr_Pusaka">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="716531152598238" type="Pusaka_Jahe">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Kemiri</comment>
+                <event-block sid="904312572358561">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="584162590119483" type="Arr_Pusaka">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="858831319530047" type="Pusaka_Kemiri">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="141116512595702">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="560894850930663" type="Arr_Pusaka">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="458404816039171" type="Pusaka_Kemiri">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>AsamJawa</comment>
+                <event-block sid="197906327398562">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="429421190865007" type="Arr_Pusaka">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="387443836827067" type="Pusaka_AsamJawa">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="948716096324547">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="349012789334078" type="Arr_Pusaka">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="550638560866528" type="Pusaka_AsamJawa">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>DaunSalam</comment>
+                <event-block sid="327661075666542">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="322328959224139" type="Arr_Pusaka">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="504791233707482" type="Pusaka_DaunSalam">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="865694821102789">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="748602744919932" type="Arr_Pusaka">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="600591224985484" type="Pusaka_DaunSalam">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>BuahPala</comment>
+                <event-block sid="541774980340511">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="836527915603144" type="Arr_Pusaka">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="743668438917814" type="Pusaka_BuahPala">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="584539256964735">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="478500662137794" type="Arr_Pusaka">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="323319608277816" type="Pusaka_BuahPala">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

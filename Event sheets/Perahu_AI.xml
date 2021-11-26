@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Perahu_AI</name>
+    <events>
+        <event-block sid="635299351300785">
+            <conditions>
+                <condition id="0" name="On function" sid="603528805180948" type="Function">
+                    <param id="0" name="Name">&quot;Init_Perahu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="1" name="Set period" sid="292738555340185" type="Perahu">
+                    <param id="0" name="Period">random(4, 5)</param>
+                </action>
+                <action behavior="Sine" id="2" name="Set magnitude" sid="944002722096911" type="Perahu">
+                    <param id="0" name="Magnitude">random(15, 20)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

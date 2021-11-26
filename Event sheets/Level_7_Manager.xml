@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level_7_Manager</name>
+    <events>
+        <include>Game_Status</include>
+        <include>Save &amp; Load</include>
+        <include>LevelScoring_Sheet</include>
+        <include>Weapons_Sheet</include>
+        <include>Enemy1_AI</include>
+        <include>Enemy3_AI</include>
+        <include>Char_Sheet</include>
+        <event-group description="" sid="869555583760511" title="Start_Layout_7">
+            <sub-events>
+                <event-block sid="261434975361268">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="846653178056901" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="966442738336100" type="System">
+                            <param id="0" name="Variable">camPosition_Value</param>
+                            <param id="1" name="Value">ScrollTo_Target.X</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="337322520408367" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="442428531312537" type="System">
+                            <param id="0" name="Variable">usedWeapon</param>
+                            <param id="1" name="Value">Arr_BroughtWeapons.At(1)</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="430736880199386" type="StopTrigger_8">
+                            <param id="0" name="Y">360</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="719050393283400" type="StopTrigger_10">
+                            <param id="0" name="Y">640</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="348197828154907" type="StopTrigger_11">
+                            <param id="0" name="Y">640</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="617266846969894" type="SpawnTrigger_14">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="0" name="Call function" sid="899873946627275" type="Function">
+                            <param id="0" name="Name">&quot;Set_StarLimit&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}750{###}1400</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="561580759848290" type="System">
+                            <param id="0" name="Variable">playedLevel</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="-20" name="Set layout scale" sid="238263231615305" type="System">
+                            <param id="0" name="Scale">0.75</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="568422218584666" title="Dialog_Awal_7">
+            <sub-events>
+                <event-block sid="943833609366566">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="339831535007807" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="900119212321426">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="667488946525674" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="414857634175560" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="325245051026557">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="704490182998259" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="441945075777287">
+                                    <conditions>
+                                        <condition id="17" name="On tap object" sid="161865922616419" type="Touch">
+                                            <param id="0" name="Object">Dialogs_Awal_2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="897654890737511" type="Dialogs_Awal_2">
+                                            <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="404590754057596">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="975792820996776" type="Dialogs_Awal_2">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="811081066955736" type="System">
+                                            <param id="0" name="Variable">cutScene</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="450303554181896" type="Dialogs_Awal_2" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="309729864272137">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="776576270917537" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="128016439272909" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="866407015594477" type="System">
+                                    <param id="0" name="Layer">&quot;Tombol_KiraiDiary&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="828565574799489" title="Spawn_7">
+            <sub-events>
+                <event-block sid="663495695393651">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="194220275823755" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="152728365459160" type="SpawnTrigger_7">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="112633669796153" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">ViewportRight(&quot;Game&quot;) +200</param>
+                            <param id="3" name="Y">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="973603022943486">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="945209153724846" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="146492970144306" type="SpawnTrigger_9">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="683624939970183" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">ViewportRight(&quot;Game&quot;) +200</param>
+                            <param id="3" name="Y">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130656455249504">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="865612107588798" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="255777067665704" type="SpawnTrigger_10">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="743274366098767" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">ViewportRight(&quot;Game&quot;) +200</param>
+                            <param id="3" name="Y">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="962933173139011">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="845303292289545" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="722298147587641" type="SpawnTrigger_11">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="313145818416284" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">ViewportRight(&quot;Game&quot;) +200</param>
+                            <param id="3" name="Y">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="895553450751235">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="581875674385267" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="168813594551123" type="SpawnTrigger_12">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="546911787171007" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">ViewportRight(&quot;Game&quot;) +200</param>
+                            <param id="3" name="Y">360</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="798086369540159">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="911757347559202" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="379105403444495" type="SpawnTrigger_13">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="458691260525656" type="SpawnTrigger_14">
+                            <param id="0" name="Y">850</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="843352184044181" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">4450</param>
+                            <param id="3" name="Y">800</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="722063813215025">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="117317063100084" type="Char_Trigger">
+                            <param id="0" name="Object">SpawnTrigger_14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="238575724232689" type="SpawnTrigger_14">
+                            <param id="0" name="Y">-3000</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="230763310705461" type="System">
+                            <param id="0" name="Object to create">Enemy3</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="X">4450</param>
+                            <param id="3" name="Y">800</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="911924893051432" title="Stop_7">
+            <sub-events>
+                <event-group description="" sid="175946544502505" title="Stop1_____">
+                    <sub-events>
+                        <event-block sid="485246531402736">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="190087759217070" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_18</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="839696666810171" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="238916937639204" type="System">
+                                    <param id="0" name="Variable">stopCount</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="977968368099934" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) +150</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="764569020685588" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 600</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="371229992705291" type="ScrollTo_Target">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="767126156491269" type="StopTrigger_18">
+                                    <param id="0" name="Y">-3000</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="478182269627639" type="SpawnTrigger_9">
+                                    <param id="0" name="Y">-3000</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="594708950104439" type="SpawnTrigger_10">
+                                    <param id="0" name="Y">-3000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="926023670436527" title="Stop2_____">
+                    <sub-events>
+                        <event-block sid="865776616984887">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="932864979428477" type="Char_Trigger">
+                                    <param id="0" name="Object">StopTrigger_17</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="848804267766868" type="System">
+                                    <param id="0" name="Variable">stopTime</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="391492230635429" type="System">
+                                    <param id="0" name="Variable">stopCount</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="995234791830230" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) +150</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="684985963430882" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportLeft(&quot;Game&quot;) + 600</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="471388838637361" type="System">
+                                    <param id="0" name="Object to create">Enemy1_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 200</param>
+                                    <param id="3" name="Y">-450</param>
+                                </action>
+                                <action behavior="ScrollTo" id="1" name="Set enabled" sid="712511513426513" type="ScrollTo_Target">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="532858613756640" type="StopTrigger_17">
+                                    <param id="0" name="Y">-3000</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="834539453534515" type="SpawnTrigger_12">
+                                    <param id="0" name="Y">-3000</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="762789840532749">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="325787833207262" type="System">
+                            <param id="0" name="Variable">stopTime</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="337529009015097" type="System">
+                            <param id="0" name="Variable">currentEnemy</param>
+                            <param id="1" name="Value">Enemies_Trigger.Count</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Lanjut</comment>
+                        <event-block sid="857821519611702">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="858625514191738" type="System">
+                                    <param id="0" name="Variable">currentEnemy</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="565099733111146" type="System">
+                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="127782683086248" type="System">
+                                    <param id="0" name="Object to create">CamStart_Trigger</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="X">ViewportRight(&quot;Game&quot;) - 600</param>
+                                    <param id="3" name="Y">LayoutHeight / 2</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="621442878782246">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="774064582923782" type="System">
+                                            <param id="0" name="Variable">stopCount</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="673987253655734" type="SpawnTrigger_9">
+                                            <param id="0" name="Y">LayoutHeight / 2</param>
+                                        </action>
+                                        <action id="-2" name="Set Y" sid="637739566473130" type="SpawnTrigger_10">
+                                            <param id="0" name="Y">LayoutHeight / 2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="936205459460549">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="521106939978639" type="System">
+                                            <param id="0" name="Variable">stopCount</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="359676844202731" type="SpawnTrigger_12">
+                                            <param id="0" name="Y">LayoutHeight / 2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Resume</comment>
+                <event-block sid="895576165126712">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="378877380739870" type="Char_Trigger">
+                            <param id="0" name="Object">CamStart_Trigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="698112917399916" type="System">
+                            <param id="0" name="Variable">stopTime</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="814412309924148" type="CamStart_Trigger" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="554784721761222" title="Finish_7">
+            <sub-events>
+                <comment>Finished</comment>
+                <event-block sid="196054071316857">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="555181431868768" type="Char_Trigger">
+                            <param id="0" name="Object">FinishTrigger</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="577969016170785" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="185823158852054" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="140351667407803" type="FinishTrigger" />
+                    </actions>
+                </event-block>
+                <event-block sid="981053589625936">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="665458265929369" type="System">
+                            <param id="0" name="Variable">gameFinished</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="597090633177798" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="432634339270619" type="System">
+                            <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Unlock_NextLevel</comment>
+                        <event-block sid="933634642641958">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="916734449304157" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">1</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action disabled="1" id="3" name="Set at XY" sid="783228262797224" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Value">star</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="737759453509083" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">COMPLETE</param>
+                                </action>
+                                <action disabled="1" id="3" name="Set at XY" sid="290836672604894" type="Arr_LevelScore">
+                                    <param id="0" name="X">playedLevel + 1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">UNLOCK</param>
+                                </action>
+                                <action id="0" name="Call function" sid="749862329197287" type="Function">
+                                    <param id="0" name="Name">&quot;Complete_Level&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-group description="" sid="411865498432129" title="Show_Star_7">
+                            <sub-events>
+                                <event-block sid="656128256588172">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="266638723927449" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="712941282052929" type="Function">
+                                            <param id="0" name="Name">&quot;Star_1&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="889501163913012">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="469010575330772" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="778272400559326" type="Function">
+                                            <param id="0" name="Name">&quot;Star_2&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="919853223813830">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="531218663910165" type="System">
+                                            <param id="0" name="Variable">star</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="100240574639565" type="Function">
+                                            <param id="0" name="Name">&quot;Star_3&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-block sid="440355809631528">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="259386678384146" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="312193360788090" type="Function">
+                                    <param id="0" name="Name">&quot;Save_All&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
