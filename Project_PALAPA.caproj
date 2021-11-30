@@ -289,14 +289,10 @@
                         <animation framecount="2" loop="0" name="Start" pingpong="0" repeatcount="1" repeatto="0" sid="958574479131110" speed="0">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 1\dialog kirai 1.png">
                                 <collision-poly>
-                                    <point x="0.338021" y="0.600926" />
-                                    <point x="0.5" y="0.187037" />
-                                    <point x="0.661979" y="0.600926" />
-                                    <point x="0.575" y="0.5" />
-                                    <point x="0.590104" y="0.271296" />
-                                    <point x="0.5" y="0.97963" />
-                                    <point x="0.429688" y="0.236111" />
-                                    <point x="0.41875" y="0.5" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -772,6 +768,73 @@
             </object-type>
         </object-folder>
         <object-folder name="UI">
+            <object-folder name="Pause">
+                <object-type name="Pause_Panel" sid="957028585177682">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427425388262563" speed="5">
+                            <frame duration="1" hotspotX="0.486047" hotspotY="0.544444" original-source="Y:\Assets\UI &amp; Button\Pause\back paused.png">
+                                <collision-poly>
+                                    <point x="0.0722611" y="0.177122" />
+                                    <point x="0.487179" y="0.00738008" />
+                                    <point x="0.897436" y="0.184502" />
+                                    <point x="0.995338" y="0.542435" />
+                                    <point x="0.920746" y="0.940959" />
+                                    <point x="0.487179" y="0.99262" />
+                                    <point x="0.0745921" y="0.907749" />
+                                    <point x="0.004662" y="0.542435" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Pause_Button" sid="734940401713571">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667856793111355" speed="5">
+                            <frame duration="1" hotspotX="0.495935" hotspotY="0.536585" original-source="Y:\Assets\UI &amp; Button\Compressed\paused-min.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Resume_Button" sid="839750905768268">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244137636527671" speed="5">
+                            <frame duration="1" hotspotX="0.51" hotspotY="0.505" original-source="Y:\Assets\UI &amp; Button\Pause\play.png">
+                                <collision-poly>
+                                    <point x="0.15534" y="0.139535" />
+                                    <point x="0.511327" y="0.00332226" />
+                                    <point x="0.857605" y="0.149502" />
+                                    <point x="0.993528" y="0.504983" />
+                                    <point x="0.851133" y="0.853821" />
+                                    <point x="0.511327" y="0.996678" />
+                                    <point x="0.158576" y="0.86711" />
+                                    <point x="0.00323625" y="0.504983" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="QuitMenu_Button" sid="120831760942837">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736924509360649" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Pause\main menu.png">
+                                <collision-poly>
+                                    <point x="0.15" y="0.15" />
+                                    <point x="0.5" y="0.005" />
+                                    <point x="0.855" y="0.145" />
+                                    <point x="0.995" y="0.5" />
+                                    <point x="0.855" y="0.855" />
+                                    <point x="0.5" y="0.995" />
+                                    <point x="0.15" y="0.85" />
+                                    <point x="0.005" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type name="Button_Jump" sid="599712283420921">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -1620,6 +1683,34 @@
                             <frame duration="1" hotspotX="0.921569" hotspotY="0.771429" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_11.png" />
                             <frame duration="1" hotspotX="0.956" hotspotY="0.6125" original-source="Y:\Assets\Kirai\Animation\FullBody\Dead\Rig_Kirai-dead_13.png" />
                         </animation>
+                        <animation framecount="1" loop="0" name="Jongkok_NoWeapon" pingpong="0" repeatcount="1" repeatto="0" sid="943989666945151" speed="5">
+                            <frame duration="1" hotspotX="0.485915" hotspotY="0.900474" original-source="Y:\Assets\Kirai\Animation\FullBody\Jongkok\jongkok.png">
+                                <collision-poly>
+                                    <point x="0.292208" y="0.385447" />
+                                    <point x="0.482549" y="0.159784" />
+                                    <point x="0.758523" y="0.333579" />
+                                    <point x="0.705357" y="0.500737" />
+                                    <point x="0.947646" y="0.782448" />
+                                    <point x="0.482549" y="0.992871" />
+                                    <point x="0.0121753" y="0.785644" />
+                                    <point x="0.158685" y="0.500737" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Jongkok_Weaponized" pingpong="0" repeatcount="1" repeatto="0" sid="279797736330333" speed="5">
+                            <frame duration="1" hotspotX="0.471831" hotspotY="0.900474" original-source="Y:\Assets\Kirai\Animation\Part\Jongkok\jongkok.png">
+                                <image-point name="Hand_Pivot" x="0.422535" y="0.488152" />
+                                <collision-poly>
+                                    <point x="0.505397" y="0.0825758" />
+                                    <point x="1" y="0.296189" />
+                                    <point x="1" y="0.501644" />
+                                    <point x="1" y="0.624917" />
+                                    <point x="0.505397" y="1" />
+                                    <point x="0" y="0.746075" />
+                                    <point x="0" y="0.501644" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
                     </animation-folder>
                 </object-type>
                 <object-type name="Kirai_TanganKanan" sid="973763090062787">
@@ -1719,6 +1810,9 @@
                         <behavior-type name="Physics" sid="440200752584973">
                             <behavior id="Physics" />
                         </behavior-type>
+                        <behavior-type name="Timer" sid="278330116597493">
+                            <behavior id="Timer" />
+                        </behavior-type>
                     </behaviors>
                     <container>
                         <type>Char_BulletSpawner</type>
@@ -1729,7 +1823,7 @@
                     </container>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217760781185808" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="1">
                                 <image-point name="Bottom_Pivot" x="0.5" y="1" />
                                 <collision-poly>
                                     <point x="0" y="0.044" />
@@ -3736,73 +3830,6 @@
                 <plugin id="Button" />
             </object-type>
         </object-folder>
-        <object-folder name="Pause">
-            <object-type name="Pause_Panel" sid="957028585177682">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427425388262563" speed="5">
-                        <frame duration="1" hotspotX="0.486047" hotspotY="0.544444" original-source="Y:\Assets\UI &amp; Button\Pause\back paused.png">
-                            <collision-poly>
-                                <point x="0.0722611" y="0.177122" />
-                                <point x="0.487179" y="0.00738008" />
-                                <point x="0.897436" y="0.184502" />
-                                <point x="0.995338" y="0.542435" />
-                                <point x="0.920746" y="0.940959" />
-                                <point x="0.487179" y="0.99262" />
-                                <point x="0.0745921" y="0.907749" />
-                                <point x="0.004662" y="0.542435" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Pause_Button" sid="734940401713571">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="667856793111355" speed="5">
-                        <frame duration="1" hotspotX="0.495935" hotspotY="0.536585" original-source="Y:\Assets\UI &amp; Button\Compressed\paused-min.png" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Resume_Button" sid="839750905768268">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244137636527671" speed="5">
-                        <frame duration="1" hotspotX="0.51" hotspotY="0.505" original-source="Y:\Assets\UI &amp; Button\Pause\play.png">
-                            <collision-poly>
-                                <point x="0.15534" y="0.139535" />
-                                <point x="0.511327" y="0.00332226" />
-                                <point x="0.857605" y="0.149502" />
-                                <point x="0.993528" y="0.504983" />
-                                <point x="0.851133" y="0.853821" />
-                                <point x="0.511327" y="0.996678" />
-                                <point x="0.158576" y="0.86711" />
-                                <point x="0.00323625" y="0.504983" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="QuitMenu_Button" sid="120831760942837">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736924509360649" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Pause\main menu.png">
-                            <collision-poly>
-                                <point x="0.15" y="0.15" />
-                                <point x="0.5" y="0.005" />
-                                <point x="0.855" y="0.145" />
-                                <point x="0.995" y="0.5" />
-                                <point x="0.855" y="0.855" />
-                                <point x="0.5" y="0.995" />
-                                <point x="0.15" y="0.85" />
-                                <point x="0.005" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-        </object-folder>
         <object-folder name="Pusaka">
             <object-type name="Pusaka_Wadah" sid="574141097085094">
                 <plugin id="Sprite" />
@@ -3983,6 +4010,57 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800111442274303" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="welcome" sid="916878732111827">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480453409276276" speed="5">
+                    <frame duration="1" hotspotX="0.49774" hotspotY="0.728846" original-source="Y:\Assets\3. Kota Waringin\welcome.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gameOver" sid="345904081129834">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132688664435210" speed="5">
+                    <frame duration="1" hotspotX="0.497837" hotspotY="0.453022" original-source="Y:\Assets\UI &amp; Button\game over.png">
+                        <collision-poly>
+                            <point x="0" y="0.00239378" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="reload" sid="768712015324667">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238682404988121" speed="5">
+                    <frame duration="1" hotspotX="0.511161" hotspotY="0.494226" original-source="Y:\Assets\UI &amp; Button\reload.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hati" sid="291633197224811">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101913756259217" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 1.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 2.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 3.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 4.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 5.png">
+                        <collision-poly>
+                            <point x="0" y="0.0248" />
+                            <point x="1" y="0.0248" />
+                            <point x="1" y="0.976" />
+                            <point x="0" y="0.976" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

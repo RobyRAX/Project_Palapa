@@ -29,6 +29,42 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-group description="" sid="208156766482508" title="PopUp_GameOver">
+                    <sub-events>
+                        <event-block sid="882472290169130">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="873904901606687" type="Touch">
+                                    <param id="0" name="Object">reload</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="402116284020375" type="System">
+                                    <param id="0" name="Layer">&quot;Lose_PopUp&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-25" name="Go to layout (by name)" sid="616638502320902" type="System">
+                                    <param id="0" name="Layout">&quot;Level_&quot; &amp; playedLevel + 1</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="742279466108485" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="784341072461925">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="605344747584893" type="Touch">
+                                    <param id="0" name="Object">QuitMenu_Button</param>
+                                </condition>
+                                <condition id="-9" name="Layer is visible" sid="943399447956240" type="System">
+                                    <param id="0" name="Layer">&quot;Lose_PopUp&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="955463027836788" type="System">
+                                    <param id="0" name="Layout">MainMenu</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="796878088134669" type="System" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="" sid="618760055538645" title="PopUp_LvlComplete">
                     <sub-events>
                         <event-block sid="461003479913831">

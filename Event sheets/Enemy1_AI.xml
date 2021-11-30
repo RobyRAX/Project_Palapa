@@ -12,7 +12,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Turret" id="1" name="Add object to target" sid="407979622919043" type="Enemy1_BulletSpawner">
-                            <param id="0" name="Target">Char_Trigger</param>
+                            <param id="0" name="Target">Kirai_TanganKanan</param>
                         </action>
                         <action id="-25" name="Move to bottom" sid="738389687072234" type="Enemy1_Trigger" />
                         <action behavior="Pin" id="0" name="Pin to object" sid="623794057574375" type="Enemy1_Sprite">
@@ -258,14 +258,8 @@
                         <condition id="0" name="On collision with another object" sid="714056576427925" type="Enemy1_Bullet">
                             <param id="0" name="Object">Char_Trigger</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="974622169226516" type="Enemy1_Bullet">
-                            <param id="0" name="Object">Ground_Corner_Left</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="474156233171361" type="Enemy1_Bullet">
-                            <param id="0" name="Object">Ground_Corner_Right</param>
-                        </condition>
-                        <condition id="0" name="On collision with another object" sid="142901628606151" type="Enemy1_Bullet">
-                            <param id="0" name="Object">Ground_Mid</param>
+                        <condition id="0" name="On collision with another object" sid="211217150764305" type="Enemy1_Bullet">
+                            <param id="0" name="Object">Grounds</param>
                         </condition>
                     </conditions>
                     <actions>
