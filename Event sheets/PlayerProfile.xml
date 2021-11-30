@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PlayerProfile</name>
+    <events>
+        <variable constant="0" name="Player_Coin" sid="969488818699580" static="0" type="number">0</variable>
+        <variable constant="0" name="Player_Name" sid="390122211837490" static="0" type="text"></variable>
+        <event-block sid="361266020992214">
+            <conditions>
+                <condition id="0" name="On function" sid="463001178351923" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_PlayerProfile&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set at XY" sid="664703392209633" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;IsOpenedBefore&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="420197647268495" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="934023113533826" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Player_Coin&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="158018599414195" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action id="3" name="Set at XY" sid="148959680139178" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Player_Name&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="102122842007905" type="Arr_PlayerProfile_Data">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;Dayat&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level_1_Manager</name>
     <events>
-        <include>Game_Status</include>
+        <include>GameStatus</include>
         <include>Save &amp; Load</include>
         <include>LevelScoring_Sheet</include>
         <include>Weapons_Sheet</include>
@@ -16,6 +16,10 @@
                         <condition id="-2" name="On start of layout" sid="430915577009150" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-4" name="Set layer visible" sid="863084244942484" type="System">
+                            <param id="0" name="Layer">&quot;Lose_PopUp&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="387308324655196" type="System">
                             <param id="0" name="Variable">camPosition_Value</param>
                             <param id="1" name="Value">ScrollTo_Target.X</param>
@@ -925,6 +929,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="508163456864946" type="Function">
+                            <param id="0" name="Name">&quot;Save_PlayerProfile&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-9" name="Set value" sid="429554580812543" type="System">
                             <param id="0" name="Variable">gameFinished</param>
                             <param id="1" name="Value">1</param>
@@ -1277,6 +1285,11 @@
                                     <param id="0" name="Layout">LevelSelect</param>
                                 </action>
                                 <action id="-21" name="Reset global variables" sid="601178604155440" type="System" />
+                                <action id="3" name="Set at XY" sid="557035318868716" type="Arr_PlayerProfile_Data">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>

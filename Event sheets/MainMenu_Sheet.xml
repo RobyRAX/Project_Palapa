@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MainMenu_Sheet</name>
     <events>
+        <include>PlayerProfile</include>
         <include>Pusaka_Sheet</include>
         <include>Weapons_Sheet</include>
         <include>Journals_Sheet</include>
@@ -32,6 +33,10 @@
                     <param id="0" name="Name">&quot;Initiate_Pusaka&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="0" name="Call function" sid="338822528119248" type="Function">
+                    <param id="0" name="Name">&quot;Initiate_PlayerProfile&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
                 <action id="5" name="Check item exists" sid="960459151444070" type="LocalStorage">
                     <param id="0" name="Key">&quot;Save_Journals&quot;</param>
                 </action>
@@ -47,90 +52,71 @@
                 <action id="5" name="Check item exists" sid="981067871087810" type="LocalStorage">
                     <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="505172757780507">
-            <conditions>
-                <condition id="9" name="On item exists" sid="661921080354061" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Save_Journals&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="11" name="Load" sid="405136090158062" type="Arr_Journals">
-                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="547520492204881">
-            <conditions>
-                <condition id="9" name="On item exists" sid="714294375767638" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Save_Levels&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="11" name="Load" sid="159196031089095" type="Arr_LevelScore">
-                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="376109919171644">
-            <conditions>
-                <condition id="9" name="On item exists" sid="877753222453540" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Save_Weapons&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="11" name="Load" sid="774056878308043" type="Arr_AllWeapons">
-                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="454734356677052">
-            <conditions>
-                <condition id="9" name="On item exists" sid="522326644983650" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Save_BroughtWeapons&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="11" name="Load" sid="812843950822153" type="Arr_BroughtWeapons">
-                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="771295484285177">
-            <conditions>
-                <condition id="9" name="On item exists" sid="696783655540637" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="11" name="Load" sid="404178045649248" type="Arr_Pusaka">
-                    <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                <action id="5" name="Check item exists" sid="600855747346893" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_PlayerProfile&quot;</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="830605048121741">
             <conditions>
                 <condition id="17" name="On tap object" sid="126735014515535" type="Touch">
-                    <param id="0" name="Object">Play_Button</param>
+                    <param id="0" name="Object">Playbutton</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="730296400270961">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="753409285972490" type="Arr_PlayerProfile_Data">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="639815352599638" type="System">
+                            <param id="0" name="Layout">Prologue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="844725328329600">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="795731849985164" type="Arr_PlayerProfile_Data">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="414323127434511" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="218215531632637">
+            <conditions>
+                <condition id="17" name="On tap object" sid="477647271386745" type="Touch">
+                    <param id="0" name="Object">kirai_diary_button</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="414323127434511" type="System">
-                    <param id="0" name="Layout">LevelSelect</param>
+                <action id="-2" name="Go to layout" sid="940896053966379" type="System">
+                    <param id="0" name="Layout">KiraiDiary</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="141953665603300">
             <conditions>
                 <condition id="17" name="On tap object" sid="206850737486334" type="Touch">
-                    <param id="0" name="Object">Quit_Button</param>
+                    <param id="0" name="Object">quitbutton</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="172359747697252" type="System">
-                    <param id="0" name="Layout">KiraiDiary</param>
-                </action>
+                <action id="1" name="Close" sid="172359747697252" type="Browser" />
             </actions>
         </event-block>
         <event-block sid="390913204487974">
@@ -143,5 +129,81 @@
                 <action id="3" name="Clear storage" sid="741179352423849" type="LocalStorage" />
             </actions>
         </event-block>
+        <event-group description="" sid="183802559457567" title="Load">
+            <sub-events>
+                <event-block sid="505172757780507">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="661921080354061" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_Journals&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="405136090158062" type="Arr_Journals">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="547520492204881">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="714294375767638" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_Levels&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="159196031089095" type="Arr_LevelScore">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="376109919171644">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="877753222453540" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_Weapons&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="774056878308043" type="Arr_AllWeapons">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="454734356677052">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="522326644983650" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_BroughtWeapons&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="812843950822153" type="Arr_BroughtWeapons">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="771295484285177">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="696783655540637" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_Pusaka&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="404178045649248" type="Arr_Pusaka">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="536030584050458">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="448120252023859" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Save_PlayerProfile&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="423466947158566" type="Arr_PlayerProfile_Data">
+                            <param id="0" name="JSON">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

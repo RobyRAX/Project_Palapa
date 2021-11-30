@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Play_Button" uid="146">
+                <instance type="backgroundMainMenu" uid="574">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,19 +39,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>220</x>
-                        <y>280</y>
+                        <x>642.349853516</x>
+                        <y>297.899902344</y>
                         <z>0</z>
-                        <width>299</width>
-                        <height>94</height>
+                        <width>1371.666992188</width>
+                        <height>914.216064453</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.500125051</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Quit_Button" uid="147">
+                <instance type="LogoKirai" uid="575">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -61,14 +61,102 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>220</x>
-                        <y>414.5</y>
+                        <x>795</x>
+                        <y>215</y>
                         <z>0</z>
-                        <width>296</width>
-                        <height>83</height>
+                        <width>429.074981689</width>
+                        <height>195.546234131</height>
+                        <depth>0</depth>
+                        <hotspotX>0.473104626</hotspotX>
+                        <hotspotY>0.63336432</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Playbutton" uid="576">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>810</x>
+                        <y>385</y>
+                        <z>0</z>
+                        <width>85.039810181</width>
+                        <height>124.903503418</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500242114</hotspotX>
+                        <hotspotY>0.500164866</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="quitbutton" uid="577">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1010</x>
+                        <y>335</y>
+                        <z>0</z>
+                        <width>82.076782227</width>
+                        <height>90.573814392</height>
+                        <depth>0</depth>
+                        <hotspotX>0.50015074</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="kirai_diary_button" uid="595">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>610</x>
+                        <y>335</y>
+                        <z>0</z>
+                        <width>75.062927246</width>
+                        <height>91.813545227</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Kirai_Menu" uid="711">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>249</x>
+                        <y>677</y>
+                        <z>0</z>
+                        <width>282.321411133</width>
+                        <height>642.884338379</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501154721</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

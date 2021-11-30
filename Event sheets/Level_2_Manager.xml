@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level_2_Manager</name>
     <events>
-        <include>Game_Status</include>
+        <include>GameStatus</include>
         <include>Save &amp; Load</include>
         <include>LevelScoring_Sheet</include>
         <include>Weapons_Sheet</include>

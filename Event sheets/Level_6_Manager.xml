@@ -4,7 +4,7 @@
     <name>Level_6_Manager</name>
     <events>
         <include>Perahu_AI</include>
-        <include>Game_Status</include>
+        <include>GameStatus</include>
         <include>Save &amp; Load</include>
         <include>LevelScoring_Sheet</include>
         <include>Weapons_Sheet</include>

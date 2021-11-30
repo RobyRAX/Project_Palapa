@@ -21,6 +21,7 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -407,8 +408,30 @@
                     </instance-variables>
                     <animation-folder>
                         <animation framecount="2" loop="0" name="Start" pingpong="0" repeatcount="1" repeatto="0" sid="934298616952584" speed="0">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\First Screen\raffles.png" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog_Kirai 1.png">
+                                <collision-poly>
+                                    <point x="0.338021" y="0.600926" />
+                                    <point x="0.5" y="0.187037" />
+                                    <point x="0.661979" y="0.600926" />
+                                    <point x="0.575" y="0.5" />
+                                    <point x="0.590104" y="0.271296" />
+                                    <point x="0.5" y="0.97963" />
+                                    <point x="0.429688" y="0.236111" />
+                                    <point x="0.41875" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog Kirai 2.png">
+                                <collision-poly>
+                                    <point x="0.338021" y="0.600926" />
+                                    <point x="0.5" y="0.187037" />
+                                    <point x="0.661979" y="0.600926" />
+                                    <point x="0.575" y="0.5" />
+                                    <point x="0.590104" y="0.271296" />
+                                    <point x="0.5" y="0.97963" />
+                                    <point x="0.429688" y="0.236111" />
+                                    <point x="0.41875" y="0.5" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -766,6 +789,14 @@
                 </behaviors>
                 <texture original-source="Y:\Assets\BG &amp; Ground\air 2.png" />
             </object-type>
+            <object-type name="backgroundMainMenu" sid="377726226056002">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="393582055336204" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500125" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\BACKGROUND.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="UI">
             <object-folder name="Pause">
@@ -1037,6 +1068,137 @@
                                 <point x="0.000332779" y="0.452424" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="gameOver" sid="345904081129834">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132688664435210" speed="5">
+                        <frame duration="1" hotspotX="0.497837" hotspotY="0.453022" original-source="Y:\Assets\UI &amp; Button\game over.png">
+                            <collision-poly>
+                                <point x="0" y="0.00239378" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="hati" sid="291633197224811">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101913756259217" speed="0">
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0714286" />
+                                <point x="0.97003" y="0.0714286" />
+                                <point x="0.97003" y="0.836735" />
+                                <point x="0.0121212" y="0.836735" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 1.png">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0714286" />
+                                <point x="0.97003" y="0.0714286" />
+                                <point x="0.97003" y="0.836735" />
+                                <point x="0.0121212" y="0.836735" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 2.png">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0714286" />
+                                <point x="0.97003" y="0.0714286" />
+                                <point x="0.97003" y="0.836735" />
+                                <point x="0.0121212" y="0.836735" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 3.png">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0714286" />
+                                <point x="0.97003" y="0.0714286" />
+                                <point x="0.97003" y="0.836735" />
+                                <point x="0.0121212" y="0.836735" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 4.png">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0714286" />
+                                <point x="0.97003" y="0.0714286" />
+                                <point x="0.97003" y="0.836735" />
+                                <point x="0.0121212" y="0.836735" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 5.png">
+                            <collision-poly>
+                                <point x="0.0121212" y="0.0904082" />
+                                <point x="0.97003" y="0.0904082" />
+                                <point x="0.97003" y="0.818367" />
+                                <point x="0.0121212" y="0.818367" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="kirai_diary_button" sid="922220527349378">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433285209069678" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\DIARY BUTTON.png">
+                            <collision-poly>
+                                <point x="0.00140647" y="0.431811" />
+                                <point x="0.531997" y="0.0132283" />
+                                <point x="0.999648" y="0.488189" />
+                                <point x="0.999648" y="0.507402" />
+                                <point x="0.531997" y="0.986772" />
+                                <point x="0.00175809" y="0.563465" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LogoKirai" sid="933559139182601">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778007382705637" speed="5">
+                        <frame duration="1" hotspotX="0.473105" hotspotY="0.633364" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\KIRAI LOGO.png">
+                            <collision-poly>
+                                <point x="0.312791" y="0.281599" />
+                                <point x="0.473105" y="0.188662" />
+                                <point x="0.644007" y="0.258364" />
+                                <point x="0.990894" y="0.633364" />
+                                <point x="0.606311" y="0.92565" />
+                                <point x="0.473105" y="0.689126" />
+                                <point x="0.36997" y="0.859665" />
+                                <point x="0.0148242" y="0.633364" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Playbutton" sid="938036291894886">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532614531362684" speed="5">
+                        <frame duration="1" hotspotX="0.500242" hotspotY="0.500165" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\PLAY BUTTON.png">
+                            <collision-poly>
+                                <point x="0.0106538" y="0.296406" />
+                                <point x="0.314286" y="0.105836" />
+                                <point x="0.65569" y="0.270689" />
+                                <point x="0.975787" y="0.503132" />
+                                <point x="0.314286" y="0.888889" />
+                                <point x="0.0198547" y="0.703594" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="reload" sid="768712015324667">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238682404988121" speed="5">
+                        <frame duration="1" hotspotX="0.511161" hotspotY="0.494226" original-source="Y:\Assets\UI &amp; Button\reload.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3762,6 +3924,9 @@
             <object-type name="LocalStorage" sid="233733173232330">
                 <plugin id="LocalStorage" />
             </object-type>
+            <object-type global="1" name="Arr_PlayerProfile_Data" sid="253518330996537">
+                <plugin id="Arr" />
+            </object-type>
         </object-folder>
         <object-folder name="MainMenu">
             <object-type name="Play_Button" sid="366723905748771">
@@ -4021,83 +4186,63 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="gameOver" sid="345904081129834">
+        <object-type name="quitbutton" sid="586694226814004">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132688664435210" speed="5">
-                    <frame duration="1" hotspotX="0.497837" hotspotY="0.453022" original-source="Y:\Assets\UI &amp; Button\game over.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525160274755166" speed="5">
+                    <frame duration="1" hotspotX="0.500151" hotspotY="0" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\QUIT BUTTON.png">
                         <collision-poly>
-                            <point x="0" y="0.00239378" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="0.00602954" y="0.116395" />
+                            <point x="0.44287" y="0.0034418" />
+                            <point x="0.884534" y="0.111389" />
+                            <point x="0.914682" y="0.569775" />
+                            <point x="0.845945" y="0.98811" />
+                            <point x="0.0410009" y="0.986859" />
+                            <point x="0.00602954" y="0.569775" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="reload" sid="768712015324667">
+        <object-type name="Kirai_Menu" sid="637080664897819">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238682404988121" speed="5">
-                    <frame duration="1" hotspotX="0.511161" hotspotY="0.494226" original-source="Y:\Assets\UI &amp; Button\reload.png" />
+                <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500178891467533" speed="30">
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_00.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_01.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_02.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_03.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_04.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_05.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_06.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_07.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_08.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_09.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_10.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_11.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_12.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_13.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_14.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_15.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_16.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_17.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_18.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_19.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_20.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_21.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_22.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_23.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_24.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_25.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_26.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_27.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_28.png" />
+                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_29.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="hati" sid="291633197224811">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101913756259217" speed="0">
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0714286" />
-                            <point x="0.97003" y="0.0714286" />
-                            <point x="0.97003" y="0.836735" />
-                            <point x="0.0121212" y="0.836735" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 1.png">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0714286" />
-                            <point x="0.97003" y="0.0714286" />
-                            <point x="0.97003" y="0.836735" />
-                            <point x="0.0121212" y="0.836735" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 2.png">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0714286" />
-                            <point x="0.97003" y="0.0714286" />
-                            <point x="0.97003" y="0.836735" />
-                            <point x="0.0121212" y="0.836735" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 3.png">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0714286" />
-                            <point x="0.97003" y="0.0714286" />
-                            <point x="0.97003" y="0.836735" />
-                            <point x="0.0121212" y="0.836735" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 4.png">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0714286" />
-                            <point x="0.97003" y="0.0714286" />
-                            <point x="0.97003" y="0.836735" />
-                            <point x="0.0121212" y="0.836735" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 5.png">
-                        <collision-poly>
-                            <point x="0.0121212" y="0.0904082" />
-                            <point x="0.97003" y="0.0904082" />
-                            <point x="0.97003" y="0.818367" />
-                            <point x="0.0121212" y="0.818367" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Video" sid="723021299908337">
+            <plugin id="video" />
         </object-type>
     </object-folder>
     <families>
@@ -4159,6 +4304,7 @@
         <layout>MainMenu.xml</layout>
         <layout>LevelSelect.xml</layout>
         <layout>Instantiates.xml</layout>
+        <layout>Prologue.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level_1_Manager.xml</event-sheet>
@@ -4171,7 +4317,7 @@
         <event-sheet>LevelSelect_Sheet.xml</event-sheet>
         <event-sheet>LevelScoring_Sheet.xml</event-sheet>
         <event-sheet>Save &amp; Load.xml</event-sheet>
-        <event-sheet>Game_Status.xml</event-sheet>
+        <event-sheet>GameStatus.xml</event-sheet>
         <event-sheet>Level_2_Manager.xml</event-sheet>
         <event-sheet>Level_3_Manager.xml</event-sheet>
         <event-sheet>Buaya_AI.xml</event-sheet>
@@ -4190,6 +4336,8 @@
         <event-sheet>Char_UnderSea_Sheet.xml</event-sheet>
         <event-sheet>Level_10_Manager.xml</event-sheet>
         <event-sheet>OctoBoss_AI.xml</event-sheet>
+        <event-sheet>Prologue_Sheet.xml</event-sheet>
+        <event-sheet>PlayerProfile.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
@@ -4214,5 +4362,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="PrologVideo.mp4" />
     </files-folder>
 </c2project>

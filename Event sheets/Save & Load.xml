@@ -32,5 +32,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="722969024773365">
+            <conditions>
+                <condition id="0" name="On function" sid="203678026746546" type="Function">
+                    <param id="0" name="Name">&quot;Save_PlayerProfile&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="815554459872058" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Save_PlayerProfile&quot;</param>
+                    <param id="1" name="Value">Arr_PlayerProfile_Data.AsJSON</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
