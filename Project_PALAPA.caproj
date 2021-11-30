@@ -4048,17 +4048,52 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101913756259217" speed="0">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" />
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 1.png" />
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 2.png" />
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 3.png" />
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 4.png" />
-                    <frame duration="1" hotspotX="0" hotspotY="0.5008" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 5.png">
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455">
                         <collision-poly>
-                            <point x="0" y="0.0248" />
-                            <point x="1" y="0.0248" />
-                            <point x="1" y="0.976" />
-                            <point x="0" y="0.976" />
+                            <point x="0.0121212" y="0.0714286" />
+                            <point x="0.97003" y="0.0714286" />
+                            <point x="0.97003" y="0.836735" />
+                            <point x="0.0121212" y="0.836735" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 1.png">
+                        <collision-poly>
+                            <point x="0.0121212" y="0.0714286" />
+                            <point x="0.97003" y="0.0714286" />
+                            <point x="0.97003" y="0.836735" />
+                            <point x="0.0121212" y="0.836735" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 2.png">
+                        <collision-poly>
+                            <point x="0.0121212" y="0.0714286" />
+                            <point x="0.97003" y="0.0714286" />
+                            <point x="0.97003" y="0.836735" />
+                            <point x="0.0121212" y="0.836735" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 3.png">
+                        <collision-poly>
+                            <point x="0.0121212" y="0.0714286" />
+                            <point x="0.97003" y="0.0714286" />
+                            <point x="0.97003" y="0.836735" />
+                            <point x="0.0121212" y="0.836735" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 4.png">
+                        <collision-poly>
+                            <point x="0.0121212" y="0.0714286" />
+                            <point x="0.97003" y="0.0714286" />
+                            <point x="0.97003" y="0.836735" />
+                            <point x="0.0121212" y="0.836735" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.0121212" hotspotY="0.455" original-source="Y:\Assets\UI &amp; Button\Frame 1hati 5.png">
+                        <collision-poly>
+                            <point x="0.0121212" y="0.0904082" />
+                            <point x="0.97003" y="0.0904082" />
+                            <point x="0.97003" y="0.818367" />
+                            <point x="0.0121212" y="0.818367" />
                         </collision-poly>
                     </frame>
                 </animation>

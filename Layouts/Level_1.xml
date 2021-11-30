@@ -4357,11 +4357,11 @@
                         <x>85</x>
                         <y>40</y>
                         <z>0</z>
-                        <width>190</width>
-                        <height>30</height>
+                        <width>194.720489502</width>
+                        <height>33.599998474</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.500800014</hotspotY>
+                        <hotspotX>0.012121212</hotspotX>
+                        <hotspotY>0.455000013</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
