@@ -7541,7 +7541,7 @@
                         <x>640</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>1320</width>
+                        <width>1360</width>
                         <height>768</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -7724,11 +7724,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>280.658996582</x>
-                        <y>189.009429932</y>
+                        <x>358.678070068</x>
+                        <y>664.708312988</y>
                         <z>0</z>
-                        <width>549.336853027</width>
-                        <height>64.734558105</height>
+                        <width>543.532531738</width>
+                        <height>127.887985229</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>1</hotspotY>
@@ -7746,8 +7746,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>471</x>
-                        <y>441</y>
+                        <x>353.112915039</x>
+                        <y>269.196411133</y>
                         <z>0</z>
                         <width>313.023162842</width>
                         <height>423.189086914</height>
@@ -7777,6 +7777,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="Panel_Trans" uid="753">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>1360</width>
+                        <height>768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Dialogs_Awal_2" uid="723">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -7790,11 +7812,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>654.749816895</x>
-                        <y>402.749816895</y>
+                        <x>640</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>2945.27734375</width>
-                        <height>1656.718505859</height>
+                        <width>1280</width>
+                        <height>720</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -7861,10 +7883,10 @@
                         <x>640</x>
                         <y>352</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
+                        <width>4677</width>
+                        <height>2286</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500106931</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -8044,6 +8066,24 @@
                     </world>
                 </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="Lose_PopUp" sid="741221508729459">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>
