@@ -1294,6 +1294,41 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Aer_Belakang" uid="257">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>3</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>10</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1035</x>
+                        <y>-695</y>
+                        <z>0</z>
+                        <width>2232</width>
+                        <height>1498</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Ground_Bot_Back" uid="318">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2392,41 +2427,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Aer_Belakang" uid="257">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>3</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>10</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972</x>
-                        <y>-268</y>
-                        <z>0</z>
-                        <width>2232</width>
-                        <height>1026</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -2525,7 +2525,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1650</x>
-                        <y>491</y>
+                        <y>561.897644043</y>
                         <z>0</z>
                         <width>49.928695679</width>
                         <height>141.043365479</height>
@@ -2956,7 +2956,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1155</x>
+                        <x>1164</x>
                         <y>-675</y>
                         <z>0</z>
                         <width>2052</width>
@@ -6808,10 +6808,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>652</x>
+                        <x>640</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>1320</width>
+                        <width>1360</width>
                         <height>768</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -6836,8 +6836,8 @@
                         <x>640</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>1920</width>
-                        <height>1080</height>
+                        <width>1280</width>
+                        <height>720</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

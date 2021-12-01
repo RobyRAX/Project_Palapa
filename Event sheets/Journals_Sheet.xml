@@ -125,22 +125,22 @@
                         <action id="3" name="Set at XY" sid="922282966977908" type="Arr_Journals">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Y">2</param>
-                            <param id="2" name="Value">&quot;Monyet&quot;</param>
+                            <param id="2" name="Value">&quot;Monyet Barito&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="680541728972780" type="Arr_Journals">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Y">3</param>
-                            <param id="2" name="Value">&quot;Ipsum Lorem&quot;</param>
+                            <param id="2" name="Value">&quot;Pulau Kembang ini tidak dihuni manusia, namun didominasi oleh fauna seperti Kera Ekor Panjang yang menarik dari pulau ini adalah di dalam kawasan hutan wisata ini juga terdapat sebuah altar berlambangkan dua buah arca berwujud kera berwarna putih (hanoman), yang diperuntukkan sebagai tempat untuk meletakkan sesaji bagi para ‘penjaga’ pulau Kembang.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="585327987712399" type="Arr_Journals">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Y">4</param>
-                            <param id="2" name="Value">&quot;Ipsum Lorem&quot;</param>
+                            <param id="2" name="Value">&quot;Kembang Island is not inhabited by humans, but is dominated by fauna such as long-tailed macaques that attract from this island is in this tourist forest area there is also an altar with two statues of white apes (hanoman), which is intended as a place to put offerings for the &apos;guardians&apos; of Kembang island.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="557692177798015" type="Arr_Journals">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">0</param>
-                            <param id="2" name="Value">&quot;Buaya&quot;</param>
+                            <param id="2" name="Value">&quot;Kotawaringin&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="829190365538848" type="Arr_Journals">
                             <param id="0" name="X">5</param>
@@ -150,17 +150,17 @@
                         <action id="3" name="Set at XY" sid="558565208297819" type="Arr_Journals">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">2</param>
-                            <param id="2" name="Value">&quot;Buaya&quot;</param>
+                            <param id="2" name="Value">&quot;Kootawaringin&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="918844939803394" type="Arr_Journals">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">3</param>
-                            <param id="2" name="Value">&quot;Buaya Lorem&quot;</param>
+                            <param id="2" name="Value">&quot;Kotawaringin terletak di sekitar aliran sungai kumai, dan lamandau, berawa-rawa dan merupakan daerah endapan bersifat organik dan asam. sektor‐sektor  ekonomi  yang  terdapat  di  Kabupaten  Kotawaringin  antara  lain  pertanian seperti padi‐padian,  jagung,  jenis ubi‐ubian, jenis kacang‐ kacangan, sayuran dan buah‐buahan,perkebunan seperti karet, kelapa, kopi, cengkeh,  pertambangan,  industri,  perdagangan dan pariwisata.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="260272850376705" type="Arr_Journals">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">4</param>
-                            <param id="2" name="Value">&quot;Buaya Lorem&quot;</param>
+                            <param id="2" name="Value">&quot;Kotawaringin is located around the kumai river stream, and lamandau, swampy and is an area of organic and acidic sediments. economic sectors in Kotawaringin Regency include agriculture such as rice, corn, sweet potato type, types of beans, vegetables and fruits, plantations such as rubber, coconut, coffee, cloves, mining, industry, trade and tourism.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="143207722896461" type="Arr_Journals">
                             <param id="0" name="X">6</param>
@@ -180,12 +180,12 @@
                         <action id="3" name="Set at XY" sid="222318399116146" type="Arr_Journals">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">3</param>
-                            <param id="2" name="Value">&quot;Tanjung Ipsum&quot;</param>
+                            <param id="2" name="Value">&quot;Terletak di semenanjung barat daya provinsi Kalimantan Tengah memiliki luas 415 hektar. Tanjung puting terdiri atas ragam variasi ekosistem dari berbagai jenis flora seperti pemakan serangga seperti kantong semar, keruing, meranti, ramin, gaharu, ulin, jelutung serta lain-lainya. Selain itu, kamu juga bisa menemukan satwa eksotis langka seperti orangutan, buaya, bekantan, beruang madu, rusa sambar, duyung dan lainnya.&quot;</param>
                         </action>
                         <action id="3" name="Set at XY" sid="991640574209414" type="Arr_Journals">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">4</param>
-                            <param id="2" name="Value">&quot;Tanjung Ipsum&quot;</param>
+                            <param id="2" name="Value">&quot;Located on the southwestern peninsula of Central Kalimantan province has an area of 415 hectares. Tanjung nipple consists of a variety of ecosystem variations from various types of flora such as insectivores such as semar bags, keruing, meranti, ramin, agarwood, ulin, jelutung and others. In addition, you can also find rare exotic animals such as orangutans, crocodiles, bekantan, honey bears, sambar deer, mermaids and others.&quot;</param>
                         </action>
                     </actions>
                 </event-block>

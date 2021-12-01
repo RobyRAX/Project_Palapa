@@ -570,7 +570,7 @@
                 </event-block>
                 <event-group description="" sid="925639717795112" title="Notif_3">
                     <sub-events>
-                        <comment>Notif_Buaya</comment>
+                        <comment>Notif_Kotawaringin</comment>
                         <event-block sid="214594284413351">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="337075261862058" type="Notif_Item">
@@ -579,9 +579,8 @@
                                 <condition disabled="1" id="-14" name="Pick by unique ID" sid="585233668055592" type="Buaya">
                                     <param id="0" name="Unique ID">509</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="686483715230877" type="Char_Trigger">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">1040</param>
+                                <condition id="1" name="Is overlapping another object" sid="686483715230877" type="Char_Trigger">
+                                    <param id="0" name="Object">Trigger_Kotawaringin</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -601,9 +600,12 @@
                                 <condition disabled="1" id="1" inverted="1" name="Is overlapping another object" sid="741363601053119" type="Char_Trigger">
                                     <param id="0" name="Object">Buaya</param>
                                 </condition>
-                                <condition id="-2" inverted="1" name="Compare Y" sid="854706058449084" type="Char_Trigger">
+                                <condition disabled="1" id="-2" inverted="1" name="Compare Y" sid="854706058449084" type="Char_Trigger">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="Y co-ordinate">1040</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="769673472041667" type="Char_Trigger">
+                                    <param id="0" name="Object">Trigger_Kotawaringin</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -725,21 +727,17 @@
                 </event-group>
                 <event-group description="" sid="365184456224524" title="Cek_3">
                     <sub-events>
-                        <comment>Cek Item Kebun Raya</comment>
+                        <comment>Cek Item Kotawaringin</comment>
                         <event-block sid="618266138787916">
                             <conditions>
-                                <condition id="-16" name="Is on layer" sid="731914263919624" type="Buaya">
+                                <condition id="-16" name="Is on layer" sid="731914263919624" type="welcome">
                                     <param id="0" name="Layer">&quot;KiraiDiary_Level_3&quot;</param>
                                 </condition>
-                                <condition id="-14" name="Pick by unique ID" sid="664953949040063" type="Buaya">
+                                <condition id="-14" name="Pick by unique ID" sid="963392323882179" type="welcome">
                                     <param id="0" name="Unique ID">821</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action behavior="Solid" id="0" name="Set enabled" sid="389743796629143" type="Buaya">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="609213521275465">
                                     <conditions>
@@ -751,7 +749,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="597430709702441" type="Buaya">
+                                        <action id="4" name="Set animation" sid="597430709702441" type="welcome">
                                             <param id="0" name="Animation">&quot;Default&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -760,9 +758,9 @@
                                         <event-block sid="608681689212330">
                                             <conditions>
                                                 <condition id="17" name="On tap object" sid="594255064245861" type="Touch">
-                                                    <param id="0" name="Object">Buaya</param>
+                                                    <param id="0" name="Object">welcome</param>
                                                 </condition>
-                                                <condition id="-14" name="Pick by unique ID" sid="401469046779686" type="Buaya">
+                                                <condition id="-14" name="Pick by unique ID" sid="401469046779686" type="welcome">
                                                     <param id="0" name="Unique ID">821</param>
                                                 </condition>
                                             </conditions>
@@ -788,12 +786,12 @@
                                             <param id="2" name="Comparison">0</param>
                                             <param id="3" name="Value">ACQUIRED</param>
                                         </condition>
-                                        <condition id="-14" name="Pick by unique ID" sid="603724488231366" type="Buaya">
+                                        <condition id="-14" name="Pick by unique ID" sid="711021365355128" type="welcome">
                                             <param id="0" name="Unique ID">821</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="170327892320886" type="Buaya">
+                                        <action id="4" name="Set animation" sid="153349459501522" type="welcome">
                                             <param id="0" name="Animation">&quot;Siluet&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -801,7 +799,7 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <comment>Cek Item Monyet</comment>
+                        <comment>Cek Item TanjungPuting</comment>
                         <event-block sid="318142248461526">
                             <conditions>
                                 <condition id="-16" name="Is on layer" sid="594078947560506" type="BG_WelkomTanjungPuting">
