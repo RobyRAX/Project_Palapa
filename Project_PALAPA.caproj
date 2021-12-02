@@ -4325,6 +4325,48 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="gapuraSamarinda" sid="218301570985710">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531397377345069" speed="5">
+                    <frame duration="1" hotspotX="0.500141" hotspotY="0.500141" original-source="Y:\Assets\4-5. Samarinda\gapura samarinda.png">
+                        <collision-poly>
+                            <point x="0.209992" y="0.209992" />
+                            <point x="0.499859" y="0.329664" />
+                            <point x="0.691504" y="0.308496" />
+                            <point x="0.906859" y="0.499859" />
+                            <point x="0.664973" y="0.664973" />
+                            <point x="0.499859" y="1" />
+                            <point x="0.386113" y="0.613887" />
+                            <point x="0.314705" y="0.499859" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pusakaLada" sid="549948170170495">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258565063501708" speed="5">
+                    <frame duration="1" hotspotX="0.597181" hotspotY="0.562203" original-source="Y:\Assets\3. Kota Waringin\pusaka lada.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DialogKirai3end" sid="595938373344931">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856723922162089" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\3. Kota Waringin\Dialog Kirai 3-end.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Enemies_Trigger" plugin-id="Sprite" sid="204000996052762">

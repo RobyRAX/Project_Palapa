@@ -187,6 +187,31 @@
                             <param id="1" name="Y">4</param>
                             <param id="2" name="Value">&quot;Located on the southwestern peninsula of Central Kalimantan province has an area of 415 hectares. Tanjung nipple consists of a variety of ecosystem variations from various types of flora such as insectivores such as semar bags, keruing, meranti, ramin, agarwood, ulin, jelutung and others. In addition, you can also find rare exotic animals such as orangutans, crocodiles, bekantan, honey bears, sambar deer, mermaids and others.&quot;</param>
                         </action>
+                        <action id="3" name="Set at XY" sid="144989518632427" type="Arr_Journals">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;PasarApung&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="911843322505711" type="Arr_Journals">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="154028928121763" type="Arr_Journals">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">&quot;Pasar Apung&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="935057981483547" type="Arr_Journals">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">&quot;Pasar Lorem&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="325790742420354" type="Arr_Journals">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">&quot;Apung Lorem&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

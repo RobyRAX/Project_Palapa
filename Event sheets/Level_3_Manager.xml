@@ -434,16 +434,27 @@
                                 </event-block>
                             </sub-events>
                         </event-group>
-                        <event-block sid="158304159105631">
+                        <event-block sid="690119161297068">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="670836400343222" type="System">
+                                <condition id="-14" name="Compare variable" sid="919007183962931" type="System">
                                     <param id="0" name="Variable">cutScene</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Call function" sid="975062218281348" type="Function">
+                                <action id="-16" name="Wait" sid="264315048344908" type="System">
+                                    <param id="0" name="Seconds">4</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="621385782253113" type="System">
+                                    <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="227842897120592" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="700410889329798" type="Function">
                                     <param id="0" name="Name">&quot;Save_All&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
