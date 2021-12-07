@@ -16,6 +16,28 @@
         <variable comment="0=False / 1=True" constant="0" name="aim" sid="981597107526873" static="0" type="number">0</variable>
         <variable constant="0" name="recoil" sid="604273993461016" static="0" type="number">5</variable>
         <variable constant="0" name="fire_Delay" sid="614925617572447" static="0" type="number">0.25</variable>
+        <event-block sid="378811165868179">
+            <conditions>
+                <condition id="0" name="On function" sid="805877895973090" type="Function">
+                    <param id="0" name="Name">&quot;Fire&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="961097790514707" type="Char_BulletSpawner">
+                    <param id="0" name="Object">Char_Bullet</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action id="-24" name="Move to top" sid="804546074238253" type="Muzzle_Sprite" />
+                <action id="-4" name="Set position to another object" sid="251564805468746" type="Muzzle_Sprite">
+                    <param id="0" name="Object">Kirai_TanganKanan</param>
+                    <param id="1" name="Image point (optional)">1</param>
+                </action>
+                <action id="-8" name="Set angle" sid="862737679916796" type="Muzzle_Sprite">
+                    <param id="0" name="Angle">Gun.angle</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="265779191099113">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="320880119705369" type="System">
@@ -621,17 +643,21 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Spawn another object" sid="209565151838941" type="Char_BulletSpawner">
+                                <action id="0" name="Call function" sid="597169810260232" type="Function">
+                                    <param id="0" name="Name">&quot;Fire&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action disabled="1" id="0" name="Spawn another object" sid="209565151838941" type="Char_BulletSpawner">
                                     <param id="0" name="Object">Char_Bullet</param>
                                     <param id="1" name="Layer">&quot;Game&quot;</param>
                                     <param id="2" name="Image point">1</param>
                                 </action>
-                                <action id="-24" name="Move to top" sid="397273299341455" type="Muzzle_Sprite" />
-                                <action id="-4" name="Set position to another object" sid="321845547215696" type="Muzzle_Sprite">
+                                <action disabled="1" id="-24" name="Move to top" sid="397273299341455" type="Muzzle_Sprite" />
+                                <action disabled="1" id="-4" name="Set position to another object" sid="321845547215696" type="Muzzle_Sprite">
                                     <param id="0" name="Object">Kirai_TanganKanan</param>
                                     <param id="1" name="Image point (optional)">1</param>
                                 </action>
-                                <action id="-8" name="Set angle" sid="233948244728795" type="Muzzle_Sprite">
+                                <action disabled="1" id="-8" name="Set angle" sid="233948244728795" type="Muzzle_Sprite">
                                     <param id="0" name="Angle">Gun.angle</param>
                                 </action>
                                 <action disabled="1" id="-3" name="Create object" sid="241428535525554" type="System">

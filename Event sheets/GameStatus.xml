@@ -7,7 +7,7 @@
         <variable constant="0" name="killedEnemy" sid="834055645981468" static="0" type="number">0</variable>
         <variable constant="0" name="currentEnemy" sid="811079680218617" static="0" type="number">0</variable>
         <variable constant="0" name="stopTime" sid="293395603431809" static="0" type="number">0</variable>
-        <variable constant="0" name="enemyWave" sid="310734157058001" static="0" type="number">0</variable>
+        <variable constant="0" name="subState_Wave" sid="310734157058001" static="0" type="number">0</variable>
         <variable constant="0" name="star" sid="189691651571519" static="0" type="number">0</variable>
         <variable constant="0" name="score" sid="266148554778811" static="0" type="number">0</variable>
         <variable constant="0" name="gameFinished" sid="107043006931402" static="0" type="number">0</variable>
@@ -273,7 +273,7 @@
                                     <param id="2" name="Value">0</param>
                                 </condition>
                                 <condition id="-14" name="Compare variable" sid="278495038098258" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>

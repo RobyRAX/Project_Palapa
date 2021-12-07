@@ -114,11 +114,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="116637464667662" type="Pusaka_Lada">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="358971821318737">
                     <conditions>
@@ -129,11 +125,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="500711761327549" type="Pusaka_Lada">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>KayuManis</comment>
                 <event-block sid="168400581552857">
@@ -145,11 +137,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="904597170043155" type="Pusaka_KayuManis">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="101158088439742">
                     <conditions>
@@ -160,11 +148,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="481434920585304" type="Pusaka_KayuManis">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>Cengkeh</comment>
                 <event-block sid="804191326634506">
@@ -176,11 +160,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="171562259870758" type="Pusaka_Cengkeh">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="487916571988314">
                     <conditions>
@@ -191,11 +171,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="190097161413379" type="Pusaka_Cengkeh">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>BungaLawang</comment>
                 <event-block sid="784527768516770">
@@ -207,11 +183,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="965599294956403" type="Pusaka_BungaLawang">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="983307521327565">
                     <conditions>
@@ -222,11 +194,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="136205036154342" type="Pusaka_BungaLawang">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>Jahe</comment>
                 <event-block sid="254368065396691">
@@ -238,11 +206,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="544180329588237" type="Pusaka_Jahe">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="322653801433854">
                     <conditions>
@@ -253,11 +217,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="716531152598238" type="Pusaka_Jahe">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>Kemiri</comment>
                 <event-block sid="904312572358561">
@@ -269,11 +229,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="858831319530047" type="Pusaka_Kemiri">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="141116512595702">
                     <conditions>
@@ -284,11 +240,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="458404816039171" type="Pusaka_Kemiri">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>AsamJawa</comment>
                 <event-block sid="197906327398562">
@@ -300,11 +252,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="387443836827067" type="Pusaka_AsamJawa">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="948716096324547">
                     <conditions>
@@ -315,11 +263,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="550638560866528" type="Pusaka_AsamJawa">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>DaunSalam</comment>
                 <event-block sid="327661075666542">
@@ -331,11 +275,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="504791233707482" type="Pusaka_DaunSalam">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="865694821102789">
                     <conditions>
@@ -346,11 +286,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="600591224985484" type="Pusaka_DaunSalam">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <comment>BuahPala</comment>
                 <event-block sid="541774980340511">
@@ -362,11 +298,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="743668438917814" type="Pusaka_BuahPala">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="584539256964735">
                     <conditions>
@@ -377,11 +309,7 @@
                             <param id="3" name="Value">COMPLETE</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="323319608277816" type="Pusaka_BuahPala">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
             </sub-events>
         </event-group>

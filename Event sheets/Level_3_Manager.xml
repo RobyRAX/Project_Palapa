@@ -106,18 +106,18 @@
                                 <event-block sid="949117586151163">
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="985765508736234" type="Touch">
-                                            <param id="0" name="Object">Dialogs_Awal_2</param>
+                                            <param id="0" name="Object">DialogKirai</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="316806018014541" type="Dialogs_Awal_2">
+                                        <action id="5" name="Set frame" sid="316806018014541" type="DialogKirai">
                                             <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="502980496546163">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="116243667798042" type="Dialogs_Awal_2">
+                                        <condition id="3" name="Compare frame" sid="116243667798042" type="DialogKirai">
                                             <param id="0" name="Comparison">0</param>
                                             <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
                                         </condition>
@@ -127,7 +127,7 @@
                                             <param id="0" name="Variable">cutScene</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="477882857413822" type="Dialogs_Awal_2" />
+                                        <action id="-9" name="Destroy" sid="477882857413822" type="DialogKirai" />
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -283,7 +283,7 @@
                                     <param id="2" name="Value">0</param>
                                 </condition>
                                 <condition id="-14" name="Compare variable" sid="926723282320231" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
@@ -446,6 +446,10 @@
                                 <action id="-16" name="Wait" sid="264315048344908" type="System">
                                     <param id="0" name="Seconds">4</param>
                                 </action>
+                                <action id="-4" name="Set layer visible" sid="181424290162172" type="System">
+                                    <param id="0" name="Layer">&quot;UI&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
                                 <action id="-4" name="Set layer visible" sid="621385782253113" type="System">
                                     <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
                                     <param id="1" name="Visibility">0</param>
@@ -457,6 +461,140 @@
                                 <action id="0" name="Call function" sid="700410889329798" type="Function">
                                     <param id="0" name="Name">&quot;Save_All&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-9" name="Set value" sid="889601274939418" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="657764916084420">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="861066140003059" type="System">
+                            <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="322487440251120">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="905197257434467" type="Touch">
+                                    <param id="0" name="Object">DialogKirai3end</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="808897681088021" type="DialogKirai3end">
+                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="153394283756862">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="532739284835235" type="DialogKirai3end">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="111577538608592" type="System" />
+                                <condition id="-14" name="Compare variable" sid="592868142502399" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="901872581430095" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="485138060110675" type="System">
+                                    <param id="0" name="Variable">usedWeapon</param>
+                                    <param id="1" name="Value">&quot;Pistol&quot;</param>
+                                </action>
+                                <action id="-22" name="Set angle toward position" sid="305240952449617" type="Gun">
+                                    <param id="0" name="X">pusakaLada.X</param>
+                                    <param id="1" name="Y">pusakaLada.Y</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="629801987698248" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="468809903860966" type="Function">
+                                    <param id="0" name="Name">&quot;Fire&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-9" name="Set value" sid="645396483295515" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="284814042456724">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="132801192986558" type="pusakaLada">
+                                    <param id="0" name="Object">Char_Bullet</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="27" name="Set enabled" sid="175020071254407" type="pusakaLada">
+                                    <param id="0" name="Mode">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="370465594408936">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="947583876018604" type="pusakaLada">
+                                    <param id="0" name="Object">Ground_Jembatan</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="27" name="Set enabled" sid="806189035108279" type="pusakaLada">
+                                    <param id="0" name="Mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="203768470552121" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="977918701510513" type="System">
+                                    <param id="0" name="Variable">usedWeapon</param>
+                                    <param id="1" name="Value">&quot;TanganKosong&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="852232896200147" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="693477646140703" type="pusakaLada" />
+                                <action id="-15" name="Set visible" sid="135106695763838" type="Panel_Trans">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="754007489640591" type="DialogKirai3end">
+                                    <param id="0" name="Animation">&quot;DapatPusaka&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="406474337995163">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="884164245754265" type="DialogKirai3end">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="361787767423638" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="460204345520909" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="474533094524153" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="801699316319339" type="System">
+                                    <param id="0" name="Seconds">1.5</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="103755231328084" type="System" />
+                                <action id="-2" name="Go to layout" sid="362822679417383" type="System">
+                                    <param id="0" name="Layout">LevelSelect</param>
                                 </action>
                             </actions>
                         </event-block>

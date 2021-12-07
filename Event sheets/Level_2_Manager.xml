@@ -210,7 +210,7 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="878878641701130" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Value">4</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="836536777943457" type="System">
@@ -222,7 +222,7 @@
                         <event-block sid="523617599520135">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="465811519898231" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">4</param>
                                 </condition>
@@ -315,7 +315,7 @@
                                                     <param id="1" name="Value">0</param>
                                                 </action>
                                                 <action id="-11" name="Subtract from" sid="106797487914299" type="System">
-                                                    <param id="0" name="Variable">enemyWave</param>
+                                                    <param id="0" name="Variable">subState_Wave</param>
                                                     <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
@@ -327,7 +327,7 @@
                         <event-block sid="658856571739946">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="501065031807370" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
@@ -357,7 +357,7 @@
                         <event-block sid="605148396475081">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="710572837971304" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
@@ -375,7 +375,7 @@
                                     <param id="3" name="Y">-300</param>
                                 </action>
                                 <action id="-11" name="Subtract from" sid="697220989399014" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
@@ -383,7 +383,7 @@
                         <event-block sid="786663964494251">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="376834189080116" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
@@ -411,7 +411,7 @@
                         <event-block sid="735641286485850">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="501767837242427" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
@@ -423,7 +423,7 @@
                             </conditions>
                             <actions>
                                 <action id="-11" name="Subtract from" sid="468038384859572" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
@@ -431,7 +431,7 @@
                         <event-block sid="836319673996019">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="630055242396654" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -465,7 +465,7 @@
                         <event-block sid="691118388908870">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="216909496558209" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -494,7 +494,7 @@
                         <event-block sid="948534899234568">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="786346986486651" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -743,7 +743,7 @@
                                                             <param id="0" name="Visibility">0</param>
                                                         </action>
                                                         <action id="-11" name="Subtract from" sid="323603283490573" type="System">
-                                                            <param id="0" name="Variable">enemyWave</param>
+                                                            <param id="0" name="Variable">subState_Wave</param>
                                                             <param id="1" name="Value">1</param>
                                                         </action>
                                                         <action id="-9" name="Set value" sid="338773785951859" type="System">
@@ -879,7 +879,7 @@
                                     <param id="2" name="Value">0</param>
                                 </condition>
                                 <condition id="-14" name="Compare variable" sid="881087476861085" type="System">
-                                    <param id="0" name="Variable">enemyWave</param>
+                                    <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
