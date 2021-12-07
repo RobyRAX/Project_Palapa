@@ -17,11 +17,15 @@
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="801379398808772" type="System" />
                         <condition id="-14" name="Pick by unique ID" sid="938122002201365" type="Perahu">
-                            <param id="0" name="Unique ID">787</param>
+                            <param id="0" name="Unique ID">789</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action behavior="Pin" id="0" name="Pin to object" sid="378214758453650" type="pusakaCengkeh">
+                            <param id="0" name="Pin to">Perahu</param>
+                            <param id="1" name="Mode">1</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="758432325960069" type="jump_2">
                             <param id="0" name="Pin to">Perahu</param>
                             <param id="1" name="Mode">1</param>
                         </action>
@@ -584,8 +588,11 @@
                                 <condition id="-4" name="Trigger once while true" sid="552809761147253" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="372056348923149" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="523605978900064" type="System">
-                                    <param id="0" name="Seconds">1.0</param>
+                                    <param id="0" name="Seconds">1.5</param>
                                 </action>
                                 <action id="3" name="Start" sid="304973604542609" type="jump_2">
                                     <param id="0" name="From">1</param>
@@ -596,17 +603,80 @@
                             <conditions>
                                 <condition id="3" name="Compare frame" sid="547068745329576" type="jump_2">
                                     <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                                    <param id="1" name="Number">6</param>
                                 </condition>
                                 <condition id="-4" name="Trigger once while true" sid="119054824874930" type="System" />
                             </conditions>
                             <actions>
-                                <action id="2" name="Stop" sid="743688887514898" type="jump_2" />
-                                <action id="-16" name="Wait" sid="305137091013115" type="System">
+                                <action id="-9" name="Destroy" sid="668278332485244" type="pusakaCengkeh" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="411890803241172">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="905732538501664" type="jump_2">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="452218958657601" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="905549790759321" type="jump_2" />
+                                <action id="-16" name="Wait" sid="941470810882110" type="System">
+                                    <param id="0" name="Seconds">1.5</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="588713376747707" type="DialogAkhir_4">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="811725539378089" type="Panel_Trans">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="522260981839553">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="201442551578801" type="DialogAkhir_4">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="336397794798495" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="694816748856414" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="652478127790431">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="179238857799712" type="DialogAkhir_4">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="976938707768687" type="Perahu">
+                                    <param id="0" name="Unique ID">789</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="253135943948610" type="System">
                                     <param id="0" name="Seconds">1.0</param>
                                 </action>
-                                <action id="5" name="Set frame" sid="851720100189170" type="DialogAkhir_4">
-                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                <action id="-17" name="Move forward" sid="869401154465862" type="Perahu">
+                                    <param id="0" name="Distance">10</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="791383600494612" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="275894823260089" type="System">
+                                    <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="898838687916754" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-21" name="Reset global variables" sid="253121253073968" type="System" />
+                                <action id="-2" name="Go to layout" sid="197922861366175" type="System">
+                                    <param id="0" name="Layout">LevelSelect</param>
                                 </action>
                             </actions>
                         </event-block>
