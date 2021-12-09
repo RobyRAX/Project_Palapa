@@ -457,21 +457,6 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action disabled="1" id="3" name="Set at XY" sid="479194184783889" type="Arr_LevelScore">
-                                    <param id="0" name="X">playedLevel</param>
-                                    <param id="1" name="Y">3</param>
-                                    <param id="2" name="Value">star</param>
-                                </action>
-                                <action disabled="1" id="3" name="Set at XY" sid="126731474106481" type="Arr_LevelScore">
-                                    <param id="0" name="X">playedLevel</param>
-                                    <param id="1" name="Y">1</param>
-                                    <param id="2" name="Value">COMPLETE</param>
-                                </action>
-                                <action disabled="1" id="3" name="Set at XY" sid="651262296843235" type="Arr_LevelScore">
-                                    <param id="0" name="X">playedLevel + 1</param>
-                                    <param id="1" name="Y">1</param>
-                                    <param id="2" name="Value">UNLOCK</param>
-                                </action>
                                 <action id="0" name="Call function" sid="902940342481129" type="Function">
                                     <param id="0" name="Name">&quot;Complete_Level&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>

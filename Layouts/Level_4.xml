@@ -787,8 +787,8 @@
                         <x>3177.288818359</x>
                         <y>627.631286621</y>
                         <z>0</z>
-                        <width>523.529602051</width>
-                        <height>189.444869995</height>
+                        <width>525</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.534426212</hotspotX>
                         <hotspotY>0.444444448</hotspotY>
@@ -872,10 +872,10 @@
                         <y>656.272827148</y>
                         <z>0</z>
                         <width>381.844146729</width>
-                        <height>134.92414856</height>
+                        <height>141.81388855</height>
                         <depth>0</depth>
                         <hotspotX>0.500578046</hotspotX>
-                        <hotspotY>0.502127647</hotspotY>
+                        <hotspotY>0.502024293</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -964,10 +964,10 @@
                         <y>659</y>
                         <z>0</z>
                         <width>350</width>
-                        <height>121</height>
+                        <height>127.178726196</height>
                         <depth>0</depth>
                         <hotspotX>0.500578046</hotspotX>
-                        <hotspotY>0.502127647</hotspotY>
+                        <hotspotY>0.502024293</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2368,6 +2368,24 @@
             <effects />
         </layer>
         <layer name="Pause" sid="715561252674547">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Lose_PopUp" sid="789559947917347">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

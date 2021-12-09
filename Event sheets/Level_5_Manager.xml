@@ -37,6 +37,7 @@
                             <param id="0" name="Variable">score</param>
                             <param id="1" name="Value">1000</param>
                         </action>
+                        <action id="2" name="Stop" sid="850324896814834" type="jump_2" />
                     </actions>
                     <sub-events>
                         <event-block sid="516740140022264">
@@ -89,33 +90,109 @@
                                     <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="11" name="Set collisions enabled" sid="176463407193242" type="Bound">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="173060035998346">
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="453086600125529" type="Touch">
-                                            <param id="0" name="Object">Dialogs_Awal</param>
+                                            <param id="0" name="Object">DialogAwal_Level5</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="5" name="Set frame" sid="252197642288129" type="Dialogs_Awal">
+                                        <action id="5" name="Set frame" sid="252197642288129" type="DialogAwal_Level5">
                                             <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
                                         </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="236371947851134">
                                     <conditions>
-                                        <condition id="3" name="Compare frame" sid="779466797445119" type="Dialogs_Awal">
+                                        <condition id="3" name="Compare frame" sid="779466797445119" type="DialogAwal_Level5">
                                             <param id="0" name="Comparison">0</param>
-                                            <param id="1" name="Number">Self.AnimationFrameCount - 1</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="970264553734719" type="Perahu">
+                                            <param id="0" name="Unique ID">865</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-9" name="Set value" sid="761434861697542" type="System">
+                                        <action id="-17" name="Move forward" sid="327607295286258" type="Perahu">
+                                            <param id="0" name="Distance">5</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="465112646014779">
+                                            <conditions>
+                                                <condition id="-1" name="Compare X" sid="174934258678033" type="Perahu">
+                                                    <param id="0" name="Comparison">5</param>
+                                                    <param id="1" name="X co-ordinate">175</param>
+                                                </condition>
+                                                <condition id="-14" name="Pick by unique ID" sid="303763527368966" type="Perahu">
+                                                    <param id="0" name="Unique ID">865</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="519507547973966" type="DialogAwal_Level5">
+                                                    <param id="0" name="Frame number">1</param>
+                                                </action>
+                                                <action id="11" name="Set collisions enabled" sid="133514061324811" type="Bound">
+                                                    <param id="0" name="Collisions">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="132647425879999">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="600157894345820" type="DialogAwal_Level5">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="895586731175954" type="Boss_Pesut">
+                                            <param id="0" name="Y">lerp(self.Y, self.defY, 0.02)</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="546041829908341">
+                                            <conditions>
+                                                <condition id="-2" name="Compare Y" sid="385447290985797" type="Boss_Pesut">
+                                                    <param id="0" name="Comparison">3</param>
+                                                    <param id="1" name="Y co-ordinate">self.defY + 5</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="5" name="Set frame" sid="409445371910866" type="DialogAwal_Level5">
+                                                    <param id="0" name="Frame number">4</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="780461098760712" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">defX</param>
+                                                    <param id="1" name="Value">self.X</param>
+                                                </action>
+                                                <action id="-10" name="Set value" sid="678440193515387" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">defY</param>
+                                                    <param id="1" name="Value">self.Y</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="166370520954512">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="347335242748404" type="DialogAwal_Level5">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="947396568917980" type="System">
                                             <param id="0" name="Variable">cutScene</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
-                                        <action id="-9" name="Destroy" sid="327607295286258" type="Dialogs_Awal" />
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -149,15 +226,24 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">&quot;Die&quot;</param>
                         </condition>
+                        <condition id="-4" name="Trigger once while true" sid="212636614461045" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="399135008885723" type="System">
+                            <param id="0" name="Variable">cutScene</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="876438138277663" type="System">
                             <param id="0" name="Variable">gameFinished</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-9" name="Set value" sid="399135008885723" type="System">
-                            <param id="0" name="Variable">cutScene</param>
+                        <action id="-9" name="Set value" sid="132461231750487" type="System">
+                            <param id="0" name="Variable">subState_Wave</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="237033016738488" type="Function">
+                            <param id="0" name="Name">&quot;Save_All&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                 </event-block>
@@ -172,7 +258,7 @@
                     </conditions>
                     <actions>
                         <action id="-4" name="Set layer visible" sid="257675969296055" type="System">
-                            <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                            <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
@@ -194,55 +280,6 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-group description="" sid="410227151470819" title="Show_Star_5">
-                            <sub-events>
-                                <event-block sid="669747391854099">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="596073818222487" type="System">
-                                            <param id="0" name="Variable">star</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Call function" sid="266870066214067" type="Function">
-                                            <param id="0" name="Name">&quot;Star_1&quot;</param>
-                                            <param id="1" name="Parameter {n}"></param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="144848452823663">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="221172592986784" type="System">
-                                            <param id="0" name="Variable">star</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Call function" sid="457633509515685" type="Function">
-                                            <param id="0" name="Name">&quot;Star_2&quot;</param>
-                                            <param id="1" name="Parameter {n}"></param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="739191371272556">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="238898182457234" type="System">
-                                            <param id="0" name="Variable">star</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="0" name="Call function" sid="270219193378624" type="Function">
-                                            <param id="0" name="Name">&quot;Star_3&quot;</param>
-                                            <param id="1" name="Parameter {n}"></param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-group>
                         <event-block sid="873579286091314">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="752453162896767" type="System">
@@ -257,6 +294,482 @@
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
+                        </event-block>
+                        <event-block sid="911185171838695">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="273314060420093" type="System">
+                                    <param id="0" name="Variable">cutScene</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-group description="" sid="410227151470819" title="Show_Star_5">
+                                    <sub-events>
+                                        <event-block sid="669747391854099">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="596073818222487" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="266870066214067" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_1&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="144848452823663">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="221172592986784" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="457633509515685" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_2&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="739191371272556">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="238898182457234" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="270219193378624" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_3&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-group>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="681134061087488">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="863651550238789" type="System">
+                            <param id="0" name="Layer">&quot;Dialog_Akhir&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <comment>Pesut Mati dan Tunggu </comment>
+                        <event-block sid="899580778346643">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="771196696072068" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="229542320673159" type="System" />
+                                <condition id="-14" name="Compare variable" sid="490338806935161" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="756410436780843" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="824735829013218" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Pusaka Naik dari Sungai</comment>
+                        <event-block sid="736195512778871">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="869056053247873" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="553208969014682" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="541575969910757" type="pusakaCengkeh">
+                                    <param id="0" name="Y">lerp(self.Y, 350, 0.05)</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="511259455192835">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="980911456465564" type="pusakaCengkeh">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="Y co-ordinate">355</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="176363752730283" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="559748729688612" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="994306180281063" type="DialogAkhir_5">
+                                            <param id="0" name="Frame number">2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Pusaka Ke Kirai</comment>
+                        <event-block sid="261308633964420">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="599455421555159" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="839428238433642" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="132769238277209" type="pusakaCengkeh">
+                                    <param id="0" name="X">lerp(self.X, Char_Trigger.X, 0.05)</param>
+                                    <param id="1" name="Y">lerp(self.Y, Char_Trigger.Y - 50, 0.05)</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="605277555159548">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="944930864726068" type="pusakaCengkeh">
+                                            <param id="0" name="Object">Char_Trigger</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Wait" sid="745314024788934" type="System">
+                                            <param id="0" name="Seconds">1</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="435755761724151" type="DialogAkhir_5">
+                                            <param id="0" name="Frame number">3</param>
+                                        </action>
+                                        <action id="-9" name="Destroy" sid="969958764972008" type="pusakaCengkeh" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>3 = Klik ke level 4</comment>
+                        <event-block sid="498989057328920">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="899507268078522" type="Touch">
+                                    <param id="0" name="Object">DialogAkhir_5</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="321838723823431" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="366223088675816" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="871631218682114" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">4</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="598715672487135" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>4 = Notif Dapet Pusaka</comment>
+                        <event-block sid="324082210715017">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="353516094573954" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="299171029992303" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="827861302253430" type="DialogAkhir_5">
+                                    <param id="0" name="Animation">&quot;DapatPusaka&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Balik ke Dialog</comment>
+                        <event-block sid="198409605847978">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="804041913132867" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">20</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="333661266082993" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="579938129909606" type="DialogAkhir_5">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="848476340540008" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">5</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="326349169407388" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>5 = Klik masuk frame 6</comment>
+                        <event-block sid="681131670128989">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="809803351471002" type="Touch">
+                                    <param id="0" name="Object">DialogAkhir_5</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="347813640061040" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="261971836757741" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="909592956654957" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">6</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Pesut Muncul</comment>
+                        <event-block sid="778708893642092">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="263156709824192" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="285196427945937" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="246883938879571" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Start" sid="388317788564928" type="jump_2">
+                                    <param id="0" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="916283453475454">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="249641317470771" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="763375536442280" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <comment>Masuk 7</comment>
+                                <event-block sid="274595780569464">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="872236681725393" type="jump_2">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="5" name="Set frame" sid="131092184224559" type="DialogAkhir_5">
+                                            <param id="0" name="Frame number">7</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="377876979911068" type="System">
+                                            <param id="0" name="Variable">subState_Wave</param>
+                                            <param id="1" name="Value">4</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>7 = klik Masuk Frame 8</comment>
+                        <event-block sid="209824844343953">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="133162083742567" type="Touch">
+                                    <param id="0" name="Object">DialogAkhir_5</param>
+                                </condition>
+                                <condition disabled="1" id="3" name="Compare frame" sid="686591500689121" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="809081878095694" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="822169402643831" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>8 = klik Masuk Frame 9</comment>
+                        <event-block disabled="1" sid="195727101959537">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="134172882193530" type="Touch">
+                                    <param id="0" name="Object">DialogAkhir_5</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="139375595752649" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">8</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="254172902065839" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="366136458463108" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>9 = klik Masuk Frame 10</comment>
+                        <event-block disabled="1" sid="872656659633806">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="440056348674725" type="Touch">
+                                    <param id="0" name="Object">DialogAkhir_5</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="250333685958503" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">9</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="628993634201188" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="812661639591604" type="DialogAkhir_5">
+                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Buka GameFinished</comment>
+                        <event-block sid="361491655699620">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="818188305353994" type="DialogAkhir_5">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">10</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="151235410349872" type="System">
+                                    <param id="0" name="Variable">subState_Wave</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="648589145620367" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="948999333113894" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="488921637937831" type="System">
+                                    <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="589958542628381">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="532147997437671" type="Arr_LevelScore">
+                                            <param id="0" name="X">playedLevel</param>
+                                            <param id="1" name="Y">2</param>
+                                            <param id="2" name="Comparison">1</param>
+                                            <param id="3" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Call function" sid="806663051869664" type="Function">
+                                            <param id="0" name="Name">&quot;Complete_Level&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-group description="" sid="636000990734294" title="Show_Star_12">
+                                    <sub-events>
+                                        <event-block sid="827735265225183">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="384957166551321" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="611045079113907" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_1&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="243322646734597">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="753872745042447" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="579449731829110" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_2&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="499605201042928">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="187175636362494" type="System">
+                                                    <param id="0" name="Variable">star</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Call function" sid="544645169103343" type="Function">
+                                                    <param id="0" name="Name">&quot;Star_3&quot;</param>
+                                                    <param id="1" name="Parameter {n}"></param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-group>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>

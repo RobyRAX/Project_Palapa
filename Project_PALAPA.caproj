@@ -649,6 +649,145 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="DialogKirai" sid="773968046416355">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623902196402530" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog_Kirai 1.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog Kirai 2.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="DialogKirai3end" sid="595938373344931">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856723922162089" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\3. Kota Waringin\Dialog Kirai 3-end.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="12" loop="0" name="DapatPusaka" pingpong="0" repeatcount="1" repeatto="0" sid="587020052249924" speed="6">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_00.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_02.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_04.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_06.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_08.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_10.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_12.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_14.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="1.4">
                 <object-type name="BG_Samarinda" sid="953995055448128">
@@ -670,7 +809,7 @@
                         </behavior-type>
                     </behaviors>
                     <animation-folder>
-                        <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338504584255504" speed="0">
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338504584255504" speed="0">
                             <frame duration="1" hotspotX="0.534426" hotspotY="0.444444" original-source="E:\course KMMI 2D Animation\level 4,5 samarinda\kapal 1.png">
                                 <image-point name="PusakaPivot" x="1.02842" y="0.0595238" />
                                 <collision-poly>
@@ -680,17 +819,6 @@
                                     <point x="0.82949" y="0.952381" />
                                     <point x="0.13785" y="0.936508" />
                                     <point x="0.00655738" y="0.488111" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.500578" hotspotY="0.502128" original-source="E:\course KMMI 2D Animation\level 2 Borito\Pasar Terapung\kapal 1.png">
-                                <image-point name="PusakaPivot" x="0.946821" y="0.378723" />
-                                <collision-poly>
-                                    <point x="0.318201" y="0.66383" />
-                                    <point x="0.687482" y="0.621277" />
-                                    <point x="1" y="0.433807" />
-                                    <point x="0.746199" y="1" />
-                                    <point x="0.271374" y="1" />
-                                    <point x="0" y="0.467849" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.500578" hotspotY="0.502024" original-source="E:\course KMMI 2D Animation\level 2 Borito\Pasar Terapung\kapal 3.png">
@@ -710,6 +838,402 @@
                 <object-type name="bekgron" sid="424492184580586">
                     <plugin id="TiledBg" />
                     <texture original-source="E:\course KMMI 2D Animation\level 4,5 samarinda\bekgron revisi1 .jpg" />
+                </object-type>
+                <object-type name="DialogAkhir_4" sid="403195087278081">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709664566211155" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\dialog raffles 1.5 .png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog Level 4\dialog kirai 2.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="DialogAwal_4" sid="218650658653571">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556081340383090" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog Level 4\dialog Kirai 1.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="gapuraSamarinda" sid="218301570985710">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531397377345069" speed="5">
+                            <frame duration="1" hotspotX="0.496762" hotspotY="0.413051" original-source="Y:\Assets\4-5. Samarinda\gapura samarinda.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="jump_2" sid="411347031144653">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Pin" sid="966453421483344">
+                            <behavior id="Pin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="41" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441373865476042" speed="30">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_00.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_01.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_02.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_03.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_04.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_05.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_06.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_07.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_08.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_09.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_10.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_11.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_12.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_13.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_14.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_15.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_16.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_17.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_18.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_19.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_20.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_21.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_22.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_23.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_24.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_25.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_26.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_27.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_28.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_29.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_30.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_31.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_32.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_33.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_34.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_35.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_36.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_37.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_38.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_39.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_40.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="0.993814" y="0.990625" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="2.3">
@@ -760,6 +1284,323 @@
                 <object-type name="TiledBackground2" sid="902796162885532">
                     <plugin id="TiledBg" />
                     <texture original-source="Y:\Assets\Referensi\ezgif.com-gif-maker(1).jpg" />
+                </object-type>
+            </object-folder>
+            <object-folder name="1.5">
+                <object-type name="DialogAwal_Level5" sid="409288543428559">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="368709649196797" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\Kirai level 5 -1.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\dialog pusaka.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\Kirai Level 5 - 2.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\Kirai level 5 - 3.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="DialogAkhir_5" sid="996282693957947">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="11" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="108547714985074" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\5 AfterFight\After Fighthing\Kirai 1.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\5 AfterFight\After Fighthing\Kirai 2.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\5 AfterFight\After Fighthing\Kirai 3.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\5 AfterFight\After Fighthing\Kirai 4.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\5 AfterFight\After Fighthing\Kirai 5.png">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="0" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="22" loop="0" name="DapatPusaka" pingpong="0" repeatcount="1" repeatto="0" sid="519710280543607" speed="6">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_00.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_02.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_04.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_06.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_08.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_10.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_12.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="Y:\Assets\4-5. Samarinda\Didapatkan 2 - Cengkeh\Cengkeh_14.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.174074" />
+                                    <point x="0.648438" y="0.174074" />
+                                    <point x="0.648438" y="0.826852" />
+                                    <point x="0.351563" y="0.826852" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-type name="BG_Sky" sid="512137527964066">
@@ -1220,6 +2061,95 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="238682404988121" speed="5">
                         <frame duration="1" hotspotX="0.511161" hotspotY="0.494226" original-source="Y:\Assets\UI &amp; Button\reload.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="backPaused" sid="481800478683989">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190767152167619" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500146" original-source="Y:\Assets\UI &amp; Button\back paused.png">
+                            <collision-poly>
+                                <point x="0.171149" y="0.301022" />
+                                <point x="0.5" y="0.167883" />
+                                <point x="0.838811" y="0.283504" />
+                                <point x="0.86255" y="0.499854" />
+                                <point x="0.846116" y="0.729343" />
+                                <point x="0.5" y="0.854891" />
+                                <point x="0.171315" y="0.698686" />
+                                <point x="0.156209" y="0.499854" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Kirai_Menu" sid="637080664897819">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500178891467533" speed="30">
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_00.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_01.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_02.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_03.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_04.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_05.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_06.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_07.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_08.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_09.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_10.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_11.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_12.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_13.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_14.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_15.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_16.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_17.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_18.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_19.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_20.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_21.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_22.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_23.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_24.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_25.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_26.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_27.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_28.png" />
+                        <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_29.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="quitbutton" sid="586694226814004">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525160274755166" speed="5">
+                        <frame duration="1" hotspotX="0.500151" hotspotY="0" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\QUIT BUTTON.png">
+                            <collision-poly>
+                                <point x="0.00602954" y="0.116395" />
+                                <point x="0.44287" y="0.0034418" />
+                                <point x="0.884534" y="0.111389" />
+                                <point x="0.914682" y="0.569775" />
+                                <point x="0.845945" y="0.98811" />
+                                <point x="0.0410009" y="0.986859" />
+                                <point x="0.00602954" y="0.569775" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="levelComplete" sid="200298753172928">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322382788853089" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501326" original-source="Y:\Assets\UI &amp; Button\level complete2.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3022,10 +3952,12 @@
                         <instance-variables>
                             <instance-variable name="rand" sid="804105718455149" type="number" />
                             <instance-variable name="HP" sid="681740979659798" type="number" />
+                            <instance-variable name="defX" sid="525064465468282" type="number" />
+                            <instance-variable name="defY" sid="422408593183276" type="number" />
                         </instance-variables>
                         <behaviors>
-                            <behavior-type name="Sine" sid="900839030954027">
-                                <behavior id="Sin" />
+                            <behavior-type name="Physics" sid="598257008379851">
+                                <behavior id="Physics" />
                             </behavior-type>
                         </behaviors>
                         <container>
@@ -3033,13 +3965,158 @@
                             <type>Boss_Pesut</type>
                         </container>
                         <animation-folder>
-                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="675539017654387" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <animation framecount="9" loop="1" name="Patrol" pingpong="0" repeatcount="1" repeatto="0" sid="675539017654387" speed="12">
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_00.png">
                                     <collision-poly>
-                                        <point x="0" y="0" />
-                                        <point x="1" y="0" />
-                                        <point x="1" y="0.52" />
-                                        <point x="0" y="0.52" />
+                                        <point x="0.226351" y="0.0895954" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.0923423" y="0.881503" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_02.png">
+                                    <collision-poly>
+                                        <point x="0.226351" y="0.0895954" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.11036" y="0.83526" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_04.png">
+                                    <collision-poly>
+                                        <point x="0.245495" y="0.0549133" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.115991" y="0.823699" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_06.png">
+                                    <collision-poly>
+                                        <point x="0.253378" y="0.049133" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.120495" y="0.794798" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_08.png">
+                                    <collision-poly>
+                                        <point x="0.233108" y="0.0751445" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.109234" y="0.83815" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_10.png">
+                                    <collision-poly>
+                                        <point x="0.226351" y="0.0895954" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.111486" y="0.869942" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_12.png">
+                                    <collision-poly>
+                                        <point x="0.226351" y="0.0895954" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.117117" y="0.855491" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_14.png">
+                                    <collision-poly>
+                                        <point x="0.226351" y="0.0895954" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.10473" y="0.852601" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.71509" hotspotY="0.66763" original-source="Y:\Assets\NPC\Pesut_Boss\Patrol\Patrol_16.png">
+                                    <collision-poly>
+                                        <point x="0.238739" y="0.0982659" />
+                                        <point x="0.710585" y="0.679191" />
+                                        <point x="0.10473" y="0.852601" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="7" loop="0" name="ToShoot" pingpong="0" repeatcount="1" repeatto="0" sid="903314924505364" speed="12">
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_00.png">
+                                    <collision-poly>
+                                        <point x="0.236547" y="0.442561" />
+                                        <point x="0.715247" y="0.87194" />
+                                        <point x="0.106502" y="0.969868" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_01.png">
+                                    <collision-poly>
+                                        <point x="0.269058" y="0.378531" />
+                                        <point x="0.715247" y="0.87194" />
+                                        <point x="0.122197" y="0.870056" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_02.png">
+                                    <collision-poly>
+                                        <point x="0.321749" y="0.320151" />
+                                        <point x="0.715247" y="0.87194" />
+                                        <point x="0.100897" y="0.73258" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_03.png">
+                                    <collision-poly>
+                                        <point x="0.371076" y="0.259887" />
+                                        <point x="0.554933" y="0.888889" />
+                                        <point x="0.122197" y="0.613936" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_04.png">
+                                    <collision-poly>
+                                        <point x="0.419282" y="0.222222" />
+                                        <point x="0.535874" y="0.86064" />
+                                        <point x="0.139013" y="0.47081" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_05.png">
+                                    <collision-poly>
+                                        <point x="0.480942" y="0.20339" />
+                                        <point x="0.56278" y="0.862524" />
+                                        <point x="0.179372" y="0.374765" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.873823" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_06.png">
+                                    <collision-poly>
+                                        <point x="0.540359" y="0.19774" />
+                                        <point x="0.539238" y="0.873823" />
+                                        <point x="0.220852" y="0.288136" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="7" loop="0" name="Shoot" pingpong="0" repeatcount="1" repeatto="0" sid="934182305396569" speed="15">
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_11.png" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_13.png" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_16.png" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
+                            </animation>
+                            <animation framecount="5" loop="0" name="ExitShoot" pingpong="0" repeatcount="1" repeatto="0" sid="666341796679943" speed="12">
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png" />
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_05.png" />
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_03.png" />
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_01.png" />
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_00.png" />
+                            </animation>
+                            <animation framecount="5" loop="0" name="ToJump" pingpong="0" repeatcount="1" repeatto="0" sid="198578190651904" speed="10">
+                                <frame duration="1" hotspotX="0.725377" hotspotY="0.752161" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_00.png" />
+                                <frame duration="1" hotspotX="0.7019" hotspotY="0.319613" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_02.png" />
+                                <frame duration="1" hotspotX="0.700855" hotspotY="0.30303" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_04.png" />
+                                <frame duration="1" hotspotX="0.70389" hotspotY="0.333969" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_06.png" />
+                                <frame duration="1" hotspotX="0.729426" hotspotY="0.398453" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_08.png" />
+                            </animation>
+                            <animation framecount="4" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="326215818565981" speed="5">
+                                <frame duration="1" hotspotX="0.751515" hotspotY="0.681437" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_20.png" />
+                                <frame duration="1" hotspotX="0.629156" hotspotY="0.680572" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_22.png" />
+                                <frame duration="1" hotspotX="0.59375" hotspotY="0.711634" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_24.png" />
+                                <frame duration="1" hotspotX="0.629723" hotspotY="0.694712" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_26.png" />
+                            </animation>
+                            <animation framecount="1" loop="0" name="Stomp" pingpong="0" repeatcount="1" repeatto="0" sid="837624821699107" speed="5">
+                                <frame duration="1" hotspotX="0.3583" hotspotY="0.249071" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Down\down_08.png">
+                                    <collision-poly>
+                                        <point x="0" y="0.483271" />
+                                        <point x="0.631579" y="0.460967" />
+                                        <point x="0.578947" y="1" />
+                                        <point x="0.0323887" y="1" />
                                     </collision-poly>
                                 </frame>
                             </animation>
@@ -3427,25 +4504,20 @@
                     <instance-variable name="vy" sid="644899509200928" type="number" />
                 </instance-variables>
                 <behaviors>
-                    <behavior-type name="DestroyOutsideLayout" sid="533920368601286">
-                        <behavior id="destroy" />
-                    </behavior-type>
                     <behavior-type name="Physics" sid="538192650936256">
                         <behavior id="Physics" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961752868006051" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <frame duration="1" hotspotX="0.560364" hotspotY="0.543103" original-source="Y:\Assets\NPC\Pesut_Boss\bulleti.png">
                             <collision-poly>
-                                <point x="0.124" y="0.124" />
-                                <point x="0.5" y="0.02" />
-                                <point x="0.792" y="0.208" />
-                                <point x="0.9" y="0.5" />
-                                <point x="0.816" y="0.816" />
-                                <point x="0.5" y="0.872" />
-                                <point x="0.232" y="0.768" />
-                                <point x="0.052" y="0.5" />
+                                <point x="0.268793" y="0.272989" />
+                                <point x="0.776765" y="0.278736" />
+                                <point x="0.931663" y="0.58908" />
+                                <point x="0.731207" y="0.882184" />
+                                <point x="0.296128" y="0.876437" />
+                                <point x="0.113895" y="0.586207" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -4078,6 +5150,26 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="pusakaCengkeh" sid="847488554525713">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Pin" sid="894781190647137">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955047235755523" speed="5">
+                        <frame duration="1" hotspotX="0.405245" hotspotY="0.629195" original-source="E:\course KMMI 2D Animation\pusaka palapa\pusaka cengkeh.png">
+                            <collision-poly>
+                                <point x="0.148054" y="0" />
+                                <point x="1" y="0.428272" />
+                                <point x="0.493232" y="0.994966" />
+                                <point x="0.0795262" y="0.827181" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="comments" sid="337426857187545">
             <plugin id="Text" />
@@ -4114,652 +5206,8 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="quitbutton" sid="586694226814004">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525160274755166" speed="5">
-                    <frame duration="1" hotspotX="0.500151" hotspotY="0" original-source="E:\course KMMI 2D Animation\LOGO\Main Menu\QUIT BUTTON.png">
-                        <collision-poly>
-                            <point x="0.00602954" y="0.116395" />
-                            <point x="0.44287" y="0.0034418" />
-                            <point x="0.884534" y="0.111389" />
-                            <point x="0.914682" y="0.569775" />
-                            <point x="0.845945" y="0.98811" />
-                            <point x="0.0410009" y="0.986859" />
-                            <point x="0.00602954" y="0.569775" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Kirai_Menu" sid="637080664897819">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500178891467533" speed="30">
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_00.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_01.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_02.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_03.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_04.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_05.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_06.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_07.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_08.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_09.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_10.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_11.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_12.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_13.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_14.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_15.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_16.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_17.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_18.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_19.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_20.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_21.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_22.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_23.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_24.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_25.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_26.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_27.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_28.png" />
-                    <frame duration="1" hotspotX="0.501155" hotspotY="1" original-source="E:\course KMMI 2D Animation\Kirai UP\idle\Rig_Kirai-Idle_NoWeapon_29.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Video" sid="723021299908337">
             <plugin id="video" />
-        </object-type>
-        <object-type name="backPaused" sid="481800478683989">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190767152167619" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500146" original-source="Y:\Assets\UI &amp; Button\back paused.png">
-                        <collision-poly>
-                            <point x="0.171149" y="0.301022" />
-                            <point x="0.5" y="0.167883" />
-                            <point x="0.838811" y="0.283504" />
-                            <point x="0.86255" y="0.499854" />
-                            <point x="0.846116" y="0.729343" />
-                            <point x="0.5" y="0.854891" />
-                            <point x="0.171315" y="0.698686" />
-                            <point x="0.156209" y="0.499854" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="levelComplete" sid="200298753172928">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="322382788853089" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501326" original-source="Y:\Assets\UI &amp; Button\level complete2.png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="gapuraSamarinda" sid="218301570985710">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531397377345069" speed="5">
-                    <frame duration="1" hotspotX="0.496762" hotspotY="0.413051" original-source="Y:\Assets\4-5. Samarinda\gapura samarinda.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogKirai3end" sid="595938373344931">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856723922162089" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\3. Kota Waringin\Dialog Kirai 3-end.png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="12" loop="0" name="DapatPusaka" pingpong="0" repeatcount="1" repeatto="0" sid="587020052249924" speed="6">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_00.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_02.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_04.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_06.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_08.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_10.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_12.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\course KMMI 2D Animation\pusaka palapa\Didapatkan 1-Lada\Lada_14.png">
-                        <collision-poly>
-                            <point x="0.351563" y="0.174074" />
-                            <point x="0.648438" y="0.174074" />
-                            <point x="0.648438" y="0.826852" />
-                            <point x="0.351563" y="0.826852" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogKirai" sid="773968046416355">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623902196402530" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog_Kirai 1.png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog level 3\Dialog Kirai 2.png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="pusakaCengkeh" sid="847488554525713">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="894781190647137">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955047235755523" speed="5">
-                    <frame duration="1" hotspotX="0.405245" hotspotY="0.629195" original-source="E:\course KMMI 2D Animation\pusaka palapa\pusaka cengkeh.png">
-                        <collision-poly>
-                            <point x="0.148054" y="0" />
-                            <point x="1" y="0.428272" />
-                            <point x="0.493232" y="0.994966" />
-                            <point x="0.0795262" y="0.827181" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="jump_2" sid="411347031144653">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="966453421483344">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="41" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441373865476042" speed="30">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_00.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_01.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_02.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_03.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_04.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_05.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_06.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_07.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_08.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_09.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_10.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_11.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_12.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_13.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_14.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_15.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_16.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_17.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_18.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_19.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_20.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_21.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_22.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_23.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_24.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_25.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_26.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_27.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_28.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_29.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_30.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_31.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_32.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_33.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_34.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_35.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_36.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_37.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_38.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_39.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\minibos\jump\Rev\jump_40.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="0.993814" y="0.990625" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogAwal_4" sid="218650658653571">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556081340383090" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog Level 4\dialog Kirai 1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogAkhir_4" sid="403195087278081">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709664566211155" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\4-5. Samarinda\dialog raffles 1.5 .png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\course KMMI 2D Animation\dialogbox\Dialog Level 4\dialog kirai 2.png">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0" y="1" />
-                            <point x="1" y="1" />
-                            <point x="1" y="0" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
     </object-folder>
     <families>

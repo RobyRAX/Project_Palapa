@@ -69,24 +69,6 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
-            <effects />
-        </layer>
-        <layer name="Game" sid="397461390334059">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
             <instances>
                 <instance type="Aer_Belakang" uid="697">
                     <properties>
@@ -111,11 +93,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-912</x>
-                        <y>-750</y>
+                        <x>-253</x>
+                        <y>-798</y>
                         <z>0</z>
-                        <width>4072</width>
-                        <height>1499</height>
+                        <width>1692</width>
+                        <height>1502</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -123,6 +105,25 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Game" sid="397461390334059">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="Kirai_Body" uid="844">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -136,8 +137,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>87</x>
-                        <y>577</y>
+                        <x>-261</x>
+                        <y>554</y>
                         <z>0</z>
                         <width>79.818511963</width>
                         <height>179.228866577</height>
@@ -201,8 +202,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>89</x>
-                        <y>507</y>
+                        <x>-259</x>
+                        <y>556</y>
                         <z>0</z>
                         <width>49.928695679</width>
                         <height>141.043365479</height>
@@ -223,8 +224,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>110</x>
-                        <y>528</y>
+                        <x>-238</x>
+                        <y>577</y>
                         <z>0</z>
                         <width>59.533176422</width>
                         <height>31.751026154</height>
@@ -248,8 +249,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>140</x>
-                        <y>487</y>
+                        <x>-208</x>
+                        <y>536</y>
                         <z>0</z>
                         <width>8.177202225</width>
                         <height>8.177202225</height>
@@ -273,8 +274,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>83</x>
-                        <y>488</y>
+                        <x>-265</x>
+                        <y>537</y>
                         <z>0</z>
                         <width>60.891815186</width>
                         <height>12.178362846</height>
@@ -302,8 +303,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>230</x>
-                        <y>309</y>
+                        <x>-118</x>
+                        <y>358</y>
                         <z>0</z>
                         <width>56.205039978</width>
                         <height>56.205043793</height>
@@ -332,7 +333,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1284</x>
-                        <y>359</y>
+                        <y>294</y>
                         <z>0</z>
                         <width>22</width>
                         <height>769</height>
@@ -356,8 +357,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
-                        <y>527</y>
+                        <x>-252</x>
+                        <y>561</y>
                         <z>0</z>
                         <width>34.828746796</width>
                         <height>34.828746796</height>
@@ -386,8 +387,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-8.161714554</x>
-                        <y>359.5</y>
+                        <x>-8</x>
+                        <y>294</y>
                         <z>0</z>
                         <width>24</width>
                         <height>785</height>
@@ -409,7 +410,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>641</x>
-                        <y>747</y>
+                        <y>682</y>
                         <z>0</z>
                         <width>1366</width>
                         <height>24</height>
@@ -433,8 +434,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>173</x>
-                        <y>525</y>
+                        <x>-175</x>
+                        <y>574</y>
                         <z>0</z>
                         <width>191.192276001</width>
                         <height>71.075195313</height>
@@ -448,40 +449,43 @@
                 <instance type="Boss_Pesut" uid="834">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Patrol</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <rand>0</rand>
-                        <HP>200</HP>
+                        <HP>5</HP>
+                        <defX>0</defX>
+                        <defY>590</defY>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Sine">
+                        <behavior-instance type="Physics">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1066</x>
-                        <y>618</y>
+                        <x>1303</x>
+                        <y>788</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
+                        <width>566.595031738</width>
+                        <height>220.76789856</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.715090096</hotspotX>
+                        <hotspotY>0.667630076</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -499,8 +503,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1002</x>
-                        <y>588</y>
+                        <x>1114</x>
+                        <y>617</y>
                         <z>0</z>
                         <width>59.699245453</width>
                         <height>59.699245453</height>
@@ -511,7 +515,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Perahu" uid="853">
+                <instance type="pusakaCengkeh" uid="945">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -519,41 +523,24 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>5</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>676</x>
-                        <y>605</y>
+                        <x>1044</x>
+                        <y>832</y>
                         <z>0</z>
-                        <width>441</width>
-                        <height>120</height>
+                        <width>68.122962952</width>
+                        <height>68.699302673</height>
                         <depth>0</depth>
-                        <hotspotX>0.534426212</hotspotX>
-                        <hotspotY>0.444444448</hotspotY>
+                        <hotspotX>0.405245334</hotspotX>
+                        <hotspotY>0.629194617</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Perahu" uid="865">
+                <instance type="jump_2" uid="947">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -561,36 +548,19 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>5</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>15</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>184</x>
-                        <y>608</y>
+                        <x>1263</x>
+                        <y>652</y>
                         <z>0</z>
-                        <width>448</width>
-                        <height>131</height>
+                        <width>1013.37097168</width>
+                        <height>668.616027832</height>
                         <depth>0</depth>
-                        <hotspotX>0.534426212</hotspotX>
-                        <hotspotY>0.444444448</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -637,14 +607,98 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-719</x>
-                        <y>-698</y>
+                        <x>-90</x>
+                        <y>-746</y>
                         <z>0</z>
-                        <width>3888</width>
-                        <height>1499</height>
+                        <width>1500</width>
+                        <height>1497</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Perahu" uid="853">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>1</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>5</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>15</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>676</x>
+                        <y>565</y>
+                        <z>0</z>
+                        <width>416.901641846</width>
+                        <height>117.619049072</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500578046</hotspotX>
+                        <hotspotY>0.502024293</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Perahu" uid="865">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>5</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>15</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-377</x>
+                        <y>563</y>
+                        <z>0</z>
+                        <width>525</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.534426212</hotspotX>
+                        <hotspotY>0.444444448</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -686,16 +740,13 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Dialogs_Awal" uid="953">
+                <instance type="DialogAwal_Level5" uid="924">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <dialogFrame>0</dialogFrame>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -730,7 +781,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Dialogs_Akhir" uid="954">
+                <instance type="DialogAkhir_5" uid="925">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -851,6 +902,24 @@
             <effects />
         </layer>
         <layer name="Pause" sid="648115483998267">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Lose_PopUp" sid="774581034092225">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

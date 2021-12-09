@@ -463,7 +463,6 @@
                         <vy>0</vy>
                     </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="DestroyOutsideLayout" />
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>No</immovable>
@@ -485,12 +484,12 @@
                         <x>320</x>
                         <y>103</y>
                         <z>0</z>
-                        <width>46.249324799</width>
-                        <height>46.249324799</height>
+                        <width>81.213813782</width>
+                        <height>128.758117676</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.560364485</hotspotX>
+                        <hotspotY>0.543103456</hotspotY>
+                        <angle>2.145201683</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
