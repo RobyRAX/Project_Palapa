@@ -114,6 +114,78 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="410598847259546">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="123691337787265" type="System">
+                                            <param id="0" name="Variable">state_PesutBoss</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="906575908269480">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="542438542455841" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">LR</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-1" name="Set X" sid="552411669084087" type="Boss_Pesut">
+                                                    <param id="0" name="X">lerp(self.X, self.defX + 15, 0.05)</param>
+                                                </action>
+                                            </actions>
+                                            <sub-events>
+                                                <event-block sid="126756916271703">
+                                                    <conditions>
+                                                        <condition id="-1" name="Compare X" sid="792538131324161" type="Boss_Pesut">
+                                                            <param id="0" name="Comparison">5</param>
+                                                            <param id="1" name="X co-ordinate">self.defX + 14</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-10" name="Set value" sid="150780345884548" type="Boss_Pesut">
+                                                            <param id="0" name="Instance variable">LR</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="698017194460910">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="158507861197841" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">LR</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-1" name="Set X" sid="648860866126417" type="Boss_Pesut">
+                                                    <param id="0" name="X">lerp(self.X, self.defX - 15, 0.05)</param>
+                                                </action>
+                                            </actions>
+                                            <sub-events>
+                                                <event-block sid="285108331331718">
+                                                    <conditions>
+                                                        <condition id="-1" name="Compare X" sid="252761808158956" type="Boss_Pesut">
+                                                            <param id="0" name="Comparison">3</param>
+                                                            <param id="1" name="X co-ordinate">self.defX - 14</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-10" name="Set value" sid="973549836001591" type="Boss_Pesut">
+                                                            <param id="0" name="Instance variable">LR</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
                                 <event-block sid="989633035240294">
                                     <conditions>
                                         <condition id="-14" name="Compare variable" sid="183309230719820" type="System">
@@ -138,136 +210,140 @@
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="427921703945458">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="337439301624635" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="847526396324664" type="System">
-                                            <param id="0" name="Variable">subState_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="161842795151663" type="System" />
-                                        <condition id="-7" name="Compare instance variable" sid="578671499744683" type="Boss_Pesut">
-                                            <param id="0" name="Instance variable">rand</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Set value" sid="769356042736939" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Value">&quot;Stomp&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="873851634797238">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="267438551609429" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="381957528763152" type="System">
-                                            <param id="0" name="Variable">subState_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="678460604480359" type="System" />
-                                        <condition id="-7" name="Compare instance variable" sid="689022661613144" type="Boss_Pesut">
-                                            <param id="0" name="Instance variable">rand</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Set value" sid="593231021061993" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Value">&quot;Shoot&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="128775999238021">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="551864746337731" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="734229645793515" type="System">
-                                            <param id="0" name="Variable">subState_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="650236871111494" type="System" />
-                                        <condition id="-7" name="Compare instance variable" sid="624636735988440" type="Boss_Pesut">
-                                            <param id="0" name="Instance variable">rand</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Set value" sid="859433685107019" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Value">&quot;Shoot&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="950877937170294">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="394750282862174" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="650852203818591" type="System">
-                                            <param id="0" name="Variable">subState_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="995595745839777" type="System" />
-                                        <condition id="-7" name="Compare instance variable" sid="479934651848989" type="Boss_Pesut">
-                                            <param id="0" name="Instance variable">rand</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">4</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Set value" sid="497565576603243" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Value">&quot;Stomp&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="507779901753915">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="220873196563199" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Patrol&quot;</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="374227879483384" type="System">
-                                            <param id="0" name="Variable">subState_PesutBoss</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="788191416315679" type="System" />
-                                        <condition id="-7" name="Compare instance variable" sid="790257184642799" type="Boss_Pesut">
-                                            <param id="0" name="Instance variable">rand</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">5</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Set value" sid="181290652736180" type="System">
-                                            <param id="0" name="Variable">state_PesutBoss</param>
-                                            <param id="1" name="Value">&quot;Stomp&quot;</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
+                                <event-group description="" sid="508711448926288" title="Set_NextState">
+                                    <sub-events>
+                                        <event-block sid="427921703945458">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="337439301624635" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="847526396324664" type="System">
+                                                    <param id="0" name="Variable">subState_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="161842795151663" type="System" />
+                                                <condition id="-7" name="Compare instance variable" sid="578671499744683" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">rand</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">1</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="769356042736939" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Value">&quot;Stomp&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="873851634797238">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="267438551609429" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="381957528763152" type="System">
+                                                    <param id="0" name="Variable">subState_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="678460604480359" type="System" />
+                                                <condition id="-7" name="Compare instance variable" sid="689022661613144" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">rand</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="593231021061993" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Value">&quot;Shoot&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="128775999238021">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="551864746337731" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="734229645793515" type="System">
+                                                    <param id="0" name="Variable">subState_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="650236871111494" type="System" />
+                                                <condition id="-7" name="Compare instance variable" sid="624636735988440" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">rand</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">3</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="859433685107019" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Value">&quot;Shoot&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="950877937170294">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="394750282862174" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="650852203818591" type="System">
+                                                    <param id="0" name="Variable">subState_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="995595745839777" type="System" />
+                                                <condition id="-7" name="Compare instance variable" sid="479934651848989" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">rand</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">4</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="497565576603243" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Value">&quot;Stomp&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="507779901753915">
+                                            <conditions>
+                                                <condition id="-14" name="Compare variable" sid="220873196563199" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Patrol&quot;</param>
+                                                </condition>
+                                                <condition id="-14" name="Compare variable" sid="374227879483384" type="System">
+                                                    <param id="0" name="Variable">subState_PesutBoss</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">0</param>
+                                                </condition>
+                                                <condition id="-4" name="Trigger once while true" sid="788191416315679" type="System" />
+                                                <condition id="-7" name="Compare instance variable" sid="790257184642799" type="Boss_Pesut">
+                                                    <param id="0" name="Instance variable">rand</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">5</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-9" name="Set value" sid="181290652736180" type="System">
+                                                    <param id="0" name="Variable">state_PesutBoss</param>
+                                                    <param id="1" name="Value">&quot;Stomp&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-group>
                             </sub-events>
                         </event-group>
                         <event-group description="" sid="531315039372495" title="Stomp">

@@ -244,6 +244,10 @@
                                                 <condition id="-9" name="Layer is visible" sid="792353423628973" type="System">
                                                     <param id="0" name="Layer">&quot;Dialog_AwalRaffles&quot;</param>
                                                 </condition>
+                                                <condition id="3" inverted="1" name="Compare frame" sid="209953488132885" type="Dialogs_AwalRaffles">
+                                                    <param id="0" name="Comparison">0</param>
+                                                    <param id="1" name="Number">3</param>
+                                                </condition>
                                             </conditions>
                                             <actions>
                                                 <action id="5" name="Set frame" sid="814933029346348" type="Dialogs_AwalRaffles">
@@ -624,6 +628,14 @@
                                                     <conditions>
                                                         <condition id="17" name="On tap object" sid="376317289138171" type="Touch">
                                                             <param id="0" name="Object">Dialogs_Raffles</param>
+                                                        </condition>
+                                                        <condition id="3" inverted="1" name="Compare frame" sid="737427099271250" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">5</param>
+                                                        </condition>
+                                                        <condition id="3" inverted="1" name="Compare frame" sid="762813684501538" type="Dialogs_Raffles">
+                                                            <param id="0" name="Comparison">0</param>
+                                                            <param id="1" name="Number">11</param>
                                                         </condition>
                                                     </conditions>
                                                     <actions>

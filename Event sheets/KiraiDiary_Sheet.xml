@@ -3,19 +3,325 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>KiraiDiary_Sheet</name>
     <events>
+        <include>Weapons_Sheet</include>
         <include>Pusaka_Sheet</include>
         <include>Journals_Sheet</include>
-        <event-block sid="816376887754686">
+        <variable constant="0" name="KiraiDiary_Opsi" sid="357803471647663" static="0" type="number">1</variable>
+        <variable constant="0" name="KiraiDiary_JournalCount" sid="629978902530615" static="0" type="number">0</variable>
+        <event-block sid="178475405784378">
             <conditions>
-                <condition id="17" name="On tap object" sid="392730270979810" type="Touch">
-                    <param id="0" name="Object">Close_Button</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="664812484784739" type="System" />
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="663324218915436" type="System">
-                    <param id="0" name="Layout">MainMenu</param>
+                <action id="0" name="Set text" sid="463064073509291" type="Nama_Item">
+                    <param id="0" name="Text">&quot;Collect The Items to See Details&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="786723974043110" type="Desc_Indo">
+                    <param id="0" name="Text">&quot; &quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="636668510459053" type="Desc_Eng">
+                    <param id="0" name="Text">&quot; &quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="528933209103980" type="Nama_Senjata">
+                    <param id="0" name="Text">&quot;Collect The Weapons to See Details&quot;</param>
+                </action>
+                <action id="-7" name="Set size" sid="395021893449582" type="Bar_Atribut">
+                    <param id="0" name="Width">0</param>
+                    <param id="1" name="Height">Self.Height</param>
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="419918361824526" title="Buttons">
+            <sub-events>
+                <event-block sid="816376887754686">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="392730270979810" type="Touch">
+                            <param id="0" name="Object">Close_Button</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="663324218915436" type="System">
+                            <param id="0" name="Layout">MainMenu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="332778849859687">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="280018897948943" type="Touch">
+                            <param id="0" name="Object">Next_Button</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="493505981610047" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="663948022636781" type="System">
+                            <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="492775330371937">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="725698098157810" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="959566367179273" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="730095307066024">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="770995456957666" type="Touch">
+                            <param id="0" name="Object">Previous_Button</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="668941135190380" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="870961624619162" type="System">
+                            <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="437143315591182">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="119113975210670" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="961527103284319" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="977102939588754">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="138474846708913" type="Touch">
+                            <param id="0" name="Object">Journal_Button</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="173684859153420" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="739976523482915" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="450468854030184">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="993893744757054" type="Touch">
+                            <param id="0" name="Object">Weapons_Button</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="399626541314588" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="576755234058398" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="918425216061640" title="Layer_Manager">
+            <sub-events>
+                <comment>Journals</comment>
+                <event-block sid="665855450938413">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="692031994033020" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="109906311617895" type="System">
+                            <param id="0" name="Layer">&quot;Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="495625755558770" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="664848202792171" type="System">
+                            <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="309381670164200" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Journals&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="889487855164441">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="426207106734416" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="613800728333976" type="System">
+                                    <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="225998290140766" type="System">
+                                    <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="341341840759029" type="System">
+                                    <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="684893711050689" type="System">
+                                    <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="586471864577927">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="611650005126856" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="417437942957145" type="System">
+                                    <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="906017834094808" type="System">
+                                    <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="981011971944214" type="System">
+                                    <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="114588775423873" type="System">
+                                    <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="495851169662984">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="703699234646583" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="641732943116260" type="System">
+                                    <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="961331885802841" type="System">
+                                    <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="201880570688169" type="System">
+                                    <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="951734909262106" type="System">
+                                    <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="244862820088532">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="734932054123896" type="System">
+                                    <param id="0" name="Variable">KiraiDiary_JournalCount</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="787184447193081" type="System">
+                                    <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="403466159392803" type="System">
+                                    <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="878950307964632" type="System">
+                                    <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="984391952746332" type="System">
+                                    <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Weapons</comment>
+                <event-block sid="104174706414490">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="630171948402400" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="734523853913212" type="System">
+                            <param id="0" name="Layer">&quot;Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="435085938541680" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="773519573315654" type="System">
+                            <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="495427303587681" type="System">
+                            <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="406017561244314" type="System">
+                            <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="406254647892631" type="System">
+                            <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="100522545959303" type="System">
+                            <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="234458809476773" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Journals&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

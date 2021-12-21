@@ -1152,6 +1152,18 @@
                                 <condition id="17" name="On tap object" sid="599825369236873" type="Touch">
                                     <param id="0" name="Object">Dialogs_Akhir</param>
                                 </condition>
+                                <condition id="3" inverted="1" name="Compare frame" sid="398501186379306" type="Dialogs_Akhir">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                                <condition id="3" inverted="1" name="Compare frame" sid="536078564959991" type="Dialogs_Akhir">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="3" inverted="1" name="Compare frame" sid="675395429227775" type="Dialogs_Akhir">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">10</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="5" name="Set frame" sid="940372356305606" type="Dialogs_Akhir">

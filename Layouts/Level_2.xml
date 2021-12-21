@@ -2704,7 +2704,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Timer" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -6669,8 +6668,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1164.223022461</x>
-                        <y>634.642028809</y>
+                        <x>1165</x>
+                        <y>635</y>
                         <z>0</z>
                         <width>68.913124084</width>
                         <height>68.913124084</height>
@@ -6738,7 +6737,7 @@
                 <instance type="welkom_BG_2" uid="807">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Siluet</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -6760,7 +6759,7 @@
                 <instance type="Monyet" uid="808">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Siluet</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>

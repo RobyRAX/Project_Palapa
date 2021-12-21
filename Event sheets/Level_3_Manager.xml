@@ -1049,7 +1049,7 @@
                             <param id="0" name="Object">Notif_Item</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="677297224236255" type="Notif_Item">
-                            <param id="0" name="Unique ID">810</param>
+                            <param id="0" name="Unique ID">143</param>
                         </condition>
                         <condition id="-9" inverted="1" name="Layer is visible" sid="474968790353299" type="System">
                             <param id="0" name="Layer">&quot;KiraiDiary_Level_3&quot;</param>

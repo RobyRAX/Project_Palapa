@@ -1280,11 +1280,11 @@
                         <x>888</x>
                         <y>480</y>
                         <z>0</z>
-                        <width>80.635421753</width>
-                        <height>49.655597687</height>
+                        <width>80.195991516</width>
+                        <height>49.435882568</height>
                         <depth>0</depth>
-                        <hotspotX>0.501362383</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501369834</hotspotX>
+                        <hotspotY>0.50222224</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1356,7 +1356,6 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Timer" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -4761,7 +4760,7 @@
                 <instance type="KebunRaya_BG" uid="136">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Siluet</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -4772,10 +4771,10 @@
                         <y>240</y>
                         <z>0</z>
                         <width>354.928741455</width>
-                        <height>217.30329895</height>
+                        <height>220.200683594</height>
                         <depth>0</depth>
                         <hotspotX>0.436734706</hotspotX>
-                        <hotspotY>0.593333304</hotspotY>
+                        <hotspotY>0.592105269</hotspotY>
                         <angle>-0.264105439</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4783,22 +4782,22 @@
                 <instance type="Beruang1_BG" uid="137">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Siluet</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>493</x>
-                        <y>538</y>
+                        <x>489.644836426</x>
+                        <y>605.12487793</y>
                         <z>0</z>
                         <width>260.547546387</width>
                         <height>307.870880127</height>
                         <depth>0</depth>
-                        <hotspotX>0.588235319</hotspotX>
-                        <hotspotY>0.89432317</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.589267313</hotspotX>
+                        <hotspotY>0.887336254</hotspotY>
+                        <angle>0.081633762</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -4832,7 +4831,7 @@
                 <instance type="KantungSemar_BG" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Siluet</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -4862,7 +4861,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1165</x>
-                        <y>640</y>
+                        <y>635</y>
                         <z>0</z>
                         <width>68.913124084</width>
                         <height>68.913124084</height>

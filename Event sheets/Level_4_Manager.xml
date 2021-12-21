@@ -669,5 +669,375 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="963209480137731" title="PopUp_KiraiDiary_4">
+            <sub-events>
+                <event-block sid="813534576578601">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="858807875943659" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="563267378784091" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="808726165384034" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="482079851564742" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="342266929639555">
+                    <conditions>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="531388842630854" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="887083699833294" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="459115027901386" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="685060190064395" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="775600169983328" title="Notif_4">
+                    <sub-events>
+                        <comment>Notif_Tugu</comment>
+                        <event-block sid="266818228130101">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="306768053242424" type="Notif_Item">
+                                    <param id="0" name="Unique ID">799</param>
+                                </condition>
+                                <condition id="1" name="Is overlapping another object" sid="782212385096804" type="Char_Trigger">
+                                    <param id="0" name="Object">gapuraSamarinda</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="576051580466975" type="gapuraSamarinda">
+                                    <param id="0" name="Unique ID">1810</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="829261076250393" type="Notif_Item">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="135996185460577">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="944198778390905" type="Notif_Item">
+                                    <param id="0" name="Unique ID">799</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="124404581695173" type="Char_Trigger">
+                                    <param id="0" name="Object">gapuraSamarinda</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="784507556185099" type="gapuraSamarinda">
+                                    <param id="0" name="Unique ID">1810</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="879103724328204" type="Notif_Item">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="175842557052185">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="384332945694670" type="Touch">
+                                    <param id="0" name="Object">Notif_Item</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="876396741713486" type="Notif_Item">
+                                    <param id="0" name="Unique ID">799</param>
+                                </condition>
+                                <condition id="-9" name="Is visible" sid="786316115994854" type="Notif_Item" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="280429065443357" type="System">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="793933776441307" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="3" name="Set at XY" sid="643721455498527" type="Arr_Journals">
+                                    <param id="0" name="X">7</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">ACQUIRED</param>
+                                </action>
+                                <action id="0" name="Set text" sid="120122497951756" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(7, 2)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="826688057982900" type="Desc_Indo">
+                                    <param id="0" name="Text">Arr_Journals.At(7, 3)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="913276904683361" type="Desc_Eng">
+                                    <param id="0" name="Text">Arr_Journals.At(7, 4)</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="503605742158919" type="Notif_Item" />
+                            </actions>
+                        </event-block>
+                        <comment>Notif_Masjid</comment>
+                        <event-block sid="166684144408831">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="464508710176955" type="Notif_Item">
+                                    <param id="0" name="Unique ID">1813</param>
+                                </condition>
+                                <condition id="1" name="Is overlapping another object" sid="324291785740920" type="Char_Trigger">
+                                    <param id="0" name="Object">Trigger_Masjid</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="273079864936249" type="Notif_Item">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="232802330176464">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="867196050951545" type="Notif_Item">
+                                    <param id="0" name="Unique ID">1813</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="495962906706139" type="Char_Trigger">
+                                    <param id="0" name="Object">Trigger_Masjid</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="636459708427915" type="Notif_Item">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="109972251938816">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="720525043182528" type="Touch">
+                                    <param id="0" name="Object">Notif_Item</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="996274604786576" type="Notif_Item">
+                                    <param id="0" name="Unique ID">1813</param>
+                                </condition>
+                                <condition id="-9" name="Is visible" sid="648171366325609" type="Notif_Item" />
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="732048211660152" type="System">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                                    <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="667908344074752" type="System">
+                                    <param id="0" name="Variable">score</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="3" name="Set at XY" sid="613476720773483" type="Arr_Journals">
+                                    <param id="0" name="X">8</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">ACQUIRED</param>
+                                </action>
+                                <action id="0" name="Set text" sid="729839871511601" type="Nama_Item">
+                                    <param id="0" name="Text">Arr_Journals.At(8, 2)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="585930693726605" type="Desc_Indo">
+                                    <param id="0" name="Text">Arr_Journals.At(8, 3)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="281357811788878" type="Desc_Eng">
+                                    <param id="0" name="Text">Arr_Journals.At(8, 4)</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="164579296636227" type="Notif_Item" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="812718482792204" title="Cek_4">
+                    <sub-events>
+                        <comment>Cek Item Kotawaringin</comment>
+                        <event-block sid="578968121310568">
+                            <conditions>
+                                <condition id="-16" name="Is on layer" sid="311277944408396" type="gapuraSamarinda">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="521709325755014" type="gapuraSamarinda">
+                                    <param id="0" name="Unique ID">1812</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="675865276898187">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="661889330398842" type="Arr_Journals">
+                                            <param id="0" name="X">7</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="209283353204637" type="gapuraSamarinda">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="391261566795382">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="740483488553202" type="Touch">
+                                                    <param id="0" name="Object">gapuraSamarinda</param>
+                                                </condition>
+                                                <condition id="-14" name="Pick by unique ID" sid="258678764986144" type="gapuraSamarinda">
+                                                    <param id="0" name="Unique ID">1812</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="552558265156523" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="407169316826771" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="898663180673652" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="212863635744330">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="319782146380047" type="Arr_Journals">
+                                            <param id="0" name="X">7</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="756260682024868" type="gapuraSamarinda">
+                                            <param id="0" name="Unique ID">1812</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="238261931368562" type="gapuraSamarinda">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <comment>Cek Item TanjungPuting</comment>
+                        <event-block sid="754505013398773">
+                            <conditions>
+                                <condition id="-16" name="Is on layer" sid="273731294885392" type="IslamicCentre">
+                                    <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="845591331535996">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="906123268971675" type="Arr_Journals">
+                                            <param id="0" name="X">8</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="822000968167328" type="IslamicCentre">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action disabled="1" id="6" name="Set speed" sid="631930379280432" type="Monyet">
+                                            <param id="0" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="615212651537396">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="722648072876915" type="Touch">
+                                                    <param id="0" name="Object">IslamicCentre</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="841853508175581" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="347524126841275" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="570415390787140" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="351149570826623">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="306428983801216" type="Arr_Journals">
+                                            <param id="0" name="X">8</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="284573967403808" type="IslamicCentre">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <comment>Close_KiraiDiary</comment>
+                <event-block sid="471943759039288">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="586333907655085" type="Touch">
+                            <param id="0" name="Object">Close_Button</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="528950905193075" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="262713394214902" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Open_KiraiDiary</comment>
+                <event-block sid="924934970983845">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="794951184764390" type="Touch">
+                            <param id="0" name="Object">Notif_Item</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="510706274300423" type="Notif_Item">
+                            <param id="0" name="Unique ID">143</param>
+                        </condition>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="145475364535233" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="498345443987819" type="System">
+                            <param id="0" name="Layer">&quot;KiraiDiary_Level_4&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="606218721687208" type="Nama_Item">
+                            <param id="0" name="Text">&quot;Collect All Items to Get More Rewards&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="610641493324065" type="Desc_Indo">
+                            <param id="0" name="Text">&quot; &quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="502510704573052" type="Desc_Eng">
+                            <param id="0" name="Text">&quot; &quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

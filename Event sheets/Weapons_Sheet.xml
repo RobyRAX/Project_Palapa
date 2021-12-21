@@ -44,7 +44,7 @@
                         <action id="3" name="Set at XY" sid="294183704015148" type="Arr_AllWeapons">
                             <param id="0" name="X">1</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">0</param>
+                            <param id="2" name="Value">ACQUIRED</param>
                         </action>
                         <action id="3" name="Set at XY" sid="342533678869740" type="Arr_AllWeapons">
                             <param id="0" name="X">1</param>
@@ -551,6 +551,154 @@
                         <action id="2" name="Set at X" sid="664062008920221" type="Arr_BroughtWeapons">
                             <param id="0" name="X">1</param>
                             <param id="1" name="Value">Arr_AllWeapons.At(2, 0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="120658877906860" title="Cek_Weapon(KiraiDiaryGlobal)">
+            <sub-events>
+                <comment>Pistol</comment>
+                <event-block sid="663704497701480">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="479631007573909" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="787011316733976" type="Pistol_Sprite">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Fire Rate</comment>
+                        <event-block sid="212169878892722">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="598018385420703" type="Touch">
+                                    <param id="0" name="Object">Pistol_Sprite</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="317621488757067" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1836</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="971918977843403" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 75/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                                <action id="0" name="Set text" sid="531670566573094" type="Nama_Senjata">
+                                    <param id="0" name="Text">Arr_AllWeapons.at(1, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Akurasi</comment>
+                        <event-block sid="244710776965680">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="598751328136944" type="Touch">
+                                    <param id="0" name="Object">Pistol_Sprite</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="104902521528227" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1837</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="239089508961783" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 80/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="577715041995978">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="346691667196175" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="102215272815067" type="Pistol_Sprite">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>DYK-21</comment>
+                <event-block sid="449357646413783">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="957856624083388" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="116574542364886" type="DYK">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Fire Rate</comment>
+                        <event-block sid="103406571432888">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="560489634112924" type="Touch">
+                                    <param id="0" name="Object">DYK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="411669132398149" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1836</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="821521435152970" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 90/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                                <action id="0" name="Set text" sid="306149926712852" type="Nama_Senjata">
+                                    <param id="0" name="Text">Arr_AllWeapons.at(2, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Akurasi</comment>
+                        <event-block sid="151867462107017">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="424592663391603" type="Touch">
+                                    <param id="0" name="Object">DYK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="551034954116280" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1837</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="945124737547307" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 5/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="363895470338444">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="817097628503316" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="128980202334040" type="DYK">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>

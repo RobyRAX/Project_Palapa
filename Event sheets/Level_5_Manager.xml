@@ -90,16 +90,20 @@
                                     <param id="0" name="Layer">&quot;Dialog_Awal&quot;</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="11" name="Set collisions enabled" sid="176463407193242" type="Bound">
-                                    <param id="0" name="Collisions">0</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="173060035998346">
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="453086600125529" type="Touch">
                                             <param id="0" name="Object">DialogAwal_Level5</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="557812002240927" type="DialogAwal_Level5">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">0</param>
+                                        </condition>
+                                        <condition id="3" inverted="1" name="Compare frame" sid="220506362886336" type="DialogAwal_Level5">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">3</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -122,6 +126,9 @@
                                         <action id="-17" name="Move forward" sid="327607295286258" type="Perahu">
                                             <param id="0" name="Distance">5</param>
                                         </action>
+                                        <action id="-15" name="Set visible" sid="409258722803572" type="Panel_Trans">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
                                     </actions>
                                     <sub-events>
                                         <event-block sid="465112646014779">
@@ -138,8 +145,11 @@
                                                 <action id="5" name="Set frame" sid="519507547973966" type="DialogAwal_Level5">
                                                     <param id="0" name="Frame number">1</param>
                                                 </action>
-                                                <action id="11" name="Set collisions enabled" sid="133514061324811" type="Bound">
-                                                    <param id="0" name="Collisions">1</param>
+                                                <action id="-15" name="Set visible" sid="109912129801085" type="Panel_Trans">
+                                                    <param id="0" name="Visibility">1</param>
+                                                </action>
+                                                <action id="-2" name="Set Y" sid="982809594375786" type="Bound">
+                                                    <param id="0" name="Y">self.Height / 2</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -153,6 +163,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
+                                        <action id="-15" name="Set visible" sid="324867763652953" type="Panel_Trans">
+                                            <param id="0" name="Visibility">0</param>
+                                        </action>
                                         <action id="-2" name="Set Y" sid="895586731175954" type="Boss_Pesut">
                                             <param id="0" name="Y">lerp(self.Y, self.defY, 0.02)</param>
                                         </action>
@@ -176,6 +189,9 @@
                                                 <action id="-10" name="Set value" sid="678440193515387" type="Boss_Pesut">
                                                     <param id="0" name="Instance variable">defY</param>
                                                     <param id="1" name="Value">self.Y</param>
+                                                </action>
+                                                <action id="-15" name="Set visible" sid="812021353738605" type="Panel_Trans">
+                                                    <param id="0" name="Visibility">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -381,6 +397,9 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="391061521850880" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="756410436780843" type="System">
                                     <param id="0" name="Seconds">2</param>
                                 </action>
@@ -461,6 +480,9 @@
                                             <param id="0" name="Frame number">3</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="969958764972008" type="pusakaCengkeh" />
+                                        <action id="-15" name="Set visible" sid="928007033173987" type="Panel_Trans">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -575,6 +597,9 @@
                                 <condition id="-4" name="Trigger once while true" sid="246883938879571" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="475746704035709" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="3" name="Start" sid="388317788564928" type="jump_2">
                                     <param id="0" name="From">1</param>
                                 </action>
@@ -610,6 +635,9 @@
                                             <param id="0" name="Variable">subState_Wave</param>
                                             <param id="1" name="Value">4</param>
                                         </action>
+                                        <action id="-15" name="Set visible" sid="498638666263280" type="Panel_Trans">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -620,10 +648,6 @@
                                 <condition id="17" name="On tap object" sid="133162083742567" type="Touch">
                                     <param id="0" name="Object">DialogAkhir_5</param>
                                 </condition>
-                                <condition disabled="1" id="3" name="Compare frame" sid="686591500689121" type="DialogAkhir_5">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">7</param>
-                                </condition>
                                 <condition id="-14" name="Compare variable" sid="809081878095694" type="System">
                                     <param id="0" name="Variable">subState_Wave</param>
                                     <param id="1" name="Comparison">0</param>
@@ -632,50 +656,6 @@
                             </conditions>
                             <actions>
                                 <action id="5" name="Set frame" sid="822169402643831" type="DialogAkhir_5">
-                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>8 = klik Masuk Frame 9</comment>
-                        <event-block disabled="1" sid="195727101959537">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="134172882193530" type="Touch">
-                                    <param id="0" name="Object">DialogAkhir_5</param>
-                                </condition>
-                                <condition id="3" name="Compare frame" sid="139375595752649" type="DialogAkhir_5">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">8</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="254172902065839" type="System">
-                                    <param id="0" name="Variable">subState_Wave</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="366136458463108" type="DialogAkhir_5">
-                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>9 = klik Masuk Frame 10</comment>
-                        <event-block disabled="1" sid="872656659633806">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="440056348674725" type="Touch">
-                                    <param id="0" name="Object">DialogAkhir_5</param>
-                                </condition>
-                                <condition id="3" name="Compare frame" sid="250333685958503" type="DialogAkhir_5">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">9</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="628993634201188" type="System">
-                                    <param id="0" name="Variable">subState_Wave</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="812661639591604" type="DialogAkhir_5">
                                     <param id="0" name="Frame number">self.AnimationFrame + 1</param>
                                 </action>
                             </actions>
@@ -695,12 +675,18 @@
                                 <condition id="-4" name="Trigger once while true" sid="648589145620367" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-15" name="Set visible" sid="624804837102281" type="Panel_Trans">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="948999333113894" type="System">
                                     <param id="0" name="Seconds">1.0</param>
                                 </action>
                                 <action id="-4" name="Set layer visible" sid="488921637937831" type="System">
                                     <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
                                     <param id="1" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="237822128009434" type="Panel_Trans">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                             <sub-events>

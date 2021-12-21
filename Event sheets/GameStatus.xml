@@ -169,13 +169,11 @@
                         <condition id="-1" name="Every tick" sid="563338535141124" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="721410205598658" type="Bound">
+                        <action id="-1" name="Set X" sid="721410205598658" type="Bound">
                             <param id="0" name="X">ViewportLeft(&quot;Game&quot;)</param>
-                            <param id="1" name="Y">Bound.Y</param>
                         </action>
-                        <action id="-3" name="Set position" sid="921349291313974" type="Bound_2">
+                        <action id="-1" name="Set X" sid="921349291313974" type="Bound_2">
                             <param id="0" name="X">ViewportRight(&quot;Game&quot;)</param>
-                            <param id="1" name="Y">Bound.Y</param>
                         </action>
                     </actions>
                 </event-block>
@@ -216,36 +214,6 @@
                     <actions>
                         <action id="11" name="Set collisions enabled" sid="286314670644381" type="Bound">
                             <param id="0" name="Collisions">0</param>
-                        </action>
-                        <action behavior="Timer" id="0" name="Start timer" sid="669004799414928" type="Bound">
-                            <param id="0" name="Duration">1</param>
-                            <param id="1" name="Type">0</param>
-                            <param id="2" name="Tag">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="151429264717181">
-                    <conditions>
-                        <condition behavior="Timer" id="0" name="On timer" sid="134356216819942" type="Bound">
-                            <param id="0" name="Tag">&quot;&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="11" name="Set collisions enabled" sid="888482088688437" type="Bound">
-                            <param id="0" name="Collisions">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block disabled="1" sid="613948379363046">
-                    <conditions>
-                        <condition id="11" inverted="1" name="Collisions enabled" sid="502988911765634" type="Bound" />
-                        <condition id="1" inverted="1" name="Is overlapping another object" sid="633190708035142" type="Bound">
-                            <param id="0" name="Object">Enemy3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="11" name="Set collisions enabled" sid="362483486256367" type="Bound">
-                            <param id="0" name="Collisions">1</param>
                         </action>
                     </actions>
                 </event-block>

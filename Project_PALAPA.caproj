@@ -83,17 +83,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="523732857323277" speed="5">
-                            <frame duration="1" hotspotX="0.436735" hotspotY="0.592105" original-source="Y:\Assets\1. Balikpapan\kebun raya5.png">
-                                <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="0.443277" y="0.0376833" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.566728" />
-                                    <point x="0.443277" y="0.70389" />
-                                    <point x="0" y="1" />
-                                    <point x="0" y="0.566728" />
-                                </collision-poly>
-                            </frame>
+                            <frame duration="1" hotspotX="0.436735" hotspotY="0.592105" original-source="Y:\Assets\1. Balikpapan\kebun raya5.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -159,7 +149,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="149392912391360" speed="5">
-                            <frame duration="1" hotspotX="0.538462" hotspotY="0.523077" original-source="Y:\Assets\1. Balikpapan\Compressed\beruang madu5-min.png">
+                            <frame duration="1" hotspotX="0.589267" hotspotY="0.887336" original-source="Y:\Assets\1. Balikpapan\Compressed\beruang madu5-min.png">
                                 <collision-poly>
                                     <point x="1" y="1" />
                                     <point x="0" y="1" />
@@ -266,18 +256,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="184776823015804" speed="5">
-                            <frame duration="1" hotspotX="0.590244" hotspotY="0.605263" original-source="Y:\Assets\1. Balikpapan\Compressed\kantung semar5-min.png">
-                                <collision-poly>
-                                    <point x="0.136602" y="0.0764261" />
-                                    <point x="0.725531" y="0.731352" />
-                                    <point x="1" y="0.146849" />
-                                    <point x="1" y="0.59755" />
-                                    <point x="1" y="0.97783" />
-                                    <point x="0.725531" y="0.963744" />
-                                    <point x="0.192311" y="1" />
-                                    <point x="0" y="0.59755" />
-                                </collision-poly>
-                            </frame>
+                            <frame duration="1" hotspotX="0.590244" hotspotY="0.605263" original-source="Y:\Assets\1. Balikpapan\Compressed\kantung semar5-min.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -576,7 +555,7 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="397927935900306" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.4974" hotspotY="0.473684" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -596,7 +575,14 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="539102815338812" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            <frame duration="1" hotspotX="0.480583" hotspotY="0.459605">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="0.754853" y="1" />
+                                    <point x="0.216019" y="1" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -644,6 +630,16 @@
                                     <point x="0" y="0" />
                                     <point x="1" y="0.00384615" />
                                     <point x="1" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="542320476272039" speed="5">
+                            <frame duration="1" hotspotX="0.49774" hotspotY="0.728846" original-source="Y:\Project Construct\Project_Palapa\Animations\welcome\Siluet\000.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -891,7 +887,21 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531397377345069" speed="5">
-                            <frame duration="1" hotspotX="0.496762" hotspotY="0.413051" original-source="Y:\Assets\4-5. Samarinda\gapura samarinda.png" />
+                            <frame duration="1" hotspotX="0.496762" hotspotY="0.413051" original-source="Y:\Assets\4-5. Samarinda\gapura samarinda.png">
+                                <collision-poly>
+                                    <point x="0.342892" y="0.508778" />
+                                    <point x="0" y="0.408082" />
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="0.501822" />
+                                    <point x="0.71238" y="0.561444" />
+                                    <point x="0.713383" y="1" />
+                                    <point x="0.342892" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="487426636342283" speed="5">
+                            <frame duration="1" hotspotX="0.496762" hotspotY="0.413051" original-source="Y:\Project Construct\Project_Palapa\Animations\gapuraSamarinda\Siluet\000.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -3954,6 +3964,7 @@
                             <instance-variable name="HP" sid="681740979659798" type="number" />
                             <instance-variable name="defX" sid="525064465468282" type="number" />
                             <instance-variable name="defY" sid="422408593183276" type="number" />
+                            <instance-variable name="LR" sid="505226817850468" type="number" />
                         </instance-variables>
                         <behaviors>
                             <behavior-type name="Physics" sid="598257008379851">
@@ -4082,20 +4093,92 @@
                                 </frame>
                             </animation>
                             <animation framecount="7" loop="0" name="Shoot" pingpong="0" repeatcount="1" repeatto="0" sid="934182305396569" speed="15">
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_11.png" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_13.png" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_16.png" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
-                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" />
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_11.png">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_13.png">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_16.png">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.711883" hotspotY="0.87194">
+                                    <collision-poly>
+                                        <point x="0.278027" y="0.237288" />
+                                        <point x="0.576233" y="0.188324" />
+                                        <point x="0.52018" y="0.830509" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                             <animation framecount="5" loop="0" name="ExitShoot" pingpong="0" repeatcount="1" repeatto="0" sid="666341796679943" speed="12">
-                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png" />
-                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_05.png" />
-                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_03.png" />
-                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_01.png" />
-                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_00.png" />
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_07.png">
+                                    <collision-poly>
+                                        <point x="0.265695" y="0.241055" />
+                                        <point x="0.575112" y="0.190207" />
+                                        <point x="0.55157" y="0.836158" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_05.png">
+                                    <collision-poly>
+                                        <point x="0.190583" y="0.380414" />
+                                        <point x="0.47982" y="0.239171" />
+                                        <point x="0.55157" y="0.836158" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_03.png">
+                                    <collision-poly>
+                                        <point x="0.125561" y="0.595104" />
+                                        <point x="0.373318" y="0.288136" />
+                                        <point x="0.55157" y="0.836158" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_01.png">
+                                    <collision-poly>
+                                        <point x="0.0986548" y="0.834275" />
+                                        <point x="0.265695" y="0.412429" />
+                                        <point x="0.55157" y="0.836158" />
+                                    </collision-poly>
+                                </frame>
+                                <frame duration="1" hotspotX="0.713004" hotspotY="0.870057" original-source="Y:\Assets\NPC\Pesut_Boss\Nembak Baru\nembak_00.png">
+                                    <collision-poly>
+                                        <point x="0.105381" y="0.956686" />
+                                        <point x="0.236547" y="0.472693" />
+                                        <point x="0.55157" y="0.836158" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                             <animation framecount="5" loop="0" name="ToJump" pingpong="0" repeatcount="1" repeatto="0" sid="198578190651904" speed="10">
                                 <frame duration="1" hotspotX="0.725377" hotspotY="0.752161" original-source="Y:\Assets\NPC\Pesut_Boss\Nginjak Up\up_00.png" />
@@ -4203,7 +4286,7 @@
                                 </frame>
                             </animation>
                             <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="820128211872182" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                                <frame duration="1" hotspotX="0.501377" hotspotY="0.5" />
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -4393,7 +4476,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151459411748504" speed="5">
-                        <frame duration="1" hotspotX="0.501362" hotspotY="0.5" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Bullet &amp; Gun\Compressed\pistol-min.png">
+                        <frame duration="1" hotspotX="0.50137" hotspotY="0.502222" original-source="D:\My Docs\Magang MKA - Kampus Merdeka\PROJECT GAME\Assets\Bullet &amp; Gun\Compressed\pistol-min.png">
                             <collision-poly>
                                 <point x="1" y="0" />
                                 <point x="1" y="1" />
@@ -4401,6 +4484,9 @@
                                 <point x="0" y="0" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="578037615825083" speed="5">
+                        <frame duration="1" hotspotX="0.465753" hotspotY="0.351111" original-source="Y:\Assets\Bullet &amp; Gun\pistol_Siluet.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -4547,9 +4633,6 @@
                 <behaviors>
                     <behavior-type name="Solid" sid="359831076614146">
                         <behavior id="solid" />
-                    </behavior-type>
-                    <behavior-type name="Timer" sid="478864865115077">
-                        <behavior id="Timer" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -5208,6 +5291,71 @@
         </object-type>
         <object-type name="Video" sid="723021299908337">
             <plugin id="video" />
+        </object-type>
+        <object-type name="IslamicCentre" sid="791127723720099">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783785354739696" speed="5">
+                    <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" original-source="Y:\Assets\4-5. Samarinda\Islamic Centre.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="612500320004592" speed="5">
+                    <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Trigger_Masjid" sid="394181691212739">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858822860056186" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DYK" sid="767487496647323">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609601298971788" speed="5">
+                    <frame duration="1" hotspotX="0.428184" hotspotY="0.355372" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="481216864578536" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21_Siluet.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Nama_Senjata" sid="395018062064201">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FireRate_Label" sid="954799558534669">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Akurasi_Label" sid="361841557755830">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Bar_Atribut" sid="290706309592771">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="defX" sid="781326686069310" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434063889690159" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_SwitchDetail" sid="807713668478900">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514040957332880" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
