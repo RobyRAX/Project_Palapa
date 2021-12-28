@@ -63,16 +63,35 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="741880769074393">
+                        <event-block sid="993418292956803">
                             <conditions>
-                                <condition id="1" name="Compare at XY" sid="596151207410148" type="Arr_AllWeapons">
+                                <condition id="-14" name="Pick by unique ID" sid="180904558389549" type="Pistol_Sprite">
+                                    <param id="0" name="Unique ID">54</param>
+                                </condition>
+                                <condition id="1" inverted="1" name="Compare at XY" sid="268995571232618" type="Arr_AllWeapons">
                                     <param id="0" name="X">1</param>
                                     <param id="1" name="Y">1</param>
                                     <param id="2" name="Comparison">0</param>
                                     <param id="3" name="Value">ACQUIRED</param>
                                 </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="301586276073064" type="Pistol_Sprite">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="741880769074393">
+                            <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="860504456846469" type="Pistol_Sprite">
                                     <param id="0" name="Unique ID">54</param>
+                                </condition>
+                                <condition id="1" name="Compare at XY" sid="596151207410148" type="Arr_AllWeapons">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">ACQUIRED</param>
                                 </condition>
                             </conditions>
                             <actions>

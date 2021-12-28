@@ -83,10 +83,10 @@
                         <x>745</x>
                         <y>640</y>
                         <z>0</z>
-                        <width>120</width>
-                        <height>45</height>
+                        <width>100</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500917435</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -105,10 +105,10 @@
                         <x>885</x>
                         <y>640</y>
                         <z>0</z>
-                        <width>120</width>
-                        <height>45</height>
+                        <width>100</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500917435</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -127,10 +127,10 @@
                         <x>1025</x>
                         <y>640</y>
                         <z>0</z>
-                        <width>120</width>
-                        <height>45</height>
+                        <width>100</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500917435</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -482,7 +482,7 @@
                     <properties>
                         <text>Desc_Indo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-16,400,0</font>
+                        <font>Times New Roman,-19,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -509,7 +509,7 @@
                     <properties>
                         <text>Desc_English</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-13,400,0</font>
+                        <font>Times New Roman,-15,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -545,11 +545,11 @@
                         <x>120</x>
                         <y>640</y>
                         <z>0</z>
-                        <width>102</width>
-                        <height>48</height>
+                        <width>100</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.466055036</hotspotX>
+                        <hotspotY>0.439999998</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -564,14 +564,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>240</x>
+                        <x>245</x>
                         <y>640</y>
                         <z>0</z>
-                        <width>102</width>
-                        <height>48</height>
+                        <width>100</width>
+                        <height>50</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.533944964</hotspotX>
+                        <hotspotY>0.439999998</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -658,7 +658,7 @@
             <effects />
         </layer>
         <layer name="Desc_Weapons" sid="750486319836571">
-            <initially-visible>0</initially-visible>
+            <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
@@ -704,7 +704,7 @@
                     <properties>
                         <text>Desc_Indo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-16,400,0</font>
+                        <font>Times New Roman,-19,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -719,7 +719,7 @@
                         <y>130</y>
                         <z>0</z>
                         <width>530</width>
-                        <height>240</height>
+                        <height>158.830230713</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -731,7 +731,7 @@
                     <properties>
                         <text>Desc_English</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-13,400,0</font>
+                        <font>Times New Roman,-15,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -743,7 +743,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>685</x>
-                        <y>390</y>
+                        <y>296.076599121</y>
                         <z>0</z>
                         <width>530</width>
                         <height>145</height>
@@ -754,11 +754,55 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Button_SwitchDetail" uid="194">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>730</x>
+                        <y>520</y>
+                        <z>0</z>
+                        <width>80</width>
+                        <height>80</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Button_SwitchAtribut" uid="272">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>830</x>
+                        <y>520</y>
+                        <z>0</z>
+                        <width>80</width>
+                        <height>80</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
         <layer name="Atribut_Weapons" sid="821033348623523">
-            <initially-visible>1</initially-visible>
+            <initially-visible>0</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
@@ -816,7 +860,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>685</x>
-                        <y>170</y>
+                        <y>142.402099609</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -843,7 +887,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>685</x>
-                        <y>262.824676514</y>
+                        <y>235.226776123</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -868,7 +912,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>685</x>
-                        <y>215</y>
+                        <y>187.402099609</y>
                         <z>0</z>
                         <width>360</width>
                         <height>20</height>
@@ -893,7 +937,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>685</x>
-                        <y>307.824676514</y>
+                        <y>280.226806641</y>
                         <z>0</z>
                         <width>360</width>
                         <height>20</height>
@@ -915,10 +959,32 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>730</x>
-                        <y>520.630981445</y>
+                        <y>520</y>
                         <z>0</z>
-                        <width>82.179954529</width>
-                        <height>82.179954529</height>
+                        <width>80</width>
+                        <height>80</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Button_SwitchAtribut" uid="148">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>830</x>
+                        <y>520</y>
+                        <z>0</z>
+                        <width>80</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

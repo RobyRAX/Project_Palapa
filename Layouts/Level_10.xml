@@ -2605,10 +2605,10 @@
                         <x>259.033813477</x>
                         <y>625.42578125</y>
                         <z>0</z>
-                        <width>71.428573608</width>
-                        <height>75</height>
+                        <width>142.857147217</width>
+                        <height>150</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -2627,10 +2627,10 @@
                         <x>149.643417358</x>
                         <y>625.42578125</y>
                         <z>0</z>
-                        <width>71.428573608</width>
-                        <height>75</height>
+                        <width>142.857147217</width>
+                        <height>150</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>1</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -2773,7 +2773,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Button_Down" uid="1700">
+                <instance type="Button_Crouch" uid="1700">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2922,33 +2922,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="comments" uid="1704">
-                    <properties>
-                        <text>beruang moncong jadiin oren</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1832</x>
-                        <y>192</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>47</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

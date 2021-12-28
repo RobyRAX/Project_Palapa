@@ -14,7 +14,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="463064073509291" type="Nama_Item">
-                    <param id="0" name="Text">&quot;Collect The Items to See Details&quot;</param>
+                    <param id="0" name="Text">&quot;Tap The Items to See Details&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="786723974043110" type="Desc_Indo">
                     <param id="0" name="Text">&quot; &quot;</param>
@@ -23,7 +23,7 @@
                     <param id="0" name="Text">&quot; &quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="528933209103980" type="Nama_Senjata">
-                    <param id="0" name="Text">&quot;Collect The Weapons to See Details&quot;</param>
+                    <param id="0" name="Text">&quot;Tap The Weapons to See Details&quot;</param>
                 </action>
                 <action id="-7" name="Set size" sid="395021893449582" type="Bar_Atribut">
                     <param id="0" name="Width">0</param>
@@ -132,6 +132,40 @@
                         <action id="-9" name="Set value" sid="576755234058398" type="System">
                             <param id="0" name="Variable">KiraiDiary_Opsi</param>
                             <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="463088331576978">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="484072201344156" type="Touch">
+                            <param id="0" name="Object">Button_SwitchAtribut</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="208394800308133" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="680272012324153" type="System">
+                            <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="535413832846494">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="240855599843801" type="Touch">
+                            <param id="0" name="Object">Button_SwitchDetail</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="623514081488229" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="908033157388874" type="System">
+                            <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -285,6 +319,7 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
+                        <condition id="-4" name="Trigger once while true" sid="733176367670696" type="System" />
                     </conditions>
                     <actions>
                         <action id="-4" name="Set layer visible" sid="734523853913212" type="System">
@@ -321,6 +356,713 @@
                         </action>
                     </actions>
                 </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="917070923501058" title="Cek_Weapon(KiraiDiaryGlobal)">
+            <sub-events>
+                <comment>Pistol</comment>
+                <event-block sid="740178174476356">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="858719761510221" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="919638305506520" type="Pistol_Sprite">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Fire Rate</comment>
+                        <event-block sid="833705868944237">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="658670455348356" type="Touch">
+                                    <param id="0" name="Object">Pistol_Sprite</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="459909894107540" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1836</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="890795433437803" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 75/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                                <action id="0" name="Set text" sid="994714910737546" type="Nama_Senjata">
+                                    <param id="0" name="Text">Arr_AllWeapons.at(1, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Akurasi</comment>
+                        <event-block sid="459588126221868">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="233364734396605" type="Touch">
+                                    <param id="0" name="Object">Pistol_Sprite</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="782871728965871" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1837</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="521770004994146" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 80/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Desc</comment>
+                        <event-block sid="500809255420228">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="182405724450665" type="Touch">
+                                    <param id="0" name="Object">Pistol_Sprite</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="740037744456367" type="Desc_Indo">
+                                    <param id="0" name="Text">Arr_AllWeapons.At(1, 4)</param>
+                                </action>
+                                <action id="0" name="Set text" sid="908010502475400" type="Desc_Eng">
+                                    <param id="0" name="Text">Arr_AllWeapons.At(1,5)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="624595085893923">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="354482566263736" type="Arr_AllWeapons">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="660286295750983" type="Pistol_Sprite">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>DYK-21</comment>
+                <event-block sid="542565182013569">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="112248723956463" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="251670447599675" type="DYK">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Fire Rate</comment>
+                        <event-block sid="270642920176207">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="716730043185905" type="Touch">
+                                    <param id="0" name="Object">DYK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="298543599969034" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1836</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="427634757251355" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 90/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                                <action id="0" name="Set text" sid="225417628994882" type="Nama_Senjata">
+                                    <param id="0" name="Text">Arr_AllWeapons.at(2, 0)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Akurasi</comment>
+                        <event-block sid="193310547087381">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="725364273766530" type="Touch">
+                                    <param id="0" name="Object">DYK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="491749427114435" type="Bar_Atribut">
+                                    <param id="0" name="Unique ID">1837</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="735040386312258" type="Bar_Atribut">
+                                    <param id="0" name="Width">self.defX * 5/100</param>
+                                    <param id="1" name="Height">self.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="639253543662895">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="334437297204738" type="Arr_AllWeapons">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="441406095859687" type="DYK">
+                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="917513833633683" title="Cek_Item(KiraiDiaryGlobal)">
+            <sub-events>
+                <event-group description="" sid="597847126300412" title="Level_1">
+                    <sub-events>
+                        <event-block sid="355081021771004">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="589085465915249" type="System">
+                                    <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <comment>Cek Item Kebun Raya</comment>
+                                <event-block sid="234165344226006">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="588248783589694" type="Arr_Journals">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="675684268166505" type="KebunRaya_BG">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="780271646338714">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="741489341619019" type="Touch">
+                                                    <param id="0" name="Object">KebunRaya_BG</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="675366727898748" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(0, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="312684433255706" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(0, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="457820440888090" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(0, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="411010808686412">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="872566700441594" type="Arr_Journals">
+                                            <param id="0" name="X">0</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="660915205262727" type="KebunRaya_BG">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Cek Item Kantung Semar</comment>
+                                <event-block sid="297858140243068">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="629384564585112" type="Arr_Journals">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="571955181340888" type="KantungSemar_BG">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="977115083092749">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="365538820646249" type="Touch">
+                                                    <param id="0" name="Object">KantungSemar_BG</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="576106932420835" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(1, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="625829789550370" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(1, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="493687803471142" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(1, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="529875423938805">
+                                            <conditions>
+                                                <condition id="1" inverted="1" name="Compare at XY" sid="633016691864264" type="Arr_Journals">
+                                                    <param id="0" name="X">1</param>
+                                                    <param id="1" name="Y">1</param>
+                                                    <param id="2" name="Comparison">0</param>
+                                                    <param id="3" name="Value">ACQUIRED</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="377655318174968" type="KantungSemar_BG">
+                                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <comment>Cek Item Beruang Madu</comment>
+                                <event-block sid="423543593208041">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="903283471151214" type="Arr_Journals">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="368440804364787" type="Beruang1_BG">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="318237713721605">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="810129068230181" type="Touch">
+                                                    <param id="0" name="Object">Beruang1_BG</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="266919775139384" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(2, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="149735706385894" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(2, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="952571995032063" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(2, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="688027942728394">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="248841086549427" type="Arr_Journals">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="200717974886826" type="Beruang1_BG">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="817419442718345" title="Level_2">
+                    <sub-events>
+                        <event-block sid="318420046705863">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="913686718237749" type="System">
+                                    <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <comment>Cek Item Kebun Raya</comment>
+                                <event-block sid="711635497204887">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="409927757887794" type="Arr_Journals">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="118561249583615" type="welkom_BG_2">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="342221720333848">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="177356445694039" type="Touch">
+                                                    <param id="0" name="Object">welkom_BG_2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="507696961248992" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="847313827495553" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="406834124089197" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(3, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="820042905892808">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="705674738016810" type="Arr_Journals">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="946160532968453" type="welkom_BG_2">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Cek Item Monyet</comment>
+                                <event-block sid="988119461770981">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="141341748245344" type="Arr_Journals">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="507469124205475" type="Monyet">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="6" name="Set speed" sid="250860961118622" type="Monyet">
+                                            <param id="0" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="409541600723837">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="231049086782126" type="Touch">
+                                                    <param id="0" name="Object">Monyet</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="748819841186451" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="115990284699432" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="468628162339000" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(4, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="910372343467195">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="215942955172387" type="Arr_Journals">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="858606557770291" type="Monyet">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="904359290188442" title="Level_3">
+                    <sub-events>
+                        <event-block sid="844435482315608">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="750208003610097" type="System">
+                                    <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <comment>Cek Item Kotawaringin</comment>
+                                <event-block sid="587484202160140">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="583662118865156" type="Arr_Journals">
+                                            <param id="0" name="X">5</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="268100126155318" type="welcome">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="993902355479970">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="955939829338780" type="Touch">
+                                                    <param id="0" name="Object">welcome</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="798146076767335" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(5, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="539850351175754" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(5, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="485327662999367" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(5, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="203369986775091">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="102828399254514" type="Arr_Journals">
+                                            <param id="0" name="X">5</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="471871744557691" type="welcome">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Cek Item TanjungPuting</comment>
+                                <event-block sid="108510026115211">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="928238107616348" type="Arr_Journals">
+                                            <param id="0" name="X">6</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="394211731996878" type="BG_WelkomTanjungPuting">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action disabled="1" id="6" name="Set speed" sid="982104884623484" type="Monyet">
+                                            <param id="0" name="Speed">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="757375103836136">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="102184076717565" type="Touch">
+                                                    <param id="0" name="Object">BG_WelkomTanjungPuting</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="353295673054358" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(6, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="492709857879863" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(6, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="775463047505894" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(6, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="725176797429122">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="181601579583596" type="Arr_Journals">
+                                            <param id="0" name="X">6</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="949719529712152" type="BG_WelkomTanjungPuting">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="415042335610715" title="Level_4">
+                    <sub-events>
+                        <event-block sid="951005281629246">
+                            <conditions>
+                                <condition id="-9" name="Layer is visible" sid="474608798207623" type="System">
+                                    <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <comment>Cek Item Kotawaringin</comment>
+                                <event-block sid="955010456252856">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="160862782349495" type="Arr_Journals">
+                                            <param id="0" name="X">7</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="919160098779909" type="gapuraSamarinda">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="121990619055397">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="746318417171813" type="Touch">
+                                                    <param id="0" name="Object">gapuraSamarinda</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="114179575308633" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="351777168274218" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="283518668510651" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(7, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="349615612075247">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="883005623141338" type="Arr_Journals">
+                                            <param id="0" name="X">7</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="110018917291608" type="gapuraSamarinda">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <comment>Cek Item TanjungPuting</comment>
+                                <event-block sid="117642039785545">
+                                    <conditions>
+                                        <condition id="1" name="Compare at XY" sid="418629848093275" type="Arr_Journals">
+                                            <param id="0" name="X">8</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="410443664723370" type="IslamicCentre">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="707881500489679">
+                                            <conditions>
+                                                <condition id="17" name="On tap object" sid="801295522495242" type="Touch">
+                                                    <param id="0" name="Object">IslamicCentre</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="0" name="Set text" sid="731217532885498" type="Nama_Item">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 2)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="498357321533952" type="Desc_Indo">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 3)</param>
+                                                </action>
+                                                <action id="0" name="Set text" sid="886520618436520" type="Desc_Eng">
+                                                    <param id="0" name="Text">Arr_Journals.At(8, 4)</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="835154342665519">
+                                    <conditions>
+                                        <condition id="1" inverted="1" name="Compare at XY" sid="316315652235339" type="Arr_Journals">
+                                            <param id="0" name="X">8</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Comparison">0</param>
+                                            <param id="3" name="Value">ACQUIRED</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="979130246405876" type="IslamicCentre">
+                                            <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
     </events>

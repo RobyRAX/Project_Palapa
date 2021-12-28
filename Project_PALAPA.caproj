@@ -11,8 +11,8 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
@@ -34,6 +34,7 @@
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
@@ -1245,6 +1246,32 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="IslamicCentre" sid="791127723720099">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783785354739696" speed="5">
+                            <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" original-source="Y:\Assets\4-5. Samarinda\Islamic Centre.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="612500320004592" speed="5">
+                            <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Trigger_Masjid" sid="394181691212739">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858822860056186" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="2.3">
                 <object-type name="Dialog_Octo" sid="802668989735540">
@@ -1757,7 +1784,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114035427910373" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Left.png">
+                        <frame duration="1" hotspotX="1" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Left.png">
                             <collision-poly>
                                 <point x="1" y="1" />
                                 <point x="0" y="1" />
@@ -1772,16 +1799,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823129401555917" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Right.png">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Right.png">
                             <collision-poly>
-                                <point x="0.14433" y="0.176471" />
-                                <point x="0.474227" y="0.0117647" />
-                                <point x="0.824742" y="0.152941" />
-                                <point x="0.969072" y="0.552941" />
-                                <point x="0.773196" y="0.894118" />
-                                <point x="0.474227" y="0.976471" />
-                                <point x="0.195876" y="0.870588" />
-                                <point x="0.0206186" y="0.552941" />
+                                <point x="0" y="0.0025" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1882,7 +1905,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Button_Down" sid="326751440084911">
+            <object-type name="Button_Crouch" sid="326751440084911">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255355805213378" speed="5">
@@ -4609,6 +4632,17 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="DYK" sid="767487496647323">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609601298971788" speed="5">
+                        <frame duration="1" hotspotX="0.428184" hotspotY="0.355372" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="481216864578536" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21_Siluet.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Input">
             <object-type name="Keyboard" sid="368589560287389">
@@ -4625,6 +4659,12 @@
             </object-type>
             <object-type name="Mouse" sid="852238781217842">
                 <plugin id="Mouse" />
+            </object-type>
+            <object-type name="Audio" sid="847999801228324">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="Video" sid="723021299908337">
+                <plugin id="video" />
             </object-type>
         </object-folder>
         <object-folder name="Trigger">
@@ -5061,7 +5101,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="496307143858205" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.500917" hotspotY="0.5" original-source="Y:\Assets\Diary\journal.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5069,7 +5109,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639214446054670" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.466055" hotspotY="0.44" original-source="Y:\Assets\Diary\Panah.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5077,7 +5117,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513602327404936" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.500917" hotspotY="0.5" original-source="Y:\Assets\Diary\pusaka.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5085,7 +5125,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="459830162673632" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.500917" hotspotY="0.5" original-source="Y:\Assets\Diary\pistol.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5093,7 +5133,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251768168971806" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.533945" hotspotY="0.44" original-source="Y:\Assets\Diary\Panah.png">
+                            <collision-poly>
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5101,6 +5148,49 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="Desc_Indo" sid="599504610511033">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Akurasi_Label" sid="361841557755830">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Bar_Atribut" sid="290706309592771">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="defX" sid="781326686069310" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434063889690159" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Button_SwitchAtribut" sid="341245682274598">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664083832394821" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Button_SwitchDetail" sid="807713668478900">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514040957332880" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FireRate_Label" sid="954799558534669">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Nama_Senjata" sid="395018062064201">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -5131,14 +5221,8 @@
             </object-type>
         </object-folder>
         <object-folder name="&apos;BoutLevels">
-            <object-type name="Level_1_Button" sid="261879073640526">
-                <plugin id="Button" />
-            </object-type>
             <object-type global="1" name="Arr_LevelScore" sid="236331920449863">
                 <plugin id="Arr" />
-            </object-type>
-            <object-type name="Level_2_Button" sid="557419331412327">
-                <plugin id="Button" />
             </object-type>
             <object-type name="Bintang_Sprite" sid="597695100804587">
                 <plugin id="Sprite" />
@@ -5180,32 +5264,82 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Level_3_Button" sid="664170117381637">
-                <plugin id="Button" />
-            </object-type>
             <object-type name="Highscore_Text" sid="404308048826179">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Level_4_Button" sid="926067724690930">
-                <plugin id="Button" />
+            <object-type name="Maps_BG" sid="879440068073551">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554936723722897" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="Y:\Assets\LevelSelect\Mapfix.jpg" />
+                    </animation>
+                </animation-folder>
             </object-type>
-            <object-type name="Level_5_Button" sid="490730254324950">
-                <plugin id="Button" />
+            <object-type name="Obj_Camera" sid="970738395106638">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="ScrollTo" sid="249529402173937">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="201031442307593">
+                        <behavior id="bound" />
+                    </behavior-type>
+                    <behavior-type name="Bullet" sid="712104456398884">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                    <behavior-type name="8Direction" sid="308940401364769">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640748731881856" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
-            <object-type name="Level_6_Button" sid="976097895061298">
-                <plugin id="Button" />
+            <object-type name="Obj_PinPoint" sid="302296503425036">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Pin" sid="377241824996695">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443741585193137" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
-            <object-type name="Level_7_Button" sid="405304736653882">
-                <plugin id="Button" />
+            <object-type name="Prasasti" sid="621752495879245">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="999408762692196" speed="0">
+                        <frame duration="1" hotspotX="0.500732" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti level 1.png" />
+                        <frame duration="1" hotspotX="0.500732" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 2.png" />
+                        <frame duration="1" hotspotX="0.500732" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti level 3.png" />
+                        <frame duration="1" hotspotX="0.500732" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 4.png" />
+                        <frame duration="1" hotspotX="0.500732" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 5.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="861307034961267" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
-            <object-type name="Level_8_Button" sid="135117666444080">
-                <plugin id="Button" />
+            <object-type name="ZoomIn" sid="123683642523312">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296275741936781" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\lup plus.png" />
+                    </animation>
+                </animation-folder>
             </object-type>
-            <object-type name="Level_9_Button" sid="697544338443591">
-                <plugin id="Button" />
-            </object-type>
-            <object-type name="Level_10_Button" sid="923180424710925">
-                <plugin id="Button" />
+            <object-type name="ZoomOut" sid="226747867536110">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927384125816599" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\lup minus.png" />
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
         <object-folder name="Pusaka">
@@ -5254,9 +5388,6 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="comments" sid="337426857187545">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="YYY" sid="284089240581064">
             <plugin id="Sprite" />
             <behaviors>
@@ -5289,71 +5420,40 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Video" sid="723021299908337">
-            <plugin id="video" />
-        </object-type>
-        <object-type name="IslamicCentre" sid="791127723720099">
+        <object-type name="DamagedFX" sid="507063316991253">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783785354739696" speed="5">
-                    <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" original-source="Y:\Assets\4-5. Samarinda\Islamic Centre.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="612500320004592" speed="5">
-                    <frame duration="1" hotspotX="0.497872" hotspotY="0.586207" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Trigger_Masjid" sid="394181691212739">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858822860056186" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618549603131482" speed="7">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\damagedFX.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="DYK" sid="767487496647323">
+        <object-type name="HP_BG" sid="381925087502573">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609601298971788" speed="5">
-                    <frame duration="1" hotspotX="0.428184" hotspotY="0.355372" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21.png" />
-                </animation>
-                <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="481216864578536" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\Bullet &amp; Gun\DYK-21_Siluet.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="462656736203816" speed="5">
+                    <frame duration="1" hotspotX="0.500129" hotspotY="0.501597" original-source="Y:\Assets\UI &amp; Button\healthbar empty.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Nama_Senjata" sid="395018062064201">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="FireRate_Label" sid="954799558534669">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Akurasi_Label" sid="361841557755830">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Bar_Atribut" sid="290706309592771">
+        <object-type name="HP_BAR" sid="598319194307506">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="defX" sid="781326686069310" type="number" />
+                <instance-variable name="defX" sid="983666339366524" type="number" />
+                <instance-variable name="defY" sid="988311069070706" type="number" />
             </instance-variables>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434063889690159" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="985924867372264" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.502488" original-source="Y:\Assets\UI &amp; Button\filled only.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Button_SwitchDetail" sid="807713668478900">
+        <object-type name="comingSoon" sid="921095046902214">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514040957332880" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144996618922066" speed="5">
+                    <frame duration="1" hotspotX="0.500166" hotspotY="0.5003" original-source="Y:\Assets\UI &amp; Button\coming soon.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -5463,6 +5563,20 @@
         <global-instance type="Function" uid="130" />
         <global-instance type="LocalStorage" uid="206" />
         <global-instance type="Mouse" uid="539" />
+        <global-instance type="Audio" uid="518">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />

@@ -71,7 +71,7 @@
                 </event-group>
                 <event-group description="" sid="618760055538645" title="PopUp_LvlComplete">
                     <sub-events>
-                        <event-block sid="461003479913831">
+                        <event-block disabled="1" sid="461003479913831">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="786763378414028" type="Touch">
                                     <param id="0" name="Object">QuitMenu_Button</param>
@@ -98,8 +98,8 @@
                                 <condition id="-9" name="Is visible" sid="887255081884715" type="Resume_Button" />
                             </conditions>
                             <actions>
-                                <action id="-25" name="Go to layout (by name)" sid="975587805530305" type="System">
-                                    <param id="0" name="Layout">&quot;Level_&quot; &amp; playedLevel + 2</param>
+                                <action id="-2" name="Go to layout" sid="975587805530305" type="System">
+                                    <param id="0" name="Layout">LevelSelect</param>
                                 </action>
                                 <action id="-21" name="Reset global variables" sid="677879355419745" type="System" />
                             </actions>

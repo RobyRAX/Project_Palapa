@@ -17,6 +17,14 @@
                     <param id="0" name="Pin to">Boss_Pesut</param>
                     <param id="1" name="Mode">1</param>
                 </action>
+                <action id="-10" name="Set value" sid="405174419101273" type="HP_BAR">
+                    <param id="0" name="Instance variable">defX</param>
+                    <param id="1" name="Value">self.Width</param>
+                </action>
+                <action id="-10" name="Set value" sid="228804289941926" type="HP_BAR">
+                    <param id="0" name="Instance variable">defY</param>
+                    <param id="1" name="Value">self.Height</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="695586959482285">
@@ -52,6 +60,20 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="828177990638646" type="Bullet_BossPesut" />
+            </actions>
+        </event-block>
+        <event-block sid="964105146699809">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="341365592422063" type="System">
+                    <param id="0" name="Variable">state_PesutBoss</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Die&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="427731004792550" type="HP_BAR">
+                    <param id="0" name="Width">(Boss_Pesut.HP/200) * self.defX</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="239268002820726" title="Damage">

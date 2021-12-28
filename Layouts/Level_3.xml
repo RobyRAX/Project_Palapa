@@ -7359,10 +7359,10 @@
                         <x>288</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -7381,10 +7381,10 @@
                         <x>144</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>1</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -7643,7 +7643,7 @@
                     <properties>
                         <text>Desc_Indo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-16,400,0</font>
+                        <font>Times New Roman,-19,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -7670,7 +7670,7 @@
                     <properties>
                         <text>Desc_English</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-13,400,0</font>
+                        <font>Times New Roman,-15,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

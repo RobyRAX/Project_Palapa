@@ -2459,8 +2459,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1648</x>
-                        <y>561</y>
+                        <x>72.529052734</x>
+                        <y>501.171936035</y>
                         <z>0</z>
                         <width>79.818511963</width>
                         <height>179.228866577</height>
@@ -2524,8 +2524,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1650</x>
-                        <y>561.897644043</y>
+                        <x>74.529052734</x>
+                        <y>502.171936035</y>
                         <z>0</z>
                         <width>49.928695679</width>
                         <height>141.043365479</height>
@@ -2546,8 +2546,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1671</x>
-                        <y>512</y>
+                        <x>95.529052734</x>
+                        <y>452.171936035</y>
                         <z>0</z>
                         <width>59.533176422</width>
                         <height>31.751026154</height>
@@ -2571,8 +2571,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1701</x>
-                        <y>472</y>
+                        <x>125.529052734</x>
+                        <y>412.171936035</y>
                         <z>0</z>
                         <width>8.177202225</width>
                         <height>8.177202225</height>
@@ -2596,8 +2596,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1644</x>
-                        <y>472</y>
+                        <x>68.529052734</x>
+                        <y>412.171936035</y>
                         <z>0</z>
                         <width>60.891815186</width>
                         <height>12.178362846</height>
@@ -2625,8 +2625,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1770</x>
-                        <y>535</y>
+                        <x>194.529052734</x>
+                        <y>475.171936035</y>
                         <z>0</z>
                         <width>56.205039978</width>
                         <height>56.205043793</height>
@@ -2679,8 +2679,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1688.645263672</x>
-                        <y>489.189544678</y>
+                        <x>112.529052734</x>
+                        <y>429.171936035</y>
                         <z>0</z>
                         <width>34.828746796</width>
                         <height>34.828746796</height>
@@ -2762,8 +2762,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1759</x>
-                        <y>627</y>
+                        <x>183.529052734</x>
+                        <y>567.171936035</y>
                         <z>0</z>
                         <width>191.192276001</width>
                         <height>71.075195313</height>
@@ -2776,7 +2776,7 @@
                 </instance>
                 <instance type="StopTrigger_5" uid="266">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -6400,10 +6400,10 @@
                         <x>288</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -6422,10 +6422,10 @@
                         <x>144</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
+                        <width>200</width>
+                        <height>200</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>1</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -6684,7 +6684,7 @@
                     <properties>
                         <text>Desc_Indo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-16,400,0</font>
+                        <font>Times New Roman,-19,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -6711,7 +6711,7 @@
                     <properties>
                         <text>Desc_English</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-13,400,0</font>
+                        <font>Times New Roman,-15,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>

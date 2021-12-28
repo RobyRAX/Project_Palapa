@@ -2324,7 +2324,7 @@
                     <properties>
                         <text>Desc_Indo</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-16,400,0</font>
+                        <font>Times New Roman,-19,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -2351,7 +2351,7 @@
                     <properties>
                         <text>Desc_English</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Times New Roman,-13,400,0</font>
+                        <font>Times New Roman,-15,400,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -2564,33 +2564,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="comments" uid="927">
-                    <properties>
-                        <text>beruang moncong jadiin oren</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1832</x>
-                        <y>192</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>47</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
