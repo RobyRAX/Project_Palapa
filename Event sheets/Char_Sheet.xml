@@ -36,6 +36,17 @@
                 <action id="-8" name="Set angle" sid="862737679916796" type="Muzzle_Sprite">
                     <param id="0" name="Angle">Gun.angle</param>
                 </action>
+                <action id="28" name="Play at object (by name)" sid="780156825900031" type="Audio">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">&quot;tembakan kirai&quot;</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="4" name="Object">Gun</param>
+                    <param id="5" name="Inner angle">360</param>
+                    <param id="6" name="Outer angle">360</param>
+                    <param id="7" name="Outer gain">0</param>
+                    <param id="8" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="265779191099113">

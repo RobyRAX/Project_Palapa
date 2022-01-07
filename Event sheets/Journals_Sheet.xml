@@ -20,7 +20,7 @@
                         <action id="3" name="Set at XY" sid="353271808651597" type="Arr_Journals">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">ACQUIRED</param>
+                            <param id="2" name="Value">0</param>
                         </action>
                         <action id="3" name="Set at XY" sid="916577801344325" type="Arr_Journals">
                             <param id="0" name="X">0</param>

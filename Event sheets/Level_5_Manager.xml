@@ -487,6 +487,11 @@
                                         <action id="5" name="Set frame" sid="435755761724151" type="DialogAkhir_5">
                                             <param id="0" name="Frame number">3</param>
                                         </action>
+                                        <action id="3" name="Set at XY" sid="214677658470888" type="Arr_Pusaka">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Value">ACQUIRED</param>
+                                        </action>
                                         <action id="-9" name="Destroy" sid="969958764972008" type="pusakaCengkeh" />
                                         <action id="-15" name="Set visible" sid="928007033173987" type="Panel_Trans">
                                             <param id="0" name="Visibility">1</param>

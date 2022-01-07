@@ -5,8 +5,8 @@
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <author-website>http://robyrax.itch.io/project-palapa</author-website>
+    <app-id>com.sadguy.kirai</app-id>
     <unique-id>1sdez8s0qf0p9</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
@@ -5168,7 +5168,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664083832394821" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <frame duration="1" hotspotX="0.506983" hotspotY="0.465084" original-source="Y:\Assets\UI &amp; Button\UI WEAPON ATRIBUTE.png">
                             <collision-poly>
                                 <point x="1" y="0" />
                                 <point x="1" y="1" />
@@ -5183,7 +5183,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514040957332880" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.506983" hotspotY="0.465084" original-source="Y:\Assets\UI &amp; Button\UI Weapon Description.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5457,6 +5457,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="pusakaKosong" sid="370837082061379">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858091238853739" speed="5">
+                    <frame duration="1" hotspotX="0.492871" hotspotY="0.485039" original-source="Y:\Assets\Pusaka\pusaka kosong.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Enemies_Trigger" plugin-id="Sprite" sid="204000996052762">
@@ -5578,7 +5586,12 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="level complete.m4a" />
+        <file name="level complete.ogg" />
+        <file name="tembakan kirai.m4a" />
+        <file name="tembakan kirai.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

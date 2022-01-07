@@ -770,8 +770,8 @@
                         <width>80</width>
                         <height>80</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.506983221</hotspotX>
+                        <hotspotY>0.465083808</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -792,8 +792,8 @@
                         <width>80</width>
                         <height>80</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.506983221</hotspotX>
+                        <hotspotY>0.465083808</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -964,8 +964,8 @@
                         <width>80</width>
                         <height>80</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.506983221</hotspotX>
+                        <hotspotY>0.465083808</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -986,8 +986,8 @@
                         <width>80</width>
                         <height>80</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.506983221</hotspotX>
+                        <hotspotY>0.465083808</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1010,7 +1010,174 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="pusakaKosong" uid="1010">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>323</x>
+                        <y>350</y>
+                        <z>0</z>
+                        <width>470</width>
+                        <height>605</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492870718</hotspotX>
+                        <hotspotY>0.485038787</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Nama_Item" uid="1333">
+                    <properties>
+                        <text>Nama</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Leelawadee UI,-24,400,1</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>685</x>
+                        <y>80</y>
+                        <z>0</z>
+                        <width>530</width>
+                        <height>45</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Desc_Indo" uid="1592">
+                    <properties>
+                        <text>Desc_Indo</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Times New Roman,-19,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>685</x>
+                        <y>130</y>
+                        <z>0</z>
+                        <width>530</width>
+                        <height>240</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Desc_Eng" uid="1690">
+                    <properties>
+                        <text>Desc_English</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Times New Roman,-15,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>685</x>
+                        <y>390</y>
+                        <z>0</z>
+                        <width>530</width>
+                        <height>145</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="pusakaCengkeh" uid="1704">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>371.872619629</x>
+                        <y>272.776550293</y>
+                        <z>0</z>
+                        <width>105.471511841</width>
+                        <height>106.363830566</height>
+                        <depth>0</depth>
+                        <hotspotX>0.405245334</hotspotX>
+                        <hotspotY>0.629194617</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="pusakaLada" uid="1795">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>234.217636108</x>
+                        <y>314.592468262</y>
+                        <z>0</z>
+                        <width>95.551849365</width>
+                        <height>104.270599365</height>
+                        <depth>0</depth>
+                        <hotspotX>0.597181022</hotspotX>
+                        <hotspotY>0.562202573</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
@@ -1025,7 +1192,7 @@
         <instance type="Arr_Pusaka" uid="514">
             <properties>
                 <width>9</width>
-                <height>2</height>
+                <height>4</height>
                 <depth>1</depth>
             </properties>
         </instance>

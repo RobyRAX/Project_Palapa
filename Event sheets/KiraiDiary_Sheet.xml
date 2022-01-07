@@ -135,6 +135,20 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="569620230295122">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="875795032429284" type="Touch">
+                            <param id="0" name="Object">Pusaka_Button</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="433412868542731" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="816892639074725" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="463088331576978">
                     <conditions>
                         <condition id="4" name="Is touching object" sid="484072201344156" type="Touch">
@@ -193,6 +207,10 @@
                         </action>
                         <action id="-4" name="Set layer visible" sid="664848202792171" type="System">
                             <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="999551939015823" type="System">
+                            <param id="0" name="Layer">&quot;Pusaka&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
                         <action id="-4" name="Set layer visible" sid="309381670164200" type="System">
@@ -312,27 +330,76 @@
                     </sub-events>
                 </event-block>
                 <comment>Weapons</comment>
+                <event-block sid="976087560976352">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="998516984543627" type="System">
+                            <param id="0" name="Variable">KiraiDiary_Opsi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="799355563807561" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="892386903714143" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="826399018135747" type="System">
+                            <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="490502530562269" type="System">
+                            <param id="0" name="Layer">&quot;Level_1&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="976014275978449" type="System">
+                            <param id="0" name="Layer">&quot;Level_2&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="805759442910812" type="System">
+                            <param id="0" name="Layer">&quot;Level_3&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="216121321080714" type="System">
+                            <param id="0" name="Layer">&quot;Level_4&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="593949265828808" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Journals&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="230889877985354" type="System">
+                            <param id="0" name="Layer">&quot;Pusaka&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="650706593159501" type="System">
+                            <param id="0" name="Layer">&quot;Weapons&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Pusaka</comment>
                 <event-block sid="104174706414490">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="630171948402400" type="System">
                             <param id="0" name="Variable">KiraiDiary_Opsi</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
+                            <param id="2" name="Value">3</param>
                         </condition>
                         <condition id="-4" name="Trigger once while true" sid="733176367670696" type="System" />
                     </conditions>
                     <actions>
                         <action id="-4" name="Set layer visible" sid="734523853913212" type="System">
                             <param id="0" name="Layer">&quot;Weapons&quot;</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="435085938541680" type="System">
-                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
                             <param id="1" name="Visibility">0</param>
                         </action>
                         <action id="-4" name="Set layer visible" sid="773519573315654" type="System">
                             <param id="0" name="Layer">&quot;Atribut_Weapons&quot;</param>
-                            <param id="1" name="Visibility">1</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="435085938541680" type="System">
+                            <param id="0" name="Layer">&quot;Desc_Weapons&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                         <action id="-4" name="Set layer visible" sid="495427303587681" type="System">
                             <param id="0" name="Layer">&quot;Level_1&quot;</param>
@@ -353,6 +420,10 @@
                         <action id="-4" name="Set layer visible" sid="234458809476773" type="System">
                             <param id="0" name="Layer">&quot;Desc_Journals&quot;</param>
                             <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="534860953661519" type="System">
+                            <param id="0" name="Layer">&quot;Pusaka&quot;</param>
+                            <param id="1" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1063,6 +1134,307 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="773609738022793" title="Status_Pusaka(KiraiDiaryGlobal)">
+            <sub-events>
+                <comment>Lada</comment>
+                <event-block sid="457858270103382">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="891076345350938" type="Arr_Pusaka">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="461708628029350" type="pusakaLada">
+                            <param id="0" name="Unique ID">1795</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="323453916431836" type="pusakaLada">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="242749930429286">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="535424506419058" type="Arr_Pusaka">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="453209474604804" type="pusakaLada">
+                            <param id="0" name="Unique ID">1795</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="409292159198602" type="pusakaLada">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985497118924570">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="815481988206259" type="Touch">
+                            <param id="0" name="Object">pusakaLada</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="921436770785237" type="pusakaLada">
+                            <param id="0" name="Unique ID">1795</param>
+                        </condition>
+                        <condition id="1" name="Compare at XY" sid="196784670228751" type="Arr_Pusaka">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="152161815324515" type="Nama_Item">
+                            <param id="0" name="Text">Arr_Pusaka.At(0, 0)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="383214786207195" type="Desc_Indo">
+                            <param id="0" name="Text">Arr_Pusaka.At(0, 2)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="601805529438815" type="Desc_Eng">
+                            <param id="0" name="Text">Arr_Pusaka.At(0, 3)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>KayuManis</comment>
+                <event-block sid="301133325598910">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="730578233352890" type="Arr_Pusaka">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="754472015941749">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="309365909374327" type="Arr_Pusaka">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>Cengkeh</comment>
+                <event-block sid="635211761461782">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="676555298050175" type="Arr_Pusaka">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="851437421627810" type="pusakaCengkeh">
+                            <param id="0" name="Unique ID">1704</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="224626357896648" type="pusakaCengkeh">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="181988963229227">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="578464891656488" type="Arr_Pusaka">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="447696839496068" type="pusakaCengkeh">
+                            <param id="0" name="Unique ID">1704</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="989539251040507" type="pusakaCengkeh">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="244373543044672">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="298670264779175" type="Touch">
+                            <param id="0" name="Object">pusakaCengkeh</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="852487626498081" type="pusakaCengkeh">
+                            <param id="0" name="Unique ID">1704</param>
+                        </condition>
+                        <condition id="1" name="Compare at XY" sid="462491278601734" type="Arr_Pusaka">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">ACQUIRED</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="557712569746915" type="Nama_Item">
+                            <param id="0" name="Text">Arr_Pusaka.At(2, 0)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="981252438645610" type="Desc_Indo">
+                            <param id="0" name="Text">Arr_Pusaka.At(2, 2)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="382485795017311" type="Desc_Eng">
+                            <param id="0" name="Text">Arr_Pusaka.At(2, 3)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>BungaLawang</comment>
+                <event-block sid="970838821770328">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="651372118683404" type="Arr_Pusaka">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="677277812271225">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="958198167768269" type="Arr_Pusaka">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>Jahe</comment>
+                <event-block sid="498577268036267">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="832726000289158" type="Arr_Pusaka">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="681244185813316">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="729632257909886" type="Arr_Pusaka">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>Kemiri</comment>
+                <event-block sid="898578723931918">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="634688398684422" type="Arr_Pusaka">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="702767542735454">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="235688177190200" type="Arr_Pusaka">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>AsamJawa</comment>
+                <event-block sid="139091610174829">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="679255886880919" type="Arr_Pusaka">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="304220938916769">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="643785052063444" type="Arr_Pusaka">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>DaunSalam</comment>
+                <event-block sid="620820402344765">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="213616278665230" type="Arr_Pusaka">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="941922063764589">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="321232300190639" type="Arr_Pusaka">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <comment>BuahPala</comment>
+                <event-block sid="389594986893152">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="383849023327639" type="Arr_Pusaka">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="834505786058431">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Compare at XY" sid="267619308941860" type="Arr_Pusaka">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">COMPLETE</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="956054249882090">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="295756184074574" type="System">
+                            <param id="0" name="Layer">&quot;Pusaka&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
             </sub-events>
         </event-group>
     </events>

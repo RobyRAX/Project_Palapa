@@ -989,6 +989,13 @@
                         <action behavior="Platform" id="1" name="Set max speed" sid="279586314591336" type="Char_Trigger">
                             <param id="0" name="Max Speed">self.Platform.MaxSpeed / 2</param>
                         </action>
+                        <action id="7" name="Play (by name)" sid="404324124332219" type="Audio">
+                            <param id="0" name="Folder">0</param>
+                            <param id="1" name="Audio file name">&quot;level complete&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">0</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <comment>Unlock_NextLevel</comment>

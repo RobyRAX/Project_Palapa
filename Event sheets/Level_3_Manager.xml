@@ -568,6 +568,11 @@
                                     <param id="0" name="Animation">&quot;DapatPusaka&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="3" name="Set at XY" sid="569569217890756" type="Arr_Pusaka">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Value">ACQUIRED</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="406474337995163">
