@@ -570,6 +570,24 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="699054530976029">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="432688770807855" type="System">
+                                            <param id="0" name="Variable">gameOver</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="818185188568087" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="330232847670805" type="Audio">
+                                            <param id="0" name="Audio file">losing or failing</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                                 <event-block sid="130039348972644">
                                     <conditions>
                                         <condition id="-14" name="Compare variable" sid="129460568142496" type="System">
@@ -1015,6 +1033,23 @@
                                                     <param id="1" name="From">1</param>
                                                 </action>
                                             </actions>
+                                            <sub-events>
+                                                <event-block sid="745430554760104">
+                                                    <conditions>
+                                                        <condition id="-6" name="Every X seconds" sid="692049037126015" type="System">
+                                                            <param id="0" name="Interval (seconds)">1.0</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="656072285927366" type="Audio">
+                                                            <param id="0" name="Audio file">footstep</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;step&quot;</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
                                         </event-block>
                                         <comment>Bersenjata</comment>
                                         <event-block sid="956710973927556">
@@ -1031,6 +1066,23 @@
                                                     <param id="1" name="From">1</param>
                                                 </action>
                                             </actions>
+                                            <sub-events>
+                                                <event-block sid="885732827951542">
+                                                    <conditions>
+                                                        <condition id="-6" name="Every X seconds" sid="706878479114648" type="System">
+                                                            <param id="0" name="Interval (seconds)">1.0</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="0" name="Play" sid="134404925860365" type="Audio">
+                                                            <param id="0" name="Audio file">footstep</param>
+                                                            <param id="2" name="Loop">0</param>
+                                                            <param id="3" name="Volume">0</param>
+                                                            <param id="1" name="Tag (optional)">&quot;step&quot;</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
                                         </event-block>
                                     </sub-events>
                                 </event-block>
@@ -1039,7 +1091,11 @@
                                         <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="531760470312429" type="Char_Trigger" />
                                         <condition behavior="Platform" id="2" name="Is on floor" sid="629099285391723" type="Char_Trigger" />
                                     </conditions>
-                                    <actions />
+                                    <actions>
+                                        <action id="6" name="Stop" sid="643806482742404" type="Audio">
+                                            <param id="0" name="Tag">&quot;step&quot;</param>
+                                        </action>
+                                    </actions>
                                     <sub-events>
                                         <comment>TanganKosong</comment>
                                         <event-block sid="616276533543436">
@@ -1079,7 +1135,11 @@
                                     <conditions>
                                         <condition behavior="Platform" id="5" name="On jump" sid="157264364677798" type="Char_Trigger" />
                                     </conditions>
-                                    <actions />
+                                    <actions>
+                                        <action id="6" name="Stop" sid="903290630304076" type="Audio">
+                                            <param id="0" name="Tag">&quot;step&quot;</param>
+                                        </action>
+                                    </actions>
                                     <sub-events>
                                         <comment>TanganKosong</comment>
                                         <event-block sid="547176649179242">

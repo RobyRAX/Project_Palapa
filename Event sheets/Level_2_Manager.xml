@@ -48,6 +48,12 @@
                             <param id="0" name="Variable">playedLevel</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Play" sid="417447608853477" type="Audio">
+                            <param id="0" name="Audio file">mixkit-spirit-in-the-woods-2-147</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="498320912012336">
@@ -1345,9 +1351,13 @@
                         <condition id="-4" name="Trigger once while true" sid="298324440734951" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="993328839291764" type="System">
+                        <action disabled="1" id="-4" name="Set layer visible" sid="993328839291764" type="System">
                             <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
                             <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="619852399920070" type="Function">
+                            <param id="0" name="Name">&quot;PopUp_Finish&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                     <sub-events>

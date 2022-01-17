@@ -79,10 +79,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-8</x>
-                        <y>-94</y>
+                        <y>27</y>
                         <z>0</z>
                         <width>5033</width>
-                        <height>840</height>
+                        <height>704</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -7032,8 +7032,8 @@
                         <width>4677</width>
                         <height>2286</height>
                         <depth>0</depth>
-                        <hotspotX>0.500106931</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.501278758</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

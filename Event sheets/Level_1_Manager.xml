@@ -49,6 +49,12 @@
                             <param id="0" name="Variable">playedLevel</param>
                             <param id="1" name="Value">0</param>
                         </action>
+                        <action id="0" name="Play" sid="282817349536772" type="Audio">
+                            <param id="0" name="Audio file">mixkit-forest-mist-whispers-148</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="221039577559998">
@@ -982,19 +988,23 @@
                         <condition id="-4" name="Trigger once while true" sid="434552511535503" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="876848605781044" type="System">
+                        <action disabled="1" id="-4" name="Set layer visible" sid="876848605781044" type="System">
                             <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action behavior="Platform" id="1" name="Set max speed" sid="279586314591336" type="Char_Trigger">
                             <param id="0" name="Max Speed">self.Platform.MaxSpeed / 2</param>
                         </action>
-                        <action id="7" name="Play (by name)" sid="404324124332219" type="Audio">
+                        <action disabled="1" id="7" name="Play (by name)" sid="404324124332219" type="Audio">
                             <param id="0" name="Folder">0</param>
                             <param id="1" name="Audio file name">&quot;level complete&quot;</param>
                             <param id="3" name="Loop">0</param>
                             <param id="4" name="Volume">0</param>
                             <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="122679739479675" type="Function">
+                            <param id="0" name="Name">&quot;PopUp_Finish&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                     <sub-events>

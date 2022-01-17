@@ -3,23 +3,18 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Prologue_Sheet</name>
     <events>
-        <event-block sid="439657839071041">
+        <event-block sid="328476571840796">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="467759277172399" type="System" />
+                <condition id="3" name="Compare frame" sid="540436641520392" type="prolog1min">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="6" name="Play" sid="475678879497091" type="Video" />
-            </actions>
-        </event-block>
-        <event-block sid="469367792150125">
-            <conditions>
-                <condition id="2" name="Has ended" sid="483741787160170" type="Video" />
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="987090220773463" type="System">
+                <action id="-16" name="Wait" sid="805333501435399" type="System">
                     <param id="0" name="Seconds">1.0</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="484337086055910" type="System">
+                <action id="-2" name="Go to layout" sid="410071391272902" type="System">
                     <param id="0" name="Layout">Level_1</param>
                 </action>
             </actions>

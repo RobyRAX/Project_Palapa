@@ -109,6 +109,12 @@
                                             <param id="1" name="Layer">&quot;Game&quot;</param>
                                             <param id="2" name="Image point">0</param>
                                         </action>
+                                        <action id="0" name="Play" sid="985485695230803" type="Audio">
+                                            <param id="0" name="Audio file">tembakan-musuh</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="480996922181363">

@@ -50,6 +50,12 @@
                         <action id="-20" name="Set layout scale" sid="957834525786367" type="System">
                             <param id="0" name="Scale">0.75</param>
                         </action>
+                        <action id="0" name="Play" sid="621875472471958" type="Audio">
+                            <param id="0" name="Audio file">Our-Mountain_v003</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="977043604631113">
@@ -347,9 +353,13 @@
                         <condition id="-4" name="Trigger once while true" sid="119562460383588" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-4" name="Set layer visible" sid="763961449498611" type="System">
+                        <action disabled="1" id="-4" name="Set layer visible" sid="763961449498611" type="System">
                             <param id="0" name="Layer">&quot;Win_PopUp&quot;</param>
                             <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="348637687729430" type="Function">
+                            <param id="0" name="Name">&quot;PopUp_Finish&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                     <sub-events>
