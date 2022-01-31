@@ -6444,10 +6444,10 @@
                         <x>960</x>
                         <y>648</y>
                         <z>0</z>
-                        <width>105</width>
-                        <height>100</height>
+                        <width>125</width>
+                        <height>300</height>
                         <depth>0</depth>
-                        <hotspotX>0.504761934</hotspotX>
+                        <hotspotX>0.504000008</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

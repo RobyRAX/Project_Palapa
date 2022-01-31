@@ -12,7 +12,7 @@
             </conditions>
             <actions>
                 <action id="-16" name="Wait" sid="805333501435399" type="System">
-                    <param id="0" name="Seconds">1.0</param>
+                    <param id="0" name="Seconds">4</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="410071391272902" type="System">
                     <param id="0" name="Layout">Level_1</param>

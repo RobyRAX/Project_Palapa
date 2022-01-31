@@ -51,7 +51,7 @@
                             <param id="0" name="Scale">0.75</param>
                         </action>
                         <action id="0" name="Play" sid="621875472471958" type="Audio">
-                            <param id="0" name="Audio file">Our-Mountain_v003</param>
+                            <param id="0" name="Audio file">BGM_Level-3</param>
                             <param id="2" name="Loop">1</param>
                             <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>

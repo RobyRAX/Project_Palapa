@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SplashScreen_Sheet</name>
+    <events>
+        <event-block sid="558529481854658">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="505990261657738" type="KEMENDIKBUDKAMPUSMERDEKAWHITE">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">self.AnimationFrameCount - 1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="401344842701503" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
