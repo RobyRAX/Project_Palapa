@@ -48,10 +48,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="557750354760340" type="System">
                             <param id="0" name="Variable">playedLevel</param>
-                            <param id="1" name="Value">6</param>
-                        </action>
-                        <action id="-20" name="Set layout scale" sid="520138875081172" type="System">
-                            <param id="0" name="Scale">0.75</param>
+                            <param id="1" name="Value">7</param>
                         </action>
                     </actions>
                 </event-block>
