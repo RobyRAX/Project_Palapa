@@ -96,8 +96,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>120</x>
-                        <y>-451</y>
+                        <x>119.489562988</x>
+                        <y>-525.108520508</y>
                         <z>0</z>
                         <width>79.818511963</width>
                         <height>179.228866577</height>
@@ -408,10 +408,10 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Octo" uid="1689">
+                <instance type="Octo_Sprite" uid="1689">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>idle</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -430,18 +430,19 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Pin" />
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>656</x>
-                        <y>-112</y>
+                        <x>637</x>
+                        <y>-115</y>
                         <z>0</z>
-                        <width>144</width>
-                        <height>192</height>
+                        <width>218.223999023</width>
+                        <height>310.662994385</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.404825747</hotspotX>
+                        <hotspotY>0.945386052</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -502,6 +503,44 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Octo_Trigger" uid="1796">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>Yes</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>643</x>
+                        <y>-111</y>
+                        <z>0</z>
+                        <width>70.246337891</width>
+                        <height>296.627868652</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

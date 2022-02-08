@@ -4238,16 +4238,82 @@
             </object-folder>
             <object-folder name="Enemy3" />
             <object-folder name="Octo">
-                <object-type name="Octo" sid="146640915056389">
+                <object-type name="Octo_Sprite" sid="146640915056389">
                     <plugin id="Sprite" />
                     <behaviors>
                         <behavior-type name="Platform" sid="578436236319913">
                             <behavior id="Platform" />
                         </behavior-type>
+                        <behavior-type name="Pin" sid="295421772235302">
+                            <behavior id="Pin" />
+                        </behavior-type>
                     </behaviors>
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222562183571680" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <animation framecount="9" loop="1" name="Sit" pingpong="0" repeatcount="1" repeatto="0" sid="258761926368512" speed="7">
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_00.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_02.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_04.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_06.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_08.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_10.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_12.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_14.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_16.png" />
+                        </animation>
+                        <animation framecount="9" loop="0" name="SitStand" pingpong="0" repeatcount="1" repeatto="0" sid="380557060692382" speed="7">
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_00.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_02.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_04.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_06.png" />
+                            <frame duration="1" hotspotX="0.559406" hotspotY="0.954373" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_08.png" />
+                            <frame duration="1" hotspotX="0.472772" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_10.png" />
+                            <frame duration="1" hotspotX="0.472772" hotspotY="0.95057" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_12.png" />
+                            <frame duration="1" hotspotX="0.470297" hotspotY="0.95057" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_14.png" />
+                            <frame duration="1" hotspotX="0.470297" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_16.png" />
+                        </animation>
+                        <animation framecount="19" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="192614945545680" speed="7">
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_00.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_03.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_06.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_09.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_12.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_15.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_18.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_21.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_24.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_27.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_30.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_33.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_36.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_39.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_42.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_45.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_48.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_51.png" />
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_54.png" />
+                        </animation>
+                        <animation framecount="7" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="885968115334953" speed="10">
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_00.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_02.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_04.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_06.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_08.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_10.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_12.png" />
+                        </animation>
+                        <animation framecount="12" loop="0" name="JumpSwim" pingpong="0" repeatcount="1" repeatto="0" sid="770132437029542" speed="10">
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_00.png" />
+                            <frame duration="1" hotspotX="0.186833" hotspotY="0.4412" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_02.png" />
+                            <frame duration="1" hotspotX="0.206999" hotspotY="0.463909" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_04.png" />
+                            <frame duration="1" hotspotX="0.205813" hotspotY="0.467153" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_06.png" />
+                            <frame duration="1" hotspotX="0.204626" hotspotY="0.465531" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_08.png" />
+                            <frame duration="1" hotspotX="0.178529" hotspotY="0.475264" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_10.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_12.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_14.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_16.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_18.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_20.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_22.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -4398,8 +4464,29 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217035098133253" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="8" loop="1" name="Att" pingpong="0" repeatcount="1" repeatto="0" sid="217035098133253" speed="24">
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_0.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_1.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_2.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_3.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_4.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_5.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_6.png" />
+                        <frame duration="1" hotspotX="0.484848" hotspotY="0.908537" original-source="Y:\Assets\NPC\Enemy_3\Att\skeleton-nn_7.png" />
+                    </animation>
+                    <animation framecount="12" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="458152933393622" speed="10">
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_06.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_07.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_08.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_09.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_10.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_11.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_12.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_13.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_14.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_15.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_16.png" />
+                        <frame duration="1" hotspotX="0.214286" hotspotY="0.762887" original-source="Y:\Assets\NPC\Enemy_3\Dead\nabrak_17.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -5231,12 +5318,17 @@
             <object-type name="Prasasti" sid="621752495879245">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="999408762692196" speed="0">
-                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti level 1.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 2.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti level 3.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 4.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="Y:\Assets\LevelSelect\Prasasti Level 5.png" />
+                    <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="999408762692196" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\Prasasti level 1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\Prasasti Level 2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\Prasasti level 3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\Prasasti Level 4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\Prasasti Level 5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\level 6.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\level 7.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\level 8.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\level 9.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.996835" original-source="Y:\Assets\LevelSelect\level 10.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="Siluet" pingpong="0" repeatcount="1" repeatto="0" sid="861307034961267" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -5544,6 +5636,41 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="BG_8" sid="445609471050081">
+            <plugin id="TiledBg" />
+            <texture original-source="Y:\Assets\8. Togean\bekgron-min.jpg" />
+        </object-type>
+        <object-type name="Octo_Trigger" sid="124889966710373">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="238815906280766">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384476733247030" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="welcomeKepulauanTogean" sid="127621842734733">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="140264482750926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\8. Togean\welcome kepulauan togean.png">
+                        <collision-poly>
+                            <point x="0.048" y="0.11215" />
+                            <point x="0.5" y="0.00934579" />
+                            <point x="0.966" y="0.0794393" />
+                            <point x="0.998" y="0.995327" />
+                            <point x="0.5" y="0.392523" />
+                            <point x="0.004" y="0.990654" />
+                            <point x="0.01" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Enemies_Trigger" plugin-id="Sprite" sid="204000996052762">
@@ -5640,6 +5767,7 @@
         <event-sheet>Prologue_Sheet.xml</event-sheet>
         <event-sheet>PlayerProfile.xml</event-sheet>
         <event-sheet>SplashScreen_Sheet.xml</event-sheet>
+        <event-sheet>Octo_AI.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />

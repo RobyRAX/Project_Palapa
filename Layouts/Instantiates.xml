@@ -496,7 +496,7 @@
                 <instance type="Enemy3" uid="984">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>Att</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -525,11 +525,11 @@
                         <x>1472</x>
                         <y>480</y>
                         <z>0</z>
-                        <width>96</width>
-                        <height>160</height>
+                        <width>100</width>
+                        <height>165</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.484848499</hotspotX>
+                        <hotspotY>0.908536613</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

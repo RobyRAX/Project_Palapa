@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Octo_AI</name>
+    <events>
+        <variable constant="0" name="Octo_State" sid="494329160188752" static="0" type="number">0</variable>
+        <event-group description="" sid="960147765445376" title="AI">
+            <sub-events>
+                <comment>Kirai Mendekat</comment>
+                <event-block sid="998419906759717">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="369927754097067" type="System">
+                            <param id="0" name="First value">distance(Char_Trigger.x, Char_Trigger.Y, Octo_Trigger.X, Octo_Trigger.Y)</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">700</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="800071189394386" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="292613623990577" type="System">
+                            <param id="0" name="Variable">Octo_State</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="Pin" id="0" name="Pin to object" sid="588464301577153" type="Octo_Sprite">
+                            <param id="0" name="Pin to">Octo_Trigger</param>
+                            <param id="1" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Octo Putar Balik</comment>
+                <event-block sid="799862486806475">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="145863156598360" type="System">
+                            <param id="0" name="Variable">Octo_State</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="398618193713176" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="726340386219759" type="Octo_Sprite">
+                            <param id="0" name="Animation">&quot;SitStand&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="865945163345928" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="872511456455162" type="Octo_Sprite">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="389729437943497" type="System">
+                            <param id="0" name="Seconds">1.5</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="557010010690259" type="System">
+                            <param id="0" name="Variable">Octo_State</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Octo Lari</comment>
+                <event-block sid="544421921529604">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="853973121705995" type="System">
+                            <param id="0" name="Variable">Octo_State</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="752336743486671" type="Octo_Sprite">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="641053803635063" type="Octo_Sprite">
+                            <param id="0" name="Animation">&quot;Run&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="631750409688104" type="Octo_Trigger">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="116135503562673">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="124939132553778" type="Octo_Trigger">
+                                    <param id="0" name="Object">FinishTrigger</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="11" name="Set collisions enabled" sid="442217931148346" type="Octo_Trigger">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

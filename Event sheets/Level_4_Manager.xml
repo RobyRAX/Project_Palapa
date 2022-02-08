@@ -658,6 +658,8 @@
                                 <action id="-17" name="Move forward" sid="869401154465862" type="Perahu">
                                     <param id="0" name="Distance">10</param>
                                 </action>
+                                <action id="-9" name="Destroy" sid="474051388122983" type="Bound" />
+                                <action id="-9" name="Destroy" sid="318819713389711" type="Bound_2" />
                                 <action id="-9" name="Set value" sid="791383600494612" type="System">
                                     <param id="0" name="Variable">cutScene</param>
                                     <param id="1" name="Value">0</param>

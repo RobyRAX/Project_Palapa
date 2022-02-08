@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level_8_Manager</name>
     <events>
+        <include>Octo_AI</include>
         <include>GameStatus</include>
         <include>Save &amp; Load</include>
         <include>LevelScoring_Sheet</include>

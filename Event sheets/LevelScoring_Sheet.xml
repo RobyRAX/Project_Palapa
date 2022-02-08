@@ -119,43 +119,103 @@
                             <param id="1" name="Y">3</param>
                             <param id="2" name="Value">0</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="772571347804544" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="772571347804544" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">0</param>
                             <param id="2" name="Value">&quot;Level_6&quot;</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="354227685064456" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="354227685064456" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">UNLOCK</param>
+                            <param id="2" name="Value">LOCK</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="224474015607221" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="224474015607221" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">2</param>
                             <param id="2" name="Value">0</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="856113663097168" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="856113663097168" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">3</param>
                             <param id="2" name="Value">0</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="657117673038665" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="657117673038665" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">0</param>
                             <param id="2" name="Value">&quot;Level_7&quot;</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="101104608766695" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="101104608766695" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">UNLOCK</param>
+                            <param id="2" name="Value">LOCK</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="674362003065529" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="674362003065529" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">2</param>
                             <param id="2" name="Value">0</param>
                         </action>
-                        <action disabled="1" id="3" name="Set at XY" sid="958753756169209" type="Arr_LevelScore">
+                        <action id="3" name="Set at XY" sid="958753756169209" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="901328885050100" type="Arr_LevelScore">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_8&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="663800234528611" type="Arr_LevelScore">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">LOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="227048770856604" type="Arr_LevelScore">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="968253812781856" type="Arr_LevelScore">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="251070111029556" type="Arr_LevelScore">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_9&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="285519277000261" type="Arr_LevelScore">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">LOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="252370247815753" type="Arr_LevelScore">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="100394656130176" type="Arr_LevelScore">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="495177162417524" type="Arr_LevelScore">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Level_10&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="994318586456333" type="Arr_LevelScore">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">LOCK</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="538861805591803" type="Arr_LevelScore">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="676887724928152" type="Arr_LevelScore">
+                            <param id="0" name="X">9</param>
                             <param id="1" name="Y">3</param>
                             <param id="2" name="Value">0</param>
                         </action>

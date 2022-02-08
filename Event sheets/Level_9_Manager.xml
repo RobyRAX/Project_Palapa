@@ -74,7 +74,7 @@
                         <condition id="-4" name="Trigger once while true" sid="659548472894048" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="11" name="Set enabled" sid="133302751663606" type="Octo">
+                        <action behavior="Platform" id="11" name="Set enabled" sid="133302751663606" type="Octo_Sprite">
                             <param id="0" name="State">1</param>
                         </action>
                     </actions>
@@ -86,7 +86,7 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
-                        <condition behavior="Platform" id="2" name="Is on floor" sid="183911574844855" type="Octo" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="183911574844855" type="Octo_Sprite" />
                         <condition id="-4" name="Trigger once while true" sid="858313956101925" type="System" />
                     </conditions>
                     <actions>
@@ -97,17 +97,17 @@
                 </event-block>
                 <event-block sid="478194066440888">
                     <conditions>
-                        <condition behavior="Platform" id="2" name="Is on floor" sid="309292725260186" type="Octo" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="309292725260186" type="Octo_Sprite" />
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="606956394960507" type="Octo">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="606956394960507" type="Octo_Sprite">
                             <param id="0" name="Control">1</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="832810381353791">
                     <conditions>
-                        <condition id="-1" name="Compare X" sid="823774074313358" type="Octo">
+                        <condition id="-1" name="Compare X" sid="823774074313358" type="Octo_Sprite">
                             <param id="0" name="Comparison">5</param>
                             <param id="1" name="X co-ordinate">ViewportRight(&quot;Game&quot;) - 200</param>
                         </condition>
@@ -119,7 +119,7 @@
                         <condition id="-4" name="Trigger once while true" sid="364404962497629" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="11" name="Set enabled" sid="234890048522158" type="Octo">
+                        <action behavior="Platform" id="11" name="Set enabled" sid="234890048522158" type="Octo_Sprite">
                             <param id="0" name="State">0</param>
                         </action>
                         <action id="-3" name="Create object" sid="498721429706656" type="System">
@@ -147,7 +147,7 @@
                         <action id="-16" name="Wait" sid="487341743768204" type="System">
                             <param id="0" name="Seconds">2</param>
                         </action>
-                        <action behavior="Platform" id="11" name="Set enabled" sid="251622458345895" type="Octo">
+                        <action behavior="Platform" id="11" name="Set enabled" sid="251622458345895" type="Octo_Sprite">
                             <param id="0" name="State">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="383826235484346" type="System">
@@ -162,25 +162,25 @@
                 </event-block>
                 <event-block sid="339824751748121">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="375942278718971" type="Octo">
+                        <condition id="0" name="On collision with another object" sid="375942278718971" type="Octo_Sprite">
                             <param id="0" name="Object">Bound_2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="11" name="Set collisions enabled" sid="620643720689028" type="Octo">
+                        <action id="11" name="Set collisions enabled" sid="620643720689028" type="Octo_Sprite">
                             <param id="0" name="Collisions">0</param>
                         </action>
-                        <action behavior="Platform" id="5" name="Set gravity" sid="115431564993438" type="Octo">
+                        <action behavior="Platform" id="5" name="Set gravity" sid="115431564993438" type="Octo_Sprite">
                             <param id="0" name="Gravity">0</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="718717152570902">
                     <conditions>
-                        <condition id="11" inverted="1" name="Collisions enabled" sid="457968187329316" type="Octo" />
+                        <condition id="11" inverted="1" name="Collisions enabled" sid="457968187329316" type="Octo_Sprite" />
                     </conditions>
                     <actions>
-                        <action id="-17" name="Move forward" sid="542427335066304" type="Octo">
+                        <action id="-17" name="Move forward" sid="542427335066304" type="Octo_Sprite">
                             <param id="0" name="Distance">4</param>
                         </action>
                     </actions>

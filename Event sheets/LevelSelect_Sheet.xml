@@ -192,7 +192,8 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block disabled="1" sid="411317139113316">
+                        <comment>Level 6</comment>
+                        <event-block sid="411317139113316">
                             <conditions>
                                 <condition id="1" name="Compare at XY" sid="149175054507509" type="Arr_LevelScore">
                                     <param id="0" name="X">5</param>
@@ -200,10 +201,18 @@
                                     <param id="2" name="Comparison">0</param>
                                     <param id="3" name="Value">UNLOCK</param>
                                 </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="869126382877560" type="Prasasti">
+                                    <param id="0" name="Unique ID">1011</param>
+                                </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="4" name="Set animation" sid="493973824748887" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
                         </event-block>
-                        <event-block disabled="1" sid="774378992485160">
+                        <event-block sid="774378992485160">
                             <conditions>
                                 <condition id="1" name="Compare at XY" sid="308956493928862" type="Arr_LevelScore">
                                     <param id="0" name="X">5</param>
@@ -211,21 +220,19 @@
                                     <param id="2" name="Comparison">0</param>
                                     <param id="3" name="Value">LOCK</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block disabled="1" sid="452945018773474">
-                            <conditions>
-                                <condition id="1" name="Compare at XY" sid="692711436719960" type="Arr_LevelScore">
-                                    <param id="0" name="X">5</param>
-                                    <param id="1" name="Y">1</param>
-                                    <param id="2" name="Comparison">0</param>
-                                    <param id="3" name="Value">COMPLETE</param>
+                                <condition id="-14" name="Pick by unique ID" sid="545447220686284" type="Prasasti">
+                                    <param id="0" name="Unique ID">1011</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="4" name="Set animation" sid="117909566086892" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
                         </event-block>
-                        <event-block disabled="1" sid="268517981427317">
+                        <comment>Level 7</comment>
+                        <event-block sid="268517981427317">
                             <conditions>
                                 <condition id="1" name="Compare at XY" sid="248596008971513" type="Arr_LevelScore">
                                     <param id="0" name="X">6</param>
@@ -233,30 +240,152 @@
                                     <param id="2" name="Comparison">0</param>
                                     <param id="3" name="Value">UNLOCK</param>
                                 </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="884928295175091" type="Prasasti">
+                                    <param id="0" name="Unique ID">1334</param>
+                                </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="4" name="Set animation" sid="901073525012599" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
                         </event-block>
-                        <event-block disabled="1" sid="567578799107581">
+                        <event-block sid="813692697582525">
                             <conditions>
-                                <condition id="1" name="Compare at XY" sid="584665727695987" type="Arr_LevelScore">
+                                <condition id="1" name="Compare at XY" sid="961549293389408" type="Arr_LevelScore">
                                     <param id="0" name="X">6</param>
                                     <param id="1" name="Y">1</param>
                                     <param id="2" name="Comparison">0</param>
                                     <param id="3" name="Value">LOCK</param>
                                 </condition>
-                            </conditions>
-                            <actions />
-                        </event-block>
-                        <event-block disabled="1" sid="201215040717164">
-                            <conditions>
-                                <condition id="1" name="Compare at XY" sid="310985096324276" type="Arr_LevelScore">
-                                    <param id="0" name="X">6</param>
-                                    <param id="1" name="Y">1</param>
-                                    <param id="2" name="Comparison">0</param>
-                                    <param id="3" name="Value">COMPLETE</param>
+                                <condition id="-14" name="Pick by unique ID" sid="871852140957346" type="Prasasti">
+                                    <param id="0" name="Unique ID">1334</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="4" name="Set animation" sid="519498897761607" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Level 8</comment>
+                        <event-block sid="573970889860933">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="940843992158796" type="Arr_LevelScore">
+                                    <param id="0" name="X">7</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">UNLOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="352421792008685" type="Prasasti">
+                                    <param id="0" name="Unique ID">1537</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="946927014069018" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="567578799107581">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="584665727695987" type="Arr_LevelScore">
+                                    <param id="0" name="X">7</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">LOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="681402541303138" type="Prasasti">
+                                    <param id="0" name="Unique ID">1537</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="854670168772876" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Level 9</comment>
+                        <event-block sid="722933761002765">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="184756578817227" type="Arr_LevelScore">
+                                    <param id="0" name="X">8</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">UNLOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="558946091254379" type="Prasasti">
+                                    <param id="0" name="Unique ID">1540</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="192217925789030" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="135507258308659">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="975747207692113" type="Arr_LevelScore">
+                                    <param id="0" name="X">8</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">LOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="348069259743918" type="Prasasti">
+                                    <param id="0" name="Unique ID">1540</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="932543207794337" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Level 10</comment>
+                        <event-block sid="252929115210284">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="954532454959574" type="Arr_LevelScore">
+                                    <param id="0" name="X">9</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">UNLOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="241089119995042" type="Prasasti">
+                                    <param id="0" name="Unique ID">1540</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="731389468809787" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="354463305670683">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="375166775006036" type="Arr_LevelScore">
+                                    <param id="0" name="X">9</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">LOCK</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="979204667014808" type="Prasasti">
+                                    <param id="0" name="Unique ID">1540</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="214550239817185" type="Prasasti">
+                                    <param id="0" name="Animation">&quot;Siluet&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -369,8 +498,14 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="960194928201677">
+                <event-block sid="960194928201677">
                     <conditions>
+                        <condition id="17" name="On tap object" sid="688015079486586" type="Touch">
+                            <param id="0" name="Object">Prasasti</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="700451955495084" type="Prasasti">
+                            <param id="0" name="Unique ID">1011</param>
+                        </condition>
                         <condition id="1" name="Compare at XY" sid="765986981076375" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
                             <param id="1" name="Y">1</param>
@@ -384,8 +519,14 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="108931348909688">
+                <event-block sid="108931348909688">
                     <conditions>
+                        <condition id="17" name="On tap object" sid="514693729224410" type="Touch">
+                            <param id="0" name="Object">Prasasti</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="103471746148919" type="Prasasti">
+                            <param id="0" name="Unique ID">1334</param>
+                        </condition>
                         <condition id="1" name="Compare at XY" sid="336492833530672" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
                             <param id="1" name="Y">1</param>
@@ -399,8 +540,14 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="268823295297025">
+                <event-block sid="268823295297025">
                     <conditions>
+                        <condition id="17" name="On tap object" sid="732853291193162" type="Touch">
+                            <param id="0" name="Object">Prasasti</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="803863279801666" type="Prasasti">
+                            <param id="0" name="Unique ID">1537</param>
+                        </condition>
                         <condition id="1" name="Compare at XY" sid="945593958537045" type="Arr_LevelScore">
                             <param id="0" name="X">7</param>
                             <param id="1" name="Y">1</param>
@@ -414,10 +561,16 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="487323222394425">
+                <event-block sid="487323222394425">
                     <conditions>
+                        <condition id="17" name="On tap object" sid="891822595285814" type="Touch">
+                            <param id="0" name="Object">Prasasti</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="399200736208864" type="Prasasti">
+                            <param id="0" name="Unique ID">1540</param>
+                        </condition>
                         <condition id="1" name="Compare at XY" sid="255549472163105" type="Arr_LevelScore">
-                            <param id="0" name="X">7</param>
+                            <param id="0" name="X">8</param>
                             <param id="1" name="Y">1</param>
                             <param id="2" name="Comparison">1</param>
                             <param id="3" name="Value">LOCK</param>
@@ -429,10 +582,16 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="992880572851167">
+                <event-block sid="992880572851167">
                     <conditions>
+                        <condition id="17" name="On tap object" sid="112233441236727" type="Touch">
+                            <param id="0" name="Object">Prasasti</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="508058252857723" type="Prasasti">
+                            <param id="0" name="Unique ID">1593</param>
+                        </condition>
                         <condition id="1" name="Compare at XY" sid="380468164237704" type="Arr_LevelScore">
-                            <param id="0" name="X">7</param>
+                            <param id="0" name="X">9</param>
                             <param id="1" name="Y">1</param>
                             <param id="2" name="Comparison">1</param>
                             <param id="3" name="Value">LOCK</param>
@@ -478,20 +637,6 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(0, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="272531367936144">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="857942654518043" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">395</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="486645888955830" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot; &amp; Arr_LevelScore.At(0, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_2</comment>
                 <event-block sid="112375758541469">
@@ -511,20 +656,6 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(1, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="398107964615017">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="766094134602468" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">396</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="828841911924520" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(1, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_3</comment>
                 <event-block sid="844338588162661">
@@ -544,20 +675,6 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(2, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="140863261644754">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="876561649584837" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">518</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="878252799211977" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(2, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_4</comment>
                 <event-block sid="984483999510456">
@@ -577,20 +694,6 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(3, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="243271845599019">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="523379306380416" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">779</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="275709744072848" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(3, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_5</comment>
                 <event-block sid="328795246766115">
@@ -610,23 +713,9 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(4, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="590360433894068">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="879217586296791" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">843</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="536207757052037" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(4, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_6</comment>
-                <event-block disabled="1" sid="281488203048039">
+                <event-block sid="281488203048039">
                     <conditions>
                         <condition id="1" name="Compare at XY" sid="595013463051151" type="Arr_LevelScore">
                             <param id="0" name="X">5</param>
@@ -635,7 +724,7 @@
                             <param id="3" name="Value">0</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="511102848902162" type="Bintang_Sprite">
-                            <param id="0" name="Unique ID">1011</param>
+                            <param id="0" name="Unique ID">843</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -643,23 +732,9 @@
                             <param id="0" name="Frame number">Arr_LevelScore.At(5, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="443068907929633">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="108463586708208" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">1012</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="364473559023245" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(5, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <comment>Level_7</comment>
-                <event-block disabled="1" sid="170505101482428">
+                <event-block sid="170505101482428">
                     <conditions>
                         <condition id="1" name="Compare at XY" sid="817403202559528" type="Arr_LevelScore">
                             <param id="0" name="X">6</param>
@@ -668,28 +743,71 @@
                             <param id="3" name="Value">0</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="379125255345553" type="Bintang_Sprite">
-                            <param id="0" name="Unique ID">1334</param>
+                            <param id="0" name="Unique ID">1012</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="5" name="Set frame" sid="613665903362145" type="Bintang_Sprite">
-                            <param id="0" name="Frame number">Arr_LevelScore.At(5, 3)</param>
+                            <param id="0" name="Frame number">Arr_LevelScore.At(6, 3)</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="675062408145817">
-                            <conditions>
-                                <condition id="-14" name="Pick by unique ID" sid="549881458987688" type="Highscore_Text">
-                                    <param id="0" name="Unique ID">1335</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="360489354650298" type="Highscore_Text">
-                                    <param id="0" name="Text">&quot;Highscore = &quot;  &amp; Arr_LevelScore.At(5, 2)</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
+                </event-block>
+                <comment>Level_8</comment>
+                <event-block sid="518825547192864">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="392736930995883" type="Arr_LevelScore">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Comparison">1</param>
+                            <param id="3" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="906660974889809" type="Bintang_Sprite">
+                            <param id="0" name="Unique ID">1335</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="181119805525094" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">Arr_LevelScore.At(7, 3)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Level_9</comment>
+                <event-block sid="231658921951907">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="855551751122466" type="Arr_LevelScore">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Comparison">1</param>
+                            <param id="3" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="608310477541669" type="Bintang_Sprite">
+                            <param id="0" name="Unique ID">1539</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="419484597182274" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">Arr_LevelScore.At(8, 3)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Level_10</comment>
+                <event-block sid="627368275963807">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="717554507005419" type="Arr_LevelScore">
+                            <param id="0" name="X">9</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Comparison">1</param>
+                            <param id="3" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="656016449918852" type="Bintang_Sprite">
+                            <param id="0" name="Unique ID">1548</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="429316168371938" type="Bintang_Sprite">
+                            <param id="0" name="Frame number">Arr_LevelScore.At(9, 3)</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
@@ -781,39 +899,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block disabled="1" sid="295211151414488">
-            <conditions>
-                <condition id="2" name="Key is down" sid="541942673517578" type="Keyboard">
-                    <param id="0" name="Key">65</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="971648159490343" type="System">
-                    <param id="0" name="Layer">&quot;Chapter_1&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="414718803155623" type="System">
-                    <param id="0" name="Layer">&quot;Chapter_2&quot;</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1" sid="192301630837929">
-            <conditions>
-                <condition id="2" name="Key is down" sid="806529821012355" type="Keyboard">
-                    <param id="0" name="Key">83</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-4" name="Set layer visible" sid="795826296222712" type="System">
-                    <param id="0" name="Layer">&quot;Chapter_1&quot;</param>
-                    <param id="1" name="Visibility">0</param>
-                </action>
-                <action id="-4" name="Set layer visible" sid="318226587685297" type="System">
-                    <param id="0" name="Layer">&quot;Chapter_2&quot;</param>
-                    <param id="1" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

@@ -203,7 +203,7 @@
                                 <comment>Nunduk</comment>
                                 <event-block sid="326643855650139">
                                     <conditions>
-                                        <condition id="0" name="On key pressed" sid="417897908276014" type="Keyboard">
+                                        <condition id="2" name="Key is down" sid="417897908276014" type="Keyboard">
                                             <param id="0" name="Key">83</param>
                                         </condition>
                                         <condition behavior="Platform" id="2" name="Is on floor" sid="866733682587586" type="Char_Trigger" />

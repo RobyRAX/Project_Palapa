@@ -54,6 +54,22 @@
             </actions>
         </event-block>
         <comment>Die</comment>
+        <event-block sid="643571774554543">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="135991380902519" type="Enemy3">
+                    <param id="0" name="Instance variable">HP</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="369010262305212" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="661785468409548" type="Enemy3">
+                    <param id="0" name="Animation">&quot;Dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="688760362847832">
             <conditions>
                 <condition id="-7" name="Compare instance variable" sid="595228283012119" type="Enemy3">

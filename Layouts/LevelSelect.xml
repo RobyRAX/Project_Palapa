@@ -51,28 +51,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="comingSoon" uid="843">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1083.401855469</x>
-                        <y>555.013977051</y>
-                        <z>0</z>
-                        <width>188.788528442</width>
-                        <height>104.924423218</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50359714</hotspotY>
-                        <angle>-0.199165076</angle>
-                        <opacity>0.75</opacity>
-                    </world>
-                </instance>
                 <instance type="comingSoon" uid="927">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -380,11 +358,11 @@
                         <x>901.581542969</x>
                         <y>549.735961914</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>55</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -402,11 +380,11 @@
                         <x>825.216186523</x>
                         <y>601.200256348</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>55</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -424,11 +402,11 @@
                         <x>726.333068848</x>
                         <y>578.811523438</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>55</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -446,11 +424,11 @@
                         <x>929.84161377</x>
                         <y>461.902679443</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>55</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -468,11 +446,11 @@
                         <x>766.627807617</x>
                         <y>438.11907959</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>55</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -483,7 +461,7 @@
         <layer name="Chapter_2" sid="454583552674432">
             <initially-visible>0</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -496,7 +474,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Bintang_Sprite" uid="1011">
+                <instance type="Bintang_Sprite" uid="843">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -506,11 +484,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>442</x>
-                        <y>124</y>
+                        <x>1026.178955078</x>
+                        <y>529.040527344</y>
                         <z>0</z>
-                        <width>2506.243652344</width>
-                        <height>1224.988891602</height>
+                        <width>65</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501278758</hotspotY>
@@ -518,34 +496,29 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Highscore_Text" uid="1012">
+                <instance type="Prasasti" uid="1011">
                     <properties>
-                        <text> </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>5</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>440</x>
-                        <y>264</y>
+                        <x>1026.178955078</x>
+                        <y>600.040527344</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bintang_Sprite" uid="1334">
+                <instance type="Bintang_Sprite" uid="1012">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -555,11 +528,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>724</x>
-                        <y>212</y>
+                        <x>1031</x>
+                        <y>619</y>
                         <z>0</z>
-                        <width>2506.243652344</width>
-                        <height>1224.988891602</height>
+                        <width>65</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501278758</hotspotY>
@@ -567,34 +540,29 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Highscore_Text" uid="1335">
+                <instance type="Prasasti" uid="1334">
                     <properties>
-                        <text> </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>6</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>727</x>
-                        <y>357</y>
+                        <x>1031</x>
+                        <y>690</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bintang_Sprite" uid="1593">
+                <instance type="Bintang_Sprite" uid="1335">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -604,11 +572,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>166</x>
-                        <y>254</y>
+                        <x>1116.301879883</x>
+                        <y>437.901763916</y>
                         <z>0</z>
-                        <width>2506.243652344</width>
-                        <height>1224.988891602</height>
+                        <width>65</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501278758</hotspotY>
@@ -616,34 +584,29 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Highscore_Text" uid="1594">
+                <instance type="Prasasti" uid="1537">
                     <properties>
-                        <text> </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>7</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>169</x>
-                        <y>399</y>
+                        <x>1116.301879883</x>
+                        <y>508.901763916</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bintang_Sprite" uid="1691">
+                <instance type="Bintang_Sprite" uid="1539">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -653,11 +616,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1021</x>
-                        <y>375</y>
+                        <x>1180.983398438</x>
+                        <y>390.563781738</y>
                         <z>0</z>
-                        <width>2506.243652344</width>
-                        <height>1224.988891602</height>
+                        <width>65</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501278758</hotspotY>
@@ -665,34 +628,29 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Highscore_Text" uid="1692">
+                <instance type="Prasasti" uid="1540">
                     <properties>
-                        <text> </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>8</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1024</x>
-                        <y>520</y>
+                        <x>1180.983398438</x>
+                        <y>461.563781738</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bintang_Sprite" uid="1796">
+                <instance type="Bintang_Sprite" uid="1548">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -702,11 +660,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>518</x>
-                        <y>470</y>
+                        <x>1239.092651367</x>
+                        <y>354.65335083</y>
                         <z>0</z>
-                        <width>2506.243652344</width>
-                        <height>1224.988891602</height>
+                        <width>65</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501278758</hotspotY>
@@ -714,29 +672,24 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Highscore_Text" uid="1797">
+                <instance type="Prasasti" uid="1593">
                     <properties>
-                        <text> </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>9</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>521</x>
-                        <y>615</y>
+                        <x>1239.092651367</x>
+                        <y>425.65335083</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>35.349998474</width>
+                        <height>55.350318909</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.99683547</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
