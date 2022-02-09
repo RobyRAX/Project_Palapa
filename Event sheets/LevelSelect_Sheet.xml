@@ -358,7 +358,7 @@
                                     <param id="3" name="Value">UNLOCK</param>
                                 </condition>
                                 <condition id="-14" name="Pick by unique ID" sid="241089119995042" type="Prasasti">
-                                    <param id="0" name="Unique ID">1540</param>
+                                    <param id="0" name="Unique ID">1593</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -377,7 +377,7 @@
                                     <param id="3" name="Value">LOCK</param>
                                 </condition>
                                 <condition id="-14" name="Pick by unique ID" sid="979204667014808" type="Prasasti">
-                                    <param id="0" name="Unique ID">1540</param>
+                                    <param id="0" name="Unique ID">1593</param>
                                 </condition>
                             </conditions>
                             <actions>
