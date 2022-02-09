@@ -4293,13 +4293,62 @@
                             <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_54.png" />
                         </animation>
                         <animation framecount="7" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="885968115334953" speed="10">
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_00.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_02.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_04.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_06.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_08.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_10.png" />
-                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_12.png" />
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_00.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_02.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_04.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_06.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_08.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_10.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_12.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                         <animation framecount="12" loop="0" name="JumpSwim" pingpong="0" repeatcount="1" repeatto="0" sid="770132437029542" speed="10">
                             <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_00.png" />
@@ -4325,7 +4374,10 @@
                         </behavior-type>
                     </behaviors>
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="924098478169639" speed="5">
+                        <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="924098478169639" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="341665150417549" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
@@ -4375,6 +4427,260 @@
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609343239003192" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Octo_Sprite2" sid="166592028206908">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="9" loop="1" name="Sit" pingpong="0" repeatcount="1" repeatto="0" sid="286302485325071" speed="7">
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_00.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_02.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_04.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_06.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_08.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_10.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_12.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_14.png" />
+                            <frame duration="1" hotspotX="0.595331" hotspotY="0.980132" original-source="Y:\Assets\NPC\Octo\Sit\duduk_16.png" />
+                        </animation>
+                        <animation framecount="9" loop="0" name="SitStand" pingpong="0" repeatcount="1" repeatto="0" sid="876620738720748" speed="7">
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_00.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_02.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_04.png" />
+                            <frame duration="1" hotspotX="0.373762" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_06.png" />
+                            <frame duration="1" hotspotX="0.559406" hotspotY="0.954373" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_08.png" />
+                            <frame duration="1" hotspotX="0.472772" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_10.png" />
+                            <frame duration="1" hotspotX="0.472772" hotspotY="0.95057" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_12.png" />
+                            <frame duration="1" hotspotX="0.470297" hotspotY="0.95057" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_14.png" />
+                            <frame duration="1" hotspotX="0.470297" hotspotY="0.948669" original-source="Y:\Assets\NPC\Octo\Bangun dari duduk\skeleton-run_16.png" />
+                        </animation>
+                        <animation framecount="19" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="401872081899882" speed="7">
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_00.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_03.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_06.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_09.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_12.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_15.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_18.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_21.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_24.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_27.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_30.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_33.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_36.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_39.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_42.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_45.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_48.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_51.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.404826" hotspotY="0.945386" original-source="Y:\Assets\NPC\Octo\Idle\idle_54.png">
+                                <collision-poly>
+                                    <point x="0.36193" y="0" />
+                                    <point x="0.474531" y="0" />
+                                    <point x="0.474531" y="0.939736" />
+                                    <point x="0.36193" y="0.939736" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="7" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="702468609209811" speed="10">
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_00.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_02.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_04.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_06.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_08.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_10.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.412234" hotspotY="0.944649" original-source="Y:\Assets\NPC\Octo\Run\skeleton-lari_12.png">
+                                <collision-poly>
+                                    <point x="0.375" y="0.0202952" />
+                                    <point x="0.494681" y="0.0202952" />
+                                    <point x="0.50266" y="0.940959" />
+                                    <point x="0.345745" y="0.940959" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="13" loop="0" name="JumpSwim" pingpong="0" repeatcount="1" repeatto="0" sid="557175981362613" speed="10">
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_00.png" />
+                            <frame duration="1" hotspotX="0.186833" hotspotY="0.4412" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_02.png" />
+                            <frame duration="1" hotspotX="0.206999" hotspotY="0.463909" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_04.png" />
+                            <frame duration="1" hotspotX="0.205813" hotspotY="0.467153" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_06.png" />
+                            <frame duration="1" hotspotX="0.204626" hotspotY="0.465531" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_08.png" />
+                            <frame duration="1" hotspotX="0.178529" hotspotY="0.475264" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_10.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_12.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_14.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_16.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_18.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_20.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" original-source="Y:\Assets\NPC\Octo\Jump\nyebur_22.png" />
+                            <frame duration="1" hotspotX="0.18446" hotspotY="0.434712" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -5668,6 +5974,37 @@
                             <point x="0.01" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BG_9" sid="675769986770918">
+            <plugin id="TiledBg" />
+            <texture original-source="Y:\Assets\8. Togean\bekgron-min.jpg" />
+        </object-type>
+        <object-type name="iTombol" sid="901663158420786">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198434629724001" speed="5">
+                    <frame duration="1" hotspotX="0.49" hotspotY="0.45" original-source="Y:\Assets\UI &amp; Button\i Tombol.png">
+                        <collision-poly>
+                            <point x="0.171375" y="0.128302" />
+                            <point x="0.491525" y="0.00377358" />
+                            <point x="0.819209" y="0.120755" />
+                            <point x="0.99435" y="0.449057" />
+                            <point x="0.870057" y="0.828302" />
+                            <point x="0.491525" y="0.996226" />
+                            <point x="0.122411" y="0.818868" />
+                            <point x="0.00753296" y="0.449057" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="creditmin" sid="342345920719008">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340548626387191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="Y:\Assets\UI &amp; Button\Compressed\credit-min.jpg" />
                 </animation>
             </animation-folder>
         </object-type>

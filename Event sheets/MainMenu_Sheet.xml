@@ -129,6 +129,35 @@
                 <action id="3" name="Clear storage" sid="741179352423849" type="LocalStorage" />
             </actions>
         </event-block>
+        <event-block sid="445574926998118">
+            <conditions>
+                <condition id="17" name="On tap object" sid="704936572824176" type="Touch">
+                    <param id="0" name="Object">iTombol</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="506597521524548" type="System">
+                    <param id="0" name="Layer">&quot;Info&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="961809587845517">
+            <conditions>
+                <condition id="17" name="On tap object" sid="935369647042952" type="Touch">
+                    <param id="0" name="Object">Close_Button</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="234684062231182" type="System">
+                    <param id="0" name="Layer">&quot;Info&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="822977246691338" type="System">
+                    <param id="0" name="Layer">&quot;Info&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="183802559457567" title="Load">
             <sub-events>
                 <event-block sid="505172757780507">

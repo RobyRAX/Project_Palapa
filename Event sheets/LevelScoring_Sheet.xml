@@ -87,7 +87,7 @@
                         <action id="3" name="Set at XY" sid="596052002949006" type="Arr_LevelScore">
                             <param id="0" name="X">3</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">LOCK</param>
+                            <param id="2" name="Value">COMPLETE</param>
                         </action>
                         <action id="3" name="Set at XY" sid="393027400392437" type="Arr_LevelScore">
                             <param id="0" name="X">3</param>
@@ -107,7 +107,7 @@
                         <action id="3" name="Set at XY" sid="891568828630140" type="Arr_LevelScore">
                             <param id="0" name="X">4</param>
                             <param id="1" name="Y">1</param>
-                            <param id="2" name="Value">LOCK</param>
+                            <param id="2" name="Value">COMPLETE</param>
                         </action>
                         <action id="3" name="Set at XY" sid="581019108529178" type="Arr_LevelScore">
                             <param id="0" name="X">4</param>
